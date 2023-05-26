@@ -1,3 +1,10 @@
+# [1.0.0-alpha.3](https://github.com/warp-ds/css/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2023-05-26)
+
+
+### Bug Fixes
+
+* add fixes to resets ([79b7322](https://github.com/warp-ds/css/commit/79b73222f634676bbe04a6e791c2ad72a3147bd9))
+
 # [1.0.0-alpha.2](https://github.com/warp-ds/css/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2023-05-24)
 
 
