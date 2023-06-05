@@ -5,7 +5,7 @@ We're glad you're interested in contributing.
 
 This repository is maintained by the [Warp Core Team](https://github.com/orgs/warp-ds/teams/warp-core-team)
 and is home to the [@warp-ds/css](https://www.npmjs.com/package/@warp-ds/css),
-which for now only consist of a set of required presets based on the
+which for now only consist of a set of required resets based on the
 [Warp Design System](https://github.com/warp-ds/).
 
 To get an overview of the project, read the [README](README.md).
