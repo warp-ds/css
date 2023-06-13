@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/warp-ds/css/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2023-06-13)
+
+
+### Bug Fixes
+
+* **resets.js:** divide styles for body and :host ([f1e21d4](https://github.com/warp-ds/css/commit/f1e21d479e84c9c1dacf7553182ee6de917af610))
+
 # [1.0.0-alpha.4](https://github.com/warp-ds/css/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2023-06-05)
 
 
