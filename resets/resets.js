@@ -22,17 +22,27 @@ html {
 }
 
 /*
+1. Remove the margin in all browsers.
+2. Base background color.
+3. Always stretch body to fill the width, this makes the behaviour of the scrollbar a little nicer in some cases.
+4. Always show Scrollbar to prevent content jumping in certain situations (dynamic loading etc).
+*/
+
+body {
+  margin: 0; /* 1 */
+  background-color: var(--w-color-background); /* 2 */
+  min-height: 100%; /* 3 */
+  overflow-y: scroll; /* 4 */
+}
+
+/*
 1. Prevent adjustments of font size after orientation changes in iOS.
 2-3. Use a more readable tab size.
 4. Use transparent color of the highlight that appears over an element while it's being tapped
 5. Base font-family.
 6. Base font size.
 7. Base line height.
-8. Remove the margin in all browsers.
-9. Base background color.
-10. Base text color.
-11. Always stretch body to fill the width, this makes the behaviour of the scrollbar a little nicer in some cases.
-12. Always show Scrollbar to prevent content jumping in certain situations (dynamic loading etc).
+8. Base text color.
 */
 
 body, :host {
@@ -43,11 +53,7 @@ body, :host {
   font-family: var(--w-font-family); /* 5 */
   font-size: var(--w-font-size-m); /* 6 */ 
   line-height: var(--w-line-height-m); /* 7 */
-  margin: 0; /* 8 */
-  background-color: var(--w-color-background); /* 9 */
-  color: var(--w-color-text); /* 10 */
-  min-height: 100%; /* 11 */
-  overflow-y: scroll; /* 12 */
+  color: var(--w-color-text); /* 8 */
 }
 
 /*
