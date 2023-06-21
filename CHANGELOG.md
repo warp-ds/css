@@ -1,3 +1,10 @@
+# [1.0.0-alpha.6](https://github.com/warp-ds/css/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2023-06-21)
+
+
+### Bug Fixes
+
+* remove button reset [WARP-80] ([f5802ad](https://github.com/warp-ds/css/commit/f5802ad449521f743ffd3d6efdec6639da03e5a6))
+
 # [1.0.0-alpha.5](https://github.com/warp-ds/css/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2023-06-13)
 
 
