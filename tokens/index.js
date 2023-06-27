@@ -6,7 +6,7 @@ import { minify } from '../css-minify.js';
 import drnm from 'drnm';
 
 const __dirname = drnm(import.meta.url)
-const outPath = path.join(__dirname, '../dist')
+const outPath = path.join(__dirname, '../dist/tokens')
 fs.mkdirSync(outPath, { recursive: true })
 
 function process(tld) {
