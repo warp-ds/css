@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  spinner:
+    border:
+      _: bluegray-100
+      top: aqua-400

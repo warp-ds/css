@@ -1,0 +1,22 @@
+---
+token: maps
+
+color:
+  slider:
+    handle:
+      background:
+        _: petroleum-600
+        active: petroleum-600
+        hover: petroleum-700
+        disabled: gray-300
+      border:
+        _: petroleum-600
+        active: petroleum-600
+        hover: petroleum-700
+    track:
+      background:
+        _: gray-200
+        active: petroleum-600
+        disabled: gray-300
+shadow:
+  slider: none

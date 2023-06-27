@@ -1,12 +1,13 @@
-import { transform } from 'lightningcss';
-import { resets } from './resets/resets.js';
+import * as lightning from 'lightningcss'
 
+export const minify = css => {
+  const { code } = lightning.transform({
+    code: Buffer.from(css),
+    minify: true,
+    targets: {
+      safari: (13 << 16)
+    }
+  })
 
-export const minify = () => {
-    const  { code } = transform({
-        code: Buffer.from(resets),
-        minify: true
-      });
-      
   return code.toString()
 }

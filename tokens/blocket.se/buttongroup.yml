@@ -1,0 +1,30 @@
+---
+token: maps
+
+color:
+  buttongroup:
+    primary:
+      text:
+        _: blue-600
+        active: white
+      background:
+        _: white
+        hover: blue-50
+        active: blue-600
+      border:
+        _: bluegray-300
+        active: blue-600
+    utility:
+      text:
+        _: gray-700
+        active: gray-700
+      background:
+        _: white
+        hover: gray-100
+        active: gray-200
+      border:
+        _: gray-300
+        active: gray-700
+shadow:
+  buttongroup:
+    _: shadow-s
