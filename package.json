@@ -12,15 +12,14 @@
   },
   "type": "module",
   "exports": {
-    ".": "./component-classes/component-classes.js",
+    "./component-classes": "./component-classes/index.js",
     "./components": "./dist/components.css",
-    "./classes": "./component-classes/classes.js",
-    "./shortcuts": "./component-classes/shortcuts.js"
+    "./component-classes/classes": "./component-classes/classes.js",
+    "./component-classes/shortcuts": "./component-classes/shortcuts.js"
   },
   "types": "./component-classes/index.d.ts",
   "files": [
-    "./component-classes/component-classes.js",
-    "dist/components.css",
+    "./component-classes/index.js",
     "./component-classes/classes.js",
     "./component-classes/shortcuts.js",
     "./component-classes/index.d.ts"
