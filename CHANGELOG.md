@@ -1,3 +1,10 @@
+# [1.0.0-alpha.10](https://github.com/warp-ds/css/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2023-06-28)
+
+
+### Bug Fixes
+
+* add type declarations to the dist folder ([#8](https://github.com/warp-ds/css/issues/8)) ([5373cc8](https://github.com/warp-ds/css/commit/5373cc853445d2c6c7fe08cb67690c6f16be1486))
+
 # [1.0.0-alpha.9](https://github.com/warp-ds/css/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2023-06-28)
 
 
