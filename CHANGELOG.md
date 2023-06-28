@@ -1,3 +1,10 @@
+# [1.0.0-alpha.7](https://github.com/warp-ds/css/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2023-06-28)
+
+
+### Bug Fixes
+
+* **resets.js:** apply font-weight 700 to h1-h6 ([#7](https://github.com/warp-ds/css/issues/7)) ([1c9d86d](https://github.com/warp-ds/css/commit/1c9d86df4efc5d3b6c23d61b7cfd1dc945389b0c))
+
 # [1.0.0-alpha.6](https://github.com/warp-ds/css/compare/v1.0.0-alpha.5...v1.0.0-alpha.6) (2023-06-21)
 
 
