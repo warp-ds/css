@@ -14,6 +14,7 @@ export default () => {
       }),  
       dts({
         insertTypesEntry: true,
+        outputDir: '../dist',
       }),  
     ],
     build: {
