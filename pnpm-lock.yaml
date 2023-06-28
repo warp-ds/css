@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.0.2
     version: 0.0.2
   '@warp-ds/uno':
-    specifier: ^1.0.0-alpha.45
-    version: 1.0.0-alpha.45
+    specifier: ^1.0.0-alpha.49
+    version: 1.0.0-alpha.49
   drnm:
     specifier: ^0.9.0
     version: 0.9.0
@@ -1168,8 +1168,8 @@ packages:
       yaml: 2.3.1
     dev: false
 
-  /@warp-ds/uno@1.0.0-alpha.45:
-    resolution: {integrity: sha512-Uemwf0EgmZV4En+aT74ZX6pw/+w+CLVhgTMV/4e6FouDq+e79MknNtHVpm/ktLHlUgb4fedFCChSxRExgU1/RQ==}
+  /@warp-ds/uno@1.0.0-alpha.49:
+    resolution: {integrity: sha512-72c5dT6QAy7GFmL+SN2gRlOsJWBWYM4uJpyw8WA9gCQHNENHXtoWu+D24+c47T9K908M3ZG+2+U1M/FXEZ7ojA==}
     dependencies:
       '@unocss/core': 0.50.8
       '@unocss/preset-mini': 0.50.8

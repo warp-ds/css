@@ -29,7 +29,7 @@
     "lightningcss": "^1.19.0",
     "@sindresorhus/slugify": "^2.2.0",
     "@warp-ds/tokenizer": "^0.0.2",
-    "@warp-ds/uno": "^1.0.0-alpha.45"
+    "@warp-ds/uno": "^1.0.0-alpha.49"
   },
   "devDependencies": {
     "@eik/cli": "^2.0.22",
