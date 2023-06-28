@@ -1,3 +1,10 @@
+# [1.0.0-alpha.8](https://github.com/warp-ds/css/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2023-06-28)
+
+
+### Features
+
+* add tokens and component classes ([#6](https://github.com/warp-ds/css/issues/6)) ([4e280f9](https://github.com/warp-ds/css/commit/4e280f93f53f1ad76ecfeef6464480e93ece3af0))
+
 # [1.0.0-alpha.7](https://github.com/warp-ds/css/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2023-06-28)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@warp-ds/css",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "private": "true",
   "scripts": {
     "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc",
