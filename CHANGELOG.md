@@ -1,3 +1,10 @@
+# [1.0.0-alpha.11](https://github.com/warp-ds/css/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2023-06-28)
+
+
+### Bug Fixes
+
+* add font-size and line-height to the buttons ([#10](https://github.com/warp-ds/css/issues/10)) ([391e894](https://github.com/warp-ds/css/commit/391e8946a3ca106c540cf531b2b7d26302b4c9cf))
+
 # [1.0.0-alpha.10](https://github.com/warp-ds/css/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2023-06-28)
 
 
