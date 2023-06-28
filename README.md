@@ -78,7 +78,7 @@ If you have new components to add tokens to (if you only want to update existing
 2. Update tokens needed.
 3. Push your changes.
 4. The CSS files for each brand will be built and published to Eik. Please find your release [here](https://github.com/warp-ds/css/actions/workflows/release.yml) and search for the css urls which were published under `Eik login and publish` step.
-! Be aware that it takes some time for Eik to update the aliased version so if you need to test your changes immediately use the full version and not an alias.
+! Be aware that it takes some time before we update the aliased version on Eik so if you need to test your changes immediately use the full version and not an alias.
 
 
 ## How to contribute
