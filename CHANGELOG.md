@@ -1,3 +1,10 @@
+# [1.0.0-alpha.12](https://github.com/warp-ds/css/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2023-06-28)
+
+
+### Bug Fixes
+
+* Add new component tokens to replace direct usage of semantic classes in component-classes ([#9](https://github.com/warp-ds/css/issues/9)) ([74a553d](https://github.com/warp-ds/css/commit/74a553deaeb350d04e8a2cc523d56b223685b73f))
+
 # [1.0.0-alpha.11](https://github.com/warp-ds/css/compare/v1.0.0-alpha.10...v1.0.0-alpha.11) (2023-06-28)
 
 
