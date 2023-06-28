@@ -1,3 +1,10 @@
+# [1.0.0-alpha.9](https://github.com/warp-ds/css/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2023-06-28)
+
+
+### Bug Fixes
+
+* remove private from package.json to be able to pubish to npm ([570dc2f](https://github.com/warp-ds/css/commit/570dc2f18eaf339f2368012f94ea985319310281))
+
 # [1.0.0-alpha.8](https://github.com/warp-ds/css/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2023-06-28)
 
 
