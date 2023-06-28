@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  helptext:
+    text: 
+      _: gray-700
+      negative: red-600
+      positive: green-600

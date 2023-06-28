@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  text:
+    _: gray-900
+    subtle: gray-500
+    inverted:
+      _: white
+      subtle: gray-50
+    link: petroleum-600
+    placeholder: gray-300

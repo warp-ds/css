@@ -1,15 +1,15 @@
 import fs from 'node:fs'
-import path from 'node:path'
-import { minify } from './css-minify.js'
-import {resets} from './resets/resets.js';
-import drnm from 'drnm'
+import path from 'node:path';
+import { resets } from './resets.js';
+import { minify } from '../css-minify.js'
+import drnm from 'drnm';
 
 const __dirname = drnm(import.meta.url)
-const outPath = path.join(__dirname, './dist')
+const outPath = path.join(__dirname, '../dist')
 fs.mkdirSync(outPath, { recursive: true })
 
 function process(tld) {
-  const css = minify(tld);
+  const css = minify(resets);
   const nonMinified = path.join(outPath, tld) + '.css';
   const minified = path.join(outPath, tld) + '.min.css';
   fs.writeFileSync(minified, css, 'utf-8');
