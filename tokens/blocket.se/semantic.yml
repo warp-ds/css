@@ -25,29 +25,53 @@ s:
           _: blue-800
           hover: blue-700
       positive:
-        _: green-50
-        hover: green-100
+        _: green-600
+        hover: green-700
         active:
-          _: green-100
-          hover: green-200
+          _: green-600
+          hover: green-700
+        subtle:
+          _: green-50
+          hover: green-100
+          active:
+            _: green-100
+            hover: green-200
       negative:
-        _: red-50
-        hover: red-100
+        _: red-600
+        hover: red-700
         active:
+          _: red-600
+          hover: red-700
+        subtle:
           _: red-50
           hover: red-100
+          active:
+            _: red-50
+            hover: red-100
       warning:
-        _: yellow-50
-        hover: yellow-100
+        _: yellow-600
+        hover: yellow-700
         active:
+          _: yellow-600
+          hover: yellow-700
+        subtle:
           _: yellow-50
           hover: yellow-100
+          active:
+            _: yellow-50
+            hover: yellow-100
       info:
-        _: aqua-50
-        hover: aqua-100
+        _: aqua-600
+        hover: aqua-700
         active:
+          _: aqua-600
+          hover: aqua-700
+        subtle:
           _: aqua-50
           hover: aqua-100
+          active:
+            _: aqua-50
+            hover: aqua-100
       notification: red-600
 
     border:
