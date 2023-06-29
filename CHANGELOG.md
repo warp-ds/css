@@ -1,3 +1,10 @@
+# [1.0.0-alpha.13](https://github.com/warp-ds/css/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2023-06-29)
+
+
+### Bug Fixes
+
+* Remove any ending "-default" suffixes from the semantic tokens ([#12](https://github.com/warp-ds/css/issues/12)) ([1c6a862](https://github.com/warp-ds/css/commit/1c6a8624eff48d20cffd10a4bfe5adf878437f41))
+
 # [1.0.0-alpha.12](https://github.com/warp-ds/css/compare/v1.0.0-alpha.11...v1.0.0-alpha.12) (2023-06-28)
 
 
