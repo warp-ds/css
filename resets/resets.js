@@ -30,7 +30,7 @@ html {
 
 body {
   margin: 0; /* 1 */
-  background-color: var(--w-color-background); /* 2 */
+  background-color: var(--w-s-color-background); /* 2 */
   min-height: 100%; /* 3 */
   overflow-y: scroll; /* 4 */
 }
@@ -53,7 +53,7 @@ body, :host {
   font-family: var(--w-font-family); /* 5 */
   font-size: var(--w-font-size-m); /* 6 */ 
   line-height: var(--w-line-height-m); /* 7 */
-  color: var(--w-color-text); /* 8 */
+  color: var(--w-s-color-text); /* 8 */
 }
 
 /*
@@ -97,7 +97,7 @@ Reset links.
 a {
   cursor: pointer;
   text-decoration: none;
-  color: var(--w-color-text-link);
+  color: var(--w-s-color-text-link);
 }
 
 a:hover,
