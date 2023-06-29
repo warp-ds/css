@@ -3,7 +3,7 @@ token: maps
 
 color:
   combobox:
-    background: s-color-background-default
+    background: s-color-background
     option:
       background:
         hover: s-color-background-hover
