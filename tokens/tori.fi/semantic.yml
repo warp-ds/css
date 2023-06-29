@@ -48,6 +48,7 @@ s:
         active:
           _: petroleum-50
           hover: petroleum-100
+      notification: red-600
 
     border:
       _: gray-300
