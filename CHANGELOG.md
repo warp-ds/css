@@ -1,3 +1,10 @@
+# [1.0.0-alpha.14](https://github.com/warp-ds/css/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2023-06-29)
+
+
+### Bug Fixes
+
+* Add notification background semantic token ([#13](https://github.com/warp-ds/css/issues/13)) ([74b9b60](https://github.com/warp-ds/css/commit/74b9b60a17f7e93bd38ac76a033c7a3d906c3d19))
+
 # [1.0.0-alpha.13](https://github.com/warp-ds/css/compare/v1.0.0-alpha.12...v1.0.0-alpha.13) (2023-06-29)
 
 
