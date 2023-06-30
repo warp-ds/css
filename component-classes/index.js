@@ -65,7 +65,7 @@ export const box = {
   bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text',
   infoClickable: 'hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover',
   neutralClickable: 'hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover',
-  borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover'
+  borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover',
 };
 
 export const pill = {
@@ -111,7 +111,7 @@ export const step = {
 export const steps = {
   steps: 'w-full',
   stepsHorizontal: 'flex',
-}
+};
 
 export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all',
@@ -264,7 +264,7 @@ export const buttonGroup = {
   vertical: 'flex-col',
   nonOutlinedVertical: 'divide-y',
   nonOutlinedHorizontal: 'divide-x',
-}
+};
 
 export const buttonGroupItem = {
   wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-active active:i-bg-$color-buttongroup-utility-background-active',
@@ -275,7 +275,7 @@ export const buttonGroupItem = {
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
   outlinedSelected: 'i-border-$color-buttongroup-utility-border-active',
   selected: 'z-30 i-text-$color-buttongroup-utility-text-active! i-bg-$color-buttongroup-utility-background-active!',
-}
+};
 
 export const modal = {
   //TODO: this class can be removed when we have the solution for opacity and we can add rgba values to the background of the backdrop
@@ -313,8 +313,8 @@ export const alert = {
   warning:  "i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border",
   warningIcon: "i-text-$color-alert-warning-icon",
   info:  "i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border",
-  infoIcon: "i-text-$color-alert-info-icon"
-}
+  infoIcon: "i-text-$color-alert-info-icon",
+};
 
 export const input = {
   default: 'block text-m mb-0 leading-m i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
@@ -325,8 +325,8 @@ export const input = {
   placeholder: 'placeholder:i-text-$color-input-text-placeholder',
   wrapper: 'relative',
   suffix: 'pr-40',
-  prefix: 'pl-40'
-}
+  prefix: 'pl-40',
+};
 
 export const select = {
   default: 'block text-m mb-0 leading-m i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
@@ -337,19 +337,19 @@ export const select = {
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
   chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full i-text-$color-select-icon',
   chevronDisabled: 'opacity-25',
-}
+};
 
 export const label = {
   label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer i-text-$color-label-text',
   labelInvalid: 'i-text-$color-label-text-negative',
   optional: 'pl-8 font-normal text-s i-text-$color-label-optional-text',
-}
+};
 
 export const helpText = {
   helpText: 'text-xs mt-4 block i-text-$color-helptext-text',
   helpTextValid: 'i-text-$color-helptext-text-positive',
-  helpTextInvalid: 'i-text-$color-helptext-text-negative'
-}
+  helpTextInvalid: 'i-text-$color-helptext-text-negative',
+};
 
 const prefixSuffixWrapperBase =
   'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] ';
@@ -374,7 +374,7 @@ export const breadcrumbs = {
   link: 'i-text-$color-breadcrumbs-link-text',
   separator: 'select-none i-text-$color-breadcrumbs-icon',
   a11y: 'sr-only',
-}
+};
 
 export const toggle = {
   field: 'relative text-m',
@@ -414,7 +414,7 @@ export const clickable = {
   clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
   clickableNotToggle: 'inset-0 absolute',
   label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`,
-}
+};
 
 export const combobox = {
   wrapper: 'relative',
@@ -424,4 +424,4 @@ export const combobox = {
   option: 'block cursor-pointer p-8 hover:i-bg-$color-combobox-option-background-hover',
   optionSelected: 'i-bg-$color-combobox-option-background-selected hover:i-bg-$color-combobox-option-background-selected-hover',
   a11y: 'sr-only',
-}
+};
