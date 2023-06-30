@@ -10,7 +10,9 @@
         "removeComments": false
     },
     "files": [
-        "./index.js"
+        "./index.js",
+        "./shortcuts.js",
+        "./classes.js"
     ],
     "exclude": [
         "node_modules",
