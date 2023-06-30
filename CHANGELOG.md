@@ -1,3 +1,10 @@
+# [1.0.0-alpha.16](https://github.com/warp-ds/css/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2023-06-30)
+
+
+### Bug Fixes
+
+* Cleaned out old token files with duplicated or unused tokens ([#16](https://github.com/warp-ds/css/issues/16)) ([76a9e01](https://github.com/warp-ds/css/commit/76a9e0126a1621a5f950b9343814af99385c2de7))
+
 # [1.0.0-alpha.15](https://github.com/warp-ds/css/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2023-06-30)
 
 
