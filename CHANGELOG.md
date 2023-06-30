@@ -1,3 +1,10 @@
+# [1.0.0-alpha.18](https://github.com/warp-ds/css/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2023-06-30)
+
+
+### Bug Fixes
+
+* add eslint ([#18](https://github.com/warp-ds/css/issues/18)) ([eeeb2bc](https://github.com/warp-ds/css/commit/eeeb2bc6572794caeab09f73eb139c44bc047aed))
+
 # [1.0.0-alpha.17](https://github.com/warp-ds/css/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2023-06-30)
 
 
