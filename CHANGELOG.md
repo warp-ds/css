@@ -1,3 +1,10 @@
+# [1.0.0-alpha.19](https://github.com/warp-ds/css/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2023-06-30)
+
+
+### Bug Fixes
+
+* Add semantic token for focus outlines ([#19](https://github.com/warp-ds/css/issues/19)) ([48a5245](https://github.com/warp-ds/css/commit/48a5245ed8a69e8066df6efa7471e7990fae8720))
+
 # [1.0.0-alpha.18](https://github.com/warp-ds/css/compare/v1.0.0-alpha.17...v1.0.0-alpha.18) (2023-06-30)
 
 
