@@ -1,12 +1,12 @@
-import fs from 'node:fs'
+import fs from 'node:fs';
 import path from 'node:path';
 import { resets } from './resets.js';
-import { minify } from '../css-minify.js'
+import { minify } from '../css-minify.js';
 import drnm from 'drnm';
 
-const __dirname = drnm(import.meta.url)
-const outPath = path.join(__dirname, '../dist')
-fs.mkdirSync(outPath, { recursive: true })
+const __dirname = drnm(import.meta.url);
+const outPath = path.join(__dirname, '../dist');
+fs.mkdirSync(outPath, { recursive: true });
 
 function process(tld) {
   const css = minify(resets);
