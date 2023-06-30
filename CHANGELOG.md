@@ -1,3 +1,10 @@
+# [1.0.0-alpha.15](https://github.com/warp-ds/css/compare/v1.0.0-alpha.14...v1.0.0-alpha.15) (2023-06-30)
+
+
+### Bug Fixes
+
+* toggle bugs ([#14](https://github.com/warp-ds/css/issues/14)) ([520ce74](https://github.com/warp-ds/css/commit/520ce743a4c87bce0dd2a9d8dd7d1318fa09d655))
+
 # [1.0.0-alpha.14](https://github.com/warp-ds/css/compare/v1.0.0-alpha.13...v1.0.0-alpha.14) (2023-06-29)
 
 
