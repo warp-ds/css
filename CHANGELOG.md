@@ -1,3 +1,10 @@
+# [1.0.0-alpha.20](https://github.com/warp-ds/css/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2023-06-30)
+
+
+### Bug Fixes
+
+* Remove old token for focus outlines ([#20](https://github.com/warp-ds/css/issues/20)) ([1d54f77](https://github.com/warp-ds/css/commit/1d54f775fda04952a827f9ca756484ac49614d8f))
+
 # [1.0.0-alpha.19](https://github.com/warp-ds/css/compare/v1.0.0-alpha.18...v1.0.0-alpha.19) (2023-06-30)
 
 
