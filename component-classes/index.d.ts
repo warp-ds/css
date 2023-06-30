@@ -349,6 +349,7 @@ export namespace breadcrumbs {
     export { a11y_4 as a11y };
 }
 export namespace toggle {
+    export const field: string;
     const wrapper_10: string;
     export { wrapper_10 as wrapper };
     export const deadToggleWrapper: string;
