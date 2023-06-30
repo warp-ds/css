@@ -176,3 +176,5 @@ s:
         disabled: bluegray-300
       negative: red-600
       positive: green-600
+
+    focused: aqua-400
