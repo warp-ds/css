@@ -1,3 +1,10 @@
+# [1.0.0-alpha.17](https://github.com/warp-ds/css/compare/v1.0.0-alpha.16...v1.0.0-alpha.17) (2023-06-30)
+
+
+### Bug Fixes
+
+* Added new darker background colors and moved the former ones to subtle sub tokens ([#15](https://github.com/warp-ds/css/issues/15)) ([bef4217](https://github.com/warp-ds/css/commit/bef4217e5d5f67a749d66bea423a93230cb142f6))
+
 # [1.0.0-alpha.16](https://github.com/warp-ds/css/compare/v1.0.0-alpha.15...v1.0.0-alpha.16) (2023-06-30)
 
 
