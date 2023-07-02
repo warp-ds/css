@@ -7,155 +7,131 @@ s:
     background:
       _: white
       hover: bluegray-100
-      active:
+      active: bluegray-200
+      selected:
         _: blue-50
         hover: blue-100
       disabled: bluegray-300
+      inverted: gray-900
       subtle:
         _: bluegray-50
         hover: bluegray-100
-        active:
-          _: bluegray-100
-          hover: bluegray-200
-        disabled: bluegray-300
+        active: bluegray-200
       primary:
         _: blue-600
         hover: blue-700
-        active:
-          _: blue-800
-          hover: blue-700
+        active: blue-800
       positive:
         _: green-600
         hover: green-700
-        active:
-          _: green-600
-          hover: green-700
+        active: green-800
+        selected:
+          _: green-50
+          hover: green-100
         subtle:
           _: green-50
           hover: green-100
-          active:
-            _: green-100
-            hover: green-200
+          active: green-200
       negative:
         _: red-600
         hover: red-700
-        active:
-          _: red-600
-          hover: red-700
+        active: red-800
+        selected:
+          _: red-50
+          hover: red-100
         subtle:
           _: red-50
           hover: red-100
-          active:
-            _: red-50
-            hover: red-100
+          active: red-200
       warning:
         _: yellow-600
         hover: yellow-700
-        active:
-          _: yellow-600
-          hover: yellow-700
+        active: yellow-800
+        selected:
+          _: yellow-50
+          hover: yellow-100
         subtle:
           _: yellow-50
           hover: yellow-100
-          active:
-            _: yellow-50
-            hover: yellow-100
+          active: yellow-200
       info:
         _: aqua-600
         hover: aqua-700
-        active:
-          _: aqua-600
-          hover: aqua-700
+        active: aqua-800
+        selected:
+          _: aqua-50
+          hover: aqua-100
         subtle:
           _: aqua-50
           hover: aqua-100
-          active:
-            _: aqua-50
-            hover: aqua-100
+          active: aqua-200
       notification: red-600
 
     border:
       _: bluegray-300
-      hover: gray-500
-      active:
-        _: gray-700
-        hover: gray-800
+      hover: bluegray-400
+      active: bluegray-500
       disabled: bluegray-300
+      selected:
+        _: blue-600
+        hover: blue-700
       primary:
         _: blue-600
         hover: blue-700
-        active:
-          _: blue-800
-          hover: blue-700
+        active: blue-800
         subtle:
           _: blue-300
           hover: blue-400
-          active:
-            _: blue-600
-            hover: blue-700
+          active: blue-500
       positive:
         _: green-600
         hover: green-700
-        active:
-          _: green-600
-          hover: green-700
+        active: green-800
         subtle:
           _: green-300
           hover: green-400
-          active:
-            _: green-600
-            hover: green-700
+          active: green-500
       negative:
         _: red-600
         hover: red-700
-        active:
-          _: red-600
-          hover: red-700
+        active: red-800
         subtle:
           _: red-300
           hover: red-400
-          active:
-            _: red-600
-            hover: red-700
+          active: red-500
       warning:
         _: yellow-600
         hover: yellow-700
-        active:
-          _: yellow-600
-          hover: yellow-700
+        active: yellow-800
         subtle:
           _: yellow-300
           hover: yellow-400
-          active:
-            _: yellow-600
-            hover: yellow-700
+          active: yellow-500
       info:
         _: aqua-600
         hover: aqua-700
-        active:
-          _: aqua-600
-          hover: aqua-700
+        active: aqua-800
         subtle:
           _: aqua-300
           hover: aqua-400
-          active:
-            _: aqua-600
-            hover: aqua-700
+          active: aqua-500
 
     icon:
       _: gray-500
       hover: gray-600
-      active:
+      active: blue-700
+      selected:
         _: blue-600
-        hover: gray-600
+        hover: blue-700
       disabled: bluegray-300
       subtle:
-        _: bluegray-500
-        hover: bluegray-600
-        active:
-          _: blue-600
-          hover: blue-700
-      inverted: white
+        _: bluegray-400
+        hover: bluegray-500
+        active: bluegray-600
+      inverted:
+        _: white
+        hover: bluegray-100
+        active: bluegray-200
       primary: blue-600
       positive: green-600
       negative: red-600
@@ -169,12 +145,11 @@ s:
       inverted:
         _: white
         subtle: gray-50
-      link:
-        _: blue-600
-        hover: blue-600
-        active: blue-600
-        disabled: bluegray-300
+      link: blue-600
+      disabled: bluegray-300
       negative: red-600
       positive: green-600
 
     focused: aqua-400
+
+    divider: bluegray-200

@@ -7,156 +7,132 @@ s:
     background:
       _: white
       hover: gray-100
-      active:
+      active: gray-200
+      selected:
         _: petroleum-50
         hover: petroleum-100
       disabled: gray-300
+      inverted: gray-900
       subtle:
         _: gray-50
         hover: gray-100
-        active:
-          _: gray-100
-          hover: gray-200
-        disabled: gray-300
+        active: gray-200
       primary:
         _: watermelon-600
         hover: watermelon-700
-        active:
-          _: watermelon-800
-          hover: watermelon-700
+        active: watermelon-800
       positive:
         _: green-600
         hover: green-700
-        active:
-          _: green-600
-          hover: green-700
+        active: green-800
+        selected:
+          _: green-50
+          hover: green-100
         subtle:
           _: green-50
           hover: green-100
-          active:
-            _: green-100
-            hover: green-200
+          active: green-200
       negative:
         _: red-600
         hover: red-700
-        active:
-          _: red-600
-          hover: red-700
+        active: red-800
+        selected:
+          _: red-50
+          hover: red-100
         subtle:
           _: red-50
           hover: red-100
-          active:
-            _: red-50
-            hover: red-100
+          active: red-200
       warning:
         _: yellow-600
         hover: yellow-700
-        active:
-          _: yellow-600
-          hover: yellow-700
+        active: yellow-800
+        selected:
+          _: yellow-50
+          hover: yellow-100
         subtle:
           _: yellow-50
           hover: yellow-100
-          active:
-            _: yellow-50
-            hover: yellow-100
+          active: yellow-200
       info:
         _: petroleum-600
         hover: petroleum-700
-        active:
-          _: petroleum-600
-          hover: petroleum-700
+        active: petroleum-800
+        selected:
+          _: petroleum-50
+          hover: petroleum-100
         subtle:
           _: petroleum-50
           hover: petroleum-100
-          active:
-            _: petroleum-50
-            hover: petroleum-100
+          active: petroleum-200
       notification: red-600
 
     border:
       _: gray-300
-      hover: gray-500
-      active:
-        _: gray-700
-        hover: gray-800
+      hover: gray-400
+      active: gray-500
       disabled: gray-300
+      selected:
+        _: petroleum-600
+        hover: petroleum-700
       primary:
         _: watermelon-600
         hover: watermelon-700
-        active:
-          _: watermelon-800
-          hover: watermelon-700
+        active: watermelon-800
         subtle:
           _: watermelon-300
           hover: watermelon-400
-          active:
-            _: watermelon-600
-            hover: watermelon-700
+          active: watermelon-500
       positive:
         _: green-600
         hover: green-700
-        active:
-          _: green-600
-          hover: green-700
+        active: green-800
         subtle:
           _: green-300
           hover: green-400
-          active:
-            _: green-600
-            hover: green-700
+          active: green-500
       negative:
         _: red-600
         hover: red-700
-        active:
-          _: red-600
-          hover: red-700
+        active: red-800
         subtle:
           _: red-300
           hover: red-400
-          active:
-            _: red-600
-            hover: red-700
+          active: red-500
       warning:
         _: yellow-600
         hover: yellow-700
-        active:
-          _: yellow-600
-          hover: yellow-700
+        active: yellow-800
         subtle:
           _: yellow-300
           hover: yellow-400
-          active:
-            _: yellow-600
-            hover: yellow-700
+          active: yellow-500
       info:
         _: petroleum-600
         hover: petroleum-700
-        active:
-          _: petroleum-600
-          hover: petroleum-700
+        active: petroleum-800
         subtle:
           _: petroleum-300
           hover: petroleum-400
-          active:
-            _: petroleum-600
-            hover: petroleum-700
+          active: petroleum-500
 
     icon:
-      _: gray-500
-      hover: gray-600
-      active:
+      _: gray-900
+      hover: gray-900
+      active: gray-900
+      selected:
         _: watermelon-600
-        hover: gray-600
+        hover: watermelon-700
       disabled: gray-300
       subtle:
-        _: gray-500
-        hover: gray-600
-        active:
-          _: petroleum-600
-          hover: petroleum-700
-      inverted: white
-      primary: watermelon-600
+        _: gray-400
+        hover: gray-500
+        active: gray-600
+      inverted:
+        _: white
+        hover: gray-100
+        active: gray-200
+      primary: petroleum-600
       positive: green-600
       negative: red-600
       warning: yellow-600
@@ -169,12 +145,11 @@ s:
       inverted:
         _: white
         subtle: gray-50
-      link:
-        _: petroleum-600
-        hover: petroleum-600
-        active: petroleum-600
-        disabled: gray-300
+      link: petroleum-600
+      disabled: gray-300
       negative: red-600
       positive: green-600
 
     focused: petroleum-400
+
+    divider: gray-200
