@@ -21,6 +21,10 @@ s:
         _: blue-600
         hover: blue-700
         active: blue-800
+        subtle:
+          _: blue-50
+          hover: blue-100
+          active: blue-200
       positive:
         _: green-600
         hover: green-700
