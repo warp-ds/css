@@ -10,7 +10,7 @@ export const resets = `
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: #e5e7eb; /* 2 */
+  border-color: var(--w-s-color-border); /* 2 */
 }
 
 /*
