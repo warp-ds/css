@@ -6,7 +6,7 @@
     "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc",
     "commit": "cz",
     "semantic-release": "semantic-release",
-    "build:cc": "cd component-classes && tsc && vite build",
+    "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build",
     "build:tokens": "cd tokens && node index.js",
     "build:resets": "cd resets && node index.js",
     "lint:fix": "eslint . --fix",
@@ -19,7 +19,19 @@
     "./component-classes/classes": "./component-classes/classes.js",
     "./component-classes/shortcuts": "./component-classes/shortcuts.js"
   },
-  "types": "./component-classes/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "./component-classes": [
+        "./component-classes/index.d.ts"
+      ],
+      "./component-classes/classes": [
+        "./component-classes/classes.d.ts"
+      ],
+      "./component-classes/shortcuts": [
+        "./component-classes/shortcuts.d.ts"
+      ]
+    }
+  },
   "files": [
     "./component-classes/index.js",
     "./component-classes/classes.js",
