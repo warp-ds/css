@@ -240,7 +240,7 @@ export const button = {
   buttonPill:
     'font-bold text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out rounded-full! min-h-[44px] min-w-[44px] border-0! p-4 i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover acive:i-bg-$color-button-pill-background-active inline-flex items-center justify-center hover:bg-clip-padding', // .button--pill   missing:  hover:background-color: rgba(var(--f-blue-600-rgb), 0.1) , and:  hover:border-color: hsla(0, 0%, 100%, 0.4);
   buttonLink:
-    'leading-[24] max-w-max bg-transparent focusable ease-in-out inline i-text-$color-button-link-text active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
+    'leading-[24] max-w-max focusable ease-in-out inline i-text-$color-button-link-text active:underline hover:underline', //.button--link /* Buttons pretending to be links, (Should rather inherit the actual link setup in the future?)  */
   // Size stuff
   buttonSmall: 'px-16 py-6 text-xs', // .button--small
   buttonSmallOverride: 'py-8', // .button--small.button--primary, .button--small.button--destructive, .button--small.button--destructive-flat, .button--small.button--order, .button--small.button--quiet
@@ -352,7 +352,7 @@ export const helpText = {
 };
 
 const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
+  'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] ';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
