@@ -322,7 +322,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: var(--w-s-color-text-placeholder); /* 2 */
 }
 
 /*
