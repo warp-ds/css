@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@warp-ds/fonts':
-    specifier: 1.1.0-next.2
-    version: 1.1.0-next.2
+    specifier: 1.1.0
+    version: 1.1.0
   '@warp-ds/tokenizer':
     specifier: ^0.0.2
     version: 0.0.2
@@ -1246,8 +1246,8 @@ packages:
       eslint: 8.43.0
     dev: true
 
-  /@warp-ds/fonts@1.1.0-next.2:
-    resolution: {integrity: sha512-xIdS0lE2CqRgbd4NMjTQ183Xd3+UmJGApdnJxlRavDXesKn+OQTdC3VU57Ao3aCbRfe/gluLJB1YERLAtg0I1A==}
+  /@warp-ds/fonts@1.1.0:
+    resolution: {integrity: sha512-kLNZzK3o0rMJApm7/YT3K7rYoFKgH5PyJMTVwv34O4Dx6ikfN7appc4f2DFYkE2XY6gifpD5F2r1ftcJtdW4+w==}
     dev: false
 
   /@warp-ds/tokenizer@0.0.2:
