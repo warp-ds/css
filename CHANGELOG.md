@@ -1,3 +1,10 @@
+# [1.0.0-alpha.21](https://github.com/warp-ds/css/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2023-07-03)
+
+
+### Bug Fixes
+
+* update types, add new for shortcuts and classes ([#17](https://github.com/warp-ds/css/issues/17)) ([095710e](https://github.com/warp-ds/css/commit/095710e8e94aa4bf797477793cee51416769c7fe))
+
 # [1.0.0-alpha.20](https://github.com/warp-ds/css/compare/v1.0.0-alpha.19...v1.0.0-alpha.20) (2023-06-30)
 
 
