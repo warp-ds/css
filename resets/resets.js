@@ -10,7 +10,7 @@ export const resets = `
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: #e5e7eb; /* 2 */
+  border-color: var(--w-s-color-border); /* 2 */
 }
 
 /*
@@ -322,7 +322,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: var(--w-s-color-text-placeholder); /* 2 */
 }
 
 /*
