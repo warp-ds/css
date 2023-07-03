@@ -1,3 +1,10 @@
+# [1.0.0-alpha.22](https://github.com/warp-ds/css/compare/v1.0.0-alpha.21...v1.0.0-alpha.22) (2023-07-03)
+
+
+### Bug Fixes
+
+* **tokens:** process [@import](https://github.com/import) rule to inline font definitions in brand CSS files ([#21](https://github.com/warp-ds/css/issues/21)) ([ec5bb89](https://github.com/warp-ds/css/commit/ec5bb89ef790d740ffdde86c54abb4d7dca403b4))
+
 # [1.0.0-alpha.21](https://github.com/warp-ds/css/compare/v1.0.0-alpha.20...v1.0.0-alpha.21) (2023-07-03)
 
 
