@@ -39,9 +39,7 @@
     "./component-classes/index.d.ts"
   ],
   "dependencies": {
-    "drnm": "^0.9.0",
-    "lightningcss": "^1.19.0",
-    "@sindresorhus/slugify": "^2.2.0",
+    "@warp-ds/fonts": "1.1.0",
     "@warp-ds/tokenizer": "^0.0.2",
     "@warp-ds/uno": "^1.0.0-alpha.49"
   },
@@ -57,7 +55,12 @@
     "typescript": "^4.9.5",
     "unocss": "^0.53.1",
     "vite": "^4.3.9",
-    "vite-plugin-dts": "^2.3.0"
+    "vite-plugin-dts": "^2.3.0",
+    "@sindresorhus/slugify": "^2.2.0",
+    "drnm": "^0.9.0",
+    "lightningcss": "^1.19.0",
+    "postcss": "^8.4.24",
+    "postcss-import": "^15.1.0"
   },
   "eslintConfig": {
     "extends": "@warp-ds"
