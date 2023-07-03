@@ -75,6 +75,7 @@ s:
       selected:
         _: petroleum-600
         hover: petroleum-700
+      inverted: white
       primary:
         _: watermelon-600
         hover: watermelon-700

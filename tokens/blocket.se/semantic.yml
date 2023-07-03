@@ -72,6 +72,7 @@ s:
       hover: bluegray-400
       active: bluegray-500
       disabled: bluegray-300
+      inverted: white
       selected:
         _: blue-600
         hover: blue-700
