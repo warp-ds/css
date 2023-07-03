@@ -1,3 +1,10 @@
+# [1.0.0-alpha.23](https://github.com/warp-ds/css/compare/v1.0.0-alpha.22...v1.0.0-alpha.23) (2023-07-03)
+
+
+### Bug Fixes
+
+* **resets.js:** use semantic placeholder color token instead of hex ([#23](https://github.com/warp-ds/css/issues/23)) ([7759e6f](https://github.com/warp-ds/css/commit/7759e6f1978c5347d1f7092af57307ea8f77274c))
+
 # [1.0.0-alpha.22](https://github.com/warp-ds/css/compare/v1.0.0-alpha.21...v1.0.0-alpha.22) (2023-07-03)
 
 
