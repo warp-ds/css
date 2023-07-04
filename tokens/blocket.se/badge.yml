@@ -4,26 +4,26 @@ token: maps
 color:
   badge:
     neutral:
-      text: bluegray-900
+      text: s-color-text
       background: gray-100
     info:
-      text: aqua-900
-      background: aqua-100
+      text: s-color-text
+      background: s-color-background-info-subtle
     positive:
-      text: green-900
-      background: green-100
+      text: s-color-text
+      background: s-color-background-positive-subtle
     warning:
-      text: yellow-900
-      background: yellow-100
+      text: s-color-text
+      background: s-color-background-warning-subtle
     negative:
-      text: red-900
-      background: red-100
+      text: s-color-text
+      background: s-color-background-negative-subtle
     disabled:
-      text: bluegray-900
-      background: bluegray-300
+      text: s-color-text
+      background: s-color-background-disabled
     price:
-      text: white
-      background: gray-900-transparentized-70-percent
+      text: s-color-text-inverted
+      background: gray-900-alpha70
     notification:
-      text: white
-      background: red-600
+      text: s-color-text-notification
+      background: s-color-background-notification
