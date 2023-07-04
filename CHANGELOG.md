@@ -1,3 +1,10 @@
+# [1.0.0-alpha.25](https://github.com/warp-ds/css/compare/v1.0.0-alpha.24...v1.0.0-alpha.25) (2023-07-04)
+
+
+### Bug Fixes
+
+* Updated misc names and values of semantic tokens ([#22](https://github.com/warp-ds/css/issues/22)) ([7dec810](https://github.com/warp-ds/css/commit/7dec810d4fe3ab84409e92bccc6a4618cfb61160))
+
 # [1.0.0-alpha.24](https://github.com/warp-ds/css/compare/v1.0.0-alpha.23...v1.0.0-alpha.24) (2023-07-04)
 
 
