@@ -1,3 +1,10 @@
+# [1.0.0-alpha.24](https://github.com/warp-ds/css/compare/v1.0.0-alpha.23...v1.0.0-alpha.24) (2023-07-04)
+
+
+### Bug Fixes
+
+* certain buttons needs transparent background ([#24](https://github.com/warp-ds/css/issues/24)) ([abd3fca](https://github.com/warp-ds/css/commit/abd3fcad68ae425b501781386a2441155bb99e43))
+
 # [1.0.0-alpha.23](https://github.com/warp-ds/css/compare/v1.0.0-alpha.22...v1.0.0-alpha.23) (2023-07-03)
 
 
