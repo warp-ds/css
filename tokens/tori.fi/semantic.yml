@@ -154,6 +154,7 @@ s:
       disabled: gray-300
       negative: red-600
       positive: green-600
+      notification: white
 
     focused: petroleum-400
 
