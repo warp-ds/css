@@ -1,3 +1,10 @@
+# [1.0.0-alpha.26](https://github.com/warp-ds/css/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-07-05)
+
+
+### Bug Fixes
+
+* **component-classes:** export focusable class of clickable component ([#25](https://github.com/warp-ds/css/issues/25)) ([f33bc47](https://github.com/warp-ds/css/commit/f33bc47708d47129fb889098e718547e232938d2))
+
 # [1.0.0-alpha.25](https://github.com/warp-ds/css/compare/v1.0.0-alpha.24...v1.0.0-alpha.25) (2023-07-04)
 
 
