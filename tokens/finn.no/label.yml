@@ -3,9 +3,9 @@ token: maps
 
 color:
   label:
-    text: 
-      _: gray-700
-      negative: red-600
+    text:
+      _: s-color-text
+      negative: s-color-text-negative
     optional:
-      text: gray-700
-    icon: bluegray-500
+      text: s-color-text
+    icon: s-color-icon
