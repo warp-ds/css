@@ -5,13 +5,13 @@ color:
   tabs:
     border:
       _: transparent
-      hover: gray-200
-      active: petroleum-600
+      hover: s-color-border-primary
+      selected: s-color-border-primary-active
     text:
-      _: gray-500
-      hover: petroleum-600
-      active: petroleum-600
+      _: s-color-text-subtle
+      hover: s-color-text-link
+      selected: s-color-text-link
     icon:
-      _: gray-500
-      hover: petroleum-600
-      active: petroleum-600
+      _: s-color-icon
+      hover: s-color-icon-primary
+      selected: s-color-icon-selected
