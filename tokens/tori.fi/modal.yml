@@ -6,8 +6,8 @@ color:
     backdrop:
       background: black
     text:
-      title: gray-700
-      paragraph: gray-700
-    background: white
+      title: s-color-text
+      paragraph: s-color-text
+    background: s-color-background
 shadow:
   modal: shadow-m
