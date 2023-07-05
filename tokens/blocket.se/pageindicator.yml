@@ -4,6 +4,6 @@ token: maps
 color:
   pageindicator:
     background:
-      _: color-background-subtle
-      hover: color-background-subtle-hover
-      active: color-background-primary
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+      active: s-color-background-primary
