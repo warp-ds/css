@@ -3,7 +3,7 @@ token: maps
 
 color:
   broadcast:
-    text: gray-700
-    background: yellow-50
-    border: yellow-300
-    icon: yellow-600
+    text: s-color-text
+    background: s-color-background-warning-subtle
+    border: s-color-border-warning-subtle
+    icon: s-color-icon-warning

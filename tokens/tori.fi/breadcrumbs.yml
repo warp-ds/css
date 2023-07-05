@@ -3,7 +3,7 @@ token: maps
 
 color:
   breadcrumbs:
-    text: gray-700
+    text: color-text
     link:
-      text: petroleum-600
-    icon: gray-500
+      text: color-text-link
+    icon: color-icon
