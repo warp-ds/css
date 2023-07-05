@@ -1,3 +1,10 @@
+# [1.0.0-alpha.27](https://github.com/warp-ds/css/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-07-05)
+
+
+### Bug Fixes
+
+* Add tokens for the close icon in the Toast component ([#26](https://github.com/warp-ds/css/issues/26)) ([c8f932f](https://github.com/warp-ds/css/commit/c8f932f0bf877f5007e07f8a2867d47b3ca0b3dd))
+
 # [1.0.0-alpha.26](https://github.com/warp-ds/css/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-07-05)
 
 
