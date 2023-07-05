@@ -3,7 +3,7 @@ token: maps
 
 color:
   tooltip:
-    text: white
-    background: gray-700
+    text: s-color-text-inverted
+    background: gray-900
 shadow:
   tooltip: shadow-m
