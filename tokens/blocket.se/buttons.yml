@@ -4,97 +4,97 @@ token: maps
 color:
   button:
     primary:
-      text: white
+      text: s-color-text-inverted
       background:
-        _: blue-600
-        hover: blue-700
-        active: blue-800
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
       border:
-        _: blue-600
-        hover: blue-700
-        active: blue-800
-      icon: white
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
+      icon: s-color-icon-inverted
     secondary:
-      text: blue-600
+      text: s-color-text-link
       background:
-        _: white
-        hover: blue-50
-        active: blue-200
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-active
       border:
-        _: bluegray-300
-        hover: blue-700
-        active: blue-800
-      icon: blue-600
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+      icon: s-color-icon-primary
     quiet:
-      text: blue-600
+      text: s-color-text-link
       background:
         _: transparent
-        hover: gray-100
-        active: gray-200
-      icon: blue-600
+        hover: s-color-background-hover
+        active: s-color-background-active
+      icon: s-color-icon-primary
     negative:
-      text: white
+      text: s-color-text-inverted
       background:
-        _: red-600
-        hover: red-700
-        active: red-800
+        _: s-color-background-negative
+        hover: s-color-background-negative-hover
+        active: color-background-negative-active
       border:
-        _: red-600
-        hover: red-700
-        active: red-800
-      icon: white
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        active: s-color-border-negative-active
+      icon: s-color-icon-inverted
       quiet:
-        text: red-600
+        text: s-color-text-negative
         background:
           _: transparent
-          hover: red-100
-          active: red-200
+          hover: s-color-background-negative-subtle-hover
+          active: s-color-background-negative-subtle-active
         border:
           _: transparent
           hover: transparent
           active: transparent
-        icon: red-600
+        icon: s-color-icon-negative
     disabled:
-      text: white
-      background: bluegray-300
+      text: s-color-text-inverted
+      background: s-color-background-disabled
       quiet:
-        text: bluegray-300
-        border: bluegray-300
+        text: s-color-text-link-disabled
+        border: s-color-background-disabled
     link:
       text: s-color-text-link
     pill:
       background:
         _: transparent
-        hover: blue-300-transparentized-30-percent
+        hover: blue-300
       icon:
-        _: gray-500
-        hover: gray-600
-        active: blue-600
+        _: s-color-icon
+        hover: s-color-icon-hover
+        active: s-color-icon-active
       overlay:
         icon:
-          _: blue-700
-          hover: blue-50
-          active: white
+          _: s-color-icon-inverted
+          hover: s-color-icon-inverted-hover
+          active: s-color-icon-inverted-active
     loading:
-      text: gray-500
-      background: gray-100
-      icon: gray-500
+      text: s-color-text-subtle
+      background: s-color-background-subtle
+      icon: s-color-icon
     utility:
-      text: gray-700
+      text: s-color-text
       background:
-        _: white
-        hover: gray-100
-        active: gray-200
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-active
       border:
-        _: bluegray-300
-        hover: gray-500
-        active: gray-700
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
       quiet:
-        text: gray-700
+        text: color-text
         background:
           _: transparent
-          hover: bluegray-100
-          active: bluegray-200
+          hover: s-color-background-hover
+          active: color-background-subtle-active
         border:
           _: transparent
           hover: transparent
