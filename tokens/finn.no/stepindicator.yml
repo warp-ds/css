@@ -5,13 +5,13 @@ color:
   stepindicator:
     handle:
       background:
-        _: white
-        active: blue-600
+        _: s-color-background
+        active: s-color-background-primary
       border:
-        _: bluegray-300
-        active: blue-600
-      icon: white
+        _: s-color-border
+        active: s-color-border-primary
+      icon: s-color-icon-inverted
     track:
       background:
-        _: bluegray-300
-        active: blue-600
+        _: s-color-border
+        active: s-color-background-primary
