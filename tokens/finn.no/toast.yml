@@ -3,6 +3,11 @@ token: maps
 
 color:
   toast:
+    close:
+      icon:
+        _: s-color-icon
+        hover: s-color-icon-hover
+        active: s-color-icon-active
     positive:
       text: gray-700
       background: green-50

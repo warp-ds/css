@@ -166,7 +166,7 @@ export const toast = {
   iconNegative: 'i-text-$color-toast-negative-icon',
   iconLoading: 'animate-bounce',
   content: 'self-center mr-8 py-4 last-child:mb-0',
-  close: 'bg-transparent ml-auto p-[8px]',
+  close: 'bg-transparent ml-auto p-[8px] i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
 };
 
 export const tabs = {
@@ -414,6 +414,7 @@ export const clickable = {
   clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
   clickableNotToggle: 'inset-0 absolute',
   label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`,
+  focusable: 'focusable',
 };
 
 export const combobox = {

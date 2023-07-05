@@ -1,3 +1,17 @@
+# [1.0.0-alpha.27](https://github.com/warp-ds/css/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-07-05)
+
+
+### Bug Fixes
+
+* Add tokens for the close icon in the Toast component ([#26](https://github.com/warp-ds/css/issues/26)) ([c8f932f](https://github.com/warp-ds/css/commit/c8f932f0bf877f5007e07f8a2867d47b3ca0b3dd))
+
+# [1.0.0-alpha.26](https://github.com/warp-ds/css/compare/v1.0.0-alpha.25...v1.0.0-alpha.26) (2023-07-05)
+
+
+### Bug Fixes
+
+* **component-classes:** export focusable class of clickable component ([#25](https://github.com/warp-ds/css/issues/25)) ([f33bc47](https://github.com/warp-ds/css/commit/f33bc47708d47129fb889098e718547e232938d2))
+
 # [1.0.0-alpha.25](https://github.com/warp-ds/css/compare/v1.0.0-alpha.24...v1.0.0-alpha.25) (2023-07-04)
 
 
