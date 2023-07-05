@@ -3,11 +3,13 @@ token: maps
 
 color:
   datepicker:
+    background: s-color-background
+    border: s-color-border
     button:
       background:
-        _: white
-        hover: blue-50
-        active: blue-600
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-primary
     track:
       background:
-        active: aqua-200
+        active: s-color-background-primary-subtle
