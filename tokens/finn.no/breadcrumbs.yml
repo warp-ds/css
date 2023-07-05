@@ -3,7 +3,7 @@ token: maps
 
 color:
   breadcrumbs:
-    text: color-text
+    text: s-color-text
     link:
-      text: color-text-link
-    icon: color-icon
+      text: s-color-text-link
+    icon: s-color-icon

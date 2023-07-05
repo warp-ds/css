@@ -37,7 +37,7 @@ color:
       background:
         _: s-color-background-negative
         hover: s-color-background-negative-hover
-        active: color-background-negative-active
+        active: s-color-background-negative-active
       border:
         _: s-color-border-negative
         hover: s-color-border-negative-hover
@@ -90,11 +90,11 @@ color:
         hover: s-color-border-hover
         active: s-color-border-active
       quiet:
-        text: color-text
+        text: s-color-text
         background:
           _: transparent
           hover: s-color-background-hover
-          active: color-background-subtle-active
+          active: s-color-background-subtle-active
         border:
           _: transparent
           hover: transparent
