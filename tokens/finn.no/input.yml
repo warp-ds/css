@@ -5,22 +5,20 @@ color:
   input:
     text:
       placeholder: s-color-text-placeholder
-      hint: bluegray-300
-      active: gray-700
-      filled: gray-700
-      disabled: bluegray-300
-      error: gray-700
+      filled: s-color-text
+      disabled: s-color-text-disabled
+      negative: s-color-text-negative
       read:
-        only: gray-700
+        only: s-color-text
     background:
-      _: white
-      disabled: gray-200
+      _: s-color-background
+      disabled: s-color-text-disabled
     border:
-      _: gray-300
-      hover: gray-500
-      active: blue-600
-      filled: bluegray-300
-      disabled: bluegray-300
-      error: red-600
-    caret: blue-600
-    icon: gray-500
+      _: s-color-border
+      hover: s-color-border-hover
+      active: s-color-border-selected
+      filled: s-color-border
+      disabled: s-color-border-disabled
+      negative: s-color-border-negative
+    caret: s-color-icon
+    icon: s-color-icon
