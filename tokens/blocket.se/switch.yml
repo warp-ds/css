@@ -5,16 +5,16 @@ color:
   switch:
     track:
       background:
-        _: gray-300
-        hover: gray-400
-        active:
-          _: blue-600
-          hover: blue-700
-        disabled: bluegray-200
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+        disabled: s-color-background-disabled
     handle:
       background:
-        _: white
-        disabled: bluegray-300
+        _: s-color-background
+        disabled: s-color-background-disabled
 shadow:
   switch:
     handle: shadow-s
