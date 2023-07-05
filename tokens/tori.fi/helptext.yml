@@ -3,7 +3,7 @@ token: maps
 
 color:
   helptext:
-    text: 
-      _: gray-700
-      negative: red-600
-      positive: green-600
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive
