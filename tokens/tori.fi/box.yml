@@ -4,20 +4,20 @@ token: maps
 color:
   box:
     info:
-      text: gray-700
+      text: s-color-text
       background:
-        _: petroleum-50
-        hover: gray-100
+        _: s-color-background-info-subtle
+        hover: s-color-background-info-subtle-hover
     neutral:
-      text: gray-700
+      text: s-color-text
       background:
-        _: gray-50
-        hover: petroleum-100
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
     bordered:
-      text: gray-700
+      text: s-color-text
       background:
-        _: white
-        hover: petroleum-100
+        _: s-color-background
+        hover: s-color-background-hover
       border:
-        _: gray-300
-        hover: gray-400
+        _: s-color-border
+        hover: s-color-border-hover
