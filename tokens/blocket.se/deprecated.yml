@@ -1,0 +1,23 @@
+---
+token: maps
+
+color:
+  focused: aqua-400
+  background:
+    _: white
+    subtle: bluegray-50
+    interactive:
+      _: white
+      hover: bluegray-100
+      selected: bluegray-100
+  text:
+    _: gray-700
+    subtle: gray-500
+    placeholder: bluegray-300
+    inverted:
+      _: white
+      subtle: gray-50
+    link:
+      _: blue-600
+      hover: blue-800
+      visited: inherit
