@@ -4,17 +4,17 @@ token: maps
 color:
   select:
     text:
-      _: gray-500
-      hover: gray-500
-      active: gray-500
-      disabled: gray-300
+      _: s-color-text
+      hover: s-color-text-hover
+      active: s-color-text
+      disabled: s-color-text-disabled
     background:
-      _: white
-      disabled: gray-100
+      _: s-color-background
+      disabled: s-color-background-disabled
     border:
-      _: gray-300
-      hover: gray-500
-      active: petroleum-600
-      disabled: gray-300
-      negative: red-600
-    icon: gray-500
+      _: s-color-border
+      hover: s-color-border-hover
+      active: s-color-border-active
+      disabled: s-color-border-disabled
+      negative: s-color-border-negative
+    icon: s-color-icon
