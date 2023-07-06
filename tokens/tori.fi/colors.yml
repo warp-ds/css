@@ -4,6 +4,7 @@ token: defs
 white: white
 black: black
 transparent: transparent
+inherit: inherit
 watermelon:
   50: "#FFF3F2"
   100: "#FFE6E4"
