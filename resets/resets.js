@@ -1,3 +1,5 @@
+// TODO: remove deprecated color tokens when tokens/.../deprecated.yml is removed:
+// --w-s-color-border-default, --w-s-color-background-default, --w-s-color-text-default
 export const resets = `
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -10,7 +12,7 @@ export const resets = `
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: var(--w-s-color-border); /* 2 */
+  border-color: var(--w-s-color-border, var(--w-s-color-border-default)); /* 2 */
 }
 
 /*
@@ -30,7 +32,7 @@ html {
 
 body {
   margin: 0; /* 1 */
-  background-color: var(--w-s-color-background); /* 2 */
+  background-color: var(--w-s-color-background, var(--w-s-color-background-default)); /* 2 */
   min-height: 100%; /* 3 */
   overflow-y: scroll; /* 4 */
 }
@@ -53,7 +55,7 @@ body, :host {
   font-family: var(--w-font-family); /* 5 */
   font-size: var(--w-font-size-m); /* 6 */ 
   line-height: var(--w-line-height-m); /* 7 */
-  color: var(--w-s-color-text); /* 8 */
+  color: var(--w-s-color-text, var(--w-s-color-text-default)); /* 8 */
 }
 
 /*
