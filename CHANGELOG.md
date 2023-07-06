@@ -1,3 +1,10 @@
+# [1.0.0-alpha.29](https://github.com/warp-ds/css/compare/v1.0.0-alpha.28...v1.0.0-alpha.29) (2023-07-06)
+
+
+### Bug Fixes
+
+* **tokens:** restore deprecated foundation/background/outline color tokens ([#27](https://github.com/warp-ds/css/issues/27)) ([96b286a](https://github.com/warp-ds/css/commit/96b286a7c484cc7c2135d13f3809a615327f6527))
+
 # [1.0.0-alpha.28](https://github.com/warp-ds/css/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-07-06)
 
 
