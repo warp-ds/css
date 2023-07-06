@@ -1,3 +1,10 @@
+# [1.0.0-alpha.28](https://github.com/warp-ds/css/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-07-06)
+
+
+### Bug Fixes
+
+* **component-classes:** add bg-transparent to clickableNotToggle after removing it from resets ([#29](https://github.com/warp-ds/css/issues/29)) ([2b090e6](https://github.com/warp-ds/css/commit/2b090e6290b9ef7fc4ddc6d979b7033fceacbe76))
+
 # [1.0.0-alpha.27](https://github.com/warp-ds/css/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-07-05)
 
 
