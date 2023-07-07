@@ -1,3 +1,10 @@
+# [1.0.0-alpha.30](https://github.com/warp-ds/css/compare/v1.0.0-alpha.29...v1.0.0-alpha.30) (2023-07-07)
+
+
+### Bug Fixes
+
+* transparent background in Clickable, Tabs, Buttons ([#31](https://github.com/warp-ds/css/issues/31)) ([25901bd](https://github.com/warp-ds/css/commit/25901bdf31c41be739241e25fec61d34b1c684e8))
+
 # [1.0.0-alpha.29](https://github.com/warp-ds/css/compare/v1.0.0-alpha.28...v1.0.0-alpha.29) (2023-07-06)
 
 
