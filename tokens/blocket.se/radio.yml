@@ -10,8 +10,8 @@ color:
       _: s-color-border
       hover: s-color-border-primary
       selected:
-        _: s-color-border-primary-selected
-        hover: s-color-border-primary-selected-hover
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
         disabled: s-color-border-disabled
       disabled: s-color-border-disabled
     negative:
