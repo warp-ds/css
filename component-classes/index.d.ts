@@ -387,10 +387,11 @@ export namespace toggle {
     export { a11y_5 as a11y };
 }
 export namespace clickable {
-    export const clickable: string;
-    export const clickableNotToggle: string;
+    export const toggle: string;
     const label_6: string;
     export { label_6 as label };
+    export const buttonOrLink: string;
+    export const buttonOrLinkStretch: string;
 }
 export namespace combobox {
     const wrapper_11: string;
