@@ -93,7 +93,7 @@ color:
         text: s-color-text
         background:
           _: transparent
-          hover: s-color-background-hover
+          hover: s-color-background-subtle-hover
           active: s-color-background-subtle-active
         border:
           _: transparent
