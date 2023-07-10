@@ -6,7 +6,7 @@ color:
     border:
       _: transparent
       hover: s-color-border-primary
-      selected: s-color-border-primary-active
+      selected: s-color-border-selected
     text:
       _: s-color-text-subtle
       hover: s-color-text-link
