@@ -12,7 +12,7 @@ color:
         only: s-color-text
     background:
       _: s-color-background
-      disabled: s-color-text-disabled
+      disabled: gray-200
     border:
       _: s-color-border
       hover: s-color-border-hover
