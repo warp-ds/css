@@ -1,3 +1,10 @@
+# [1.0.0-alpha.31](https://github.com/warp-ds/css/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-07-10)
+
+
+### Bug Fixes
+
+* **cc-button:** make text-xs override leading-[24] on small buttons ([#32](https://github.com/warp-ds/css/issues/32)) ([a500ce6](https://github.com/warp-ds/css/commit/a500ce6fd585cab9b2e7944c65a0f045a8f9ad7e))
+
 # [1.0.0-alpha.30](https://github.com/warp-ds/css/compare/v1.0.0-alpha.29...v1.0.0-alpha.30) (2023-07-07)
 
 
