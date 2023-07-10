@@ -1,3 +1,24 @@
+# [1.0.0-alpha.30](https://github.com/warp-ds/css/compare/v1.0.0-alpha.29...v1.0.0-alpha.30) (2023-07-07)
+
+
+### Bug Fixes
+
+* transparent background in Clickable, Tabs, Buttons ([#31](https://github.com/warp-ds/css/issues/31)) ([25901bd](https://github.com/warp-ds/css/commit/25901bdf31c41be739241e25fec61d34b1c684e8))
+
+# [1.0.0-alpha.29](https://github.com/warp-ds/css/compare/v1.0.0-alpha.28...v1.0.0-alpha.29) (2023-07-06)
+
+
+### Bug Fixes
+
+* **tokens:** restore deprecated foundation/background/outline color tokens ([#27](https://github.com/warp-ds/css/issues/27)) ([96b286a](https://github.com/warp-ds/css/commit/96b286a7c484cc7c2135d13f3809a615327f6527))
+
+# [1.0.0-alpha.28](https://github.com/warp-ds/css/compare/v1.0.0-alpha.27...v1.0.0-alpha.28) (2023-07-06)
+
+
+### Bug Fixes
+
+* **component-classes:** add bg-transparent to clickableNotToggle after removing it from resets ([#29](https://github.com/warp-ds/css/issues/29)) ([2b090e6](https://github.com/warp-ds/css/commit/2b090e6290b9ef7fc4ddc6d979b7033fceacbe76))
+
 # [1.0.0-alpha.27](https://github.com/warp-ds/css/compare/v1.0.0-alpha.26...v1.0.0-alpha.27) (2023-07-05)
 
 

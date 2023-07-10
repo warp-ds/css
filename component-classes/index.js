@@ -178,7 +178,7 @@ export const tabs = {
 };
 
 export const tab = {
-  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
+  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
   tabActive: 'i-text-$color-tabs-text-selected',
   icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
   iconUnderlinedActive: 'i-text-$color-tabs-text-selected',
@@ -411,10 +411,10 @@ export const toggle = {
 };
 
 export const clickable = {
-  clickable: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
-  clickableNotToggle: 'inset-0 absolute',
+  toggle: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
   label: `px-12 ${label.label} py-8! cursor-pointer focusable focusable-inset`,
-  focusable: 'focusable',
+  buttonOrLink: 'bg-transparent focusable',
+  buttonOrLinkStretch: 'inset-0 absolute',
 };
 
 export const combobox = {
