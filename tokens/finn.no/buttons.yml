@@ -59,7 +59,7 @@ color:
       background: s-color-background-disabled
       quiet:
         text: s-color-text-link-disabled
-        border: s-color-background-disabled
+        border: s-color-border-disabled
     link:
       text: s-color-text-link
     pill:
