@@ -5,6 +5,7 @@ white: white
 black: black
 transparent: transparent
 inherit: inherit
+none: none
 watermelon:
   50: "#FFF3F2"
   100: "#FFE6E4"
@@ -74,4 +75,4 @@ gray:
   800: "#292929"
   900:
     _: "#1A1A1A"
-    alpha70: rgba(26, 26, 26, .7)
+    alpha70: "rgba(26, 26, 26, .7)"

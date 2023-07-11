@@ -5,6 +5,7 @@ white: white
 black: black
 transparent: transparent
 inherit: inherit
+none: none
 blue:
   50: "#eff5ff"
   100: "#e1edfe"
