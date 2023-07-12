@@ -1,3 +1,10 @@
+# [1.0.0-alpha.33](https://github.com/warp-ds/css/compare/v1.0.0-alpha.32...v1.0.0-alpha.33) (2023-07-12)
+
+
+### Bug Fixes
+
+* trigger release of 1.0.0-alpha.32 ([9f64985](https://github.com/warp-ds/css/commit/9f6498552979669d55901e7c18012973490da051))
+
 # [1.0.0-alpha.31](https://github.com/warp-ds/css/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-07-10)
 
 
