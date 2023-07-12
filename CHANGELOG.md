@@ -1,4 +1,4 @@
-# [1.0.0-alpha.33](https://github.com/warp-ds/css/compare/v1.0.0-alpha.32...v1.0.0-alpha.33) (2023-07-12)
+# [1.0.0-alpha.33](https://github.com/warp-ds/css/compare/v1.0.0-alpha.31...v1.0.0-alpha.33) (2023-07-12)
 
 
 ### Breaking changes
