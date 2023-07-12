@@ -1,10 +1,3 @@
-# [1.0.0-alpha.32](https://github.com/warp-ds/css/compare/v1.0.0-alpha.31...v1.0.0-alpha.32) (2023-07-12)
-
-
-### Bug Fixes
-
-* Map component tokens to semantic tokens ([#28](https://github.com/warp-ds/css/issues/28)) ([ba4d3f7](https://github.com/warp-ds/css/commit/ba4d3f7633db3c9281e0991a4af46c31e2cc7e51))
-
 # [1.0.0-alpha.31](https://github.com/warp-ds/css/compare/v1.0.0-alpha.30...v1.0.0-alpha.31) (2023-07-10)
 
 
