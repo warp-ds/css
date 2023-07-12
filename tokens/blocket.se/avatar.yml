@@ -3,5 +3,5 @@ token: maps
 
 color:
   avatar:
-    background: bluegray-100
-    icon: bluegray-300
+    background: s-color-background-subtle
+    icon: s-color-icon-subtle

@@ -4,9 +4,9 @@ token: maps
 color:
   popover:
     title:
-      text: gray-700
+      text: s-color-text
     paragraph:
-      text: gray-700
-    background: white
+      text: s-color-text
+    background: s-color-background
 shadow:
   popover: shadow-m

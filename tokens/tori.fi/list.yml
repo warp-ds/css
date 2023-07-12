@@ -3,10 +3,10 @@ token: maps
 
 color:
   list:
-    text: gray-700
+    text: s-color-text
     bulleted:
-      icon: gray-700
+      icon: s-color-text
     numbered:
-      icon: gray-700
+      icon: s-color-text
     checked:
-      icon: petroleum-600
+      icon: s-color-icon-primary

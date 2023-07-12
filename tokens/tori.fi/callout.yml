@@ -5,4 +5,4 @@ color:
   callout:
     background: petroleum-100
     border: petroleum-400
-    text: gray-700
+    text: s-color-text

@@ -4,30 +4,35 @@ token: maps
 color:
   card:
     background:
-      _: white
-      hover: gray-50
-      active:
-        _: white
-        hover: gray-50
+      _: s-color-background
+      hover: s-color-background-hover
+      active: s-color-background-active
+      selected:
+        _: s-color-background-primary-subtle
+        hover: s-color-background-primary-subtle-hover
     border:
       _: transparent
       hover: transparent
-      active:
-        _: blue-600
-        hover: blue-700
+      active: transparent
+      selected:
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
     flat:
       background:
-        _: white
-        hover: gray-50
-        active:
-          _: blue-50
-          hover: blue-100
+        _: s-color-background
+        hover: s-color-background-subtle-hover
+        active: s-color-background-active
+        selected:
+          _: s-color-background-selected
+          hover: s-color-background-selected-hover
       border:
-        _: bluegray-300
-        hover: bluegray-400
-        active:
-          _: blue-600
-          hover: blue-700
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+          active: s-color-background-primary-active
 shadow:
   card:
     _: shadow-s

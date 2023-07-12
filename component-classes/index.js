@@ -120,13 +120,13 @@ export const card = {
   cardFlatUnselected:
     'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
   cardFlatSelected:
-    'i-border-$color-card-flat-border-active i-bg-$color-card-flat-background-active hover:i-bg-$color-card-flat-background-active-hover hover:i-border-$color-card-flat-border-active-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
+    'i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
   cardSelected:
-    'i-border-$color-card-border-active i-bg-$color-card-background-active hover:i-border-$color-card-border-active-hover hover:i-bg-$color-card-background-active-hover active:i-border-$color-card-border-active',
+    'i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active',
   cardOutline:
     'active:i-border-$color-card-flat-border absolute rounded-8 inset-0 transition-all border-2',
   cardOutlineUnselected: 'i-border-$color-card-border',
-  cardOutlineSelected: 'i-border-$color-card-border-active hover:i-border-$color-card-border-active-hover',
+  cardOutlineSelected: 'i-border-$color-card-border-selected hover:i-border-$color-card-border-selected-hover',
   a11y: 'sr-only',
 };
 
@@ -135,7 +135,7 @@ export const switchToggle = {
   label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
-  trackActive: 'i-bg-$color-switch-track-background-active group-hover:i-bg-$color-switch-track-background-active-hover',
+  trackActive: 'i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover',
   trackInactive: 'i-bg-$color-switch-track-background group-hover:i-bg-$color-switch-track-background-hover',
   trackDisabled: 'i-bg-$color-switch-track-background-disabled',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
@@ -172,19 +172,19 @@ export const toast = {
 export const tabs = {
   tabContainer: 'mx-auto max-w-screen-md w-full grid relative',
   wunderbar:
-    'absolute i-border-$color-tabs-border-active -bottom-0 border-b-4 transition-all',
+    'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
   wrapperUnderlined:
     'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
 };
 
 export const tab = {
   tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
-  tabActive: 'i-text-$color-tabs-text-active',
+  tabActive: 'i-text-$color-tabs-text-selected',
   icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
-  iconUnderlinedActive: 'i-text-$color-tabs-text-active',
+  iconUnderlinedActive: 'i-text-$color-tabs-text-selected',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedActive: 'i-text-$color-tabs-text-active',
+  contentUnderlinedActive: 'i-text-$color-tabs-text-selected',
 };
 
 // Todo: Handle dynamic classnames
@@ -267,14 +267,14 @@ export const buttonGroup = {
 };
 
 export const buttonGroupItem = {
-  wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-active active:i-bg-$color-buttongroup-utility-background-active',
-  outlined: 'border hover:z-30 i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-active',
+  wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-selected active:i-bg-$color-buttongroup-utility-background-selected',
+  outlined: 'border hover:z-30 i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-selected',
   outlinedVertical: '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
   outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
   outlinedVerticalResets: 'px-1 pt-1 last:pb-1 -mb-1 last:mb-0',
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
-  outlinedSelected: 'i-border-$color-buttongroup-utility-border-active',
-  selected: 'z-30 i-text-$color-buttongroup-utility-text-active! i-bg-$color-buttongroup-utility-background-active!',
+  outlinedSelected: 'i-border-$color-buttongroup-utility-border-selected',
+  selected: 'z-30 i-text-$color-buttongroup-utility-text-selected! i-bg-$color-buttongroup-utility-background-selected!',
 };
 
 export const modal = {
@@ -320,7 +320,7 @@ export const input = {
   default: 'block text-m mb-0 leading-m i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
-  invalid: 'i-border-$color-input-border-error i-text-$color-input-text-error!',
+  invalid: 'i-border-$color-input-border-negative i-text-$color-input-text-negative!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
   placeholder: 'placeholder:i-text-$color-input-text-placeholder',
   wrapper: 'relative',
@@ -388,21 +388,21 @@ export const toggle = {
   label: 'cursor-pointer text-m i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
   noContent: `before:content-[""]`,
-  indeterminate: `before:flex! before:items-center before:justify-center before:i-text-$color-checkbox-icon before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-active peer-indeterminate:before:i-bg-$color-checkbox-background-active peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-active-hover`,
+  indeterminate: `before:flex! before:items-center before:justify-center before:i-text-$color-checkbox-icon before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-selected peer-indeterminate:before:i-bg-$color-checkbox-background-selected peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-selected-hover`,
   labelDisabled: 'pointer-events-none',
   checkbox: 'before:rounded-2 hover:before:i-border-$color-checkbox-border-hover hover:before:i-bg-$color-checkbox-background-hover',
-  checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-active peer-checked:before:i-bg-$color-checkbox-background-active peer-checked:peer-hover:before:i-border-$color-checkbox-border-active-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-active-hover',
-  checkboxInvalid: 'before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-border-$color-checkbox-negative-border-active hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:before:i-bg-$color-checkbox-negative-background-active peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-active-hover peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-active-hover',
-  checkboxDisabled: 'before:i-bg-$color-checkbox-background-disabled before:i-border-$color-checkbox-border-disabled peer-checked:before:i-border-$color-checkbox-border-active-disabled peer-checked:before:i-bg-$color-checkbox-background-active-disabled',
+  checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-selected peer-checked:before:i-bg-$color-checkbox-background-selected peer-checked:peer-hover:before:i-border-$color-checkbox-border-selected-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-selected-hover',
+  checkboxInvalid: 'before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-border-$color-checkbox-negative-border-selected hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-selected-hover',
+  checkboxDisabled: 'before:i-bg-$color-checkbox-background-disabled before:i-border-$color-checkbox-border-disabled peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:before:i-bg-$color-checkbox-background-selected-disabled',
   labelCheckboxBorder: 'i-border-$color-checkbox-border',
-  radio: 'before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-active-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
-  radioChecked: 'peer-checked:before:i-border-$color-radio-border-active',
-  radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border-active peer-checked:peer-hover:before:i-border-$color-radio-negative-border-active-hover ',
-  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-active-disabled',
+  radio: 'before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
+  radioChecked: 'peer-checked:before:i-border-$color-radio-border-selected',
+  radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ',
+  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled',
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
-  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-active peer-checked:i-bg-$color-buttongroup-primary-background-active peer-checked:i-border-$color-buttongroup-primary-border-active block relative text-s font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-buttongroup-primary-background border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
+  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-selected peer-checked:i-bg-$color-buttongroup-primary-background-selected peer-checked:i-border-$color-buttongroup-primary-border-selected block relative text-s font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-buttongroup-primary-background border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
   radioButtonsJustified: 'flex!',
   radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
   radioButtonsLabelSmall: 'text-xs py-[5px]! px-[8px]!',

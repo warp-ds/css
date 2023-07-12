@@ -4,16 +4,16 @@ token: maps
 color:
   pill:
     filter:
-      text: white
+      text: s-color-text-inverted
       background:
-        _: petroleum-600
-        hover: petroleum-700
-        active: petroleum-800
-      icon: white
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+      icon: s-color-icon-inverted
     suggestion:
-      text: gray-900
+      text: s-color-text
       background:
         _: gray-200
         hover: gray-300
         active: gray-400
-      icon: gray-900
+      icon: s-color-icon

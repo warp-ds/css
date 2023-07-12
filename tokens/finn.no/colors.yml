@@ -5,11 +5,14 @@ white: white
 black: black
 transparent: transparent
 inherit: inherit
+none: none
 blue:
   50: "#eff5ff"
   100: "#e1edfe"
   200: "#c2dafe"
-  300: "#9ac1fe"
+  300:
+    _: "#9ac1fe"
+    alpha30: "rgba(154,193,254,.3)"
   400: "#5c9cff"
   500: "#2b7eff"
   600: "#0063fb"
@@ -26,7 +29,9 @@ gray:
   600: "#52525b"
   700: "#3f3f46"
   800: "#27272a"
-  900: "#18181b"
+  900:
+    _: "#18181b"
+    alpha70: "rgba(24,24,27,.7)"
 aqua:
   50: "#f1f9ff"
   100: "#e0f6ff"

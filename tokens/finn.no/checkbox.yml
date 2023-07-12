@@ -5,30 +5,30 @@ color:
   checkbox:
     background:
       disabled: gray-200
-      hover: blue-50
-      active:
-        _: blue-600
-        disabled: bluegray-300
-        hover: blue-700
+      hover: s-color-background-subtle
+      selected:
+        _: s-color-background-primary
+        disabled: s-color-background-disabled
+        hover: s-color-background-primary-hover
     border:
       _: gray-500
-      disabled: bluegray-300
-      hover: blue-600
-      active:
-        _: blue-600
-        disabled: bluegray-300
-        hover: blue-700
+      disabled: s-color-border-disabled
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-primary
+        disabled: s-color-border-disabled
+        hover: s-color-border-primary-hover
     negative:
       background:
-        _: white
-        hover: red-100
-        active:
-          _: red-600
-          hover: red-700
+        _: s-color-background
+        hover: s-color-background-negative-subtle-hover
+        selected:
+          _: s-color-background-negative
+          hover: s-color-background-negative-hover
       border:
-        _: red-600
-        hover: red-700
-        active:
-          _: red-600
-          hover: red-700
-    icon: white
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative
+          hover: s-color-border-negative-hover
+    icon: s-color-icon-inverted

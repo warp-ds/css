@@ -5,18 +5,18 @@ color:
   slider:
     handle:
       background:
-        _: petroleum-600
-        active: petroleum-600
-        hover: petroleum-700
-        disabled: gray-300
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+        disabled: s-color-background-disabled
       border:
-        _: petroleum-600
-        active: petroleum-600
-        hover: petroleum-700
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
     track:
       background:
-        _: gray-200
-        active: petroleum-600
-        disabled: gray-300
+        _: petroleum-200
+        active: s-color-background-primary
+        disabled: s-color-background-disabled
 shadow:
   slider: none

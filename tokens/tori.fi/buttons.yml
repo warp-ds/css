@@ -4,7 +4,7 @@ token: maps
 color:
   button:
     primary:
-      text: white
+      text: s-color-text-inverted
       background:
         _: watermelon-600
         hover: watermelon-700
@@ -13,88 +13,88 @@ color:
         _: watermelon-600
         hover: watermelon-700
         active: watermelon-800
-      icon: white
+      icon: s-color-icon-inverted
     secondary:
-      text: petroleum-600
+      text: s-color-text-link
       background:
-        _: white
-        hover: petroleum-50
-        active: petroleum-200
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-active
       border:
-        _: petroleum-300
-        hover: petroleum-700
-        active: petroleum-800
-      icon: petroleum-600
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+      icon: s-color-icon-primary
     quiet:
-      text: gray-900
+      text: s-color-text-link
       background:
         _: transparent
-        hover: gray-100
-        active: gray-200
-      icon: gray-900
+        hover: s-color-background-hover
+        active: s-color-background-active
+      icon: s-color-icon-primary
     negative:
-      text: white
+      text: s-color-text-inverted
       background:
-        _: red-600
-        hover: red-700
-        active: red-800
+        _: s-color-background-negative
+        hover: s-color-background-negative-hover
+        active: s-color-background-negative-active
       border:
-        _: red-600
-        hover: red-700
-        active: red-800
-      icon: white
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        active: s-color-border-negative-active
+      icon: s-color-icon-inverted
       quiet:
-        text: red-600
+        text: s-color-text-negative
         background:
           _: transparent
-          hover: red-100
-          active: red-200
+          hover: s-color-background-negative-subtle-hover
+          active: s-color-background-negative-subtle-active
         border:
           _: transparent
           hover: transparent
           active: transparent
-        icon: red-600
+        icon: s-color-icon-negative
     disabled:
-      text: white
-      background: gray-300
+      text: s-color-text-inverted
+      background: s-color-background-disabled
       quiet:
-        text: gray-300
-        border: gray-300
+        text: s-color-text-link-disabled
+        border: s-color-border-disabled
     link:
       text: s-color-text-link
     pill:
       background:
         _: transparent
-        hover: gray-300-transparentized-30-percent
+        hover: gray-300-alpha30
       icon:
-        _: gray-900
-        hover: gray-900
-        active: watermelon-600
+        _: s-color-icon
+        hover: s-color-icon-hover
+        active: s-color-icon-active
       overlay:
         icon:
-          _: watermelon-600
-          hover: white
-          active: white
+          _: s-color-icon-inverted
+          hover: s-color-icon-inverted-hover
+          active: s-color-icon-inverted-active
     loading:
-      text: gray-500
-      background: gray-100
-      icon: gray-500
+      text: s-color-text-subtle
+      background: s-color-background-subtle
+      icon: s-color-icon
     utility:
-      text: gray-700
+      text: s-color-text
       background:
-        _: white
-        hover: gray-100
-        active: gray-200
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-active
       border:
-        _: gray-300
-        hover: gray-500
-        active: gray-700
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
       quiet:
-        text: gray-700
+        text: s-color-text
         background:
           _: transparent
-          hover: gray-100
-          active: gray-200
+          hover: s-color-background-subtle-hover
+          active: s-color-background-subtle-active
         border:
           _: transparent
           hover: transparent

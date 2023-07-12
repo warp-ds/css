@@ -5,6 +5,7 @@ white: white
 black: black
 transparent: transparent
 inherit: inherit
+none: none
 watermelon:
   50: "#FFF3F2"
   100: "#FFE6E4"
@@ -64,10 +65,14 @@ gray:
   50: "#FAFAFA"
   100: "#F5F5F5"
   200: "#E6E6E6"
-  300: "#D6D6D6"
+  300:
+    _: "#D6D6D6"
+    alpha30: "rgba(214,214,214,.3)"
   400: "#A5A5A5"
   500: "#767676"
   600: "#575757"
   700: "#434343"
   800: "#292929"
-  900: "#1A1A1A"
+  900:
+    _: "#1A1A1A"
+    alpha70: "rgba(26, 26, 26, .7)"

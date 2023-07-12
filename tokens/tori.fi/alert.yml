@@ -4,30 +4,30 @@ token: maps
 color:
   alert:
     info:
-      text: gray-700
-      background: petroleum-50
-      border: petroleum-600
+      text: s-color-text
+      background: s-color-background-info-subtle
+      border: s-color-border-info
       subtle:
-        border: petroleum-300
-      icon: petroleum-600
+        border: s-color-border-info-subtle
+      icon: s-color-icon-info
     positive:
-      text: gray-700
-      background: green-50
-      border: green-600
+      text: s-color-text
+      background: s-color-background-positive-subtle
+      border: s-color-border-positive
       subtle:
-        border: green-300
-      icon: green-600
+        border: s-color-border-positive-subtle
+      icon: s-color-icon-positive
     warning:
-      text: gray-700
-      background: yellow-50
-      border: yellow-600
+      text: s-color-text
+      background: s-color-background-warning-subtle
+      border: s-color-border-warning
       subtle:
-        border: yellow-300
-      icon: yellow-600
+        border: s-color-border-warning-subtle
+      icon: s-color-icon-warning
     negative:
-      text: gray-700
-      background: red-50
-      border: red-600
+      text: s-color-text
+      background: s-color-background-negative-subtle
+      border: s-color-border-negative
       subtle:
-        border: red-300
-      icon: red-600
+        border: s-color-border-negative-subtle
+      icon: s-color-icon-negative

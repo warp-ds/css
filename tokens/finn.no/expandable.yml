@@ -4,10 +4,10 @@ token: maps
 color:
   expandable:
     title:
-      text: gray-700
+      text: s-color-text
     paragraph:
-      text: gray-700
+      text: s-color-text
     background:
-      _: gray-50
-      hover: gray-100
-    icon: gray-500
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+    icon: s-color-icon

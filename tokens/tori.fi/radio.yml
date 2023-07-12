@@ -5,22 +5,22 @@ color:
   radio:
     background:
       disabled: gray-200
-      hover: white
+      hover: s-color-background-primary-subtle
     border:
-      active:
-        _: petroleum-600
-        disabled: gray-300
-        hover: petroleum-700
       _: gray-500
-      disabled: gray-300
-      hover: gray-900
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
+        disabled: s-color-border-disabled
+      disabled: s-color-border-disabled
     negative:
       background:
-        _: white
-        hover: red-50
+        _: s-color-background
+        hover: s-color-background-negative-subtle
       border:
-        active:
-          _: red-600
-          hover: red-700
-        _: red-600
-        hover: red-700
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative-active
+          hover: s-color-border-negative-hover
