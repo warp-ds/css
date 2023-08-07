@@ -10,10 +10,10 @@ fs.mkdirSync(outPath, { recursive: true });
 
 function process(tld) {
   const css = minify(resets);
-  const nonMinified = path.join(outPath, tld) + '.css';
-  const minified = path.join(outPath, tld) + '.min.css';
+  const minified = path.join(outPath, tld) + '.css';
+  const deprecatedMinified = path.join(outPath, tld) + '.min.css'; // Remove when no apps use resets.min.css
   fs.writeFileSync(minified, css, 'utf-8');
-  fs.writeFileSync(nonMinified, resets, 'utf-8');
+  fs.writeFileSync(deprecatedMinified, css, 'utf-8');
 }
 
 process('resets');
