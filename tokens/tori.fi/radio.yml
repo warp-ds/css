@@ -22,5 +22,5 @@ color:
         _: s-color-border-negative
         hover: s-color-border-negative-hover
         selected:
-          _: s-color-border-negative-active
-          hover: s-color-border-negative-hover
+          _: s-color-border-negative-selected
+          hover: s-color-border-negative-selected-hover
