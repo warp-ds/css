@@ -19,7 +19,6 @@ export namespace pageIndicator {
     const dot: string;
     const inactive: string;
     const active: string;
-    const hover: string;
 }
 export namespace ribbon {
     const base_1: string;
