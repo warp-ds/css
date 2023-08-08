@@ -1,3 +1,10 @@
+# [1.0.0-alpha.35](https://github.com/warp-ds/css/compare/v1.0.0-alpha.34...v1.0.0-alpha.35) (2023-08-08)
+
+
+### Bug Fixes
+
+* **resets:** publish only minified versions of css ([#34](https://github.com/warp-ds/css/issues/34)) ([1ac0a71](https://github.com/warp-ds/css/commit/1ac0a715b7b5ea7d2538422533ddf285fc3b578b))
+
 # [1.0.0-alpha.34](https://github.com/warp-ds/css/compare/v1.0.0-alpha.33...v1.0.0-alpha.34) (2023-08-07)
 
 
