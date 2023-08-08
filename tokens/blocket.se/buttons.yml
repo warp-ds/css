@@ -65,7 +65,8 @@ color:
     pill:
       background:
         _: transparent
-        hover: blue-300
+        hover: blue-300-alpha30
+        active: blue-400-alpha30
       icon:
         _: s-color-icon
         hover: s-color-icon-hover
