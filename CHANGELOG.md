@@ -1,3 +1,10 @@
+# [1.0.0-alpha.36](https://github.com/warp-ds/css/compare/v1.0.0-alpha.35...v1.0.0-alpha.36) (2023-08-09)
+
+
+### Bug Fixes
+
+* **tokens:** update radio, button pill, pageindicator, icon ([#35](https://github.com/warp-ds/css/issues/35)) ([1d3bfdb](https://github.com/warp-ds/css/commit/1d3bfdb0787eedcff16782099c5657138f607826))
+
 # [1.0.0-alpha.35](https://github.com/warp-ds/css/compare/v1.0.0-alpha.34...v1.0.0-alpha.35) (2023-08-08)
 
 
