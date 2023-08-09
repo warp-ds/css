@@ -6,4 +6,4 @@ color:
     background:
       _: s-color-background-subtle
       hover: s-color-background-subtle-hover
-      active: s-color-background-primary
+      selected: s-color-background-primary

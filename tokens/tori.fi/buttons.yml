@@ -66,6 +66,7 @@ color:
       background:
         _: transparent
         hover: gray-300-alpha30
+        active: gray-400-alpha30
       icon:
         _: s-color-icon
         hover: s-color-icon-hover
