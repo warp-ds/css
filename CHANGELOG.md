@@ -1,3 +1,10 @@
+# [1.0.0-alpha.37](https://github.com/warp-ds/css/compare/v1.0.0-alpha.36...v1.0.0-alpha.37) (2023-08-10)
+
+
+### Bug Fixes
+
+* add pointer-events-none and cursor-pointer to fix select chevron ([0681f23](https://github.com/warp-ds/css/commit/0681f2393467c9aa28a53c186c6dd12a22ae8426))
+
 # [1.0.0-alpha.36](https://github.com/warp-ds/css/compare/v1.0.0-alpha.35...v1.0.0-alpha.36) (2023-08-09)
 
 
