@@ -3,10 +3,9 @@ name: Release
 on:
   push:
     branches:
-    - main
-    - alpha
-    - next
-    - beta
+      - main
+      - next
+      - beta
 jobs:
   deploy:
     runs-on: ubuntu-latest

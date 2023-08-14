@@ -1,4 +1,4 @@
-name: Update alpha
+name: Update next
 on:
   workflow_run:
     workflows:
@@ -15,6 +15,6 @@ jobs:
       - name: Rebase alpha to main
         run: |
           git fetch --unshallow
-          git checkout alpha
+          git checkout next
           git rebase origin/main
           git push
