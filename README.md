@@ -9,13 +9,11 @@ The package includes resets, component classes and tokens.
 The CSS files should be used directly from Eik. This is because we can alias releases by major versions.
 
 
-We publish 2 versions of resets. The minified that can be used in production and non-minified that can be used in development.
+We publish 3 css files.
 
-```html
-<link href="https://assets.finn.no/pkg/@warp-ds/css/v1/resets.min.css" rel="stylesheet" />
-or
-<link href="https://assets.finn.no/pkg/@warp-ds/css/v1/resets.css" rel="stylesheet" />
-```
+- Resets <link href="https://assets.finn.no/pkg/@warp-ds/css/[VERSION]/resets.css" rel="stylesheet" />
+- Components css <link href="https://assets.finn.no/pkg/@warp-ds/css/[VERSION]/components.css" rel="stylesheet" />
+- Brand css with tokens <link href="https://assets.finn.no/pkg/@warp-ds/css/[VERSION]/tokens/[BRANDNAME e.g. tori-fi].css" rel="stylesheet" />  
 
 ## Usage (npm)
 
