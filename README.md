@@ -20,7 +20,7 @@ We publish 3 css files.
 Only component classes are published to npm to be used in the component libraries.
 
 ```sh
-pnpm install @warp-ds/css
+pnpm add @warp-ds/css
 ```
 
 ### Component classes

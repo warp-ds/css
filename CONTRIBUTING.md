@@ -37,7 +37,7 @@ npm install -g pnpm
 Install dependencies by running:
 
 ```sh
-pnpm i
+pnpm install
 ```
 
 ## Contributing
