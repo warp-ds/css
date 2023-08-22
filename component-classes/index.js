@@ -214,7 +214,7 @@ export const expandable = {
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
   button: buttonReset + ' hover:underline focus:underline',
-  buttonBox: 'w-full text-left relative inline-flex! items-center ' + box.box,
+  buttonBox: 'w-full text-left relative inline-flex items-center ' + box.box,
   paddingTop: 'pt-0',
   title: 'flex justify-between items-center',
   titleType: 'h4',
