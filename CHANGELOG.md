@@ -1,3 +1,50 @@
+# 1.0.0 (2023-08-23)
+
+
+### Bug Fixes
+
+* add eslint ([#18](https://github.com/warp-ds/css/issues/18)) ([eeeb2bc](https://github.com/warp-ds/css/commit/eeeb2bc6572794caeab09f73eb139c44bc047aed))
+* add fixes to resets ([79b7322](https://github.com/warp-ds/css/commit/79b73222f634676bbe04a6e791c2ad72a3147bd9))
+* add font-size and line-height to the buttons ([#10](https://github.com/warp-ds/css/issues/10)) ([391e894](https://github.com/warp-ds/css/commit/391e8946a3ca106c540cf531b2b7d26302b4c9cf))
+* add headings styles ([023e8d8](https://github.com/warp-ds/css/commit/023e8d85733b087c440ade4d1c8f0dedc821c13c))
+* Add new component tokens to replace direct usage of semantic classes in component-classes ([#9](https://github.com/warp-ds/css/issues/9)) ([74a553d](https://github.com/warp-ds/css/commit/74a553deaeb350d04e8a2cc523d56b223685b73f))
+* Add notification background semantic token ([#13](https://github.com/warp-ds/css/issues/13)) ([74b9b60](https://github.com/warp-ds/css/commit/74b9b60a17f7e93bd38ac76a033c7a3d906c3d19))
+* add pointer-events-none and cursor-pointer to fix select chevron ([0681f23](https://github.com/warp-ds/css/commit/0681f2393467c9aa28a53c186c6dd12a22ae8426))
+* add readme and restructured output files ([#2](https://github.com/warp-ds/css/issues/2)) ([a345dc7](https://github.com/warp-ds/css/commit/a345dc71727de8bf7be1ddfce5a6b86ac813de7e))
+* Add semantic token for focus outlines ([#19](https://github.com/warp-ds/css/issues/19)) ([48a5245](https://github.com/warp-ds/css/commit/48a5245ed8a69e8066df6efa7471e7990fae8720))
+* Add tokens for the close icon in the Toast component ([#26](https://github.com/warp-ds/css/issues/26)) ([c8f932f](https://github.com/warp-ds/css/commit/c8f932f0bf877f5007e07f8a2867d47b3ca0b3dd))
+* add type declarations to the dist folder ([#8](https://github.com/warp-ds/css/issues/8)) ([5373cc8](https://github.com/warp-ds/css/commit/5373cc853445d2c6c7fe08cb67690c6f16be1486))
+* Added new darker background colors and moved the former ones to subtle sub tokens ([#15](https://github.com/warp-ds/css/issues/15)) ([bef4217](https://github.com/warp-ds/css/commit/bef4217e5d5f67a749d66bea423a93230cb142f6))
+* **cc-button:** make text-xs override leading-[24] on small buttons ([#32](https://github.com/warp-ds/css/issues/32)) ([a500ce6](https://github.com/warp-ds/css/commit/a500ce6fd585cab9b2e7944c65a0f045a8f9ad7e))
+* certain buttons needs transparent background ([#24](https://github.com/warp-ds/css/issues/24)) ([abd3fca](https://github.com/warp-ds/css/commit/abd3fcad68ae425b501781386a2441155bb99e43))
+* Cleaned out old token files with duplicated or unused tokens ([#16](https://github.com/warp-ds/css/issues/16)) ([76a9e01](https://github.com/warp-ds/css/commit/76a9e0126a1621a5f950b9343814af99385c2de7))
+* **component-classes:** add bg-transparent to clickableNotToggle after removing it from resets ([#29](https://github.com/warp-ds/css/issues/29)) ([2b090e6](https://github.com/warp-ds/css/commit/2b090e6290b9ef7fc4ddc6d979b7033fceacbe76))
+* **component-classes:** export focusable class of clickable component ([#25](https://github.com/warp-ds/css/issues/25)) ([f33bc47](https://github.com/warp-ds/css/commit/f33bc47708d47129fb889098e718547e232938d2))
+* Map component tokens to semantic tokens ([#28](https://github.com/warp-ds/css/issues/28)) ([ba4d3f7](https://github.com/warp-ds/css/commit/ba4d3f7633db3c9281e0991a4af46c31e2cc7e51))
+* Remove any ending "-default" suffixes from the semantic tokens ([#12](https://github.com/warp-ds/css/issues/12)) ([1c6a862](https://github.com/warp-ds/css/commit/1c6a8624eff48d20cffd10a4bfe5adf878437f41))
+* remove button reset [WARP-80] ([f5802ad](https://github.com/warp-ds/css/commit/f5802ad449521f743ffd3d6efdec6639da03e5a6))
+* Remove old token for focus outlines ([#20](https://github.com/warp-ds/css/issues/20)) ([1d54f77](https://github.com/warp-ds/css/commit/1d54f775fda04952a827f9ca756484ac49614d8f))
+* remove private from package.json to be able to pubish to npm ([570dc2f](https://github.com/warp-ds/css/commit/570dc2f18eaf339f2368012f94ea985319310281))
+* **resets.js:** apply font-weight 700 to h1-h6 ([#7](https://github.com/warp-ds/css/issues/7)) ([1c9d86d](https://github.com/warp-ds/css/commit/1c9d86df4efc5d3b6c23d61b7cfd1dc945389b0c))
+* **resets.js:** divide styles for body and :host ([f1e21d4](https://github.com/warp-ds/css/commit/f1e21d479e84c9c1dacf7553182ee6de917af610))
+* **resets.js:** use semantic placeholder color token instead of hex ([#23](https://github.com/warp-ds/css/issues/23)) ([7759e6f](https://github.com/warp-ds/css/commit/7759e6f1978c5347d1f7092af57307ea8f77274c))
+* **resets:** publish only minified versions of css ([#34](https://github.com/warp-ds/css/issues/34)) ([1ac0a71](https://github.com/warp-ds/css/commit/1ac0a715b7b5ea7d2538422533ddf285fc3b578b))
+* toggle bugs ([#14](https://github.com/warp-ds/css/issues/14)) ([520ce74](https://github.com/warp-ds/css/commit/520ce743a4c87bce0dd2a9d8dd7d1318fa09d655))
+* **tokens:** process [@import](https://github.com/import) rule to inline font definitions in brand CSS files ([#21](https://github.com/warp-ds/css/issues/21)) ([ec5bb89](https://github.com/warp-ds/css/commit/ec5bb89ef790d740ffdde86c54abb4d7dca403b4))
+* **tokens:** remove inlined fonts from brand CSS ([643028f](https://github.com/warp-ds/css/commit/643028f63b9e147681715334e765aab2fe8d0a58))
+* **tokens:** restore deprecated foundation/background/outline color tokens ([#27](https://github.com/warp-ds/css/issues/27)) ([96b286a](https://github.com/warp-ds/css/commit/96b286a7c484cc7c2135d13f3809a615327f6527))
+* **tokens:** update radio, button pill, pageindicator, icon ([#35](https://github.com/warp-ds/css/issues/35)) ([1d3bfdb](https://github.com/warp-ds/css/commit/1d3bfdb0787eedcff16782099c5657138f607826))
+* transparent background in Clickable, Tabs, Buttons ([#31](https://github.com/warp-ds/css/issues/31)) ([25901bd](https://github.com/warp-ds/css/commit/25901bdf31c41be739241e25fec61d34b1c684e8))
+* trigger release of 1.0.0-alpha.32 ([9f64985](https://github.com/warp-ds/css/commit/9f6498552979669d55901e7c18012973490da051))
+* update types, add new for shortcuts and classes ([#17](https://github.com/warp-ds/css/issues/17)) ([095710e](https://github.com/warp-ds/css/commit/095710e8e94aa4bf797477793cee51416769c7fe))
+* Updated misc names and values of semantic tokens ([#22](https://github.com/warp-ds/css/issues/22)) ([7dec810](https://github.com/warp-ds/css/commit/7dec810d4fe3ab84409e92bccc6a4618cfb61160))
+
+
+### Features
+
+* add tokens and component classes ([#6](https://github.com/warp-ds/css/issues/6)) ([4e280f9](https://github.com/warp-ds/css/commit/4e280f93f53f1ad76ecfeef6464480e93ece3af0))
+* publish resets to eik ([#1](https://github.com/warp-ds/css/issues/1)) ([5165206](https://github.com/warp-ds/css/commit/516520606529c4a22ce69bcf2b5f3c8cb4cc202d))
+
 # [1.0.0-alpha.37](https://github.com/warp-ds/css/compare/v1.0.0-alpha.36...v1.0.0-alpha.37) (2023-08-10)
 
 
