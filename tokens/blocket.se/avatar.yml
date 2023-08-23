@@ -1,0 +1,7 @@
+---
+token: maps
+
+color:
+  avatar:
+    background: s-color-background-subtle
+    icon: s-color-icon-subtle

@@ -1,0 +1,30 @@
+---
+token: maps
+
+color:
+  buttongroup:
+    primary:
+      text:
+        _: s-color-text-link
+        selected: s-color-text-inverted
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        selected: s-color-background-primary
+      border:
+        _: s-color-border
+        selected: s-color-border-primary
+    utility:
+      text:
+        _: s-color-text
+        selected: s-color-text
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        selected: s-color-background-selected
+      border:
+        _: s-color-border
+        selected: s-color-selected
+shadow:
+  buttongroup:
+    _: shadow-s

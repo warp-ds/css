@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  tooltip:
+    text: s-color-text-inverted
+    background: gray-900
+shadow:
+  tooltip: shadow-m

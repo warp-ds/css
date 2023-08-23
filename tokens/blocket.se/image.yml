@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  image:
+    placeholder:
+      background: s-color-background-subtle
+      icon: s-color-icon-disabled

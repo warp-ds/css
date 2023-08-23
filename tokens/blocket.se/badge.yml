@@ -1,0 +1,29 @@
+---
+token: maps
+
+color:
+  badge:
+    neutral:
+      text: s-color-text
+      background: gray-100
+    info:
+      text: s-color-text
+      background: s-color-background-info-subtle
+    positive:
+      text: s-color-text
+      background: s-color-background-positive-subtle
+    warning:
+      text: s-color-text
+      background: s-color-background-warning-subtle
+    negative:
+      text: s-color-text
+      background: s-color-background-negative-subtle
+    disabled:
+      text: s-color-text
+      background: s-color-background-disabled
+    price:
+      text: s-color-text-inverted
+      background: s-color-background-inverted
+    notification:
+      text: s-color-text-notification
+      background: s-color-background-notification

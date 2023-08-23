@@ -1,0 +1,13 @@
+---
+token: maps
+
+color:
+  expandable:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background:
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+    icon: s-color-icon

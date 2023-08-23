@@ -1,0 +1,13 @@
+---
+token: maps
+
+color:
+  modal:
+    backdrop:
+      background: black
+    text:
+      title: s-color-text
+      paragraph: s-color-text
+    background: s-color-background
+shadow:
+  modal: shadow-m

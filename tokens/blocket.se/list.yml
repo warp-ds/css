@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  list:
+    text: s-color-text
+    bulleted:
+      icon: s-color-text
+    numbered:
+      icon: s-color-text
+    checked:
+      icon: s-color-icon-primary

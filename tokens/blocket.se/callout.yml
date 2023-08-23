@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  callout:
+    background: s-color-background-positive-subtle
+    border: s-color-border-positive-subtle
+    text: s-color-text

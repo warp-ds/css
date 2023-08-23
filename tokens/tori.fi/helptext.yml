@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  helptext:
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive

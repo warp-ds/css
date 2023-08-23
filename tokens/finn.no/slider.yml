@@ -1,0 +1,22 @@
+---
+token: maps
+
+color:
+  slider:
+    handle:
+      background:
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+        disabled: s-color-background-disabled
+      border:
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
+    track:
+      background:
+        _: blue-200
+        active: s-color-background-primary
+        disabled: s-color-background-disabled
+shadow:
+  slider: shadow-s

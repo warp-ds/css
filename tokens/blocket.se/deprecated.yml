@@ -1,0 +1,71 @@
+---
+token: maps
+
+color:
+  focused: aqua-400
+  background:
+    _: white
+    subtle: bluegray-50
+    interactive:
+      _: white
+      hover: bluegray-100
+      selected: bluegray-100
+  text:
+    _: gray-700
+    subtle: gray-500
+    placeholder: bluegray-300
+    inverted:
+      _: white
+      subtle: gray-50
+    link:
+      _: blue-600
+      hover: blue-800
+      visited: inherit
+
+s:
+  color:
+    background:
+      default: white
+      subtle:
+        default: bluegray-50
+      primary:
+        default: blue-600
+      positive:
+        default: green-50
+      negative:
+        default: red-50
+      warning:
+        default: yellow-50
+      info:
+        default: aqua-50
+
+    border:
+      default: bluegray-300
+      primary:
+        default: blue-600
+        subtle:
+          default: blue-300
+      positive:
+        default: green-600
+        subtle:
+          default: green-300
+      negative:
+        default: red-600
+        subtle:
+          default: red-300
+      warning:
+        default: yellow-600
+        subtle:
+          default: yellow-300
+      info:
+        default: aqua-600
+        subtle:
+          default: aqua-300
+
+    icon:
+      default: gray-500
+      subtle:
+        default: bluegray-500
+
+    text:
+      default: gray-700

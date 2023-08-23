@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  spinner:
+    border:
+      _: s-color-border
+      top: s-color-border-primary

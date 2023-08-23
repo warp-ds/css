@@ -1,0 +1,33 @@
+---
+token: maps
+
+color:
+  alert:
+    info:
+      text: s-color-text
+      background: s-color-background-info-subtle
+      border: s-color-border-info
+      subtle:
+        border: s-color-border-info-subtle
+      icon: s-color-icon-info
+    positive:
+      text: s-color-text
+      background: s-color-background-positive-subtle
+      border: s-color-border-positive
+      subtle:
+        border: s-color-border-positive-subtle
+      icon: s-color-icon-positive
+    warning:
+      text: s-color-text
+      background: s-color-background-warning-subtle
+      border: s-color-border-warning
+      subtle:
+        border: s-color-border-warning-subtle
+      icon: s-color-icon-warning
+    negative:
+      text: s-color-text
+      background: s-color-background-negative-subtle
+      border: s-color-border-negative
+      subtle:
+        border: s-color-border-negative-subtle
+      icon: s-color-icon-negative

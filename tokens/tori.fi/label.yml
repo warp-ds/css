@@ -1,0 +1,11 @@
+---
+token: maps
+
+color:
+  label:
+    text:
+      _: s-color-text
+      negative: s-color-text-negative
+    optional:
+      text: s-color-text
+    icon: s-color-icon

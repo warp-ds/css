@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "strictNullChecks": false,
+        "emitDeclarationOnly": true,
+        "declaration": true,
+        "outDir": "./",
+        "removeComments": false
+    },
+    "files": [
+        "./index.js",
+        "./shortcuts.js",
+        "./classes.js"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}

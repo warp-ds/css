@@ -1,0 +1,23 @@
+---
+token: maps
+
+color:
+  box:
+    info:
+      text: s-color-text
+      background:
+        _: s-color-background-info-subtle
+        hover: s-color-background-info-subtle-hover
+    neutral:
+      text: s-color-text
+      background:
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
+    bordered:
+      text: s-color-text
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+      border:
+        _: s-color-border
+        hover: s-color-border-hover

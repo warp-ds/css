@@ -1,0 +1,39 @@
+---
+token: maps
+
+color:
+  card:
+    background:
+      _: s-color-background
+      hover: s-color-background-hover
+      active: s-color-background-active
+      selected:
+        _: s-color-background-primary-subtle
+        hover: s-color-background-primary-subtle-hover
+    border:
+      _: transparent
+      hover: transparent
+      active: transparent
+      selected:
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
+    flat:
+      background:
+        _: s-color-background
+        hover: s-color-background-subtle-hover
+        active: s-color-background-active
+        selected:
+          _: s-color-background-selected
+          hover: s-color-background-selected-hover
+      border:
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+          active: s-color-background-primary-active
+shadow:
+  card:
+    _: shadow-s
+    hover: shadow-m

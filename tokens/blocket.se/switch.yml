@@ -1,0 +1,20 @@
+---
+token: maps
+
+color:
+  switch:
+    track:
+      background:
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+        disabled: s-color-background-disabled
+    handle:
+      background:
+        _: s-color-background
+        disabled: s-color-background-disabled
+shadow:
+  switch:
+    handle: shadow-s
