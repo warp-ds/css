@@ -58,7 +58,7 @@ color:
       text: s-color-text-inverted
       background: s-color-background-disabled
       quiet:
-        text: s-color-text-link-disabled
+        text: s-color-text-disabled
         border: s-color-border-disabled
     link:
       text: s-color-text-link
