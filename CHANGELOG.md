@@ -1,3 +1,10 @@
+## [1.0.1-next.1](https://github.com/warp-ds/css/compare/v1.0.0...v1.0.1-next.1) (2023-08-28)
+
+
+### Bug Fixes
+
+* **buttons.yml:** remove unused color-button-disabled-quiet- tokens ([#42](https://github.com/warp-ds/css/issues/42)) ([2537d92](https://github.com/warp-ds/css/commit/2537d925cbd436c51eefcf139ef6f1f7ed1dcd4d))
+
 # 1.0.0 (2023-08-23)
 
 
