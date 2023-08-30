@@ -1,3 +1,10 @@
+## [1.0.1-next.2](https://github.com/warp-ds/css/compare/v1.0.1-next.1...v1.0.1-next.2) (2023-08-30)
+
+
+### Bug Fixes
+
+* set cursor to default for non-interactive affixes ([#43](https://github.com/warp-ds/css/issues/43)) ([7b615bb](https://github.com/warp-ds/css/commit/7b615bb70442b2f281ba511b06cb7c3f067d20ed))
+
 ## [1.0.1-next.1](https://github.com/warp-ds/css/compare/v1.0.0...v1.0.1-next.1) (2023-08-28)
 
 
