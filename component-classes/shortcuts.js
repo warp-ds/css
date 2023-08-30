@@ -1,17 +1,18 @@
 import { button } from './index.js';
 
 export const buttons = {
-  'button': button.buttonSecondary,
-  'button--secondary': button.buttonSecondary,
-  'button--default': button.buttonSecondary,
-  'button--small': button.buttonSmall,
+  'button': button.secondary,
+  'button--secondary': button.secondary,
+  'button--default': button.secondary,
+  'button--small': button.small,
   'button--link': button.buttonLink,
-  'button--primary': button.buttonPrimary,
-  'button--cta': button.buttonPrimary,
-  'button--pill': button.buttonPill,
+  'button--primary': button.primary,
+  'button--cta': button.primary,
+  'button--pill': button.pill,
   'button--utility': button.buttonUtility,
   'button--utility-flat': button.buttonUtilityFlat,
   'button--destructive': button.buttonDestructive,
   'button--destructive-flat': button.buttonDestructiveFlat,
-  'button--flat': button.buttonFlat,
+  'button--flat': button.quiet,
+  'button--quiet': button.quiet,
 };

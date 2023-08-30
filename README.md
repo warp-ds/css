@@ -58,6 +58,7 @@ And shortcuts, such as:
 - button--destructive
 - button--destructive-flat
 - button--flat
+- button--quiet
 
 
 ### Tokens
