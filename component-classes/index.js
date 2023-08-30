@@ -357,14 +357,14 @@ export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: `${label.label} pb-0! text-xs!`,
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs i-text-$color-label-text',
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: `${label.label} pb-0! text-xs!`,
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs i-text-$color-label-text',
 };
 
 export const breadcrumbs = {
