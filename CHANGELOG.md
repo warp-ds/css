@@ -1,3 +1,10 @@
+## [1.0.1-next.3](https://github.com/warp-ds/css/compare/v1.0.1-next.2...v1.0.1-next.3) (2023-08-31)
+
+
+### Bug Fixes
+
+* new button classes and shortcuts ([#44](https://github.com/warp-ds/css/issues/44)) ([7fdafac](https://github.com/warp-ds/css/commit/7fdafac3a0cb1dece8abebb7fb45f3d88f37b0e1))
+
 ## [1.0.1-next.2](https://github.com/warp-ds/css/compare/v1.0.1-next.1...v1.0.1-next.2) (2023-08-30)
 
 
