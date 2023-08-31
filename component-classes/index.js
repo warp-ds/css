@@ -345,19 +345,6 @@ export const button = {
   linkSmall: `${buttonSizes.linkSmall} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
   linkAsButton: 'inline-block hover:no-underline',
   a11y: 'sr-only',
-
-  // Used in shortcuts only
-  small: 'px-16! py-6! text-xs!', // .button--small
-  quiet: 'py-12 px-16 border-0! font-bold rounded-8 text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-quiet-background! i-text-$color-button-quiet-text! hover:i-bg-$color-button-quiet-background-hover! active:i-bg-$color-button-quiet-background-active!', // .button--flat
-  buttonLink:
-  'leading-[24] max-w-max bg-transparent focusable ease-in-out inline i-text-$color-button-link-text! active:underline hover:underline', // .button--link
-  buttonUtility: 'px-[15px] py-[11px] font-bold text-m leading-[24] max-w-max! focusable justify-center transition-colors ease-in-out border rounded-4 i-text-$color-button-utility-text! hover:i-text-$color-button-utility-text i-bg-$color-button-utility-background! i-border-$color-button-utility-border! hover:i-bg-$color-button-utility-background! hover:i-border-$color-button-utility-border-hover! active:i-border-$color-button-utility-border-active!', // .button--utility
-  buttonUtilityFlat:
-  'py-12 px-16 border-0 font-bold text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-text-$color-button-utility-quiet-text! i-bg-$color-button-utility-quiet-background! hover:i-bg-$color-button-utility-quiet-background-hover! rounded-4', // .button--utility-flat
-  buttonDestructive:
-  'py-12 px-16 border-0 font-bold rounded-8 text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover! active:i-bg-$color-button-negative-background-active!', // .button--destructive
-  buttonDestructiveFlat:
-    'py-12 px-16 border-0 font-bold rounded-8 text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-negative-quiet-background! i-text-$color-button-negative-quiet-text! hover:i-bg-$color-button-negative-quiet-background-hover! active:i-bg-$color-button-negative-quiet-background-active!', // .button--destructive-flat
 };
 
 export const buttonGroup = {

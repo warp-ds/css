@@ -259,13 +259,6 @@ export namespace button {
     export const linkAsButton: string;
     const a11y_3: string;
     export { a11y_3 as a11y };
-    export const small: string;
-    export const quiet: string;
-    export const buttonLink: string;
-    export const buttonUtility: string;
-    export const buttonUtilityFlat: string;
-    export const buttonDestructive: string;
-    export const buttonDestructiveFlat: string;
 }
 export namespace buttonGroup {
     const wrapper_3: string;
