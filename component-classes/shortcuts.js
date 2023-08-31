@@ -14,5 +14,4 @@ export const buttons = {
   'button--destructive': button.buttonDestructive,
   'button--destructive-flat': button.buttonDestructiveFlat,
   'button--flat': button.quiet,
-  'button--quiet': button.quiet,
 };

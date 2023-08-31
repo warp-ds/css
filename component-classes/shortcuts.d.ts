@@ -12,5 +12,4 @@ export const buttons: {
     'button--destructive': string;
     'button--destructive-flat': string;
     'button--flat': string;
-    'button--quiet': string;
 };
