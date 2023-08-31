@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/warp-ds/css/compare/v1.0.0...v1.0.1) (2023-08-31)
+
+
+### Bug Fixes
+
+* **buttons.yml:** remove unused color-button-disabled-quiet- tokens ([#42](https://github.com/warp-ds/css/issues/42)) ([2537d92](https://github.com/warp-ds/css/commit/2537d925cbd436c51eefcf139ef6f1f7ed1dcd4d))
+* new button classes and shortcuts ([#44](https://github.com/warp-ds/css/issues/44)) ([7fdafac](https://github.com/warp-ds/css/commit/7fdafac3a0cb1dece8abebb7fb45f3d88f37b0e1))
+* set cursor to default for non-interactive affixes ([#43](https://github.com/warp-ds/css/issues/43)) ([7b615bb](https://github.com/warp-ds/css/commit/7b615bb70442b2f281ba511b06cb7c3f067d20ed))
+
 ## [1.0.1-next.3](https://github.com/warp-ds/css/compare/v1.0.1-next.2...v1.0.1-next.3) (2023-08-31)
 
 
