@@ -268,7 +268,7 @@ const buttonVariants = {
     `border-transparent animate-inprogress pointer-events-none ${buttonColors.loading}`, // .button--in-progress, a.button--in-progress:visited
   quiet:
     `border-0 rounded-8 ${buttonDefaultStyling}`,
-  utilityQuiet: `bg-transparent border-0 rounded-4 ${buttonDefaultStyling}`,
+  utilityQuiet: `border-0 rounded-4 ${buttonDefaultStyling}`,
   negativeQuiet: `border-0 rounded-8 ${buttonDefaultStyling}`,
   isDisabled:
     `font-bold max-w-max justify-center transition-colors ease-in-out cursor-default pointer-events-none ${buttonColors.disabled}`, // .button:disabled, .button--is-disabled
@@ -353,7 +353,7 @@ export const button = {
   'leading-[24] max-w-max bg-transparent focusable ease-in-out inline i-text-$color-button-link-text! active:underline hover:underline', // .button--link
   buttonUtility: 'px-[15px] py-[11px] font-bold text-m leading-[24] max-w-max! focusable justify-center transition-colors ease-in-out border rounded-4 i-text-$color-button-utility-text! hover:i-text-$color-button-utility-text i-bg-$color-button-utility-background! i-border-$color-button-utility-border! hover:i-bg-$color-button-utility-background! hover:i-border-$color-button-utility-border-hover! active:i-border-$color-button-utility-border-active!', // .button--utility
   buttonUtilityFlat:
-  'py-12 px-16 bg-transparent border-0 font-bold text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-text-$color-button-utility-quiet-text! i-bg-$color-button-utility-quiet-background! hover:i-bg-$color-button-utility-quiet-background-hover! rounded-4', // .button--utility-flat
+  'py-12 px-16 border-0 font-bold text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-text-$color-button-utility-quiet-text! i-bg-$color-button-utility-quiet-background! hover:i-bg-$color-button-utility-quiet-background-hover! rounded-4', // .button--utility-flat
   buttonDestructive:
   'py-12 px-16 border-0 font-bold rounded-8 text-m leading-[24] max-w-max focusable justify-center transition-colors ease-in-out i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover! active:i-bg-$color-button-negative-background-active!', // .button--destructive
   buttonDestructiveFlat:
