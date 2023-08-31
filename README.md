@@ -11,9 +11,9 @@ The CSS files should be used directly from Eik. This is because we can alias rel
 
 We publish 3 css files.
 
-- Resets <link href="https://assets.finn.no/pkg/@warp-ds/css/[VERSION]/resets.css" rel="stylesheet" />
-- Components css <link href="https://assets.finn.no/pkg/@warp-ds/css/[VERSION]/components.css" rel="stylesheet" />
-- Brand css with tokens <link href="https://assets.finn.no/pkg/@warp-ds/css/[VERSION]/tokens/[BRANDNAME e.g. tori-fi].css" rel="stylesheet" />  
+- Resets: `https://assets.finn.no/pkg/@warp-ds/css/v1/resets.css`
+- Components css: `https://assets.finn.no/pkg/@warp-ds/css/v1/components.css`
+- Brand css with tokens: `https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/[BRANDNAME e.g. tori-fi].css`
 
 ## Usage (npm)
 
