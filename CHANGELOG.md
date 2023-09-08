@@ -1,3 +1,10 @@
+# [1.1.0-next.1](https://github.com/warp-ds/css/compare/v1.0.1...v1.1.0-next.1) (2023-09-08)
+
+
+### Features
+
+* Add component-classes for Badge ([#48](https://github.com/warp-ds/css/issues/48)) ([92af46a](https://github.com/warp-ds/css/commit/92af46af5b0a233f611fe7183df72abf13d84b64))
+
 ## [1.0.1](https://github.com/warp-ds/css/compare/v1.0.0...v1.0.1) (2023-08-31)
 
 
