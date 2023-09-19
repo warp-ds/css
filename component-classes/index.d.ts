@@ -282,7 +282,7 @@ export namespace button {
     export const linkAsButton: string;
     const a11y_3: string;
     export { a11y_3 as a11y };
-   export const fullWidth: string;
+    export const fullWidth: string;
 }
 export namespace buttonGroup {
     const wrapper_3: string;

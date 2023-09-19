@@ -363,6 +363,7 @@ export const button = {
   linkSmall: `${buttonSizes.linkSmall} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
   linkAsButton: 'inline-block hover:no-underline',
   a11y: 'sr-only',
+  fullWidth: "!block !w-full !max-w-full",
 };
 
 export const buttonGroup = {
