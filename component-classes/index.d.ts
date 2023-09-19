@@ -283,6 +283,7 @@ export namespace button {
     const a11y_3: string;
     export { a11y_3 as a11y };
     export const fullWidth: string;
+    export const contentWidth: string;
 }
 export namespace buttonGroup {
     const wrapper_3: string;
