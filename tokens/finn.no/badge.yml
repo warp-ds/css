@@ -5,19 +5,19 @@ color:
   badge:
     neutral:
       text: s-color-text
-      background: gray-100
+      background: bluegray-100
     info:
       text: s-color-text
-      background: s-color-background-info-subtle
+      background: aqua-100
     positive:
       text: s-color-text
-      background: s-color-background-positive-subtle
+      background: green-100
     warning:
       text: s-color-text
-      background: s-color-background-warning-subtle
+      background: yellow-100
     negative:
       text: s-color-text
-      background: s-color-background-negative-subtle
+      background: red-100
     disabled:
       text: s-color-text
       background: s-color-background-disabled
