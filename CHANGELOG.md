@@ -1,3 +1,10 @@
+# [1.1.0-next.2](https://github.com/warp-ds/css/compare/v1.1.0-next.1...v1.1.0-next.2) (2023-09-19)
+
+
+### Bug Fixes
+
+* Updated background colors for badge variants ([#49](https://github.com/warp-ds/css/issues/49)) ([7016368](https://github.com/warp-ds/css/commit/701636837987848d704bc6f42107f64e852a470a))
+
 # [1.1.0-next.1](https://github.com/warp-ds/css/compare/v1.0.1...v1.1.0-next.1) (2023-09-08)
 
 
