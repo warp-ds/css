@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/warp-ds/css/compare/v1.0.1...v1.1.0) (2023-09-20)
+
+
+### Bug Fixes
+
+* Add fullWidth button prop ([#51](https://github.com/warp-ds/css/issues/51)) ([a40ed41](https://github.com/warp-ds/css/commit/a40ed41dbebef2470458ca361f1c078347d5575f))
+* Update warp-ds/uno to v1.1.0 ([#54](https://github.com/warp-ds/css/issues/54)) ([782a766](https://github.com/warp-ds/css/commit/782a7662e76108ebb91aed4657a41e7207fa1772))
+* Updated background colors for badge variants ([#49](https://github.com/warp-ds/css/issues/49)) ([7016368](https://github.com/warp-ds/css/commit/701636837987848d704bc6f42107f64e852a470a))
+
+
+### Features
+
+* Add component-classes for Badge ([#48](https://github.com/warp-ds/css/issues/48)) ([92af46a](https://github.com/warp-ds/css/commit/92af46af5b0a233f611fe7183df72abf13d84b64))
+
 # [1.1.0-next.4](https://github.com/warp-ds/css/compare/v1.1.0-next.3...v1.1.0-next.4) (2023-09-20)
 
 
