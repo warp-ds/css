@@ -33,6 +33,27 @@ export namespace ribbon {
     export const roundedTopRightBottomLeft: string;
     export const roundedTopLeftBottomRight: string;
 }
+export namespace badge {
+    const base_2: string;
+    export { base_2 as base };
+    const neutral_1: string;
+    export { neutral_1 as neutral };
+    const info_1: string;
+    export { info_1 as info };
+    export const positive: string;
+    const warning_1: string;
+    export { warning_1 as warning };
+    export const negative: string;
+    const disabled_1: string;
+    export { disabled_1 as disabled };
+    export const price: string;
+    export const notification: string;
+    export const positionBase: string;
+    export const positionTL: string;
+    export const positionTR: string;
+    export const positionBR: string;
+    export const positionBL: string;
+}
 export namespace slider {
     const wrapper_1: string;
     export { wrapper_1 as wrapper };
@@ -47,10 +68,10 @@ export namespace slider {
 export namespace box {
     export const box: string;
     export const bleed: string;
-    const info_1: string;
-    export { info_1 as info };
-    const neutral_1: string;
-    export { neutral_1 as neutral };
+    const info_2: string;
+    export { info_2 as info };
+    const neutral_2: string;
+    export { neutral_2 as neutral };
     export const bordered: string;
     export const infoClickable: string;
     export const neutralClickable: string;
@@ -137,10 +158,12 @@ export namespace toast {
     const wrapper_2: string;
     export { wrapper_2 as wrapper };
     export const toast: string;
-    export const positive: string;
-    const warning_1: string;
-    export { warning_1 as warning };
-    export const negative: string;
+    const positive_1: string;
+    export { positive_1 as positive };
+    const warning_2: string;
+    export { warning_2 as warning };
+    const negative_1: string;
+    export { negative_1 as negative };
     export const icon: string;
     export const iconPositive: string;
     export const iconWarning: string;
@@ -236,8 +259,8 @@ export namespace button {
     export const utilitySmallLoading: string;
     export const utilityQuietLoading: string;
     export const utilitySmallQuietLoading: string;
-    const negative_1: string;
-    export { negative_1 as negative };
+    const negative_2: string;
+    export { negative_2 as negative };
     export const negativeDisabled: string;
     export const negativeQuiet: string;
     export const negativeQuietDisabled: string;
@@ -259,6 +282,8 @@ export namespace button {
     export const linkAsButton: string;
     const a11y_3: string;
     export { a11y_3 as a11y };
+    export const fullWidth: string;
+    export const contentWidth: string;
 }
 export namespace buttonGroup {
     const wrapper_3: string;
@@ -306,25 +331,25 @@ export namespace alert {
     export { title_2 as title };
     const icon_2: string;
     export { icon_2 as icon };
-    const negative_2: string;
-    export { negative_2 as negative };
+    const negative_3: string;
+    export { negative_3 as negative };
     export const negativeIcon: string;
-    const positive_1: string;
-    export { positive_1 as positive };
+    const positive_2: string;
+    export { positive_2 as positive };
     export const positiveIcon: string;
-    const warning_2: string;
-    export { warning_2 as warning };
+    const warning_3: string;
+    export { warning_3 as warning };
     export const warningIcon: string;
-    const info_2: string;
-    export { info_2 as info };
+    const info_3: string;
+    export { info_3 as info };
     export const infoIcon: string;
 }
 export namespace input {
     const _default: string;
     export { _default as default };
     export const textArea: string;
-    const disabled_1: string;
-    export { disabled_1 as disabled };
+    const disabled_2: string;
+    export { disabled_2 as disabled };
     export const invalid: string;
     export const readOnly: string;
     export const placeholder: string;
@@ -336,8 +361,8 @@ export namespace input {
 export namespace select {
     const _default_1: string;
     export { _default_1 as default };
-    const disabled_2: string;
-    export { disabled_2 as disabled };
+    const disabled_3: string;
+    export { disabled_3 as disabled };
     const invalid_1: string;
     export { invalid_1 as invalid };
     const readOnly_1: string;
