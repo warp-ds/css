@@ -238,7 +238,7 @@ export const expandable = {
   titleType: 'h4',
 };
 
-const buttonDefaultStyling = 'font-bold max-w-max focusable justify-center transition-colors ease-in-out';
+const buttonDefaultStyling = 'font-bold focusable justify-center transition-colors ease-in-out';
 
 const buttonColors = {
   primary: 'i-text-$color-button-primary-text hover:i-text-$color-button-primary-text i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active',
@@ -261,7 +261,7 @@ const buttonTypes = {
   negative: `border-0 rounded-8 ${buttonDefaultStyling}`,
   pill:
   `p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding ${buttonDefaultStyling}`,
-  link: `max-w-max bg-transparent focusable ease-in-out inline active:underline hover:underline ${buttonColors.link}`,
+  link: `bg-transparent focusable ease-in-out inline active:underline hover:underline ${buttonColors.link}`,
 };
 
 const buttonSizes = {
@@ -289,7 +289,7 @@ const buttonVariants = {
   utilityQuiet: `border-0 rounded-4 ${buttonDefaultStyling}`,
   negativeQuiet: `border-0 rounded-8 ${buttonDefaultStyling}`,
   isDisabled:
-    `font-bold max-w-max justify-center transition-colors ease-in-out cursor-default pointer-events-none ${buttonColors.disabled}`, // .button:disabled, .button--is-disabled
+    `font-bold justify-center transition-colors ease-in-out cursor-default pointer-events-none ${buttonColors.disabled}`, // .button:disabled, .button--is-disabled
 };
 
 export const button = {
@@ -363,6 +363,8 @@ export const button = {
   linkSmall: `${buttonSizes.linkSmall} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
   linkAsButton: 'inline-block hover:no-underline',
   a11y: 'sr-only',
+  fullWidth: "w-full max-w-full",
+  contentWidth: "max-w-max",
 };
 
 export const buttonGroup = {
