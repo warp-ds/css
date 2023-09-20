@@ -1,3 +1,17 @@
+# [1.1.0-next.3](https://github.com/warp-ds/css/compare/v1.1.0-next.2...v1.1.0-next.3) (2023-09-20)
+
+
+### Bug Fixes
+
+* Update warp-ds/uno to v1.1.0 ([#54](https://github.com/warp-ds/css/issues/54)) ([782a766](https://github.com/warp-ds/css/commit/782a7662e76108ebb91aed4657a41e7207fa1772))
+
+# [1.1.0-next.2](https://github.com/warp-ds/css/compare/v1.1.0-next.1...v1.1.0-next.2) (2023-09-19)
+
+
+### Bug Fixes
+
+* Updated background colors for badge variants ([#49](https://github.com/warp-ds/css/issues/49)) ([7016368](https://github.com/warp-ds/css/commit/701636837987848d704bc6f42107f64e852a470a))
+
 # [1.1.0-next.1](https://github.com/warp-ds/css/compare/v1.0.1...v1.1.0-next.1) (2023-09-08)
 
 
