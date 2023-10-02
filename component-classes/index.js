@@ -431,7 +431,7 @@ export const input = {
   disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
   invalid: 'i-border-$color-input-border-negative i-text-$color-input-text-negative!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
-  placeholder: 'placeholder:i-text-$color-input-text-placeholder',
+  placeholder: 'placeholder:s-text-placeholder',
   wrapper: 'relative',
   suffix: 'pr-40',
   prefix: 'pl-40',
