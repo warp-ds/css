@@ -86,6 +86,7 @@ export namespace pill {
     const labelWithoutClose: string;
     const labelWithClose: string;
     const close: string;
+    const closeX: string;
     const a11y: string;
 }
 export namespace step {
