@@ -41,10 +41,10 @@
   ],
   "dependencies": {
     "@warp-ds/fonts": "1.1.0",
-    "@warp-ds/tokenizer": "^0.0.2",
-    "@warp-ds/uno": "^1.1.0"
+    "@warp-ds/tokenizer": "^0.0.2"
   },
   "devDependencies": {
+    "@warp-ds/uno": "^1.1.0",
     "@eik/cli": "^2.0.22",
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/exec": "^6.0.3",

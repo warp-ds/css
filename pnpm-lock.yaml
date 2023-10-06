@@ -11,9 +11,6 @@ dependencies:
   '@warp-ds/tokenizer':
     specifier: ^0.0.2
     version: 0.0.2
-  '@warp-ds/uno':
-    specifier: ^1.1.0
-    version: 1.1.0
 
 devDependencies:
   '@eik/cli':
@@ -34,6 +31,9 @@ devDependencies:
   '@warp-ds/eslint-config':
     specifier: ^0.0.1
     version: 0.0.1(eslint@8.43.0)
+  '@warp-ds/uno':
+    specifier: ^1.1.0
+    version: 1.1.0
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: 3.3.0
@@ -1089,7 +1089,7 @@ packages:
 
   /@unocss/core@0.52.7:
     resolution: {integrity: sha512-dZonrlfu33SkUMsZXlsyYSM79tr2nLer/hBEU2ZaemRik2KchxIUNlZV6kX1f1k3m+gEtVQOyx1MImpgLS8PWg==}
-    dev: false
+    dev: true
 
   /@unocss/core@0.53.1:
     resolution: {integrity: sha512-6CUaOMeQyoPIgMuSboX9yGywiCumhoYTPk6uMFhgD3vZmIRCZMwN9RFDLB+s2+NOlnBU6aQsJLONcUapZb/49g==}
@@ -1097,13 +1097,13 @@ packages:
 
   /@unocss/core@0.55.2:
     resolution: {integrity: sha512-ZLEES8RDgWoK/vttUzl3PM2bZqL3HvhLgj8xdDa09Xw+JiTlR4c66s+hLn52oCoJTnT9lGsD2j7tTGN9ToSiTA==}
-    dev: false
+    dev: true
 
   /@unocss/extractor-arbitrary-variants@0.52.7:
     resolution: {integrity: sha512-nJ4iE7nIRpoOIQfD8S58yG4qJd6AhVPEfEOf7ksX1u8xLf71rrBIojwraRXvv7aPqNdZiWvXdh/znpA/QC5b9w==}
     dependencies:
       '@unocss/core': 0.52.7
-    dev: false
+    dev: true
 
   /@unocss/extractor-arbitrary-variants@0.53.1:
     resolution: {integrity: sha512-8/+R8ctMwIpUQk5NMDgxCJInWqn7LjzmvgnT2x+LFkCA3F+etU9FNDMV5eg3feNdsHSWsJlKnPlS+cjGseSLiA==}
@@ -1153,7 +1153,7 @@ packages:
     dependencies:
       '@unocss/core': 0.52.7
       '@unocss/extractor-arbitrary-variants': 0.52.7
-    dev: false
+    dev: true
 
   /@unocss/preset-mini@0.53.1:
     resolution: {integrity: sha512-tHfsAXmu82/0BMktgqaq6WLOU5FdLdK/iJvS38eQLZqZlQ2VtCtNybf+bqlNNr0cr8J4ju2iwp7n61pqIvcmOw==}
@@ -1280,7 +1280,7 @@ packages:
     dependencies:
       '@unocss/core': 0.55.2
       '@unocss/preset-mini': 0.52.7
-    dev: false
+    dev: true
 
   /JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
