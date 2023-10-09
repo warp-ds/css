@@ -1,9 +1,9 @@
 /* eslint-env node */
-import fs from 'node:fs';
 import dts from 'vite-plugin-dts';
 import { presetWarp } from '@warp-ds/uno';
 import uno from 'unocss/vite';
 import { classes } from './classes.js';
+import updateClassesToPurge from './scripts/updateClassesToPurge.js';
 
 export default ({ command }) => ({
   plugins: [
@@ -18,13 +18,9 @@ export default ({ command }) => ({
     }),
     {
       name: 'build-script',
-      buildStart(options) {
+      buildStart() {
         if (command === 'build') {
-          fs.writeFileSync(
-            './classesToPurge.json',
-            JSON.stringify(classes),
-            'utf-8',
-          );
+          updateClassesToPurge();
         }
       },
     },

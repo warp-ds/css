@@ -10,8 +10,7 @@
     "build:tokens": "cd tokens && node index.js",
     "build:resets": "cd resets && node index.js",
     "lint:fix": "eslint . --fix",
-    "lint:check": "eslint .",
-    "prepare": "husky install"
+    "lint:check": "eslint ."
   },
   "type": "module",
   "exports": {
