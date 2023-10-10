@@ -1,3 +1,10 @@
+## [1.1.1-next.1](https://github.com/warp-ds/css/compare/v1.1.0...v1.1.1-next.1) (2023-10-10)
+
+
+### Bug Fixes
+
+* skip resets in components.css ([#59](https://github.com/warp-ds/css/issues/59)) ([6bf588d](https://github.com/warp-ds/css/commit/6bf588d2cf488da6d69c0f3336d4cabcf9fe0de7))
+
 # [1.1.0](https://github.com/warp-ds/css/compare/v1.0.1...v1.1.0) (2023-09-20)
 
 
