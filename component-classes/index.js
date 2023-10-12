@@ -93,7 +93,7 @@ export const pill = {
   label: 'pl-12 py-8 rounded-l-full',
   labelWithoutClose: 'pr-12 rounded-r-full',
   labelWithClose: 'pr-2',
-  close: 'pr-12 pl-4 py-10 rounded-r-full',
+  close: 'pr-12 pl-4 pt-4 pb-6 rounded-r-full text-m!',
   a11y: 'sr-only',
 };
 
