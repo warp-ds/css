@@ -1,3 +1,10 @@
+## [1.1.1-next.4](https://github.com/warp-ds/css/compare/v1.1.1-next.3...v1.1.1-next.4) (2023-10-12)
+
+
+### Bug Fixes
+
+* **button:** set p-0 on any button of type link ([#65](https://github.com/warp-ds/css/issues/65)) ([ae8ea97](https://github.com/warp-ds/css/commit/ae8ea97b398d8ce9bd30a431692be5e0e493c39b))
+
 ## [1.1.1-next.3](https://github.com/warp-ds/css/compare/v1.1.1-next.2...v1.1.1-next.3) (2023-10-12)
 
 
