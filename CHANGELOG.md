@@ -1,3 +1,13 @@
+## [1.1.1](https://github.com/warp-ds/css/compare/v1.1.0...v1.1.1) (2023-10-12)
+
+
+### Bug Fixes
+
+* adjust padding + font-size for ccPill.close ([#58](https://github.com/warp-ds/css/issues/58)) ([ead8c0a](https://github.com/warp-ds/css/commit/ead8c0a30b6f3971d4937c9ed7fd47f016b1fc65))
+* **alert:** override font-size/line-height of h3 title in Alert ([#64](https://github.com/warp-ds/css/issues/64)) ([fc8eccd](https://github.com/warp-ds/css/commit/fc8eccdbba9ffa6b140e6d4d91e9d385f2a29cbd))
+* **button:** set p-0 on any button of type link ([#65](https://github.com/warp-ds/css/issues/65)) ([ae8ea97](https://github.com/warp-ds/css/commit/ae8ea97b398d8ce9bd30a431692be5e0e493c39b))
+* skip resets in components.css ([#59](https://github.com/warp-ds/css/issues/59)) ([6bf588d](https://github.com/warp-ds/css/commit/6bf588d2cf488da6d69c0f3336d4cabcf9fe0de7))
+
 ## [1.1.1-next.4](https://github.com/warp-ds/css/compare/v1.1.1-next.3...v1.1.1-next.4) (2023-10-12)
 
 
