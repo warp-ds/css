@@ -273,7 +273,7 @@ const buttonSizes = {
   smallUtility: 'py-[7px] px-[15px]',
   pill: 'min-h-[44px] min-w-[44px]',
   pillSmall: 'min-h-32 min-w-32',
-  linkSmall: 'p-0',
+  link: 'p-0',
 };
 
 const buttonTextSizes = {
@@ -359,8 +359,8 @@ export const button = {
   pillLoading: `${buttonSizes.pill} ${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonVariants.inProgress}`,
   pillSmallLoading: `${buttonSizes.pillSmall} ${buttonTextSizes.xsmall} ${buttonTypes.pill} ${buttonVariants.inProgress}`,
 
-  link: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.link}`,
-  linkSmall: `${buttonSizes.linkSmall} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
+  link: `${buttonSizes.link} ${buttonTextSizes.medium} ${buttonTypes.link}`,
+  linkSmall: `${buttonSizes.link} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
   linkAsButton: 'inline-block hover:no-underline',
   a11y: 'sr-only',
   fullWidth: "w-full max-w-full",
