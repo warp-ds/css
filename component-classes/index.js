@@ -413,7 +413,7 @@ export const alert = {
   alert: "flex p-16 border border-l-4 rounded-4",
   willChangeHeight: "will-change-height",
   textWrapper: "last-child:mb-0 text-s",
-  title: "font-bold",
+  title: "text-s",
   icon: "w-16 mr-8 min-w-16",
   negative:  "i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border",
   negativeIcon: "i-text-$color-alert-negative-icon",
