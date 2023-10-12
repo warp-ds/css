@@ -1,3 +1,10 @@
+## [1.1.1-next.3](https://github.com/warp-ds/css/compare/v1.1.1-next.2...v1.1.1-next.3) (2023-10-12)
+
+
+### Bug Fixes
+
+* adjust padding + font-size for ccPill.close ([#58](https://github.com/warp-ds/css/issues/58)) ([ead8c0a](https://github.com/warp-ds/css/commit/ead8c0a30b6f3971d4937c9ed7fd47f016b1fc65))
+
 ## [1.1.1-next.2](https://github.com/warp-ds/css/compare/v1.1.1-next.1...v1.1.1-next.2) (2023-10-12)
 
 
