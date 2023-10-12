@@ -1,3 +1,10 @@
+## [1.1.1-next.2](https://github.com/warp-ds/css/compare/v1.1.1-next.1...v1.1.1-next.2) (2023-10-12)
+
+
+### Bug Fixes
+
+* **alert:** override font-size/line-height of h3 title in Alert ([#64](https://github.com/warp-ds/css/issues/64)) ([fc8eccd](https://github.com/warp-ds/css/commit/fc8eccdbba9ffa6b140e6d4d91e9d385f2a29cbd))
+
 ## [1.1.1-next.1](https://github.com/warp-ds/css/compare/v1.1.0...v1.1.1-next.1) (2023-10-10)
 
 
