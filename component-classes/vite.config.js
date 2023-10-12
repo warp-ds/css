@@ -1,5 +1,5 @@
 /* eslint-env node */
-import dts from "vite-plugin-dts";
+import dts from 'vite-plugin-dts';
 import { presetWarp } from '@warp-ds/uno';
 import uno from 'unocss/vite';
 import { classes } from './classes.js';
@@ -7,7 +7,7 @@ import { classes } from './classes.js';
 export default () => ({
   plugins: [
     uno({
-      presets: [presetWarp({ skipPreflight: true })],
+      presets: [presetWarp({ skipResets: true })],
       mode: 'dist-chunk',
       safelist: classes,
     }),
