@@ -8,7 +8,7 @@ import updateClassesToPurge from './scripts/updateClassesToPurge.js';
 export default ({ command }) => ({
   plugins: [
     uno({
-      presets: [presetWarp({ skipPreflight: true })],
+      presets: [presetWarp({ skipResets: true })],
       mode: 'dist-chunk',
       safelist: classes,
     }),
