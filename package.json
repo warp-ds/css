@@ -39,7 +39,6 @@
     "./component-classes/index.d.ts"
   ],
   "dependencies": {
-    "@warp-ds/fonts": "1.1.0",
     "@warp-ds/tokenizer": "^0.0.2",
     "@warp-ds/uno": "^1.1.0"
   },
