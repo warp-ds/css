@@ -21,7 +21,7 @@ export default () => ({
     rollupOptions: {
       output: {
         dir: '../dist',
-        assetFileNames: `components.[ext]`,
+        assetFileNames: `warp.[ext]`,
       },
     },
   },
