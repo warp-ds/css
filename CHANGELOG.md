@@ -1,3 +1,22 @@
+# [2.0.0-v2.1](https://github.com/warp-ds/css/compare/v1.1.1...v2.0.0-v2.1) (2023-10-19)
+
+
+### Bug Fixes
+
+* add v2 to releaserc ([98b3d5e](https://github.com/warp-ds/css/commit/98b3d5e1d9a0d012258e93b5e804b2a0159bc837))
+* **button:** add text-center to buttonAsLink ([#67](https://github.com/warp-ds/css/issues/67)) ([a67b6a4](https://github.com/warp-ds/css/commit/a67b6a416e4cb385daf56c811db181e30dfeb591))
+* release of v2 ([#70](https://github.com/warp-ds/css/issues/70)) ([25e68be](https://github.com/warp-ds/css/commit/25e68beeb85e085bc2bb20e5e32ff93fb6f63140))
+
+
+### Features
+
+* add classes to purge as json to a separate file and rename components.css to warp.css ([#56](https://github.com/warp-ds/css/issues/56)) ([2250467](https://github.com/warp-ds/css/commit/22504678f5a44afd9a1262e2e7f855ba9851c46e))
+
+
+### BREAKING CHANGES
+
+* we rename components.css to warp.css as it can be used without using any components
+
 ## [1.1.2-next.1](https://github.com/warp-ds/css/compare/v1.1.1...v1.1.2-next.1) (2023-10-13)
 
 
