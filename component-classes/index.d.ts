@@ -2,6 +2,7 @@ export namespace attention {
     const base: string;
     const tooltip: string;
     const callout: string;
+    const highlight: string;
     const popover: string;
     const arrowBase: string;
     const arrowDirectionLeft: string;
@@ -11,6 +12,7 @@ export namespace attention {
     const arrowTooltip: string;
     const arrowCallout: string;
     const arrowPopover: string;
+    const arrowHighlight: string;
     const content: string;
     const notCallout: string;
 }
