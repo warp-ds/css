@@ -1,3 +1,10 @@
+## [1.1.2-next.1](https://github.com/warp-ds/css/compare/v1.1.1...v1.1.2-next.1) (2023-10-13)
+
+
+### Bug Fixes
+
+* **button:** add text-center to buttonAsLink ([#67](https://github.com/warp-ds/css/issues/67)) ([a67b6a4](https://github.com/warp-ds/css/commit/a67b6a416e4cb385daf56c811db181e30dfeb591))
+
 ## [1.1.1](https://github.com/warp-ds/css/compare/v1.1.0...v1.1.1) (2023-10-12)
 
 
