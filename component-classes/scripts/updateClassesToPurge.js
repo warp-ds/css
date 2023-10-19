@@ -1,11 +1,18 @@
 import fs from 'node:fs';
+import drnm from 'drnm';
+import path from 'node:path';
 import { classes } from '../classes.js';
 
-export default () => {
-  fs.writeFileSync('./classesToPurge.json', JSON.stringify(classes), 'utf-8');
+const __dirname = drnm(import.meta.url);
+const outPath = path.join(__dirname, '../../dist');
+fs.mkdirSync(outPath, { recursive: true });
+
+function updateClassesToPurge() {
   fs.writeFileSync(
-    '../dist/classesToPurge.json',
+    `${outPath}/classesToPurge.json`,
     JSON.stringify(classes),
     'utf-8'
   );
-};
+}
+
+updateClassesToPurge();
