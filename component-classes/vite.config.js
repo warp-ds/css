@@ -16,21 +16,13 @@ export default ({ command }) => ({
       insertTypesEntry: true,
       outputDir: '../dist',
     }),
-    {
-      name: 'build-script',
-      buildStart() {
-        if (command === 'build') {
-          updateClassesToPurge();
-        }
-      },
-    },
   ],
   build: {
     emptyOutDir: false,
     rollupOptions: {
       output: {
         dir: '../dist',
-        assetFileNames: `components.[ext]`,
+        assetFileNames: `warp.[ext]`,
       },
     },
   },

@@ -6,7 +6,7 @@
     "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc",
     "commit": "cz",
     "semantic-release": "semantic-release",
-    "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build",
+    "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build && node ./scripts/updateClassesToPurge.js",
     "build:tokens": "cd tokens && node index.js",
     "build:resets": "cd resets && node index.js",
     "lint:fix": "eslint . --fix",
@@ -15,7 +15,7 @@
   "type": "module",
   "exports": {
     "./component-classes": "./component-classes/index.js",
-    "./components": "./dist/components.css",
+    "./warp": "./dist/warp.css",
     "./component-classes/classes": "./component-classes/classes.js",
     "./component-classes/shortcuts": "./component-classes/shortcuts.js"
   },
