@@ -6,6 +6,7 @@ on:
       - main
       - next
       - beta
+      - v2
 jobs:
   deploy:
     runs-on: ubuntu-latest
