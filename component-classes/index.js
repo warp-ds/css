@@ -361,7 +361,7 @@ export const button = {
 
   link: `${buttonSizes.link} ${buttonTextSizes.medium} ${buttonTypes.link}`,
   linkSmall: `${buttonSizes.link} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
-  linkAsButton: 'inline-block hover:no-underline',
+  linkAsButton: 'inline-block hover:no-underline text-center',
   a11y: 'sr-only',
   fullWidth: "w-full max-w-full",
   contentWidth: "max-w-max",
