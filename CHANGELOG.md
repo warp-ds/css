@@ -1,3 +1,10 @@
+## [1.1.3-next.1](https://github.com/warp-ds/css/compare/v1.1.2...v1.1.3-next.1) (2023-10-23)
+
+
+### Bug Fixes
+
+* adjust chevron animation ([#72](https://github.com/warp-ds/css/issues/72)) ([51e0cd1](https://github.com/warp-ds/css/commit/51e0cd1d26f52a627c75e32609c61eecf19a3360))
+
 ## [1.1.2](https://github.com/warp-ds/css/compare/v1.1.1...v1.1.2) (2023-10-20)
 
 
