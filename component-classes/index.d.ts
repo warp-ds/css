@@ -211,7 +211,9 @@ export namespace expandable {
     export const chevron: string;
     export const chevronNonBox: string;
     export const chevronBox: string;
-    export const chevronExpanded: string;
+    export const chevronTransform: string;
+    export const chevronExpand: string;
+    export const chevronCollapse: string;
     export const expansion: string;
     export const expansionNotExpanded: string;
     const button_1: string;
