@@ -219,17 +219,17 @@ export const expandable = {
 const buttonDefaultStyling = 'font-bold focusable justify-center transition-colors ease-in-out';
 
 const buttonColors = {
-  primary: 'i-text-$color-button-primary-text hover:i-text-$color-button-primary-text i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active',
-  secondary: 'i-text-$color-button-secondary-text hover:i-text-$color-button-secondary-text i-border-$color-button-secondary-border i-bg-$color-button-secondary-background hover:i-bg-$color-button-secondary-background-hover hover:i-border-$color-button-secondary-border-hover active:i-bg-$color-button-secondary-background-active',
-  utility: 'i-text-$color-button-utility-text hover:i-text-$color-button-utility-text i-bg-$color-button-utility-background i-border-$color-button-utility-border hover:i-bg-$color-button-utility-background hover:i-border-$color-button-utility-border-hover active:i-border-$color-button-utility-border-active',
-  destructive: 'i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover active:i-bg-$color-button-negative-background-active',
-  pill: 'i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active',
-  disabled: 'i-text-$color-button-disabled-text i-bg-$color-button-disabled-background',
-  quiet: 'i-bg-$color-button-quiet-background i-text-$color-button-quiet-text hover:i-bg-$color-button-quiet-background-hover active:i-bg-$color-button-quiet-background-active',
-  utilityQuiet: 'i-text-$color-button-utility-quiet-text i-bg-$color-button-utility-quiet-background hover:i-bg-$color-button-utility-quiet-background-hover',
-  negativeQuiet: 'i-bg-$color-button-negative-quiet-background i-text-$color-button-negative-quiet-text hover:i-bg-$color-button-negative-quiet-background-hover active:i-bg-$color-button-negative-quiet-background-active',
-  loading: 'i-text-$color-button-loading-text i-bg-$color-button-loading-background',
-  link: 'i-text-$color-button-link-text',
+  primary: 's-text-inverted i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active',
+  secondary: 's-text-link s-border s-bg hover:s-bg-hover hover:s-border-hover active:s-bg-active',
+  utility: 's-text s-bg s-border hover:s-border-hover active:s-border-active',
+  destructive: 's-bg-negative s-text-inverted hover:s-bg-negative-hover active:s-bg-negative-active',
+  pill: 's-icon hover:s-icon-hover active:s-icon-active bg-transparent hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active',
+  disabled: 's-text-inverted s-bg-disabled',
+  quiet: 'bg-transparent s-text-link hover:s-bg-hover active:s-bg-active',
+  utilityQuiet: 's-text s-bg-transparent hover:s-bg-subtle-hover',
+  negativeQuiet: 's-bg s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
+  loading: 's-text-subtle s-bg-subtle',
+  link: 's-text-link',
 };
 
 const buttonTypes = {
