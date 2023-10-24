@@ -80,6 +80,7 @@ s:
       selected:
         _: blue-600
         hover: blue-700
+        active: blue-800
       primary:
         _: blue-600
         hover: blue-700

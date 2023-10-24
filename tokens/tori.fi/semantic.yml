@@ -79,6 +79,7 @@ s:
       selected:
         _: petroleum-600
         hover: petroleum-700
+        active: petroleum-800
       inverted: white
       primary:
         _: petroleum-600
