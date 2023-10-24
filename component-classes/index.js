@@ -143,11 +143,9 @@ export const switchToggle = {
 };
 
 export const toaster = {
-  container:
-    'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+  container: 'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
   content: 'w-full',
-  toaster:
-    'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
+  toaster: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
 };
 
 export const toast = {
@@ -521,7 +519,7 @@ export const attention = {
   base: 'border-2 relative flex items-start',
   tooltip:
     'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
-  callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
+  callout: 'i-bg-$color-callout-background i-border-$color-callout-border s-text py-8 px-16 rounded-8',
   highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
   popover:
     'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
