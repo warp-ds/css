@@ -3,6 +3,7 @@ export const attention = {
   tooltip:
     'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
   callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
+  highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
   popover:
     'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase:
@@ -14,6 +15,7 @@ export const attention = {
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
+  arrowHighlight: 'i-bg-$color-callout-background i-border-$color-callout-border',
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
 };
