@@ -3,6 +3,7 @@ export const attention = {
   tooltip:
     'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
   callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
+  highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
   popover:
     'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase:
@@ -14,6 +15,7 @@ export const attention = {
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
+  arrowHighlight: 'i-bg-$color-callout-background i-border-$color-callout-border',
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
 };
@@ -225,10 +227,12 @@ export const expandable = {
   expandableTitle: 'font-bold i-text-$color-expandable-title-text',
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
-  chevron: 'inline-block align-middle transform transition-transform transform-gpu i-text-$color-expandable-icon',
+  chevron: 'inline-block align-middle i-text-$color-expandable-icon',
   chevronNonBox: 'relative left-8',
   chevronBox: 'absolute right-16',
-  chevronExpanded: '-rotate-180',
+  chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
+  chevronExpand: '-rotate-180',
+  chevronCollapse: 'rotate-180',
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
   button: buttonReset + ' hover:underline focus:underline',
