@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/warp-ds/css/compare/v1.1.2...v1.2.0) (2023-10-25)
+
+
+### Bug Fixes
+
+* adjust chevron animation ([#72](https://github.com/warp-ds/css/issues/72)) ([51e0cd1](https://github.com/warp-ds/css/commit/51e0cd1d26f52a627c75e32609c61eecf19a3360))
+
+
+### Features
+
+* **component-classes:** add 'highlight' variant to attention classes ([#74](https://github.com/warp-ds/css/issues/74)) ([071a624](https://github.com/warp-ds/css/commit/071a6244cbef75b9880496a7b8c1e42a114e5b92))
+
 # [1.2.0-next.1](https://github.com/warp-ds/css/compare/v1.1.3-next.1...v1.2.0-next.1) (2023-10-25)
 
 
