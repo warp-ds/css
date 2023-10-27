@@ -406,7 +406,7 @@ export const modal = {
   title:
     '-mt-4 sm:-mt-8 h-40 sm:h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-center px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
   titleText: 'mb-0 h4 sm:h3',
-  titleButton: button.pill + ' sm:min-h-[32px] sm:min-w-[32px]',
+  titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
   titleButtonLeft: '-ml-8 sm:-ml-12 justify-self-start',
   titleButtonRight: '-mr-8 sm:-mr-12 justify-self-end',
   titleButtonIcon: 'h-16 w-16 sm:h-24 sm:w-24',
