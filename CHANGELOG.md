@@ -1,3 +1,10 @@
+## [1.2.1-next.1](https://github.com/warp-ds/css/compare/v1.2.0...v1.2.1-next.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* fix modal sorting problem in pill button ([#77](https://github.com/warp-ds/css/issues/77)) ([736429f](https://github.com/warp-ds/css/commit/736429f257741bdb167fb6df99d491661bd3119b))
+
 # [1.2.0](https://github.com/warp-ds/css/compare/v1.1.2...v1.2.0) (2023-10-25)
 
 
