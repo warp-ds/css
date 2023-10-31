@@ -4,23 +4,5 @@ token: maps
 color:
   radio:
     background:
-      disabled: gray-200
-      hover: s-color-background-primary-subtle
-    border:
-      _: s-color-border
-      hover: s-color-border-primary
-      selected:
-        _: s-color-border-selected
-        hover: s-color-border-selected-hover
-        disabled: s-color-border-disabled
-      disabled: s-color-border-disabled
-    negative:
-      background:
-        _: s-color-background
-        hover: s-color-background-negative-subtle
-      border:
-        _: s-color-border-negative
-        hover: s-color-border-negative-hover
-        selected:
-          _: s-color-border-negative-selected
-          hover: s-color-border-negative-selected-hover
+      disabled: s-color-background-disabled
+    border: s-color-border
