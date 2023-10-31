@@ -427,9 +427,9 @@ export const select = {
 };
 
 export const label = {
-  label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer i-text-$color-label-text',
-  labelInvalid: 'i-text-$color-label-text-negative',
-  optional: 'pl-8 font-normal text-s i-text-$color-label-optional-text',
+  label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
+  labelInvalid: 's-text-negative',
+  optional: 'pl-8 font-normal text-s s-text',
 };
 
 export const helpText = {
@@ -445,14 +445,14 @@ export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs i-text-$color-label-text',
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs i-text-$color-label-text',
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const breadcrumbs = {
@@ -472,7 +472,7 @@ export const toggle = {
   inputDisabled: 'pointer-events-none',
   focusable: 'peer-focus:focusable',
   focusableWithin: 'focus-within:focusable',
-  label: 'cursor-pointer text-m i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
+  label: 'cursor-pointer text-m s-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
   noContent: `before:content-[""]`,
   indeterminate: `before:flex! before:items-center before:justify-center before:s-icon-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:s-border-selected peer-indeterminate:before:s-bg-primary peer-indeterminate:hover:before:s-border-selected peer-indeterminate:hover:before:s-bg-primary-hover`,
