@@ -198,10 +198,10 @@ export const buttonReset =
 
 export const expandable = {
   expandable: 'will-change-height',
-  expandableTitle: 'font-bold i-text-$color-expandable-title-text',
-  expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
+  expandableTitle: 'font-bold s-text',
+  expandableBox: 's-bg-subtle hover:s-bg-subtle-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
-  chevron: 'inline-block align-middle i-text-$color-expandable-icon',
+  chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'relative left-8',
   chevronBox: 'absolute right-16',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
