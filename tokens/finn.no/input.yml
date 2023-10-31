@@ -3,22 +3,5 @@ token: maps
 
 color:
   input:
-    text:
-      placeholder: s-color-text-placeholder
-      filled: s-color-text
-      disabled: s-color-text-disabled
-      negative: s-color-text-negative
-      read:
-        only: s-color-text
     background:
-      _: s-color-background
       disabled: gray-200
-    border:
-      _: s-color-border
-      hover: s-color-border-hover
-      active: s-color-border-selected
-      filled: s-color-border
-      disabled: s-color-border-disabled
-      negative: s-color-border-negative
-    caret: s-color-icon
-    icon: s-color-icon
