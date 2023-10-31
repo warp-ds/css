@@ -510,12 +510,11 @@ export const combobox = {
 export const attention = {
   base: 'border-2 relative flex items-start',
   tooltip:
-    'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
+    'i-bg-$color-tooltip-background i-border-$color-tooltip-background shadow-m s-text-inverted rounded-4 py-6 px-8',
   callout: 'i-bg-$color-callout-background i-border-$color-callout-border s-text py-8 px-16 rounded-8',
   highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
   popover: 's-bg s-border-inverted s-text rounded-8 p-16 drop-shadow-m',
-  arrowBase:
-    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
+  arrowBase: 'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeft: '-left-[8px]',
   arrowDirectionRight: '-right-[8px]',
   arrowDirectionBottom: '-bottom-[8px]',
