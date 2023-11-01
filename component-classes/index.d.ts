@@ -1,19 +1,3 @@
-export namespace attention {
-    const base: string;
-    const tooltip: string;
-    const callout: string;
-    const popover: string;
-    const arrowBase: string;
-    const arrowDirectionLeft: string;
-    const arrowDirectionRight: string;
-    const arrowDirectionBottom: string;
-    const arrowDirectionTop: string;
-    const arrowTooltip: string;
-    const arrowCallout: string;
-    const arrowPopover: string;
-    const content: string;
-    const notCallout: string;
-}
 export namespace pageIndicator {
     const wrapper: string;
     const dot: string;
@@ -21,21 +5,20 @@ export namespace pageIndicator {
     const active: string;
 }
 export namespace ribbon {
-    const base_1: string;
-    export { base_1 as base };
-    export const info: string;
-    export const success: string;
-    export const warning: string;
-    export const error: string;
-    export const disabled: string;
-    export const sponsored: string;
-    export const neutral: string;
-    export const roundedTopRightBottomLeft: string;
-    export const roundedTopLeftBottomRight: string;
+    const base: string;
+    const info: string;
+    const success: string;
+    const warning: string;
+    const error: string;
+    const disabled: string;
+    const sponsored: string;
+    const neutral: string;
+    const roundedTopRightBottomLeft: string;
+    const roundedTopLeftBottomRight: string;
 }
 export namespace badge {
-    const base_2: string;
-    export { base_2 as base };
+    const base_1: string;
+    export { base_1 as base };
     const neutral_1: string;
     export { neutral_1 as neutral };
     const info_1: string;
@@ -89,28 +72,27 @@ export namespace pill {
     const a11y: string;
 }
 export namespace step {
-    export const step: string;
-    export const stepVertical: string;
-    export const stepVerticalLeft: string;
-    export const stepVerticalRight: string;
-    export const stepHorizontal: string;
-    export const stepDot: string;
-    export const stepDotVerticalRight: string;
-    export const stepDotHorizontal: string;
-    export const stepDotActive: string;
-    export const stepDotIncomplete: string;
-    export const stepLine: string;
-    export const stepLineVertical: string;
-    export const stepLineVerticalRight: string;
-    export const stepLineHorizontal: string;
-    export const stepLineHorizontalRight: string;
-    export const stepLineHorizontalLeft: string;
-    export const stepLineIncomplete: string;
-    export const stepLineComplete: string;
-    const content_1: string;
-    export { content_1 as content };
-    export const contentVertical: string;
-    export const contentHorizontal: string;
+    const step: string;
+    const stepVertical: string;
+    const stepVerticalLeft: string;
+    const stepVerticalRight: string;
+    const stepHorizontal: string;
+    const stepDot: string;
+    const stepDotVerticalRight: string;
+    const stepDotHorizontal: string;
+    const stepDotActive: string;
+    const stepDotIncomplete: string;
+    const stepLine: string;
+    const stepLineVertical: string;
+    const stepLineVerticalRight: string;
+    const stepLineHorizontal: string;
+    const stepLineHorizontalRight: string;
+    const stepLineHorizontalLeft: string;
+    const stepLineIncomplete: string;
+    const stepLineComplete: string;
+    const content: string;
+    const contentVertical: string;
+    const contentHorizontal: string;
 }
 export namespace steps {
     const steps: string;
@@ -150,8 +132,8 @@ export namespace switchToggle {
 }
 export namespace toaster {
     export const container: string;
-    const content_2: string;
-    export { content_2 as content };
+    const content_1: string;
+    export { content_1 as content };
     export const toaster: string;
 }
 export namespace toast {
@@ -169,8 +151,8 @@ export namespace toast {
     export const iconWarning: string;
     export const iconNegative: string;
     export const iconLoading: string;
-    const content_3: string;
-    export { content_3 as content };
+    const content_2: string;
+    export { content_2 as content };
     const close_1: string;
     export { close_1 as close };
 }
@@ -185,8 +167,8 @@ export namespace tab {
     const icon_1: string;
     export { icon_1 as icon };
     export const iconUnderlinedActive: string;
-    const content_4: string;
-    export { content_4 as content };
+    const content_3: string;
+    export { content_3 as content };
     export const contentUnderlined: string;
     export const contentUnderlinedActive: string;
 }
@@ -211,7 +193,9 @@ export namespace expandable {
     export const chevron: string;
     export const chevronNonBox: string;
     export const chevronBox: string;
-    export const chevronExpanded: string;
+    export const chevronTransform: string;
+    export const chevronExpand: string;
+    export const chevronCollapse: string;
     export const expansion: string;
     export const expansionNotExpanded: string;
     const button_1: string;
@@ -308,8 +292,8 @@ export namespace modal {
     export const transparentBg: string;
     export const backdrop: string;
     export const modal: string;
-    const content_5: string;
-    export { content_5 as content };
+    const content_4: string;
+    export { content_4 as content };
     export const footer: string;
     export const transitionTitle: string;
     export const transitionTitleCenter: string;
@@ -468,4 +452,25 @@ export namespace combobox {
     export const optionSelected: string;
     const a11y_6: string;
     export { a11y_6 as a11y };
+}
+export namespace attention {
+    const base_2: string;
+    export { base_2 as base };
+    export const tooltip: string;
+    export const callout: string;
+    export const highlight: string;
+    export const popover: string;
+    export const arrowBase: string;
+    export const arrowDirectionLeft: string;
+    export const arrowDirectionRight: string;
+    export const arrowDirectionBottom: string;
+    export const arrowDirectionTop: string;
+    export const arrowTooltip: string;
+    export const arrowCallout: string;
+    export const arrowPopover: string;
+    export const arrowHighlight: string;
+    const content_5: string;
+    export { content_5 as content };
+    export const notCallout: string;
+    export const closeBtn: string;
 }
