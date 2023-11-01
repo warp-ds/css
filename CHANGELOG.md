@@ -1,3 +1,17 @@
+# [2.0.0-v2.2](https://github.com/warp-ds/css/compare/v2.0.0-v2.1...v2.0.0-v2.2) (2023-11-01)
+
+
+### Bug Fixes
+
+* adjust chevron animation ([#72](https://github.com/warp-ds/css/issues/72)) ([51e0cd1](https://github.com/warp-ds/css/commit/51e0cd1d26f52a627c75e32609c61eecf19a3360))
+* fix modal sorting problem in pill button ([#77](https://github.com/warp-ds/css/issues/77)) ([736429f](https://github.com/warp-ds/css/commit/736429f257741bdb167fb6df99d491661bd3119b))
+
+
+### Features
+
+* **attention:** add close button classes ([#80](https://github.com/warp-ds/css/issues/80)) ([5923b22](https://github.com/warp-ds/css/commit/5923b22368493dac0a9a5b0f0ee358a10aad2b51))
+* **component-classes:** add 'highlight' variant to attention classes ([#74](https://github.com/warp-ds/css/issues/74)) ([071a624](https://github.com/warp-ds/css/commit/071a6244cbef75b9880496a7b8c1e42a114e5b92))
+
 # [2.0.0-v2.1](https://github.com/warp-ds/css/compare/v1.1.1...v2.0.0-v2.1) (2023-10-19)
 
 
