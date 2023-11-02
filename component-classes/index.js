@@ -1,25 +1,3 @@
-export const attention = {
-  base: 'border-2 relative',
-  tooltip:
-    'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
-  callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
-  highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
-  popover:
-    'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
-  arrowBase:
-    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
-  arrowDirectionLeft: '-left-[8px]',
-  arrowDirectionRight: '-right-[8px]',
-  arrowDirectionBottom: '-bottom-[8px]',
-  arrowDirectionTop: '-top-[8px]',
-  arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
-  arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
-  arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
-  arrowHighlight: 'i-bg-$color-callout-background i-border-$color-callout-border',
-  content: 'last-child:mb-0',
-  notCallout: 'absolute z-50',
-};
-
 export const pageIndicator = {
   wrapper: 'flex space-x-8 p-8',
   dot: 'h-8 w-8 rounded-full',
@@ -406,7 +384,7 @@ export const modal = {
   title:
     '-mt-4 sm:-mt-8 h-40 sm:h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-center px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
   titleText: 'mb-0 h4 sm:h3',
-  titleButton: button.pill + ' sm:min-h-[32px] sm:min-w-[32px]',
+  titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
   titleButtonLeft: '-ml-8 sm:-ml-12 justify-self-start',
   titleButtonRight: '-mr-8 sm:-mr-12 justify-self-end',
   titleButtonIcon: 'h-16 w-16 sm:h-24 sm:w-24',
@@ -538,4 +516,27 @@ export const combobox = {
   option: 'block cursor-pointer p-8 hover:i-bg-$color-combobox-option-background-hover',
   optionSelected: 'i-bg-$color-combobox-option-background-selected hover:i-bg-$color-combobox-option-background-selected-hover',
   a11y: 'sr-only',
+};
+
+export const attention = {
+  base: 'border-2 relative flex items-start',
+  tooltip:
+    'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
+  callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
+  highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
+  popover:
+    'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
+  arrowBase:
+    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
+  arrowDirectionLeft: '-left-[8px]',
+  arrowDirectionRight: '-right-[8px]',
+  arrowDirectionBottom: '-bottom-[8px]',
+  arrowDirectionTop: '-top-[8px]',
+  arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
+  arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
+  arrowHighlight: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  content: 'last-child:mb-0',
+  notCallout: 'absolute z-50',
+  closeBtn: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} justify-self-end -mr-8 ml-8`,
 };
