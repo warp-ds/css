@@ -213,7 +213,7 @@ export const expandable = {
   chevronCollapse: 'rotate-180',
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
-  button: buttonReset + ' hover:underline focus:underline',
+  button: buttonReset + ' hover:underline focus-visible:underline',
   buttonBox: 'w-full text-left relative inline-flex items-center ' + box.box,
   paddingTop: 'pt-0',
   title: 'flex justify-between items-center',
