@@ -1,3 +1,10 @@
+## [1.3.1-next.1](https://github.com/warp-ds/css/compare/v1.3.0...v1.3.1-next.1) (2023-11-02)
+
+
+### Bug Fixes
+
+* Only show focus indicator in Expandable component on focus-visible ([#84](https://github.com/warp-ds/css/issues/84)) ([ccf30f2](https://github.com/warp-ds/css/commit/ccf30f2f9e20a93477cc7f5cf9dc602293320fc6))
+
 # [1.3.0](https://github.com/warp-ds/css/compare/v1.2.0...v1.3.0) (2023-11-02)
 
 
