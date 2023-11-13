@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.0.2
     version: 0.0.2
   '@warp-ds/uno':
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^1.2.0
+    version: 1.2.0
 
 devDependencies:
   '@eik/cli':
@@ -553,7 +553,6 @@ packages:
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
-    dev: true
 
   /@jridgewell/trace-mapping@0.3.9:
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
@@ -1092,22 +1091,12 @@ packages:
       unconfig: 0.3.11
     dev: true
 
-  /@unocss/core@0.52.7:
-    resolution: {integrity: sha512-dZonrlfu33SkUMsZXlsyYSM79tr2nLer/hBEU2ZaemRik2KchxIUNlZV6kX1f1k3m+gEtVQOyx1MImpgLS8PWg==}
-    dev: false
-
-  /@unocss/core@0.55.2:
-    resolution: {integrity: sha512-ZLEES8RDgWoK/vttUzl3PM2bZqL3HvhLgj8xdDa09Xw+JiTlR4c66s+hLn52oCoJTnT9lGsD2j7tTGN9ToSiTA==}
-    dev: false
-
   /@unocss/core@0.56.5:
     resolution: {integrity: sha512-fx5VhOjSHn0HdV2D34pEwFMAHJcJQRTCp1xEE4GzxY1irXzaa+m2aYf5PZjmDxehiOC16IH7TO9FOWANXk1E0w==}
     dev: true
 
-  /@unocss/extractor-arbitrary-variants@0.52.7:
-    resolution: {integrity: sha512-nJ4iE7nIRpoOIQfD8S58yG4qJd6AhVPEfEOf7ksX1u8xLf71rrBIojwraRXvv7aPqNdZiWvXdh/znpA/QC5b9w==}
-    dependencies:
-      '@unocss/core': 0.52.7
+  /@unocss/core@0.57.3:
+    resolution: {integrity: sha512-o6snDo5vwAenIqA+wjjI6BUsftJXXSqrPHYqplb+QX5bLfxW/OU1xhBRlnhiP0BOGGZXqgGEETU1ym8MM9bLwA==}
     dev: false
 
   /@unocss/extractor-arbitrary-variants@0.56.5:
@@ -1115,6 +1104,12 @@ packages:
     dependencies:
       '@unocss/core': 0.56.5
     dev: true
+
+  /@unocss/extractor-arbitrary-variants@0.57.3:
+    resolution: {integrity: sha512-OmF+2TjJ97i7KOCR8wPgZK/pkp8Rcfo4tzqT/4jBUIi7rfDGZx/eE3aZKFpZSZlUuTH5cdReaKxymXQmJ4dibA==}
+    dependencies:
+      '@unocss/core': 0.57.3
+    dev: false
 
   /@unocss/inspector@0.56.5:
     resolution: {integrity: sha512-UK/X2JyqxB1uueIFlffFsBioxMptanBbJYjrmOoLPdAFoOPp9o8IIFkFs3OKWc8imvyl3w+F0opncmdJnDMllw==}
@@ -1155,13 +1150,6 @@ packages:
       - supports-color
     dev: true
 
-  /@unocss/preset-mini@0.52.7:
-    resolution: {integrity: sha512-c5VRzPwyAmIBWwz2ufEboYwHGiheG+V9SCmJJLHlu/gcW5KndFsxoeJPE6nOfXVmbx4AGq/rkzV35ZXtH8Iecw==}
-    dependencies:
-      '@unocss/core': 0.52.7
-      '@unocss/extractor-arbitrary-variants': 0.52.7
-    dev: false
-
   /@unocss/preset-mini@0.56.5:
     resolution: {integrity: sha512-/KhlThhs1ilauM7MwRSpahLbIPZ5VGeGvaUsU8+ZlNT3sis4yoVYkPtR14tL2IT6jhOU05N/uu3aBj+1bP8GjQ==}
     dependencies:
@@ -1169,6 +1157,14 @@ packages:
       '@unocss/extractor-arbitrary-variants': 0.56.5
       '@unocss/rule-utils': 0.56.5
     dev: true
+
+  /@unocss/preset-mini@0.57.3:
+    resolution: {integrity: sha512-2KFxbbxRqhc+0fyWNYSiRGGr+3jp4jEQIRnjT8sv5uAMo1OaUmUTwz2qzYhSc3sCM8ZEofblZY2BOcqJwZ5yxA==}
+    dependencies:
+      '@unocss/core': 0.57.3
+      '@unocss/extractor-arbitrary-variants': 0.57.3
+      '@unocss/rule-utils': 0.57.3
+    dev: false
 
   /@unocss/preset-tagify@0.56.5:
     resolution: {integrity: sha512-ANtI7E92fuzF40MD/3V72myNqrcGNXAD3TjXHIxAPQP2F+DcYIl2TBPHVsGUt2Rc5Kid2kvvsWan6sRAQVGPng==}
@@ -1217,6 +1213,14 @@ packages:
     dependencies:
       '@unocss/core': 0.56.5
     dev: true
+
+  /@unocss/rule-utils@0.57.3:
+    resolution: {integrity: sha512-koWXeRJHFt/SJdb3m7s/2+NrBCcUtl67SX7rSHJc99Z+dwZgIsPUfdfRKM4mZD43MayybvDrd1Wue2LNQg5R/g==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.57.3
+      magic-string: 0.30.5
+    dev: false
 
   /@unocss/scope@0.56.5:
     resolution: {integrity: sha512-q2eHYLuqF7RZEVGti205X2JOKSH6lBJGoQIjPtWgodNTg3S7qmUinHG0XzikI30L3EF3VljIh5TbtwGPcvbNsA==}
@@ -1361,11 +1365,12 @@ packages:
       yaml: 2.3.1
     dev: false
 
-  /@warp-ds/uno@1.1.0:
-    resolution: {integrity: sha512-XzhziKuHAWRofxVXb9meEgFbRUS+3+Lfuvz9qwWiJNermlkc5tC9x2DdTmFa0ia73nkgeD3K3hx0yVY0etoZ2w==}
+  /@warp-ds/uno@1.2.0:
+    resolution: {integrity: sha512-P5zq8/Bzg33HXR0UxupqJROZK3/QFJOc+bzABN3qTihPCkiqLJCWHxqf2a61Bleg1yK4mTQv+J3FRfYyeZCUow==}
     dependencies:
-      '@unocss/core': 0.55.2
-      '@unocss/preset-mini': 0.52.7
+      '@unocss/core': 0.57.3
+      '@unocss/preset-mini': 0.57.3
+      '@unocss/rule-utils': 0.57.3
     dev: false
 
   /JSONStream@1.3.5:
@@ -3663,7 +3668,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
 
   /make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
