@@ -1,3 +1,10 @@
+# [1.4.0-next.1](https://github.com/warp-ds/css/compare/v1.3.1-next.1...v1.4.0-next.1) (2023-11-13)
+
+
+### Features
+
+* add part classes for expandable specifically for elements ([#88](https://github.com/warp-ds/css/issues/88)) ([7940b1a](https://github.com/warp-ds/css/commit/7940b1a1d39c6343d80882f6fec4f51fdd02a9e9))
+
 ## [1.3.1-next.1](https://github.com/warp-ds/css/compare/v1.3.0...v1.3.1-next.1) (2023-11-02)
 
 
