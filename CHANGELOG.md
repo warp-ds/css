@@ -1,3 +1,10 @@
+# [1.4.0-next.2](https://github.com/warp-ds/css/compare/v1.4.0-next.1...v1.4.0-next.2) (2023-11-15)
+
+
+### Bug Fixes
+
+* Z-index of Modal backdrop should be 30 according to css docs ([#90](https://github.com/warp-ds/css/issues/90)) ([436b9d0](https://github.com/warp-ds/css/commit/436b9d0e5970eff412740d5758517921c928bef3))
+
 # [1.4.0-next.1](https://github.com/warp-ds/css/compare/v1.3.1-next.1...v1.4.0-next.1) (2023-11-13)
 
 
