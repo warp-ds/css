@@ -206,7 +206,7 @@ export const expandable = {
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle i-text-$color-expandable-icon',
-  chevronNonBox: 'relative left-8',
+  chevronNonBox: 'ml-8',
   chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
