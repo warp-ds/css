@@ -167,7 +167,7 @@ export const toast = {
 };
 
 export const tabs = {
-  tabContainer: 'mx-auto max-w-screen-md w-full grid relative',
+  tabContainer: 'inline-grid relative',
   wunderbar:
     'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
   wrapperUnderlined:
