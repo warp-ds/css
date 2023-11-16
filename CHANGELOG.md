@@ -1,3 +1,10 @@
+# [1.4.0-next.3](https://github.com/warp-ds/css/compare/v1.4.0-next.2...v1.4.0-next.3) (2023-11-16)
+
+
+### Bug Fixes
+
+* **tabs:** left align all tabs instead of stretch ([9b88498](https://github.com/warp-ds/css/commit/9b884986a0cff63f4e5dbd6fb8c2561331989291))
+
 # [1.4.0-next.2](https://github.com/warp-ds/css/compare/v1.4.0-next.1...v1.4.0-next.2) (2023-11-15)
 
 
