@@ -1,3 +1,31 @@
+# [1.4.0-next.4](https://github.com/warp-ds/css/compare/v1.4.0-next.3...v1.4.0-next.4) (2023-11-16)
+
+
+### Features
+
+* New secondary semantic background, border and icon tokens ([#91](https://github.com/warp-ds/css/issues/91)) ([3a9cea1](https://github.com/warp-ds/css/commit/3a9cea17acb998df117ee7ee553b82407df7fb78))
+
+# [1.4.0-next.3](https://github.com/warp-ds/css/compare/v1.4.0-next.2...v1.4.0-next.3) (2023-11-16)
+
+
+### Bug Fixes
+
+* **tabs:** left align all tabs instead of stretch ([9b88498](https://github.com/warp-ds/css/commit/9b884986a0cff63f4e5dbd6fb8c2561331989291))
+
+# [1.4.0-next.2](https://github.com/warp-ds/css/compare/v1.4.0-next.1...v1.4.0-next.2) (2023-11-15)
+
+
+### Bug Fixes
+
+* Z-index of Modal backdrop should be 30 according to css docs ([#90](https://github.com/warp-ds/css/issues/90)) ([436b9d0](https://github.com/warp-ds/css/commit/436b9d0e5970eff412740d5758517921c928bef3))
+
+# [1.4.0-next.1](https://github.com/warp-ds/css/compare/v1.3.1-next.1...v1.4.0-next.1) (2023-11-13)
+
+
+### Features
+
+* add part classes for expandable specifically for elements ([#88](https://github.com/warp-ds/css/issues/88)) ([7940b1a](https://github.com/warp-ds/css/commit/7940b1a1d39c6343d80882f6fec4f51fdd02a9e9))
+
 ## [1.3.1-next.1](https://github.com/warp-ds/css/compare/v1.3.0...v1.3.1-next.1) (2023-11-02)
 
 
