@@ -206,8 +206,8 @@ export const expandable = {
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle i-text-$color-expandable-icon',
-  chevronNonBox: 'relative left-8',
-  chevronBox: 'absolute right-16',
+  chevronNonBox: 'ml-8',
+  chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',
@@ -218,9 +218,9 @@ export const expandable = {
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
   button: buttonReset + ' hover:underline focus-visible:underline',
-  buttonBox: 'w-full text-left relative inline-flex items-center ' + box.box,
+  buttonBox: 'w-full text-left relative inline-flex items-center justify-between ' + box.box,
   paddingTop: 'pt-0',
-  title: 'flex justify-between items-center',
+  title: 'flex w-full justify-between items-center',
   titleType: 'h4',
 };
 
