@@ -92,6 +92,10 @@ s:
           _: petroleum-300
           hover: petroleum-400
           active: petroleum-500
+      secondary:
+        _: watermelon-600
+        hover: watermelon-700
+        active: watermelon-800
       positive:
         _: green-600
         hover: green-700
