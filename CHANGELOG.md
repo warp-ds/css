@@ -1,3 +1,10 @@
+# [1.4.0-next.5](https://github.com/warp-ds/css/compare/v1.4.0-next.4...v1.4.0-next.5) (2023-11-16)
+
+
+### Bug Fixes
+
+* **expandable:** fix long titles overflowing chevron ([#89](https://github.com/warp-ds/css/issues/89)) ([9de1b4c](https://github.com/warp-ds/css/commit/9de1b4cc1bd28620fefb6f30e58acfd20d7c4119))
+
 # [1.4.0-next.4](https://github.com/warp-ds/css/compare/v1.4.0-next.3...v1.4.0-next.4) (2023-11-16)
 
 
