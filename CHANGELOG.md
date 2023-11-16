@@ -1,3 +1,10 @@
+# [1.4.0-next.4](https://github.com/warp-ds/css/compare/v1.4.0-next.3...v1.4.0-next.4) (2023-11-16)
+
+
+### Features
+
+* New secondary semantic background, border and icon tokens ([#91](https://github.com/warp-ds/css/issues/91)) ([3a9cea1](https://github.com/warp-ds/css/commit/3a9cea17acb998df117ee7ee553b82407df7fb78))
+
 # [1.4.0-next.3](https://github.com/warp-ds/css/compare/v1.4.0-next.2...v1.4.0-next.3) (2023-11-16)
 
 
