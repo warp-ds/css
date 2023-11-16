@@ -25,6 +25,10 @@ s:
           _: petroleum-50
           hover: petroleum-100
           active: petroleum-200
+      secondary:
+        _: watermelon-600
+        hover: watermelon-700
+        active: watermelon-800
       positive:
         _: green-600
         hover: green-700
@@ -141,6 +145,10 @@ s:
         hover: gray-100
         active: gray-200
       primary: petroleum-600
+      secondary:
+        _: watermelon-600
+        hover: watermelon-700
+        active: watermelon-800
       positive: green-600
       negative: red-600
       warning: yellow-600

@@ -25,6 +25,10 @@ s:
           _: blue-50
           hover: blue-100
           active: blue-200
+      secondary:
+        _: aqua-400
+        hover: aqua-500
+        active: aqua-600
       positive:
         _: green-600
         hover: green-700
@@ -76,10 +80,10 @@ s:
       hover: bluegray-400
       active: bluegray-500
       disabled: bluegray-300
-      inverted: white
       selected:
         _: blue-600
         hover: blue-700
+      inverted: white
       primary:
         _: blue-600
         hover: blue-700
@@ -141,6 +145,10 @@ s:
         hover: bluegray-100
         active: bluegray-200
       primary: blue-600
+      secondary:
+        _: aqua-400
+        hover: aqua-500
+        active: aqua-600
       positive: green-600
       negative: red-600
       warning: yellow-600
