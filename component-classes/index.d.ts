@@ -196,6 +196,10 @@ export namespace expandable {
     export const chevronTransform: string;
     export const chevronExpand: string;
     export const chevronCollapse: string;
+    export const elementsTransformChevronDownPart: string;
+    export const elementsChevronDownExpandPart: string;
+    export const elementsTransformChevronUpPart: string;
+    export const elementsChevronUpCollapsePart: string;
     export const expansion: string;
     export const expansionNotExpanded: string;
     const button_1: string;

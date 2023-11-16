@@ -167,7 +167,7 @@ export const toast = {
 };
 
 export const tabs = {
-  tabContainer: 'mx-auto max-w-screen-md w-full grid relative',
+  tabContainer: 'inline-grid relative',
   wunderbar:
     'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
   wrapperUnderlined:
@@ -206,17 +206,21 @@ export const expandable = {
   expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle i-text-$color-expandable-icon',
-  chevronNonBox: 'relative left-8',
-  chevronBox: 'absolute right-16',
+  chevronNonBox: 'ml-8',
+  chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',
+  elementsTransformChevronDownPart: 'part-[w-icon-chevron-down-16-part]:transform part-[w-icon-chevron-down-16-part]:transition-transform part-[w-icon-chevron-down-16-part]:transform-gpu part-[w-icon-chevron-down-16-part]:ease-in-out',
+  elementsChevronDownExpandPart: 'part-[w-icon-chevron-down-16-part]:-rotate-180',
+  elementsTransformChevronUpPart: 'part-[w-icon-chevron-up-16-part]:transform part-[w-icon-chevron-up-16-part]:transition-transform part-[w-icon-chevron-up-16-part]:transform-gpu part-[w-icon-chevron-up-16-part]:ease-in-out',
+  elementsChevronUpCollapsePart: 'part-[w-icon-chevron-up-16-part]:rotate-180',
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
-  button: buttonReset + ' hover:underline focus:underline',
-  buttonBox: 'w-full text-left relative inline-flex items-center ' + box.box,
+  button: buttonReset + ' hover:underline focus-visible:underline',
+  buttonBox: 'w-full text-left relative inline-flex items-center justify-between ' + box.box,
   paddingTop: 'pt-0',
-  title: 'flex justify-between items-center',
+  title: 'flex w-full justify-between items-center',
   titleType: 'h4',
 };
 
@@ -372,7 +376,7 @@ export const modal = {
   //TODO: this class can be removed when we have the solution for opacity and we can add rgba values to the background of the backdrop
   transparentBg: `before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25`,
   backdrop:
-    'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-20 [--w-modal-max-height:80%] [--w-modal-width:640px]',
+    'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px]',
   modal:
     'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content:
