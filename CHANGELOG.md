@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/warp-ds/css/compare/v1.4.0...v1.4.1) (2023-11-17)
+
+
+### Bug Fixes
+
+* **cc:** restore styles for deprecated z-20 class ([#93](https://github.com/warp-ds/css/issues/93)) ([5800a0d](https://github.com/warp-ds/css/commit/5800a0d5c945b16bb4fa1d28d15760268f7d8d11))
+
 ## [1.4.1-next.1](https://github.com/warp-ds/css/compare/v1.4.0...v1.4.1-next.1) (2023-11-17)
 
 
