@@ -478,3 +478,6 @@ export namespace attention {
     export const notCallout: string;
     export const closeBtn: string;
 }
+export namespace backwardsCompatibleClasses {
+    const modalBackdrop: string;
+}

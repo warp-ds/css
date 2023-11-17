@@ -544,3 +544,7 @@ export const attention = {
   notCallout: 'absolute z-50',
   closeBtn: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} justify-self-end -mr-8 ml-8`,
 };
+
+export const backwardsCompatibleClasses = {
+  modalBackdrop: 'z-20', // replaced by z-30 in v1.4.0
+};
