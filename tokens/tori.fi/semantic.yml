@@ -11,7 +11,9 @@ s:
       selected:
         _: petroleum-50
         hover: petroleum-100
-      disabled: gray-300
+      disabled:
+        _: gray-300
+        subtle: gray-200
       inverted: gray-900
       subtle:
         _: gray-50
