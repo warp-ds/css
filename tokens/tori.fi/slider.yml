@@ -15,7 +15,7 @@ color:
         active: s-color-border-primary-active
     track:
       background:
-        _: petroleum-200
+        _: s-color-background-disabled
         active: s-color-background-primary
         disabled: s-color-background-disabled
 shadow:
