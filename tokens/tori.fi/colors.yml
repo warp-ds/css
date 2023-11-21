@@ -28,6 +28,17 @@ petroleum:
   700: "#1B5E6A"
   800: "#193F47"
   900: "#122226"
+blue:
+  blue-50: "#ECF7FE"
+  blue-100:	"#C7E7FB"
+  blue-200:	"#A2D5F5"
+  blue-300:	"#7DC3EF"
+  blue-400:	"#58B1E9"
+  blue-500:	"#339FE3"
+  blue-600:	"#0E8DDD"
+  blue-700:	"#0A659F"
+  blue-800:	"#063D61"
+  blue-900:	"#021622"
 green:
   50: "#EBF1EB"
   100: "#D7E3D7"
