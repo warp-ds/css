@@ -4,4 +4,4 @@ token: maps
 color:
   avatar:
     background: gray-100
-    icon: s-color-icon-disabled-subtle
+    icon: s-color-icon-disabled
