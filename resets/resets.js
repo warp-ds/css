@@ -100,10 +100,6 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: var(--w-s-color-text-link);
-  line-height: 2.4rem;
-  display: flex;
-  text-align: center;
-  align-items: center;
 }
 
 a:hover,
