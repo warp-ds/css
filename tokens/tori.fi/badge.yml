@@ -8,7 +8,7 @@ color:
       background: gray-100
     info:
       text: s-color-text
-      background: petroleum-100
+      background: blue-100
     positive:
       text: s-color-text
       background: green-100
