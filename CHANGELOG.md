@@ -1,3 +1,10 @@
+## [1.4.2-next.2](https://github.com/warp-ds/css/compare/v1.4.2-next.1...v1.4.2-next.2) (2023-11-22)
+
+
+### Reverts
+
+* Revert "fix: add style to a-tag in resets.js (#97)" (#99) ([bbf385c](https://github.com/warp-ds/css/commit/bbf385c3933c0f510cbd339a58193df8077d9fe8)), closes [#97](https://github.com/warp-ds/css/issues/97) [#99](https://github.com/warp-ds/css/issues/99)
+
 ## [1.4.2-next.1](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2-next.1) (2023-11-22)
 
 
