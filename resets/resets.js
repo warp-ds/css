@@ -100,19 +100,12 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: var(--w-s-color-text-link);
-  line-height: 2.4rem;
-  display: flex;
-  text-align: center;
-  align-items: center;
 }
 
 a:hover,
 a:focus,
 a:active {
   text-decoration: var(--w-decoration-text-link);
-}
-a:focus-visible {
-  outline: 2px solid var(--w-s-color-focused);
 }
 
 /*
