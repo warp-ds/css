@@ -80,6 +80,7 @@ s:
       hover: bluegray-400
       active: bluegray-500
       disabled: bluegray-300
+      focused: aqua-400
       selected:
         _: blue-600
         hover: blue-700
