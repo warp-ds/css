@@ -21,6 +21,6 @@ color:
       border:
         _: s-color-border-negative
         hover: s-color-border-negative-hover
-        selected:
+        selected: #TODO: These should be removed in v2 as they are the same as the above and not used internally anymore
           _: s-color-border-negative-selected
           hover: s-color-border-negative-selected-hover
