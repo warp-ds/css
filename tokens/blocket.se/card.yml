@@ -8,8 +8,8 @@ color:
       hover: s-color-background-hover
       active: s-color-background-active
       selected:
-        _: s-color-background-primary-subtle
-        hover: s-color-background-primary-subtle-hover
+        _: s-color-background-selected
+        hover: s-color-background-selected-hover
     border:
       _: transparent
       hover: transparent
