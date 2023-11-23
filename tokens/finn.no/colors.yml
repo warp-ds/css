@@ -2,7 +2,9 @@
 token: defs
 
 white: white
-black: black
+black:
+  _: black
+  alpha70: "rgba(0,0,0,.7)"
 transparent: transparent
 inherit: inherit
 none: none
@@ -33,7 +35,7 @@ gray:
   800: "#27272a"
   900:
     _: "#18181b"
-    alpha70: "rgba(24,24,27,.7)"
+    alpha70: "rgba(24,24,27,.7)" #TODO: Should be remove in v2 as it is not used internally anymore
 aqua:
   50: "#f1f9ff"
   100: "#e0f6ff"
