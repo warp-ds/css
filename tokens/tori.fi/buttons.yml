@@ -74,7 +74,7 @@ color:
           hover: s-color-icon-inverted-hover
           active: s-color-icon-inverted-active
     loading:
-      text: s-color-text-subtle
+      text: s-color-text
       background: s-color-background-subtle
       icon: s-color-icon
     utility:
