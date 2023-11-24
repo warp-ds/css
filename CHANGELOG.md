@@ -1,3 +1,10 @@
+## [1.4.2-next.3](https://github.com/warp-ds/css/compare/v1.4.2-next.2...v1.4.2-next.3) (2023-11-24)
+
+
+### Bug Fixes
+
+* **tokens:** move focused color to border-focused token ([#100](https://github.com/warp-ds/css/issues/100)) ([ff35a83](https://github.com/warp-ds/css/commit/ff35a8333f462231ad51d24c7907b66446f14a3c))
+
 ## [1.4.2-next.2](https://github.com/warp-ds/css/compare/v1.4.2-next.1...v1.4.2-next.2) (2023-11-22)
 
 
