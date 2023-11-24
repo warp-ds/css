@@ -80,6 +80,7 @@ s:
       hover: gray-400
       active: gray-500
       disabled: gray-300
+      focused: petroleum-400
       selected:
         _: petroleum-600
         hover: petroleum-700
