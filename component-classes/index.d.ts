@@ -479,5 +479,9 @@ export namespace attention {
     export const closeBtn: string;
 }
 export namespace backwardsCompatibleClasses {
-    const modalBackdrop: string;
+    export const modalBackdrop: string;
+    const chevronBox_1: string;
+    export { chevronBox_1 as chevronBox };
+    const chevronNonBox_1: string;
+    export { chevronNonBox_1 as chevronNonBox };
 }
