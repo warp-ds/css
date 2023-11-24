@@ -1,3 +1,10 @@
+## [1.4.2-next.4](https://github.com/warp-ds/css/compare/v1.4.2-next.3...v1.4.2-next.4) (2023-11-24)
+
+
+### Bug Fixes
+
+* **cc:** Restore styles for deprecated right-16 left-8 ([#101](https://github.com/warp-ds/css/issues/101)) ([393310a](https://github.com/warp-ds/css/commit/393310a589aa46e8a9515ff16f6de73256f5515a))
+
 ## [1.4.2-next.3](https://github.com/warp-ds/css/compare/v1.4.2-next.2...v1.4.2-next.3) (2023-11-24)
 
 
