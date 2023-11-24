@@ -4,7 +4,7 @@ token: maps
 color:
   radio:
     background:
-      disabled: gray-200
+      disabled: s-color-background-disabled-subtle
       hover: s-color-background-primary-subtle
     border:
       _: s-color-border
