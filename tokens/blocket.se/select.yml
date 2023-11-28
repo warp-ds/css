@@ -10,7 +10,7 @@ color:
       disabled: s-color-text-disabled
     background:
       _: s-color-background
-      disabled: s-color-background-disabled
+      disabled: s-color-background-disabled-subtle
     border:
       _: s-color-border
       hover: s-color-border-hover
