@@ -547,4 +547,6 @@ export const attention = {
 
 export const backwardsCompatibleClasses = {
   modalBackdrop: 'z-20', // replaced by z-30 in v1.4.0
+  chevronBox: 'right-16', //removed in v1.4.0
+  chevronNonBox: 'left-8', //removed in v1.4.0
 };

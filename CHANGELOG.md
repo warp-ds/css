@@ -1,3 +1,45 @@
+## [1.4.2](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2) (2023-11-24)
+
+
+### Bug Fixes
+
+* add style to a-tag in resets.js ([#97](https://github.com/warp-ds/css/issues/97)) ([5fdeb4d](https://github.com/warp-ds/css/commit/5fdeb4d381424ec7c072843fbfe87d88c2f5855e))
+* **cc:** Restore styles for deprecated right-16 left-8 ([#101](https://github.com/warp-ds/css/issues/101)) ([393310a](https://github.com/warp-ds/css/commit/393310a589aa46e8a9515ff16f6de73256f5515a))
+* **tokens:** move focused color to border-focused token ([#100](https://github.com/warp-ds/css/issues/100)) ([ff35a83](https://github.com/warp-ds/css/commit/ff35a8333f462231ad51d24c7907b66446f14a3c))
+
+
+### Reverts
+
+* Revert "fix: add style to a-tag in resets.js (#97)" (#99) ([bbf385c](https://github.com/warp-ds/css/commit/bbf385c3933c0f510cbd339a58193df8077d9fe8)), closes [#97](https://github.com/warp-ds/css/issues/97) [#99](https://github.com/warp-ds/css/issues/99)
+
+## [1.4.2-next.4](https://github.com/warp-ds/css/compare/v1.4.2-next.3...v1.4.2-next.4) (2023-11-24)
+
+
+### Bug Fixes
+
+* **cc:** Restore styles for deprecated right-16 left-8 ([#101](https://github.com/warp-ds/css/issues/101)) ([393310a](https://github.com/warp-ds/css/commit/393310a589aa46e8a9515ff16f6de73256f5515a))
+
+## [1.4.2-next.3](https://github.com/warp-ds/css/compare/v1.4.2-next.2...v1.4.2-next.3) (2023-11-24)
+
+
+### Bug Fixes
+
+* **tokens:** move focused color to border-focused token ([#100](https://github.com/warp-ds/css/issues/100)) ([ff35a83](https://github.com/warp-ds/css/commit/ff35a8333f462231ad51d24c7907b66446f14a3c))
+
+## [1.4.2-next.2](https://github.com/warp-ds/css/compare/v1.4.2-next.1...v1.4.2-next.2) (2023-11-22)
+
+
+### Reverts
+
+* Revert "fix: add style to a-tag in resets.js (#97)" (#99) ([bbf385c](https://github.com/warp-ds/css/commit/bbf385c3933c0f510cbd339a58193df8077d9fe8)), closes [#97](https://github.com/warp-ds/css/issues/97) [#99](https://github.com/warp-ds/css/issues/99)
+
+## [1.4.2-next.1](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2-next.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* add style to a-tag in resets.js ([#97](https://github.com/warp-ds/css/issues/97)) ([5fdeb4d](https://github.com/warp-ds/css/commit/5fdeb4d381424ec7c072843fbfe87d88c2f5855e))
+
 ## [1.4.1](https://github.com/warp-ds/css/compare/v1.4.0...v1.4.1) (2023-11-17)
 
 
