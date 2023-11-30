@@ -1,3 +1,10 @@
+# [1.5.0-next.1](https://github.com/warp-ds/css/compare/v1.4.2...v1.5.0-next.1) (2023-11-30)
+
+
+### Features
+
+* Adding new and tweaking misc values of existing tokens ([#96](https://github.com/warp-ds/css/issues/96)) ([e6ebf6a](https://github.com/warp-ds/css/commit/e6ebf6ab943c82bb415847efe2b9cdb1c1598812))
+
 ## [1.4.2](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2) (2023-11-24)
 
 
