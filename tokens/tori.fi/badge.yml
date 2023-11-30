@@ -8,7 +8,7 @@ color:
       background: gray-100
     info:
       text: s-color-text
-      background: petroleum-100
+      background: blue-100
     positive:
       text: s-color-text
       background: green-100
@@ -23,7 +23,7 @@ color:
       background: s-color-background-disabled
     price:
       text: s-color-text-inverted
-      background: gray-900-alpha70
+      background: black-alpha70
     notification:
       text: s-color-text-notification
       background: s-color-background-notification

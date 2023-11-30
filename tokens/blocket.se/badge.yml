@@ -23,7 +23,7 @@ color:
       background: s-color-background-disabled
     price:
       text: s-color-text-inverted
-      background: s-color-background-inverted
+      background: black-alpha70
     notification:
       text: s-color-text-notification
       background: s-color-background-notification

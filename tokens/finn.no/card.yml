@@ -8,8 +8,8 @@ color:
       hover: s-color-background-hover
       active: s-color-background-active
       selected:
-        _: s-color-background-primary-subtle
-        hover: s-color-background-primary-subtle-hover
+        _: s-color-background-selected
+        hover: s-color-background-selected-hover
     border:
       _: transparent
       hover: transparent
@@ -30,9 +30,9 @@ color:
         hover: s-color-border-hover
         active: s-color-border-active
         selected:
-          _: s-color-background-primary
-          hover: s-color-background-primary-hover
-          active: s-color-background-primary-active
+          _: s-color-border-selected
+          hover: s-color-border-selected-hover
+          active: s-color-background-primary-active #TODO: Should be removed in v2, not used internally
 shadow:
   card:
     _: shadow-s

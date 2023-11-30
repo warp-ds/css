@@ -487,13 +487,13 @@ export const toggle = {
   labelDisabled: 'pointer-events-none',
   checkbox: 'before:rounded-2 hover:before:i-border-$color-checkbox-border-hover hover:before:i-bg-$color-checkbox-background-hover',
   checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-selected peer-checked:before:i-bg-$color-checkbox-background-selected peer-checked:peer-hover:before:i-border-$color-checkbox-border-selected-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-selected-hover',
-  checkboxInvalid: 'before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-border-$color-checkbox-negative-border-selected hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-selected-hover',
+  checkboxInvalid: 'before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-border-$color-checkbox-negative-border hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-hover',
   checkboxDisabled: 'before:i-bg-$color-checkbox-background-disabled before:i-border-$color-checkbox-border-disabled peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:before:i-bg-$color-checkbox-background-selected-disabled',
   labelCheckboxBorder: 'i-border-$color-checkbox-border',
   radio: 'before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
   radioChecked: 'peer-checked:before:i-border-$color-radio-border-selected',
-  radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ',
-  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled',
+  radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover ',
+  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled',
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
@@ -549,4 +549,7 @@ export const backwardsCompatibleClasses = {
   modalBackdrop: 'z-20', // replaced by z-30 in v1.4.0
   chevronBox: 'right-16', //removed in v1.4.0
   chevronNonBox: 'left-8', //removed in v1.4.0
+  checkboxInvalid: 'peer-checked:before:i-border-$color-checkbox-negative-border-selected peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-selected-hover', //replaced in v1.5.0
+  radioInvalid: 'peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ', //replaced in v1.5.0
+  radioDisabled: 'peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
 };

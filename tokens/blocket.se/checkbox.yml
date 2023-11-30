@@ -4,7 +4,7 @@ token: maps
 color:
   checkbox:
     background:
-      disabled: gray-200
+      disabled: s-color-background-disabled-subtle
       hover: s-color-background-subtle
       selected:
         _: s-color-background-primary
@@ -28,7 +28,7 @@ color:
       border:
         _: s-color-border-negative
         hover: s-color-border-negative-hover
-        selected:
+        selected: #TODO: These should be removed in v2 as they are the same as the above and not used internally anymore
           _: s-color-border-negative
           hover: s-color-border-negative-hover
     icon: s-color-icon-inverted

@@ -11,7 +11,9 @@ s:
       selected:
         _: petroleum-50
         hover: petroleum-100
-      disabled: gray-300
+      disabled:
+        _: gray-300
+        subtle: gray-200
       inverted: gray-900
       subtle:
         _: gray-50
@@ -63,16 +65,16 @@ s:
           hover: yellow-100
           active: yellow-200
       info:
-        _: petroleum-600
-        hover: petroleum-700
-        active: petroleum-800
+        _: blue-600
+        hover: blue-700
+        active: blue-800
         selected:
-          _: petroleum-50
-          hover: petroleum-100
+          _: blue-50
+          hover: blue-100
         subtle:
-          _: petroleum-50
-          hover: petroleum-100
-          active: petroleum-200
+          _: blue-50
+          hover: blue-100
+          active: blue-200
       notification: red-600
 
     border:
@@ -109,7 +111,7 @@ s:
         _: red-600
         hover: red-700
         active: red-800
-        selected:
+        selected: #TODO: These should be removed in v2 as they are the same as the above and not used internally anymore
           _: red-600
           hover: red-700
         subtle:
@@ -125,13 +127,13 @@ s:
           hover: yellow-400
           active: yellow-500
       info:
-        _: petroleum-600
-        hover: petroleum-700
-        active: petroleum-800
+        _: blue-600
+        hover: blue-700
+        active: blue-800
         subtle:
-          _: petroleum-300
-          hover: petroleum-400
-          active: petroleum-500
+          _: blue-300
+          hover: blue-400
+          active: blue-500
 
     icon:
       _: gray-900
@@ -157,7 +159,7 @@ s:
       positive: green-600
       negative: red-600
       warning: yellow-600
-      info: petroleum-600
+      info: blue-600
 
     text:
       _: gray-900
