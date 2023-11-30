@@ -12,4 +12,5 @@ color:
         active: s-color-background-primary
     track:
       background:
+        active: s-color-background-primary-subtle # TODO: Remove in v2, should not be used, replaced with selected
         selected: s-color-background-primary-subtle-active

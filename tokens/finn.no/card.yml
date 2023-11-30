@@ -32,6 +32,7 @@ color:
         selected:
           _: s-color-border-selected
           hover: s-color-border-selected-hover
+          active: s-color-background-primary-active #TODO: Should be removed in v2, not used internally
 shadow:
   card:
     _: shadow-s
