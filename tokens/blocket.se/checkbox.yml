@@ -4,6 +4,5 @@ token: maps
 color:
   checkbox:
     background:
-      disabled: gray-200
-    border:
-      _: s-color-border
+      disabled: s-color-background-disabled-subtle
+    border: s-color-border

@@ -1,0 +1,7 @@
+---
+token: maps
+
+color:
+    track:
+      background:
+        _: s-color-background-disabled

@@ -4,7 +4,9 @@ token: maps
 color:
   slider:
     track:
-      background: petroleum-200
+      background:
+        _: s-color-background-disabled
+        active: s-color-background-primary
+        disabled: s-color-background-disabled
 shadow:
-  slider:
-    _: none
+  slider: none

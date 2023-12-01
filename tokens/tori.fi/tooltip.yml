@@ -3,4 +3,5 @@ token: maps
 
 color:
   tooltip:
-    background: gray-900
+    text: s-color-text-inverted
+    background: s-color-background-inverted

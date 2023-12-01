@@ -6,7 +6,7 @@ color:
     neutral:
       background: gray-100
     info:
-      background: petroleum-100
+      background: blue-100
     positive:
       background: green-100
     warning:
@@ -16,4 +16,6 @@ color:
     disabled:
       background: s-color-background-disabled
     price:
-      background: gray-900-alpha70
+      background: black-alpha70
+    notification:
+      background: s-color-background-notification

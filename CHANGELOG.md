@@ -1,3 +1,96 @@
+# [1.5.0-next.2](https://github.com/warp-ds/css/compare/v1.5.0-next.1...v1.5.0-next.2) (2023-11-30)
+
+
+### Bug Fixes
+
+* Fix token names for Tori blue ([#103](https://github.com/warp-ds/css/issues/103)) ([1c85ece](https://github.com/warp-ds/css/commit/1c85ecee26577f064a4f7d2b02c9669bca936f1b))
+
+# [1.5.0-next.1](https://github.com/warp-ds/css/compare/v1.4.2...v1.5.0-next.1) (2023-11-30)
+
+
+### Features
+
+* Adding new and tweaking misc values of existing tokens ([#96](https://github.com/warp-ds/css/issues/96)) ([e6ebf6a](https://github.com/warp-ds/css/commit/e6ebf6ab943c82bb415847efe2b9cdb1c1598812))
+
+## [1.4.2](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2) (2023-11-24)
+
+
+### Bug Fixes
+
+* add style to a-tag in resets.js ([#97](https://github.com/warp-ds/css/issues/97)) ([5fdeb4d](https://github.com/warp-ds/css/commit/5fdeb4d381424ec7c072843fbfe87d88c2f5855e))
+* **cc:** Restore styles for deprecated right-16 left-8 ([#101](https://github.com/warp-ds/css/issues/101)) ([393310a](https://github.com/warp-ds/css/commit/393310a589aa46e8a9515ff16f6de73256f5515a))
+* **tokens:** move focused color to border-focused token ([#100](https://github.com/warp-ds/css/issues/100)) ([ff35a83](https://github.com/warp-ds/css/commit/ff35a8333f462231ad51d24c7907b66446f14a3c))
+
+
+### Reverts
+
+* Revert "fix: add style to a-tag in resets.js (#97)" (#99) ([bbf385c](https://github.com/warp-ds/css/commit/bbf385c3933c0f510cbd339a58193df8077d9fe8)), closes [#97](https://github.com/warp-ds/css/issues/97) [#99](https://github.com/warp-ds/css/issues/99)
+
+## [1.4.2-next.4](https://github.com/warp-ds/css/compare/v1.4.2-next.3...v1.4.2-next.4) (2023-11-24)
+
+
+### Bug Fixes
+
+* **cc:** Restore styles for deprecated right-16 left-8 ([#101](https://github.com/warp-ds/css/issues/101)) ([393310a](https://github.com/warp-ds/css/commit/393310a589aa46e8a9515ff16f6de73256f5515a))
+
+## [1.4.2-next.3](https://github.com/warp-ds/css/compare/v1.4.2-next.2...v1.4.2-next.3) (2023-11-24)
+
+
+### Bug Fixes
+
+* **tokens:** move focused color to border-focused token ([#100](https://github.com/warp-ds/css/issues/100)) ([ff35a83](https://github.com/warp-ds/css/commit/ff35a8333f462231ad51d24c7907b66446f14a3c))
+
+## [1.4.2-next.2](https://github.com/warp-ds/css/compare/v1.4.2-next.1...v1.4.2-next.2) (2023-11-22)
+
+
+### Reverts
+
+* Revert "fix: add style to a-tag in resets.js (#97)" (#99) ([bbf385c](https://github.com/warp-ds/css/commit/bbf385c3933c0f510cbd339a58193df8077d9fe8)), closes [#97](https://github.com/warp-ds/css/issues/97) [#99](https://github.com/warp-ds/css/issues/99)
+
+## [1.4.2-next.1](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2-next.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* add style to a-tag in resets.js ([#97](https://github.com/warp-ds/css/issues/97)) ([5fdeb4d](https://github.com/warp-ds/css/commit/5fdeb4d381424ec7c072843fbfe87d88c2f5855e))
+
+## [1.4.1](https://github.com/warp-ds/css/compare/v1.4.0...v1.4.1) (2023-11-17)
+
+
+### Bug Fixes
+
+* **cc:** restore styles for deprecated z-20 class ([#93](https://github.com/warp-ds/css/issues/93)) ([5800a0d](https://github.com/warp-ds/css/commit/5800a0d5c945b16bb4fa1d28d15760268f7d8d11))
+
+## [1.4.1-next.1](https://github.com/warp-ds/css/compare/v1.4.0...v1.4.1-next.1) (2023-11-17)
+
+
+### Bug Fixes
+
+* **cc:** restore styles for deprecated z-20 class ([#93](https://github.com/warp-ds/css/issues/93)) ([5800a0d](https://github.com/warp-ds/css/commit/5800a0d5c945b16bb4fa1d28d15760268f7d8d11))
+
+# [1.4.0](https://github.com/warp-ds/css/compare/v1.3.0...v1.4.0) (2023-11-16)
+
+
+### Bug Fixes
+
+* **expandable:** fix long titles overflowing chevron ([#89](https://github.com/warp-ds/css/issues/89)) ([9de1b4c](https://github.com/warp-ds/css/commit/9de1b4cc1bd28620fefb6f30e58acfd20d7c4119))
+* Only show focus indicator in Expandable component on focus-visible ([#84](https://github.com/warp-ds/css/issues/84)) ([ccf30f2](https://github.com/warp-ds/css/commit/ccf30f2f9e20a93477cc7f5cf9dc602293320fc6))
+* **tabs:** left align all tabs instead of stretch ([9b88498](https://github.com/warp-ds/css/commit/9b884986a0cff63f4e5dbd6fb8c2561331989291))
+* Z-index of Modal backdrop should be 30 according to css docs ([#90](https://github.com/warp-ds/css/issues/90)) ([436b9d0](https://github.com/warp-ds/css/commit/436b9d0e5970eff412740d5758517921c928bef3))
+
+
+### Features
+
+* add part classes for expandable specifically for elements ([#88](https://github.com/warp-ds/css/issues/88)) ([7940b1a](https://github.com/warp-ds/css/commit/7940b1a1d39c6343d80882f6fec4f51fdd02a9e9))
+* New secondary semantic background, border and icon tokens ([#91](https://github.com/warp-ds/css/issues/91)) ([3a9cea1](https://github.com/warp-ds/css/commit/3a9cea17acb998df117ee7ee553b82407df7fb78))
+
+# [1.4.0-next.5](https://github.com/warp-ds/css/compare/v1.4.0-next.4...v1.4.0-next.5) (2023-11-16)
+
+
+### Bug Fixes
+
+* **expandable:** fix long titles overflowing chevron ([#89](https://github.com/warp-ds/css/issues/89)) ([9de1b4c](https://github.com/warp-ds/css/commit/9de1b4cc1bd28620fefb6f30e58acfd20d7c4119))
+
 # [1.4.0-next.4](https://github.com/warp-ds/css/compare/v1.4.0-next.3...v1.4.0-next.4) (2023-11-16)
 
 

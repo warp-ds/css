@@ -11,7 +11,9 @@ s:
       selected:
         _: blue-50
         hover: blue-100
-      disabled: bluegray-300
+      disabled:
+        _: bluegray-300
+        subtle: bluegray-200
       inverted: gray-900
       subtle:
         _: bluegray-50
@@ -80,6 +82,7 @@ s:
       hover: bluegray-400
       active: bluegray-500
       disabled: bluegray-300
+      focused: aqua-400
       selected:
         _: blue-600
         hover: blue-700
@@ -109,7 +112,7 @@ s:
         _: red-600
         hover: red-700
         active: red-800
-        selected:
+        selected: #TODO: These should be removed in v2 as they are the same as the above and not used internally anymore
           _: red-600
           hover: red-700
         subtle:

@@ -12,3 +12,5 @@ color:
       background:
         hover: gray-300-alpha30
         active: gray-400-alpha30
+    loading:
+      text: s-color-text-subtle

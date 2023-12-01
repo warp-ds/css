@@ -1,8 +1,8 @@
 export const pageIndicator = {
   wrapper: 'flex space-x-8 p-8',
   dot: 'h-8 w-8 rounded-full',
-  inactive: 's-bg-subtle hover:s-bg-subtle-hover',
-  active: 's-bg-primary',
+  inactive: 'i-bg-$color-pageindicator-background hover:i-bg-$color-pageindicator-background-hover',
+  active: 'i-bg-$color-pageindicator-background-selected',
 };
 
 // Deprecated: Use Badge component
@@ -106,11 +106,11 @@ export const steps = {
 };
 
 export const card = {
-  card: 'cursor-pointer overflow-hidden relative transition-all',
-  cardShadow: 'rounded-8 shadow-s hover:shadow-m hover:s-bg-hover tap-highlight-transparent',
+  card: 's-bg cursor-pointer overflow-hidden relative transition-all',
+  cardShadow: 'rounded-8 shadow-s hover:shadow-m hover:s-bg-subtle-hover tap-highlight-transparent',
   cardFlat: 'border-2 rounded-4',
   cardFlatUnselected:
-    's-bg s-border hover:s-bg-subtle-hover hover:s-border-hover active:s-bg-active active:s-border-active',
+    's-border hover:s-bg-subtle-hover hover:s-border-hover active:s-bg-active active:s-border-active',
   cardFlatSelected:
     's-border-selected s-bg-selected hover:s-bg-selected-hover hover:s-border-selected-hover active:s-border-selected-active active:s-bg-selected-active',
   cardSelected:
@@ -128,7 +128,7 @@ export const switchToggle = {
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
   trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
   trackInactive: 'i-bg-$color-switch-track-background group-hover:i-bg-$color-switch-track-background-hover',
-  trackDisabled: 'i-bg-$color-switch-track-background-disabled',
+  trackDisabled: 's-bg-disabled-subtle',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
   handleNotDisabled: 's-bg shadow-s',
@@ -195,8 +195,8 @@ export const expandable = {
   expandableBox: 's-bg-subtle hover:s-bg-subtle-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle s-icon',
-  chevronNonBox: 'relative left-8',
-  chevronBox: 'absolute right-16',
+  chevronNonBox: 'ml-8',
+  chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',
@@ -207,9 +207,9 @@ export const expandable = {
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
   button: buttonReset + ' hover:underline focus-visible:underline',
-  buttonBox: 'w-full text-left relative inline-flex items-center ' + box.box,
+  buttonBox: 'w-full text-left relative inline-flex items-center justify-between ' + box.box,
   paddingTop: 'pt-0',
-  title: 'flex justify-between items-center',
+  title: 'flex w-full justify-between items-center',
   titleType: 'h4',
 };
 
@@ -225,7 +225,7 @@ const buttonColors = {
   quiet: 'bg-transparent s-text-link hover:s-bg-hover active:s-bg-active',
   utilityQuiet: 's-text s-bg-transparent hover:s-bg-subtle-hover',
   negativeQuiet: 's-bg s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
-  loading: 's-text-subtle s-bg-subtle',
+  loading: 's-text s-bg-subtle',
   link: 's-text-link',
 };
 
@@ -268,7 +268,7 @@ const buttonVariants = {
 };
 
 export const button = {
-  // Buttontypes
+  // Button types
   secondary:
   `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonColors.secondary}`, // .button--secondary, .button--default, .button
   secondaryHref:
@@ -403,7 +403,7 @@ export const alert = {
 export const input = {
   default: 'block text-m mb-0 leading-m s-text s-bg s-border hover:s-border-hover active:s-border-selected rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
-  disabled: 'i-bg-$color-input-background-disabled s-border-disabled hover:s-border-disabled! s-text-disabled pointer-events-none',
+  disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! s-text-disabled pointer-events-none',
   invalid: 's-border-negative s-text-negative!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none s-text',
   placeholder: 'placeholder:s-text-placeholder',
@@ -414,7 +414,7 @@ export const input = {
 
 export const select = {
   default: 'block text-m mb-0 leading-m s-text-text s-bg s-border hover:s-border-hover active:s-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
-  disabled: 'i-bg-$color-select-background-disabled s-border-disabled hover:s-border-disabled! active:s-border-disabled! s-text-disabled pointer-events-none',
+  disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! active:s-border-disabled! s-text-disabled pointer-events-none',
   invalid: 's-border-negative',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
@@ -477,13 +477,13 @@ export const toggle = {
   checkbox: 'before:rounded-2 hover:before:s-border-selected hover:before:s-bg-subtle',
   checkboxChecked: 'peer-checked:before:s-border-selected peer-checked:before:s-bg-primary peer-checked:peer-hover:before:s-border-selected-hover peer-checked:peer-hover:before:s-bg-primary-hover',
   checkboxInvalid: 'before:s-bg hover:before:s-bg-negative-subtle-hover peer-checked:before:s-border-negative hover:before:s-border-negative-hover peer-checked:before:s-bg-negative peer-checked:peer-hover:before:s-bg-negative-hover peer-checked:peer-hover:before:s-border-negative-hover',
-  checkboxDisabled: 'before:i-bg-$color-checkbox-background-disabled before:s-border-disabled peer-checked:before:s-border-disabled peer-checked:before:s-bg-disabled',
-  labelCheckboxBorder: 'i-border-$color-checkbox-border',
+  checkboxDisabled: 'before:s-bg-disabled-subtle before:s-border-disabled peer-checked:before:s-border-disabled peer-checked:before:s-bg-disabled',
+  labelCheckboxBorder: 's-border',
   radio: 'before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:s-border-selected-hover peer-hover:before:s-border-selected peer-hover:before:s-bg-primary-subtle',
   radioChecked: 'peer-checked:before:s-border-selected',
   radioInvalid: 'before:s-bg peer-hover:before:s-bg-negative-subtle before:s-border-negative peer-hover:before:s-border-negative-hover peer-checked:before:s-border-negative-selected peer-checked:peer-hover:before:s-border-negative-selected-hover ',
-  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:s-border-disabled peer-checked:before:s-border-disabled',
-  labelRadioBorder: 'i-border-$color-radio-border',
+  radioDisabled: 'before:s-bg-disabled-subtle before:s-border-disabled peer-checked:before:s-border-disabled',
+  labelRadioBorder: 's-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
   radioButtonsLabel: 'peer-hover:peer-not-checked:s-bg-hover peer-checked:s-text-inverted peer-checked:s-bg-primary peer-checked:s-border-selected block relative text-s font-bold cursor-pointer s-text-link text-center s-bg border-2 s-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',

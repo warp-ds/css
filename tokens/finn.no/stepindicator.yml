@@ -1,0 +1,8 @@
+---
+token: maps
+
+color:
+  stepindicator:
+    track:
+      background:
+        _: s-color-background-disabled

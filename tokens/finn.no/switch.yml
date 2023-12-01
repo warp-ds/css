@@ -7,4 +7,4 @@ color:
       background:
         _: gray-300
         hover: gray-400
-        disabled: bluegray-200
+        disabled: s-color-background-disabled-subtle

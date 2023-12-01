@@ -4,5 +4,5 @@ token: maps
 color:
   spinner:
     border:
-      _: gray-100
-      top: petroleum-400
+      _: petroleum-600-alpha50
+      top: s-color-border-primary

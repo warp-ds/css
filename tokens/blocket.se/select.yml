@@ -4,4 +4,4 @@ token: maps
 color:
   select:
     background:
-      disabled: s-color-background-disabled
+      disabled: s-color-background-disabled-subtle

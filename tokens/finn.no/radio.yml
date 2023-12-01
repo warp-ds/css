@@ -4,5 +4,5 @@ token: maps
 color:
   radio:
     background:
-      disabled: gray-200
-    border: gray-500
+      disabled: s-color-background-disabled-subtle
+    border: s-color-border

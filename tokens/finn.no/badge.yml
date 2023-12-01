@@ -16,4 +16,6 @@ color:
     disabled:
       background: s-color-background-disabled
     price:
-      background: gray-900-alpha70
+      background: black-alpha70
+    notification:
+      background: s-color-background-notification

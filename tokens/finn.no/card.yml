@@ -1,0 +1,14 @@
+---
+token: maps
+
+color:
+  card:
+    background:
+      selected:
+        _: s-color-background-selected
+        hover: s-color-background-selected-hover
+    flat:
+      border:
+        selected:
+          _: s-color-border-selected
+          hover: s-color-border-selected-hover

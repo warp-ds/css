@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  navbar:
+    border:
+      selected: s-color-border-selected
+    icon:
+      selected: s-color-icon-selected

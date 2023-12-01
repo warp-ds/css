@@ -478,3 +478,16 @@ export namespace attention {
     export const notCallout: string;
     export const closeBtn: string;
 }
+export namespace backwardsCompatibleClasses {
+    export const modalBackdrop: string;
+    const chevronBox_1: string;
+    export { chevronBox_1 as chevronBox };
+    const chevronNonBox_1: string;
+    export { chevronNonBox_1 as chevronNonBox };
+    const checkboxInvalid_1: string;
+    export { checkboxInvalid_1 as checkboxInvalid };
+    const radioInvalid_1: string;
+    export { radioInvalid_1 as radioInvalid };
+    const radioDisabled_1: string;
+    export { radioDisabled_1 as radioDisabled };
+}
