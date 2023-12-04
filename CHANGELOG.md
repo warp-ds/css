@@ -1,3 +1,10 @@
+## [1.5.1-next.2](https://github.com/warp-ds/css/compare/v1.5.1-next.1...v1.5.1-next.2) (2023-12-04)
+
+
+### Bug Fixes
+
+* Change to use default border color for checkbox border ([#106](https://github.com/warp-ds/css/issues/106)) ([7c3cf4a](https://github.com/warp-ds/css/commit/7c3cf4a836098aae82f2b7ffe62660b0c589a427))
+
 ## [1.5.1-next.1](https://github.com/warp-ds/css/compare/v1.5.0...v1.5.1-next.1) (2023-12-04)
 
 
