@@ -11,7 +11,7 @@ color:
         disabled: s-color-background-disabled
         hover: s-color-background-primary-hover
     border:
-      _: gray-500
+      _: s-color-border
       disabled: s-color-border-disabled
       hover: s-color-border-primary
       selected:
