@@ -1,3 +1,10 @@
+## [1.5.1-next.1](https://github.com/warp-ds/css/compare/v1.5.0...v1.5.1-next.1) (2023-12-04)
+
+
+### Bug Fixes
+
+* Change to use primary colors for Tori primary buttons ([#105](https://github.com/warp-ds/css/issues/105)) ([6f4d880](https://github.com/warp-ds/css/commit/6f4d880f20d0dca3f4de3d75ead06433b55d6114))
+
 # [1.5.0](https://github.com/warp-ds/css/compare/v1.4.2...v1.5.0) (2023-12-04)
 
 
