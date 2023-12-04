@@ -1,3 +1,11 @@
+## [1.5.1](https://github.com/warp-ds/css/compare/v1.5.0...v1.5.1) (2023-12-04)
+
+
+### Bug Fixes
+
+* Change to use default border color for checkbox border ([#106](https://github.com/warp-ds/css/issues/106)) ([7c3cf4a](https://github.com/warp-ds/css/commit/7c3cf4a836098aae82f2b7ffe62660b0c589a427))
+* Change to use primary colors for Tori primary buttons ([#105](https://github.com/warp-ds/css/issues/105)) ([6f4d880](https://github.com/warp-ds/css/commit/6f4d880f20d0dca3f4de3d75ead06433b55d6114))
+
 ## [1.5.1-next.2](https://github.com/warp-ds/css/compare/v1.5.1-next.1...v1.5.1-next.2) (2023-12-04)
 
 
