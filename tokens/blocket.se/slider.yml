@@ -15,7 +15,7 @@ color:
         active: s-color-border-primary-active
     track:
       background:
-        _: s-color-background-primary-subtle
+        _: s-color-background-disabled
         active: s-color-background-primary
         disabled: s-color-background-disabled
 shadow:

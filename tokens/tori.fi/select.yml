@@ -6,11 +6,11 @@ color:
     text:
       _: s-color-text
       hover: s-color-text-hover
-      active: s-color-text
+      active: s-color-text #TODO: not used in code, remove
       disabled: s-color-text-disabled
     background:
       _: s-color-background
-      disabled: gray-200
+      disabled: s-color-background-disabled-subtle
     border:
       _: s-color-border
       hover: s-color-border-hover

@@ -3,6 +3,6 @@ token: maps
 
 color:
   callout:
-    background: petroleum-100
-    border: petroleum-400
+    background: blue-100
+    border: blue-400
     text: s-color-text

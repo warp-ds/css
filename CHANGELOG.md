@@ -1,3 +1,17 @@
+# [1.5.0-next.2](https://github.com/warp-ds/css/compare/v1.5.0-next.1...v1.5.0-next.2) (2023-11-30)
+
+
+### Bug Fixes
+
+* Fix token names for Tori blue ([#103](https://github.com/warp-ds/css/issues/103)) ([1c85ece](https://github.com/warp-ds/css/commit/1c85ecee26577f064a4f7d2b02c9669bca936f1b))
+
+# [1.5.0-next.1](https://github.com/warp-ds/css/compare/v1.4.2...v1.5.0-next.1) (2023-11-30)
+
+
+### Features
+
+* Adding new and tweaking misc values of existing tokens ([#96](https://github.com/warp-ds/css/issues/96)) ([e6ebf6a](https://github.com/warp-ds/css/commit/e6ebf6ab943c82bb415847efe2b9cdb1c1598812))
+
 ## [1.4.2](https://github.com/warp-ds/css/compare/v1.4.1...v1.4.2) (2023-11-24)
 
 
