@@ -168,12 +168,12 @@ s:
       inverted:
         _: white
         subtle: gray-50
-      link: petroleum-600
+      link: blueberry-600
       disabled: gray-300
       negative: red-600
       positive: green-600
       notification: white
 
-    focused: petroleum-400
+    focused: blueberry-400
 
     divider: gray-200
