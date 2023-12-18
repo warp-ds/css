@@ -28,9 +28,9 @@ s:
           hover: blueberry-100
           active: blueberry-200
       secondary:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
+        _: watermelon-500
+        hover: watermelon-600
+        active: watermelon-700
       positive:
         _: green-600
         hover: green-700
@@ -96,9 +96,9 @@ s:
           hover: blueberry-400
           active: blueberry-500
       secondary:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
+        _: watermelon-500
+        hover: watermelon-600
+        active: watermelon-700
       positive:
         _: green-600
         hover: green-700
@@ -153,9 +153,9 @@ s:
         active: gray-200
       primary: blueberry-600
       secondary:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
+        _: watermelon-500
+        hover: watermelon-600
+        active: watermelon-700
       positive: green-600
       negative: red-600
       warning: yellow-600
