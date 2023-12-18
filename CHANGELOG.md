@@ -1,3 +1,10 @@
+## [1.5.2-next.2](https://github.com/warp-ds/css/compare/v1.5.2-next.1...v1.5.2-next.2) (2023-12-18)
+
+
+### Bug Fixes
+
+* **package.json:** publish /dist folder to NPM ([#109](https://github.com/warp-ds/css/issues/109)) ([1a99316](https://github.com/warp-ds/css/commit/1a993163bc39ac94b7510114f5f402b5a78eb31d))
+
 ## [1.5.2-next.1](https://github.com/warp-ds/css/compare/v1.5.1...v1.5.2-next.1) (2023-12-18)
 
 
