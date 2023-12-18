@@ -33,6 +33,7 @@
     }
   },
   "files": [
+    "dist",
     "./component-classes/index.js",
     "./component-classes/classes.js",
     "./component-classes/shortcuts.js",
