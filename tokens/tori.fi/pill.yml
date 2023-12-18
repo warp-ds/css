@@ -13,7 +13,7 @@ color:
     suggestion:
       text: s-color-text
       background:
-        _: gray-300
-        hover: gray-400
-        active: gray-500
+        _: gray-200
+        hover: gray-300
+        active: gray-400
       icon: s-color-icon
