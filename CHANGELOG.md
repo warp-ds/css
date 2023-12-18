@@ -1,3 +1,10 @@
+## [1.5.2-next.1](https://github.com/warp-ds/css/compare/v1.5.1...v1.5.2-next.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* Changed to slightly lighter colors for the suggestion pill ([#108](https://github.com/warp-ds/css/issues/108)) ([7ba36ad](https://github.com/warp-ds/css/commit/7ba36ad76c7137055decd2522e8da8a15551d4ee))
+
 ## [1.5.1](https://github.com/warp-ds/css/compare/v1.5.0...v1.5.1) (2023-12-04)
 
 
