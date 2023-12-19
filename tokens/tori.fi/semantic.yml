@@ -82,7 +82,7 @@ s:
       hover: gray-400
       active: gray-500
       disabled: gray-300
-      focused: blue-400
+      focused: blue-300
       selected:
         _: blueberry-600
         hover: blueberry-700
