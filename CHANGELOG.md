@@ -1,3 +1,10 @@
+# [1.6.0-next.1](https://github.com/warp-ds/css/compare/v1.5.2-next.2...v1.6.0-next.1) (2023-12-19)
+
+
+### Features
+
+* Tori colour palette updates ([#110](https://github.com/warp-ds/css/issues/110)) ([48c4ea6](https://github.com/warp-ds/css/commit/48c4ea6d472ee79e79d30b5d1f3f0c62bad96d06))
+
 ## [1.5.2-next.2](https://github.com/warp-ds/css/compare/v1.5.2-next.1...v1.5.2-next.2) (2023-12-18)
 
 
