@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/warp-ds/css/compare/v1.5.1...v1.6.0) (2023-12-19)
+
+
+### Bug Fixes
+
+* Changed to slightly lighter colors for the suggestion pill ([#108](https://github.com/warp-ds/css/issues/108)) ([7ba36ad](https://github.com/warp-ds/css/commit/7ba36ad76c7137055decd2522e8da8a15551d4ee))
+* **package.json:** publish /dist folder to NPM ([#109](https://github.com/warp-ds/css/issues/109)) ([1a99316](https://github.com/warp-ds/css/commit/1a993163bc39ac94b7510114f5f402b5a78eb31d))
+
+
+### Features
+
+* Tori colour palette updates ([#110](https://github.com/warp-ds/css/issues/110)) ([48c4ea6](https://github.com/warp-ds/css/commit/48c4ea6d472ee79e79d30b5d1f3f0c62bad96d06))
+
 # [1.6.0-next.1](https://github.com/warp-ds/css/compare/v1.5.2-next.2...v1.6.0-next.1) (2023-12-19)
 
 
