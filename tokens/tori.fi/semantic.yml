@@ -9,8 +9,8 @@ s:
       hover: gray-100
       active: gray-200
       selected:
-        _: petroleum-50
-        hover: petroleum-100
+        _: blueberry-50
+        hover: blueberry-100
       disabled:
         _: gray-300
         subtle: gray-200
@@ -20,17 +20,17 @@ s:
         hover: gray-100
         active: gray-200
       primary:
-        _: petroleum-600
-        hover: petroleum-700
-        active: petroleum-800
+        _: blueberry-600
+        hover: blueberry-700
+        active: blueberry-800
         subtle:
-          _: petroleum-50
-          hover: petroleum-100
-          active: petroleum-200
+          _: blueberry-50
+          hover: blueberry-100
+          active: blueberry-200
       secondary:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
+        _: watermelon-500
+        hover: watermelon-600
+        active: watermelon-700
       positive:
         _: green-600
         hover: green-700
@@ -82,23 +82,23 @@ s:
       hover: gray-400
       active: gray-500
       disabled: gray-300
-      focused: petroleum-400
+      focused: blue-300
       selected:
-        _: petroleum-600
-        hover: petroleum-700
+        _: blueberry-600
+        hover: blueberry-700
       inverted: white
       primary:
-        _: petroleum-600
-        hover: petroleum-700
-        active: petroleum-800
+        _: blueberry-600
+        hover: blueberry-700
+        active: blueberry-800
         subtle:
-          _: petroleum-300
-          hover: petroleum-400
-          active: petroleum-500
+          _: blueberry-300
+          hover: blueberry-400
+          active: blueberry-500
       secondary:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
+        _: watermelon-500
+        hover: watermelon-600
+        active: watermelon-700
       positive:
         _: green-600
         hover: green-700
@@ -140,8 +140,8 @@ s:
       hover: gray-900
       active: gray-900
       selected:
-        _: petroleum-600
-        hover: petroleum-700
+        _: blueberry-600
+        hover: blueberry-700
       disabled: gray-300
       subtle:
         _: gray-400
@@ -151,11 +151,11 @@ s:
         _: white
         hover: gray-100
         active: gray-200
-      primary: petroleum-600
+      primary: blueberry-600
       secondary:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
+        _: watermelon-500
+        hover: watermelon-600
+        active: watermelon-700
       positive: green-600
       negative: red-600
       warning: yellow-600
@@ -168,12 +168,12 @@ s:
       inverted:
         _: white
         subtle: gray-50
-      link: petroleum-600
+      link: blueberry-600
       disabled: gray-300
       negative: red-600
       positive: green-600
       notification: white
 
-    focused: petroleum-400
+    focused: blue-300
 
     divider: gray-200
