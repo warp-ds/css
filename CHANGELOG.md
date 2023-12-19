@@ -1,3 +1,10 @@
+## [1.6.1-next.2](https://github.com/warp-ds/css/compare/v1.6.1-next.1...v1.6.1-next.2) (2023-12-19)
+
+
+### Bug Fixes
+
+* **cc:** set background on unselected card ([#113](https://github.com/warp-ds/css/issues/113)) ([b64b86d](https://github.com/warp-ds/css/commit/b64b86dfd72459e035a4964ce5cddbb88984c732))
+
 ## [1.6.1-next.1](https://github.com/warp-ds/css/compare/v1.6.0...v1.6.1-next.1) (2023-12-19)
 
 
