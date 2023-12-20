@@ -8,5 +8,5 @@ color:
       active: s-color-text-inverted
     background:
       hover: s-color-background-primary-subtle-hover
-      active: s-color-background-primary-subtle-active
+      active: s-color-background-primary
     icon: s-color-icon
