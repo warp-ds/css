@@ -104,6 +104,7 @@ export namespace card {
     export const cardFlat: string;
     export const cardFlatUnselected: string;
     export const cardFlatSelected: string;
+    export const cardUnselected: string;
     export const cardSelected: string;
     export const cardOutline: string;
     export const cardOutlineUnselected: string;

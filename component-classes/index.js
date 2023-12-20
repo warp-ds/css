@@ -118,6 +118,7 @@ export const card = {
     'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
   cardFlatSelected:
     'i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
+  cardUnselected: 's-bg',
   cardSelected:
     'i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active',
   cardOutline:
@@ -485,15 +486,15 @@ export const toggle = {
   noContent: `before:content-[""]`,
   indeterminate: `before:flex! before:items-center before:justify-center before:i-text-$color-checkbox-icon before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:i-border-$color-checkbox-border-selected peer-indeterminate:before:i-bg-$color-checkbox-background-selected peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-selected-hover`,
   labelDisabled: 'pointer-events-none',
-  checkbox: 'before:rounded-2 hover:before:i-border-$color-checkbox-border-hover hover:before:i-bg-$color-checkbox-background-hover',
+  checkbox: 'before:s-bg before:rounded-2 hover:before:i-border-$color-checkbox-border-hover hover:before:i-bg-$color-checkbox-background-hover',
   checkboxChecked: 'peer-checked:before:i-border-$color-checkbox-border-selected peer-checked:before:i-bg-$color-checkbox-background-selected peer-checked:peer-hover:before:i-border-$color-checkbox-border-selected-hover peer-checked:peer-hover:before:i-bg-$color-checkbox-background-selected-hover',
   checkboxInvalid: 'before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-border-$color-checkbox-negative-border hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-hover',
-  checkboxDisabled: 'before:i-bg-$color-checkbox-background-disabled before:i-border-$color-checkbox-border-disabled peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:before:i-bg-$color-checkbox-background-selected-disabled',
+  checkboxDisabled: 'peer-disabled:before:i-bg-$color-checkbox-background-disabled before:i-border-$color-checkbox-border-disabled peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:before:i-bg-$color-checkbox-background-selected-disabled',
   labelCheckboxBorder: 'i-border-$color-checkbox-border',
-  radio: 'before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
+  radio: 'before:s-bg before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
   radioChecked: 'peer-checked:before:i-border-$color-radio-border-selected',
   radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover ',
-  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled',
+  radioDisabled: 'peer-disabled:before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled',
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
@@ -551,5 +552,5 @@ export const backwardsCompatibleClasses = {
   chevronNonBox: 'left-8', //removed in v1.4.0
   checkboxInvalid: 'peer-checked:before:i-border-$color-checkbox-negative-border-selected peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-selected-hover', //replaced in v1.5.0
   radioInvalid: 'peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ', //replaced in v1.5.0
-  radioDisabled: 'peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
+  radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
 };
