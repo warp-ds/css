@@ -1,3 +1,10 @@
+## [1.6.2-next.1](https://github.com/warp-ds/css/compare/v1.6.1...v1.6.2-next.1) (2023-12-21)
+
+
+### Bug Fixes
+
+* Updated token for active pagination background ([#115](https://github.com/warp-ds/css/issues/115)) ([dae0348](https://github.com/warp-ds/css/commit/dae034881766d9cf26247ce34dc3ff000a0dd20b))
+
 ## [1.6.1](https://github.com/warp-ds/css/compare/v1.6.0...v1.6.1) (2023-12-20)
 
 
