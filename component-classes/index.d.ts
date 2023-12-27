@@ -491,4 +491,7 @@ export namespace backwardsCompatibleClasses {
     export { radioInvalid_1 as radioInvalid };
     const radioDisabled_1: string;
     export { radioDisabled_1 as radioDisabled };
+    const modal_1: string;
+    export { modal_1 as modal };
+    export const modalTitle: string;
 }
