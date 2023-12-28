@@ -303,6 +303,7 @@ export namespace modal {
     export const transitionTitle: string;
     export const transitionTitleCenter: string;
     export const transitionTitleColSpan: string;
+    export const transitionTitleMaxWidth: string;
     const title_1: string;
     export { title_1 as title };
     export const titleText: string;
@@ -494,4 +495,8 @@ export namespace backwardsCompatibleClasses {
     const modal_1: string;
     export { modal_1 as modal };
     export const modalTitle: string;
+    const titleButtonLeft_1: string;
+    export { titleButtonLeft_1 as titleButtonLeft };
+    const titleButtonRight_1: string;
+    export { titleButtonRight_1 as titleButtonRight };
 }

@@ -386,12 +386,13 @@ export const modal = {
   transitionTitle: 'transition-all duration-300',
   transitionTitleCenter: 'justify-self-center',
   transitionTitleColSpan: 'col-span-2',
+  transitionTitleMaxWidth: 'max-w-7/8',
   title:
     '-mt-4 sm:-mt-8 h-40 sm:h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-start px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
   titleText: 'mb-0 h4 sm:h3',
-  titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} items-start! sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
-  titleButtonLeft: '-ml-8 sm:-ml-12 justify-self-start',
-  titleButtonRight: '-mr-8 sm:-mr-12 justify-self-end',
+  titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
+  titleButtonLeft: '-ml-8 sm:-ml-12 absolute top-14 left-28',
+  titleButtonRight: '-mr-8 sm:-mr-12 absolute top-14 right-28',
   titleButtonIcon: 'h-16 w-16 sm:h-24 sm:w-24',
   titleButtonIconRotated: 'transform rotate-90',
 };
@@ -554,5 +555,7 @@ export const backwardsCompatibleClasses = {
   radioInvalid: 'peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ', //replaced in v1.5.0
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
   modal: 'space-y-16', //removed
-  modalTitle: 'items-center' //replaced by items-start
+  modalTitle: 'items-center', //replaced by items-start
+  titleButtonLeft: 'justify-self-start', //replaced by absolute top-14 left-28
+  titleButtonRight: 'justify-self-end' //replaced by absolute top-14 right-28
 };
