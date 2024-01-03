@@ -1,3 +1,10 @@
+## [1.6.2-next.2](https://github.com/warp-ds/css/compare/v1.6.2-next.1...v1.6.2-next.2) (2024-01-03)
+
+
+### Bug Fixes
+
+* adjust padding and height for modal title ([#117](https://github.com/warp-ds/css/issues/117)) ([7063fce](https://github.com/warp-ds/css/commit/7063fce46e5fca4a78327a3d04f62aa6feb22eee))
+
 ## [1.6.2-next.1](https://github.com/warp-ds/css/compare/v1.6.1...v1.6.2-next.1) (2023-12-21)
 
 
