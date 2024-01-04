@@ -73,7 +73,7 @@ export const pill = {
   label: 'pl-12 py-8 rounded-l-full',
   labelWithoutClose: 'pr-12 rounded-r-full',
   labelWithClose: 'pr-2',
-  close: 'pr-12 pl-4 pt-4 pb-6 rounded-r-full text-m!',
+  close: 'pr-12 pl-4 py-10 rounded-r-full',
   a11y: 'sr-only',
 };
 
@@ -553,5 +553,6 @@ export const backwardsCompatibleClasses = {
   checkboxInvalid: 'peer-checked:before:i-border-$color-checkbox-negative-border-selected peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-selected-hover', //replaced in v1.5.0
   radioInvalid: 'peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ', //replaced in v1.5.0
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
-  modalTitle: 'h-40 sm:h-48 items-center' // replaced by min-h-40 sm:min-h-48 items-start
+  modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
+  pillClose: 'pt-4 pb-6 text-m!' //replaced by py-10
 };
