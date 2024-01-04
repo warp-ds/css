@@ -1,3 +1,10 @@
+## [1.6.2-next.3](https://github.com/warp-ds/css/compare/v1.6.2-next.2...v1.6.2-next.3) (2024-01-04)
+
+
+### Bug Fixes
+
+* adjust pill close style ([#118](https://github.com/warp-ds/css/issues/118)) ([8d4beb7](https://github.com/warp-ds/css/commit/8d4beb72fc36fc2e7d229860610e1ad65e12769d))
+
 ## [1.6.2-next.2](https://github.com/warp-ds/css/compare/v1.6.2-next.1...v1.6.2-next.2) (2024-01-03)
 
 
