@@ -1,3 +1,10 @@
+# [1.7.0-next.1](https://github.com/warp-ds/css/compare/v1.6.2-next.3...v1.7.0-next.1) (2024-01-05)
+
+
+### Features
+
+* Add classes for the pagination component ([#119](https://github.com/warp-ds/css/issues/119)) ([8a7aed0](https://github.com/warp-ds/css/commit/8a7aed04d3160376f56532af5a37b06b92470f01))
+
 ## [1.6.2-next.3](https://github.com/warp-ds/css/compare/v1.6.2-next.2...v1.6.2-next.3) (2024-01-04)
 
 
