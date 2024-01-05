@@ -559,7 +559,7 @@ export const backwardsCompatibleClasses = {
 
 export const pagination = {
   currentPage: 'block md:hidden p-8 font-bold',
-  icon: 'flex w-16 h-16',
+  icon: 'flex w-16 h-16 s-icon',
   containerNav: 'flex items-center justify-center space-x-8 p-8',
   heading: 'sr-only',
   pages: 'hidden md:block s-text-link',
