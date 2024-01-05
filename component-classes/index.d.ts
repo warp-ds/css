@@ -494,3 +494,17 @@ export namespace backwardsCompatibleClasses {
     export const modalTitle: string;
     export const pillClose: string;
 }
+export namespace pagination {
+    export const currentPage: string;
+    const icon_4: string;
+    export { icon_4 as icon };
+    export const containerNav: string;
+    export const heading: string;
+    export const pages: string;
+    export const nextPage: string;
+    export const firstPageButton: string;
+    export const firstPageLabel: string;
+    const active_1: string;
+    export { active_1 as active };
+    export const defaultPage: string;
+}
