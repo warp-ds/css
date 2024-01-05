@@ -562,9 +562,10 @@ export const pagination = {
   icon: 'flex w-16 h-16',
   containerNav: 'flex items-center justify-center space-x-8 p-8',
   heading: 'sr-only',
-  pages: 'hidden md:block i-text-$color-pagination-text',
+  pages: 'hidden md:block s-text-link',
   nextPage: 'flex items-center',
   firstPageButton: 'md:hidden',
   firstPageLabel: 'font-bold',
-  active: 'i-bg-$color-pagination-background-active i-text-$color-pagination-text-active',
+  active: 's-bg-primary s-text-inverted',
+  defaultPage: 'hover:s-bg-primary-subtle-hover'
 };

@@ -506,4 +506,5 @@ export namespace pagination {
     export const firstPageLabel: string;
     const active_1: string;
     export { active_1 as active };
+    export const defaultPage: string;
 }
