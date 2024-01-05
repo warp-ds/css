@@ -556,3 +556,15 @@ export const backwardsCompatibleClasses = {
   modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
   pillClose: 'pt-4 pb-6 text-m!' //replaced by py-10
 };
+
+export const pagination = {
+  currentPage: 'block md:hidden p-8 font-bold',
+  icon: 'flex w-16 h-16',
+  containerNav: 'flex items-center justify-center space-x-8 p-8',
+  heading: 'sr-only',
+  pages: 'hidden md:block i-text-$color-pagination-text',
+  nextPage: 'flex items-center',
+  firstPageButton: 'md:hidden',
+  firstPageLabel: 'font-bold',
+  active: 'i-bg-$color-pagination-background-active i-text-$color-pagination-text-active',
+};
