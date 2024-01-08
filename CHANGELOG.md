@@ -1,3 +1,10 @@
+# [1.7.0-next.2](https://github.com/warp-ds/css/compare/v1.7.0-next.1...v1.7.0-next.2) (2024-01-08)
+
+
+### Bug Fixes
+
+* adjust padding-top and padding-bottom for pill close ([#120](https://github.com/warp-ds/css/issues/120)) ([0d551ba](https://github.com/warp-ds/css/commit/0d551baa16abf755c04013ea9376a3f9dae9c316))
+
 # [1.7.0-next.1](https://github.com/warp-ds/css/compare/v1.6.2-next.3...v1.7.0-next.1) (2024-01-05)
 
 
