@@ -1,3 +1,38 @@
+# [1.7.0-next.2](https://github.com/warp-ds/css/compare/v1.7.0-next.1...v1.7.0-next.2) (2024-01-08)
+
+
+### Bug Fixes
+
+* adjust padding-top and padding-bottom for pill close ([#120](https://github.com/warp-ds/css/issues/120)) ([0d551ba](https://github.com/warp-ds/css/commit/0d551baa16abf755c04013ea9376a3f9dae9c316))
+
+# [1.7.0-next.1](https://github.com/warp-ds/css/compare/v1.6.2-next.3...v1.7.0-next.1) (2024-01-05)
+
+
+### Features
+
+* Add classes for the pagination component ([#119](https://github.com/warp-ds/css/issues/119)) ([8a7aed0](https://github.com/warp-ds/css/commit/8a7aed04d3160376f56532af5a37b06b92470f01))
+
+## [1.6.2-next.3](https://github.com/warp-ds/css/compare/v1.6.2-next.2...v1.6.2-next.3) (2024-01-04)
+
+
+### Bug Fixes
+
+* adjust pill close style ([#118](https://github.com/warp-ds/css/issues/118)) ([8d4beb7](https://github.com/warp-ds/css/commit/8d4beb72fc36fc2e7d229860610e1ad65e12769d))
+
+## [1.6.2-next.2](https://github.com/warp-ds/css/compare/v1.6.2-next.1...v1.6.2-next.2) (2024-01-03)
+
+
+### Bug Fixes
+
+* adjust padding and height for modal title ([#117](https://github.com/warp-ds/css/issues/117)) ([7063fce](https://github.com/warp-ds/css/commit/7063fce46e5fca4a78327a3d04f62aa6feb22eee))
+
+## [1.6.2-next.1](https://github.com/warp-ds/css/compare/v1.6.1...v1.6.2-next.1) (2023-12-21)
+
+
+### Bug Fixes
+
+* Updated token for active pagination background ([#115](https://github.com/warp-ds/css/issues/115)) ([dae0348](https://github.com/warp-ds/css/commit/dae034881766d9cf26247ce34dc3ff000a0dd20b))
+
 ## [1.6.1](https://github.com/warp-ds/css/compare/v1.6.0...v1.6.1) (2023-12-20)
 
 

@@ -73,7 +73,7 @@ export const pill = {
   label: 'pl-12 py-8 rounded-l-full',
   labelWithoutClose: 'pr-12 rounded-r-full',
   labelWithClose: 'pr-2',
-  close: 'pr-12 pl-4 pt-4 pb-6 rounded-r-full text-m!',
+  close: 'pr-12 pl-4 py-8 rounded-r-full',
   a11y: 'sr-only',
 };
 
@@ -384,10 +384,10 @@ export const modal = {
     'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
-  transitionTitleCenter: 'justify-self-center',
+  transitionTitleCenter: 'justify-self-center self-center',
   transitionTitleColSpan: 'col-span-2',
   title:
-    '-mt-4 sm:-mt-8 h-40 sm:h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-center px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
+    'py-8 sm:py-0 -mt-4 sm:-mt-8 min-h-40 sm:min-h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-start px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
   titleText: 'mb-0 h4 sm:h3',
   titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
   titleButtonLeft: '-ml-8 sm:-ml-12 justify-self-start',
@@ -553,4 +553,19 @@ export const backwardsCompatibleClasses = {
   checkboxInvalid: 'peer-checked:before:i-border-$color-checkbox-negative-border-selected peer-checked:peer-hover:before:i-border-$color-checkbox-negative-border-selected-hover', //replaced in v1.5.0
   radioInvalid: 'peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ', //replaced in v1.5.0
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
+  modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
+  pillClose: 'pt-4 pb-6 text-m!' //replaced by py-8
+};
+
+export const pagination = {
+  currentPage: 'block md:hidden p-8 font-bold',
+  icon: 'flex w-16 h-16 s-icon',
+  containerNav: 'flex items-center justify-center space-x-8 p-8',
+  heading: 'sr-only',
+  pages: 'hidden md:block s-text-link',
+  nextPage: 'flex items-center',
+  firstPageButton: 'md:hidden',
+  firstPageLabel: 'font-bold',
+  active: 's-bg-primary s-text-inverted',
+  defaultPage: 'hover:s-bg-primary-subtle-hover'
 };
