@@ -466,10 +466,18 @@ export namespace attention {
     export const highlight: string;
     export const popover: string;
     export const arrowBase: string;
+    export const arrowDirectionLeftStart: string;
     export const arrowDirectionLeft: string;
+    export const arrowDirectionLeftEnd: string;
+    export const arrowDirectionRightStart: string;
     export const arrowDirectionRight: string;
+    export const arrowDirectionRightEnd: string;
+    export const arrowDirectionBottomStart: string;
     export const arrowDirectionBottom: string;
+    export const arrowDirectionBottomEnd: string;
+    export const arrowDirectionTopStart: string;
     export const arrowDirectionTop: string;
+    export const arrowDirectionTopEnd: string;
     export const arrowTooltip: string;
     export const arrowCallout: string;
     export const arrowPopover: string;
