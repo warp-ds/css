@@ -9,8 +9,8 @@
     "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build",
     "build:tokens": "cd tokens && node index.js",
     "build:resets": "cd resets && node index.js",
-    "lint:fix": "eslint . --fix",
-    "lint:check": "eslint ."
+    "lint:fix": "eslint . --fix --ignore-path .gitignore",
+    "lint:check": "eslint . --ignore-path .gitignore"
   },
   "type": "module",
   "exports": {
