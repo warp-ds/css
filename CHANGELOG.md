@@ -1,3 +1,10 @@
+## [1.7.1-next.2](https://github.com/warp-ds/css/compare/v1.7.1-next.1...v1.7.1-next.2) (2024-01-17)
+
+
+### Bug Fixes
+
+* Changes to Badge tokens and component classes ([#124](https://github.com/warp-ds/css/issues/124)) ([6a42830](https://github.com/warp-ds/css/commit/6a42830afc5b5a89a4616201773e5e3d3cfed15d))
+
 ## [1.7.1-next.1](https://github.com/warp-ds/css/compare/v1.7.0...v1.7.1-next.1) (2024-01-16)
 
 
