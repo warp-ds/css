@@ -50,14 +50,14 @@ export const slider = {
 };
 
 export const box = {
-  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
+  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8 s-text', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
-  info: 'i-bg-$color-box-info-background i-text-$color-box-info-text',
-  neutral: 'i-bg-$color-box-neutral-background i-text-$color-box-neutral-text',
-  bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text',
-  infoClickable: 'hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover',
-  neutralClickable: 'hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover',
-  borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover',
+  info: 's-bg-info-subtle',
+  neutral: 's-bg-subtle',
+  bordered: 'border-2 s-border s-bg',
+  infoClickable: 'hover:s-bg-info-subtle-hover active:s-bg-info-subtle-hover',
+  neutralClickable: 'hover:s-bg-subtle-hover active:s-bg-subtle-hover',
+  borderedClickable: 'hover:s-bg-hover active:s-bg-hover hover:s-border-hover active:s-border-hover',
 };
 
 export const pill = {
@@ -522,6 +522,7 @@ export const backwardsCompatibleClasses = {
   modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
+  removedBoxTokens: 'i-bg-$color-box-info-background i-text-$color-box-info-text i-bg-$color-box-neutral-background i-text-$color-box-neutral-text i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover',
 };
 
 export const pagination = {
