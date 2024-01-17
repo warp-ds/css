@@ -1,3 +1,17 @@
+## [1.7.1-next.2](https://github.com/warp-ds/css/compare/v1.7.1-next.1...v1.7.1-next.2) (2024-01-17)
+
+
+### Bug Fixes
+
+* Changes to Badge tokens and component classes ([#124](https://github.com/warp-ds/css/issues/124)) ([6a42830](https://github.com/warp-ds/css/commit/6a42830afc5b5a89a4616201773e5e3d3cfed15d))
+
+## [1.7.1-next.1](https://github.com/warp-ds/css/compare/v1.7.0...v1.7.1-next.1) (2024-01-16)
+
+
+### Bug Fixes
+
+* **index.d.ts:** replace const with let after typescript update ([#122](https://github.com/warp-ds/css/issues/122)) ([c3cc2cd](https://github.com/warp-ds/css/commit/c3cc2cdf98f58b625bcaf42cc4698b8e23642316))
+
 # [1.7.0](https://github.com/warp-ds/css/compare/v1.6.1...v1.7.0) (2024-01-09)
 
 

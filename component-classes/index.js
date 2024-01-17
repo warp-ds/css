@@ -21,13 +21,15 @@ export const ribbon = {
 
 export const badge = {
   base: 'py-4 px-8 border-0 rounded-4 text-xs inline-flex',
-  neutral: 'i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text',
-  info: 'i-bg-$color-badge-info-background i-text-$color-badge-info-text',
-  positive: 'i-bg-$color-badge-positive-background i-text-$color-badge-positive-text',
-  warning: 'i-bg-$color-badge-warning-background i-text-$color-badge-warning-text',
-  negative: 'i-bg-$color-badge-negative-background i-text-$color-badge-negative-text',
-  disabled: 'i-bg-$color-badge-disabled-background i-text-$color-badge-disabled-text',
-  price: 'i-bg-$color-badge-price-background i-text-$color-badge-price-text',
+  neutral: 'bg-[--w-color-badge-neutral-background] s-text',
+  info: 'bg-[--w-color-badge-info-background] s-text',
+  positive: 'bg-[--w-color-badge-positive-background] s-text',
+  warning: 'bg-[--w-color-badge-warning-background] s-text',
+  negative: 'bg-[--w-color-badge-negative-background] s-text',
+  disabled: 's-bg-disabled s-text',
+  price: 'bg-[--w-color-badge-price-background] s-text-inverted',
+  sponsored: 'bg-[--w-color-badge-sponsored-background] s-text',
+  // Notification badge is deprecated: Do not use!
   notification: 'i-bg-$color-badge-notification-background i-text-$color-badge-notification-text',
   positionBase: 'absolute backdrop-blur',
   positionTL: 'rounded-tl-0 rounded-tr-0 rounded-bl-0 top-0 left-0',
@@ -38,20 +40,13 @@ export const badge = {
 
 export const slider = {
   wrapper: 'touch-pan-y relative w-full h-44 py-2',
-  track:
-    'absolute i-bg-$color-slider-track-background h-4 top-20 rounded-4 w-full ',
-  trackDisabled:
-    'pointer-events-none i-bg-$color-slider-track-background-disabled',
-  activeTrack:
-    'absolute i-bg-$color-slider-track-background-active h-6 top-[19px] rounded-4',
-  activeTrackDisabled:
-    'i-bg-$color-slider-track-background-disabled pointer-events-none',
-  thumb:
-    'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
-  thumbEnabled:
-    'border-2 i-shadow-$shadow-slider cursor-pointer i-bg-$color-slider-handle-background i-border-$color-slider-handle-border hover:i-bg-$color-slider-handle-background-hover hover:i-border-$color-slider-handle-border-hover hover:slider-handle-shadow-hover active:i-bg-$color-slider-handle-background-active active:i-border-$color-slider-handle-border-active active:slider-handle-shadow-active focus:slider-handle-shadow-hover focus:i-border-$color-slider-handle-border-hover focus:i-bg-$color-slider-handle-background-hover',
-  thumbDisabled:
-    'i-bg-$color-slider-handle-background-disabled cursor-disabled pointer-events-none',
+  track: 'absolute i-bg-$color-slider-track-background h-4 top-20 rounded-4 w-full ',
+  trackDisabled: 'pointer-events-none i-bg-$color-slider-track-background-disabled',
+  activeTrack: 'absolute i-bg-$color-slider-track-background-active h-6 top-[19px] rounded-4',
+  activeTrackDisabled: 'i-bg-$color-slider-track-background-disabled pointer-events-none',
+  thumb: 'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
+  thumbEnabled: 'border-2 i-shadow-$shadow-slider cursor-pointer i-bg-$color-slider-handle-background i-border-$color-slider-handle-border hover:i-bg-$color-slider-handle-background-hover hover:i-border-$color-slider-handle-border-hover hover:slider-handle-shadow-hover active:i-bg-$color-slider-handle-background-active active:i-border-$color-slider-handle-border-active active:slider-handle-shadow-active focus:slider-handle-shadow-hover focus:i-border-$color-slider-handle-border-hover focus:i-bg-$color-slider-handle-background-hover',
+  thumbDisabled: 'i-bg-$color-slider-handle-background-disabled cursor-disabled pointer-events-none',
 };
 
 export const box = {
@@ -114,15 +109,11 @@ export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all',
   cardShadow: 'rounded-8 i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover tap-highlight-transparent',
   cardFlat: 'border-2 rounded-4',
-  cardFlatUnselected:
-    'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
-  cardFlatSelected:
-    'i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
+  cardFlatUnselected: 'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
+  cardFlatSelected: 'i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
   cardUnselected: 's-bg',
-  cardSelected:
-    'i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active',
-  cardOutline:
-    'active:i-border-$color-card-flat-border absolute rounded-8 inset-0 transition-all border-2',
+  cardSelected: 'i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active',
+  cardOutline: 'active:i-border-$color-card-flat-border absolute rounded-8 inset-0 transition-all border-2',
   cardOutlineUnselected: 'i-border-$color-card-border',
   cardOutlineSelected: 'i-border-$color-card-border-selected hover:i-border-$color-card-border-selected-hover',
   a11y: 'sr-only',
@@ -144,17 +135,14 @@ export const switchToggle = {
 };
 
 export const toaster = {
-  container:
-    'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+  container: 'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
   content: 'w-full',
-  toaster:
-    'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
+  toaster: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
 };
 
 export const toast = {
   wrapper: 'relative overflow-hidden w-full',
-  toast:
-    'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
+  toast: 'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
   positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
   warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
   negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
@@ -169,10 +157,8 @@ export const toast = {
 
 export const tabs = {
   tabContainer: 'inline-grid relative',
-  wunderbar:
-    'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
-  wrapperUnderlined:
-    'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
+  wunderbar: 'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
+  wrapperUnderlined: 'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
 };
 
 export const tab = {
@@ -198,8 +184,7 @@ export const gridLayout = {
   cols9: 'grid-cols-9',
 };
 
-export const buttonReset =
-  'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
+export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
 
 export const expandable = {
   expandable: 'will-change-height',
@@ -246,8 +231,7 @@ const buttonTypes = {
   secondary: `border-2 rounded-8 ${buttonDefaultStyling}`,
   utility: `border rounded-4 ${buttonDefaultStyling}`,
   negative: `border-0 rounded-8 ${buttonDefaultStyling}`,
-  pill:
-  `p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding ${buttonDefaultStyling}`,
+  pill: `p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding ${buttonDefaultStyling}`,
   link: `bg-transparent focusable ease-in-out inline active:underline hover:underline ${buttonColors.link}`,
 };
 
@@ -269,38 +253,28 @@ const buttonTextSizes = {
 };
 
 const buttonVariants = {
-  inProgress:
-    `border-transparent animate-inprogress pointer-events-none ${buttonColors.loading}`, // .button--in-progress, a.button--in-progress:visited
-  quiet:
-    `border-0 rounded-8 ${buttonDefaultStyling}`,
+  inProgress: `border-transparent animate-inprogress pointer-events-none ${buttonColors.loading}`, // .button--in-progress, a.button--in-progress:visited
+  quiet: `border-0 rounded-8 ${buttonDefaultStyling}`,
   utilityQuiet: `border-0 rounded-4 ${buttonDefaultStyling}`,
   negativeQuiet: `border-0 rounded-8 ${buttonDefaultStyling}`,
-  isDisabled:
-    `font-bold justify-center transition-colors ease-in-out cursor-default pointer-events-none ${buttonColors.disabled}`, // .button:disabled, .button--is-disabled
+  isDisabled: `font-bold justify-center transition-colors ease-in-out cursor-default pointer-events-none ${buttonColors.disabled}`, // .button:disabled, .button--is-disabled
 };
 
 export const button = {
   // Buttontypes
-  secondary:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonColors.secondary}`, // .button--secondary, .button--default, .button
-  secondaryHref:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonColors.secondary}`,
-  secondaryDisabled:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonVariants.isDisabled}`,
+  secondary: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonColors.secondary}`, // .button--secondary, .button--default, .button
+  secondaryHref: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonColors.secondary}`,
+  secondaryDisabled: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonVariants.isDisabled}`,
   secondarySmall: `${buttonTextSizes.xsmall} ${buttonSizes.xsmall} ${buttonTypes.secondary} ${buttonColors.secondary}`,
   secondarySmallDisabled: `${buttonTextSizes.xsmall} ${buttonSizes.xsmall} ${buttonTypes.secondary} ${buttonVariants.isDisabled}`,
-  secondaryQuiet:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonVariants.quiet} ${buttonColors.quiet}`,
-  secondaryQuietDisabled:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonVariants.quiet} ${buttonVariants.isDisabled}`,
+  secondaryQuiet: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonVariants.quiet} ${buttonColors.quiet}`,
+  secondaryQuietDisabled: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonVariants.quiet} ${buttonVariants.isDisabled}`,
   secondarySmallQuiet: `${buttonTextSizes.xsmall} ${buttonSizes.xsmall} ${buttonVariants.quiet} ${buttonColors.quiet}`,
   secondarySmallQuietDisabled: `${buttonTextSizes.xsmall} ${buttonSizes.xsmall} ${buttonVariants.quiet} ${buttonVariants.isDisabled}`,
-  secondaryLoading:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonVariants.inProgress}`,
+  secondaryLoading: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonTypes.secondary} ${buttonVariants.inProgress}`,
   secondarySmallLoading: `${buttonTextSizes.xsmall} ${buttonSizes.xsmall}  ${buttonTypes.secondary} ${buttonVariants.inProgress}`,
   secondarySmallQuietLoading: `${buttonTextSizes.xsmall} ${buttonSizes.xsmall} ${buttonVariants.quiet} ${buttonVariants.inProgress}`,
-  secondaryQuietLoading:
-  `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonVariants.quiet} ${buttonVariants.inProgress}`,
+  secondaryQuietLoading: `${buttonSizes.medium} ${buttonTextSizes.medium} ${buttonVariants.quiet} ${buttonVariants.inProgress}`,
 
   primary: `${buttonSizes.large} ${buttonTextSizes.medium} ${buttonTypes.primary} ${buttonColors.primary}`, // .button--primary, .button--cta
   primaryDisabled: `${buttonSizes.large} ${buttonTextSizes.medium} ${buttonVariants.isDisabled} ${buttonTypes.primary}`,
@@ -350,8 +324,8 @@ export const button = {
   linkSmall: `${buttonSizes.link} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
   linkAsButton: 'inline-block hover:no-underline text-center',
   a11y: 'sr-only',
-  fullWidth: "w-full max-w-full",
-  contentWidth: "max-w-max",
+  fullWidth: 'w-full max-w-full',
+  contentWidth: 'max-w-max',
 };
 
 export const buttonGroup = {
@@ -376,18 +350,14 @@ export const buttonGroupItem = {
 export const modal = {
   //TODO: this class can be removed when we have the solution for opacity and we can add rgba values to the background of the backdrop
   transparentBg: `before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25`,
-  backdrop:
-    'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px]',
-  modal:
-    'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
-  content:
-    'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
+  backdrop: 'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px]',
+  modal: 'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
+  content: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
   transitionTitleCenter: 'justify-self-center self-center',
   transitionTitleColSpan: 'col-span-2',
-  title:
-    'py-8 sm:py-0 -mt-4 sm:-mt-8 min-h-40 sm:min-h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-start px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
+  title: 'py-8 sm:py-0 -mt-4 sm:-mt-8 min-h-40 sm:min-h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-start px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
   titleText: 'mb-0 h4 sm:h3',
   titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
   titleButtonLeft: '-ml-8 sm:-ml-12 justify-self-start',
@@ -397,19 +367,19 @@ export const modal = {
 };
 
 export const alert = {
-  alert: "flex p-16 border border-l-4 rounded-4",
-  willChangeHeight: "will-change-height",
-  textWrapper: "last-child:mb-0 text-s",
-  title: "text-s",
-  icon: "w-16 mr-8 min-w-16",
-  negative:  "i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border",
-  negativeIcon: "i-text-$color-alert-negative-icon",
-  positive:  "i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border",
-  positiveIcon: "i-text-$color-alert-positive-icon",
-  warning:  "i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border",
-  warningIcon: "i-text-$color-alert-warning-icon",
-  info:  "i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border",
-  infoIcon: "i-text-$color-alert-info-icon",
+  alert: 'flex p-16 border border-l-4 rounded-4',
+  willChangeHeight: 'will-change-height',
+  textWrapper: 'last-child:mb-0 text-s',
+  title: 'text-s',
+  icon: 'w-16 mr-8 min-w-16',
+  negative: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border',
+  negativeIcon: 'i-text-$color-alert-negative-icon',
+  positive: 'i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border',
+  positiveIcon: 'i-text-$color-alert-positive-icon',
+  warning: 'i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border',
+  warningIcon: 'i-text-$color-alert-warning-icon',
+  info: 'i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border',
+  infoIcon: 'i-text-$color-alert-info-icon',
 };
 
 export const input = {
@@ -447,8 +417,7 @@ export const helpText = {
   helpTextInvalid: 'i-text-$color-helptext-text-negative',
 };
 
-const prefixSuffixWrapperBase =
-  'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
+const prefixSuffixWrapperBase = 'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
@@ -525,8 +494,7 @@ export const combobox = {
 
 export const attention = {
   base: 'border-2 relative flex items-start',
-  tooltip:
-    'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
+  tooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
   callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
   highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
   popover:
@@ -562,7 +530,8 @@ export const backwardsCompatibleClasses = {
   radioInvalid: 'peer-checked:before:i-border-$color-radio-negative-border-selected peer-checked:peer-hover:before:i-border-$color-radio-negative-border-selected-hover ', //replaced in v1.5.0
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
   modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
-  pillClose: 'pt-4 pb-6 text-m!' //replaced by py-8
+  pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
+  removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
 };
 
 export const pagination = {
@@ -575,5 +544,5 @@ export const pagination = {
   firstPageButton: 'md:hidden',
   firstPageLabel: 'font-bold',
   active: 's-bg-primary s-text-inverted',
-  defaultPage: 'hover:s-bg-primary-subtle-hover'
+  defaultPage: 'hover:s-bg-primary-subtle-hover',
 };

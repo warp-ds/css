@@ -4,26 +4,16 @@ token: maps
 color:
   badge:
     neutral:
-      text: s-color-text
       background: bluegray-100
     info:
-      text: s-color-text
       background: aqua-100
     positive:
-      text: s-color-text
       background: green-100
     warning:
-      text: s-color-text
       background: yellow-100
     negative:
-      text: s-color-text
       background: red-100
-    disabled:
-      text: s-color-text
-      background: s-color-background-disabled
     price:
-      text: s-color-text-inverted
       background: black-alpha70
-    notification:
-      text: s-color-text-notification
-      background: s-color-background-notification
+    sponsored:
+      background: aqua-200
