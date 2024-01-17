@@ -30,6 +30,8 @@ export namespace badge {
     let disabled_1: string;
     export { disabled_1 as disabled };
     export let price: string;
+    let sponsored_1: string;
+    export { sponsored_1 as sponsored };
     export let notification: string;
     export let positionBase: string;
     export let positionTL: string;
@@ -493,6 +495,7 @@ export namespace backwardsCompatibleClasses {
     export { radioDisabled_1 as radioDisabled };
     export let modalTitle: string;
     export let pillClose: string;
+    export let removedBadgeTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;
