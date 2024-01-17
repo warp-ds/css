@@ -22,6 +22,26 @@ color:
       hover: blue-800
       visited: inherit
 
+  badge:
+    neutral:
+      text: s-color-text
+    info:
+      text: s-color-text
+    positive:
+      text: s-color-text
+    warning:
+      text: s-color-text
+    negative:
+      text: s-color-text
+    disabled:
+      text: s-color-text
+      background: s-color-background-disabled
+    price:
+      text: s-color-text-inverted
+    notification:
+      text: s-color-text-notification
+      background: s-color-background-notification
+
 s:
   color:
     background:
