@@ -20,17 +20,17 @@ export const ribbon = {
 };
 
 export const badge = {
-  base: 'py-4 px-8 border-0 rounded-4 text-xs inline-flex s-text',
-  neutral: 'bg-[--w-color-badge-neutral-background]',
-  info: 'bg-[--w-color-badge-info-background]',
-  positive: 'bg-[--w-color-badge-positive-background]',
-  warning: 'bg-[--w-color-badge-warning-background]',
-  negative: 'bg-[--w-color-badge-negative-background]',
-  disabled: 's-bg-disabled',
+  base: 'py-4 px-8 border-0 rounded-4 text-xs inline-flex',
+  neutral: 'bg-[--w-color-badge-neutral-background] s-text',
+  info: 'bg-[--w-color-badge-info-background] s-text',
+  positive: 'bg-[--w-color-badge-positive-background] s-text',
+  warning: 'bg-[--w-color-badge-warning-background] s-text',
+  negative: 'bg-[--w-color-badge-negative-background] s-text',
+  disabled: 's-bg-disabled s-text',
   price: 'bg-[--w-color-badge-price-background] s-text-inverted',
-  sponsored: 'bg-[--w-color-badge-sponsored-background]',
+  sponsored: 'bg-[--w-color-badge-sponsored-background] s-text',
   // Notification badge is deprecated: Do not use!
-  notification: 'bg-[--w-color-badge-notification-background]',
+  notification: 'i-bg-$color-badge-notification-background i-text-$color-badge-notification-text',
   positionBase: 'absolute backdrop-blur',
   positionTL: 'rounded-tl-0 rounded-tr-0 rounded-bl-0 top-0 left-0',
   positionTR: 'rounded-tl-0 rounded-tr-0 rounded-br-0 top-0 right-0',
@@ -521,7 +521,7 @@ export const backwardsCompatibleClasses = {
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
   modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
-  removedBadgeTokens: 'i-bg-$color-badge-notification-background i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-notification-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
+  removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
 };
 
 export const pagination = {
