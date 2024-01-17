@@ -495,6 +495,7 @@ export namespace backwardsCompatibleClasses {
     export { radioDisabled_1 as radioDisabled };
     export let modalTitle: string;
     export let pillClose: string;
+    export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
 }
 export namespace pagination {
