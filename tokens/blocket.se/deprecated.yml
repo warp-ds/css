@@ -70,6 +70,11 @@ color:
     notification:
       text: s-color-text-notification
       background: s-color-background-notification
+    breadcrumbs:
+      text: s-color-text
+      link:
+        text: s-color-text-link
+      icon: s-color-icon
 
 s:
   color:
