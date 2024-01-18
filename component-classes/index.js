@@ -367,19 +367,19 @@ export const modal = {
 };
 
 export const alert = {
-  alert: 'flex p-16 border border-l-4 rounded-4',
+  alert: 'flex p-16 border border-l-4 rounded-4 s-text',
   willChangeHeight: 'will-change-height',
   textWrapper: 'last-child:mb-0 text-s',
   title: 'text-s',
   icon: 'w-16 mr-8 min-w-16',
-  negative: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border',
-  negativeIcon: 'i-text-$color-alert-negative-icon',
-  positive: 'i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border',
-  positiveIcon: 'i-text-$color-alert-positive-icon',
-  warning: 'i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border',
-  warningIcon: 'i-text-$color-alert-warning-icon',
-  info: 'i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border',
-  infoIcon: 'i-text-$color-alert-info-icon',
+  negative: 's-border-negative-subtle s-border-l-negative s-bg-negative-subtle',
+  negativeIcon: 's-icon-negative',
+  positive: 's-border-positive-subtle s-border-l-positive s-bg-positive-subtle',
+  positiveIcon: 's-icon-positive',
+  warning: 's-border-warning-subtle s-border-l-warning s-bg-warning-subtle',
+  warningIcon: 's-icon-warning',
+  info: 's-border-info-subtle s-border-l-info s-bg-info-subtle',
+  infoIcon: 's-icon-info',
 };
 
 export const input = {
@@ -521,6 +521,7 @@ export const backwardsCompatibleClasses = {
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
   modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
+  removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
 };
 
