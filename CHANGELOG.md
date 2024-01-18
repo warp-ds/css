@@ -1,3 +1,10 @@
+## [1.7.1-next.4](https://github.com/warp-ds/css/compare/v1.7.1-next.3...v1.7.1-next.4) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Breadcrumbs component tokens and classes ([#127](https://github.com/warp-ds/css/issues/127)) ([bcdaf2c](https://github.com/warp-ds/css/commit/bcdaf2c64a1456cef6b73519f11e56b3bf0c4cfe))
+
 ## [1.7.1-next.3](https://github.com/warp-ds/css/compare/v1.7.1-next.2...v1.7.1-next.3) (2024-01-18)
 
 
