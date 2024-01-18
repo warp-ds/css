@@ -330,21 +330,21 @@ export const button = {
 
 export const buttonGroup = {
   wrapper: 'inline-flex rounded-4 overflow-hidden',
-  raised: 'i-shadow-$shadow-buttongroup',
+  raised: 'shadow-s',
   vertical: 'flex-col',
   nonOutlinedVertical: 'divide-y',
   nonOutlinedHorizontal: 'divide-x',
 };
 
 export const buttonGroupItem = {
-  wrapper: 'relative i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-selected active:i-bg-$color-buttongroup-utility-background-selected',
-  outlined: 'border hover:z-30 i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-selected',
+  wrapper: 'relative s-text s-bg hover:bg-[--w-color-buttongroup-utility-background-hover] active:s-text active:bg-[--w-color-buttongroup-utility-background-selected]',
+  outlined: 'border hover:z-30 border-[--w-color-buttongroup-utility-border] active:border-[--w-color-buttongroup-utility-border-selected]',
   outlinedVertical: '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
   outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
   outlinedVerticalResets: 'px-1 pt-1 last:pb-1 -mb-1 last:mb-0',
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
-  outlinedSelected: 'i-border-$color-buttongroup-utility-border-selected',
-  selected: 'z-30 i-text-$color-buttongroup-utility-text-selected! i-bg-$color-buttongroup-utility-background-selected!',
+  outlinedSelected: 'border-[--w-color-buttongroup-utility-border-selected]',
+  selected: 'z-30 s-text! bg-[--w-color-buttongroup-utility-background-selected]!',
 };
 
 export const modal = {
@@ -467,7 +467,7 @@ export const toggle = {
   labelRadioBorder: 'i-border-$color-radio-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
-  radioButtonsLabel: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-selected peer-checked:i-bg-$color-buttongroup-primary-background-selected peer-checked:i-border-$color-buttongroup-primary-border-selected block relative text-s font-bold cursor-pointer i-text-$color-buttongroup-primary-text text-center i-bg-$color-buttongroup-primary-background border-2 i-border-$color-buttongroup-primary-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
+  radioButtonsLabel: 'peer-hover:peer-not-checked:s-bg-hover peer-checked:s-text-inverted peer-checked:s-bg-primary peer-checked:s-border-primary block relative text-s font-bold cursor-pointer s-text-link text-center s-bg border-2 s-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
   radioButtonsJustified: 'flex!',
   radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
   radioButtonsLabelSmall: 'text-xs py-[5px]! px-[8px]!',
@@ -523,6 +523,7 @@ export const backwardsCompatibleClasses = {
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
+  removedButtonGroupTokens: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-selected peer-checked:i-bg-$color-buttongroup-primary-background-selected peer-checked:i-border-$color-buttongroup-primary-border-selected i-text-$color-buttongroup-primary-text i-bg-$color-buttongroup-primary-background i-border-$color-buttongroup-primary-border i-bg-$color-buttongroup-utility-background-selected! i-border-$color-buttongroup-utility-border-selected i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-selected active:i-bg-$color-buttongroup-utility-background-selected hover:i-bg-$color-buttongroup-utility-background-hover i-text-$color-buttongroup-utility-text-selected! i-shadow-$shadow-buttongroup i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-selected active:i-bg-$color-buttongroup-utility-background-selected',
 };
 
 export const pagination = {
