@@ -495,8 +495,8 @@ export const combobox = {
 export const attention = {
   base: 'border-2 relative flex items-start',
   tooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
-  callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
-  highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
+  callout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
+  highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m',
   popover: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase: 'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeft: '-left-[8px]',
@@ -504,9 +504,9 @@ export const attention = {
   arrowDirectionBottom: '-bottom-[8px]',
   arrowDirectionTop: '-top-[8px]',
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
-  arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
-  arrowHighlight: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
   closeBtn: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} justify-self-end -mr-8 ml-8`,
@@ -524,6 +524,7 @@ export const backwardsCompatibleClasses = {
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
   removedBreadcrumbsTokens: 'i-text-$color-breadcrumbs-text i-text-$color-breadcrumbs-link-text i-text-$color-breadcrumbs-icon',
+  removedCalloutTokens: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text',
 };
 
 export const pagination = {

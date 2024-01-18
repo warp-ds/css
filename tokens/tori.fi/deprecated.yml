@@ -80,6 +80,8 @@ color:
     background: s-color-background-warning-subtle
     border: s-color-border-warning-subtle
     icon: s-color-icon-warning
+  callout:
+    text: s-color-text
 
 s:
   color:
