@@ -107,15 +107,15 @@ export const steps = {
 
 export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all',
-  cardShadow: 'rounded-8 i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover tap-highlight-transparent',
+  cardShadow: 'rounded-8 shadow-s hover:shadow-m hover:s-bg-subtle-hover tap-highlight-transparent',
   cardFlat: 'border-2 rounded-4',
-  cardFlatUnselected: 'i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active',
-  cardFlatSelected: 'i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active',
+  cardFlatUnselected: 's-bg s-border hover:s-bg-subtle-hover hover:s-border-hover active:s-bg-active active:s-border-active',
+  cardFlatSelected: 's-border-selected s-bg-selected hover:s-bg-selected-hover hover:s-border-selected-hover active:s-border-selected-active active:s-bg-selected-active',
   cardUnselected: 's-bg',
-  cardSelected: 'i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active',
-  cardOutline: 'active:i-border-$color-card-flat-border absolute rounded-8 inset-0 transition-all border-2',
-  cardOutlineUnselected: 'i-border-$color-card-border',
-  cardOutlineSelected: 'i-border-$color-card-border-selected hover:i-border-$color-card-border-selected-hover',
+  cardSelected: 's-border-selected s-bg-selected hover:s-border-selected-hover hover:s-bg-selected-hover active:s-border-selected-active',
+  cardOutline: 'active:s-border absolute rounded-8 inset-0 transition-all border-2',
+  cardOutlineUnselected: 'border-transparent',
+  cardOutlineSelected: 's-border-selected hover:s-border-selected-hover',
   a11y: 'sr-only',
 };
 
@@ -524,6 +524,7 @@ export const backwardsCompatibleClasses = {
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
   removedBreadcrumbsTokens: 'i-text-$color-breadcrumbs-text i-text-$color-breadcrumbs-link-text i-text-$color-breadcrumbs-icon',
+  removedCardTokens: 'i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active active:i-border-$color-card-flat-border i-border-$color-card-border i-border-$color-card-border-selected hover:i-border-$color-card-border-selected-hover',
 };
 
 export const pagination = {

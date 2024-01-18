@@ -498,6 +498,7 @@ export namespace backwardsCompatibleClasses {
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBreadcrumbsTokens: string;
+    export let removedCardTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;
