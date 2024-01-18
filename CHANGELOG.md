@@ -1,3 +1,10 @@
+## [1.7.1-next.5](https://github.com/warp-ds/css/compare/v1.7.1-next.4...v1.7.1-next.5) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Broadcast component tokens ([#128](https://github.com/warp-ds/css/issues/128)) ([4ae8434](https://github.com/warp-ds/css/commit/4ae8434a5f6a9b1948105b11e2792f9b371579ed))
+
 ## [1.7.1-next.4](https://github.com/warp-ds/css/compare/v1.7.1-next.3...v1.7.1-next.4) (2024-01-18)
 
 
