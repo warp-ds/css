@@ -435,9 +435,9 @@ export const prefix = {
 
 export const breadcrumbs = {
   wrapper: 'flex space-x-8',
-  text: 'i-text-$color-breadcrumbs-text',
-  link: 'i-text-$color-breadcrumbs-link-text',
-  separator: 'select-none i-text-$color-breadcrumbs-icon',
+  text: 's-text',
+  link: 's-text-link',
+  separator: 'select-none s-icon',
   a11y: 'sr-only',
 };
 
@@ -523,6 +523,7 @@ export const backwardsCompatibleClasses = {
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
+  removedBreadcrumbsTokens: 'i-text-$color-breadcrumbs-text i-text-$color-breadcrumbs-link-text i-text-$color-breadcrumbs-icon',
   removedButtonGroupTokens: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-selected peer-checked:i-bg-$color-buttongroup-primary-background-selected peer-checked:i-border-$color-buttongroup-primary-border-selected i-text-$color-buttongroup-primary-text i-bg-$color-buttongroup-primary-background i-border-$color-buttongroup-primary-border i-bg-$color-buttongroup-utility-background-selected! i-border-$color-buttongroup-utility-border-selected i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-selected active:i-bg-$color-buttongroup-utility-background-selected hover:i-bg-$color-buttongroup-utility-background-hover i-text-$color-buttongroup-utility-text-selected! i-shadow-$shadow-buttongroup i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-selected active:i-bg-$color-buttongroup-utility-background-selected',
 };
 
