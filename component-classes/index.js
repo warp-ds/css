@@ -50,7 +50,7 @@ export const slider = {
 };
 
 export const box = {
-  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8 s-text', // Relative here enables w-clickable
+  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
   info: 's-bg-info-subtle',
   neutral: 's-bg-subtle',
