@@ -1,9 +1,0 @@
----
-token: maps
-
-color:
-  breadcrumbs:
-    text: s-color-text
-    link:
-      text: s-color-text-link
-    icon: s-color-icon

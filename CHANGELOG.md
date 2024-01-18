@@ -1,3 +1,24 @@
+## [1.7.1-next.5](https://github.com/warp-ds/css/compare/v1.7.1-next.4...v1.7.1-next.5) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Broadcast component tokens ([#128](https://github.com/warp-ds/css/issues/128)) ([4ae8434](https://github.com/warp-ds/css/commit/4ae8434a5f6a9b1948105b11e2792f9b371579ed))
+
+## [1.7.1-next.4](https://github.com/warp-ds/css/compare/v1.7.1-next.3...v1.7.1-next.4) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Breadcrumbs component tokens and classes ([#127](https://github.com/warp-ds/css/issues/127)) ([bcdaf2c](https://github.com/warp-ds/css/commit/bcdaf2c64a1456cef6b73519f11e56b3bf0c4cfe))
+
+## [1.7.1-next.3](https://github.com/warp-ds/css/compare/v1.7.1-next.2...v1.7.1-next.3) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Alert component tokens and classes ([#125](https://github.com/warp-ds/css/issues/125)) ([ecca97c](https://github.com/warp-ds/css/commit/ecca97ce1b6959e119b4cb00fc614bdae8c02df8))
+
 ## [1.7.1-next.2](https://github.com/warp-ds/css/compare/v1.7.1-next.1...v1.7.1-next.2) (2024-01-17)
 
 
