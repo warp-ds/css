@@ -497,6 +497,7 @@ export namespace backwardsCompatibleClasses {
     export let pillClose: string;
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
+    export let removedBreadcrumbsTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;
