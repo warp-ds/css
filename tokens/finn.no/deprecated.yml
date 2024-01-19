@@ -265,6 +265,15 @@ color:
           _: s-color-border-negative
           hover: s-color-border-negative-hover
     icon: s-color-icon-inverted
+  expandable:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background:
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+    icon: s-color-icon
 
 shadow:
   buttongroup: shadow-s
