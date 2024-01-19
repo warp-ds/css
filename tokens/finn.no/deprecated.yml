@@ -265,6 +265,26 @@ color:
           _: s-color-border-negative
           hover: s-color-border-negative-hover
     icon: s-color-icon-inverted
+  combobox:
+    background: s-color-background
+    option:
+      background:
+        hover: s-color-background-hover
+        selected:
+          _: s-color-background-selected
+          hover: s-color-background-selected-hover
+  datepicker:
+    background: s-color-background
+    border: s-color-border
+    button:
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-primary
+    track:
+      background:
+        active: s-color-background-primary-subtle
+        selected: s-color-background-primary-subtle-active
   expandable:
     title:
       text: s-color-text
@@ -280,6 +300,8 @@ shadow:
   card:
     _: shadow-s
     hover: shadow-m
+  combobox: shadow-m
+
 s:
   color:
     background:

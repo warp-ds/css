@@ -504,6 +504,7 @@ export namespace backwardsCompatibleClasses {
     export let removedCalloutTokens: string;
     export let removedCardTokens: string;
     export let removedCheckboxTokens: string;
+    export let removedComboboxTokens: string;
     export let removedExpandableTokens: string;
 }
 export namespace pagination {
