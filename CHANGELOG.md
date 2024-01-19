@@ -1,3 +1,10 @@
+## [1.7.1-next.13](https://github.com/warp-ds/css/compare/v1.7.1-next.12...v1.7.1-next.13) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Datepicker component tokens ([#135](https://github.com/warp-ds/css/issues/135)) ([f7b6898](https://github.com/warp-ds/css/commit/f7b689871b95ab46949731ca98e368541b07374d))
+
 ## [1.7.1-next.12](https://github.com/warp-ds/css/compare/v1.7.1-next.11...v1.7.1-next.12) (2024-01-19)
 
 
