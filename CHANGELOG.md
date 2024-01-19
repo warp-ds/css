@@ -1,3 +1,10 @@
+## [1.7.1-next.8](https://github.com/warp-ds/css/compare/v1.7.1-next.7...v1.7.1-next.8) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant ButtonGroup component tokens and classes ([#130](https://github.com/warp-ds/css/issues/130)) ([1d86dc1](https://github.com/warp-ds/css/commit/1d86dc1dd0bb7777ce6562d0104256b43c778f1c))
+
 ## [1.7.1-next.7](https://github.com/warp-ds/css/compare/v1.7.1-next.6...v1.7.1-next.7) (2024-01-19)
 
 
