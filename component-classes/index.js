@@ -495,8 +495,8 @@ export const combobox = {
 export const attention = {
   base: 'border-2 relative flex items-start',
   tooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
-  callout: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8',
-  highlight: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text py-8 px-16 rounded-8 drop-shadow-m',
+  callout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
+  highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m',
   popover: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
   arrowBase: 'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeft: '-left-[8px]',
@@ -504,9 +504,9 @@ export const attention = {
   arrowDirectionBottom: '-bottom-[8px]',
   arrowDirectionTop: '-top-[8px]',
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
-  arrowCallout: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
-  arrowHighlight: 'i-bg-$color-callout-background i-border-$color-callout-border',
+  arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
   closeBtn: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} justify-self-end -mr-8 ml-8`,
@@ -527,6 +527,7 @@ export const backwardsCompatibleClasses = {
   removedBreadcrumbsTokens: 'i-text-$color-breadcrumbs-text i-text-$color-breadcrumbs-link-text i-text-$color-breadcrumbs-icon',
   removedButtonTokens: 'hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active i-text-$color-button-primary-text hover:i-text-$color-button-primary-text i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active i-text-$color-button-secondary-text hover:i-text-$color-button-secondary-text i-border-$color-button-secondary-border i-bg-$color-button-secondary-background hover:i-bg-$color-button-secondary-background-hover hover:i-border-$color-button-secondary-border-hover active:i-bg-$color-button-secondary-background-active i-text-$color-button-utility-text hover:i-text-$color-button-utility-text i-bg-$color-button-utility-background i-border-$color-button-utility-border hover:i-bg-$color-button-utility-background hover:i-border-$color-button-utility-border-hover active:i-border-$color-button-utility-border-active i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover active:i-bg-$color-button-negative-background-active i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active i-text-$color-button-disabled-text i-bg-$color-button-disabled-background i-bg-$color-button-quiet-background i-text-$color-button-quiet-text hover:i-bg-$color-button-quiet-background-hover active:i-bg-$color-button-quiet-background-active i-text-$color-button-utility-quiet-text i-bg-$color-button-utility-quiet-background hover:i-bg-$color-button-utility-quiet-background-hover i-bg-$color-button-negative-quiet-background i-text-$color-button-negative-quiet-text hover:i-bg-$color-button-negative-quiet-background-hover active:i-bg-$color-button-negative-quiet-background-active i-text-$color-button-loading-text i-bg-$color-button-loading-background i-text-$color-button-link-text',
   removedButtonGroupTokens: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-selected peer-checked:i-bg-$color-buttongroup-primary-background-selected peer-checked:i-border-$color-buttongroup-primary-border-selected i-text-$color-buttongroup-primary-text i-bg-$color-buttongroup-primary-background i-border-$color-buttongroup-primary-border i-bg-$color-buttongroup-utility-background-selected! i-border-$color-buttongroup-utility-border-selected i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-selected active:i-bg-$color-buttongroup-utility-background-selected hover:i-bg-$color-buttongroup-utility-background-hover i-text-$color-buttongroup-utility-text-selected! i-shadow-$shadow-buttongroup i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-selected active:i-bg-$color-buttongroup-utility-background-selected',
+  removedCalloutTokens: 'i-bg-$color-callout-background i-border-$color-callout-border i-text-$color-callout-text',
 };
 
 export const pagination = {

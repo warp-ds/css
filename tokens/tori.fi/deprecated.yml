@@ -202,6 +202,8 @@ color:
         selected: s-color-text
       background:
         _: s-color-background
+  callout:
+    text: s-color-text
 
 shadow:
   buttongroup: shadow-s
