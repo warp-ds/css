@@ -1,3 +1,10 @@
+## [1.7.1-next.12](https://github.com/warp-ds/css/compare/v1.7.1-next.11...v1.7.1-next.12) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Combobox component tokens and classes ([#134](https://github.com/warp-ds/css/issues/134)) ([5059242](https://github.com/warp-ds/css/commit/50592429ce98782fa278dab75aff705e71870a8d))
+
 ## [1.7.1-next.11](https://github.com/warp-ds/css/compare/v1.7.1-next.10...v1.7.1-next.11) (2024-01-19)
 
 
