@@ -80,6 +80,36 @@ color:
     background: s-color-background-warning-subtle
     border: s-color-border-warning-subtle
     icon: s-color-icon-warning
+  checkbox:
+    background:
+      disabled: s-color-background-disabled-subtle
+      hover: s-color-background-subtle
+      selected:
+        _: s-color-background-primary
+        disabled: s-color-background-disabled
+        hover: s-color-background-primary-hover
+    border:
+      _: s-color-border
+      disabled: s-color-border-disabled
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-primary
+        disabled: s-color-border-disabled
+        hover: s-color-border-primary-hover
+    negative:
+      background:
+        _: s-color-background
+        hover: s-color-background-negative-subtle-hover
+        selected:
+          _: s-color-background-negative
+          hover: s-color-background-negative-hover
+      border:
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative
+          hover: s-color-border-negative-hover
+    icon: s-color-icon-inverted
 
 s:
   color:
