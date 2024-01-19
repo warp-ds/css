@@ -265,12 +265,22 @@ color:
           _: s-color-border-negative
           hover: s-color-border-negative-hover
     icon: s-color-icon-inverted
+  combobox:
+    background: s-color-background
+    option:
+      background:
+        hover: s-color-background-hover
+        selected:
+          _: s-color-background-selected
+          hover: s-color-background-selected-hover
 
 shadow:
   buttongroup: shadow-s
   card:
     _: shadow-s
     hover: shadow-m
+  combobox: shadow-m
+
 s:
   color:
     background:
