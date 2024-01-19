@@ -52,12 +52,12 @@ export const slider = {
 export const box = {
   box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
-  info: 'i-bg-$color-box-info-background i-text-$color-box-info-text',
-  neutral: 'i-bg-$color-box-neutral-background i-text-$color-box-neutral-text',
-  bordered: 'border-2 i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text',
-  infoClickable: 'hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover',
-  neutralClickable: 'hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover',
-  borderedClickable: 'hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover',
+  info: 's-bg-info-subtle',
+  neutral: 's-bg-subtle',
+  bordered: 'border-2 s-border s-bg',
+  infoClickable: 'hover:s-bg-info-subtle-hover active:s-bg-info-subtle-hover',
+  neutralClickable: 'hover:s-bg-subtle-hover active:s-bg-subtle-hover',
+  borderedClickable: 'hover:s-bg-hover active:s-bg-hover hover:s-border-hover active:s-border-hover',
 };
 
 export const pill = {
@@ -213,17 +213,17 @@ export const expandable = {
 const buttonDefaultStyling = 'font-bold focusable justify-center transition-colors ease-in-out';
 
 const buttonColors = {
-  primary: 'i-text-$color-button-primary-text hover:i-text-$color-button-primary-text i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active',
-  secondary: 'i-text-$color-button-secondary-text hover:i-text-$color-button-secondary-text i-border-$color-button-secondary-border i-bg-$color-button-secondary-background hover:i-bg-$color-button-secondary-background-hover hover:i-border-$color-button-secondary-border-hover active:i-bg-$color-button-secondary-background-active',
-  utility: 'i-text-$color-button-utility-text hover:i-text-$color-button-utility-text i-bg-$color-button-utility-background i-border-$color-button-utility-border hover:i-bg-$color-button-utility-background hover:i-border-$color-button-utility-border-hover active:i-border-$color-button-utility-border-active',
-  destructive: 'i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover active:i-bg-$color-button-negative-background-active',
-  pill: 'i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active',
-  disabled: 'i-text-$color-button-disabled-text i-bg-$color-button-disabled-background',
-  quiet: 'i-bg-$color-button-quiet-background i-text-$color-button-quiet-text hover:i-bg-$color-button-quiet-background-hover active:i-bg-$color-button-quiet-background-active',
-  utilityQuiet: 'i-text-$color-button-utility-quiet-text i-bg-$color-button-utility-quiet-background hover:i-bg-$color-button-utility-quiet-background-hover',
-  negativeQuiet: 'i-bg-$color-button-negative-quiet-background i-text-$color-button-negative-quiet-text hover:i-bg-$color-button-negative-quiet-background-hover active:i-bg-$color-button-negative-quiet-background-active',
-  loading: 'i-text-$color-button-loading-text i-bg-$color-button-loading-background',
-  link: 'i-text-$color-button-link-text',
+  primary: 's-text-inverted bg-[--w-color-button-primary-background] hover:bg-[--w-color-button-primary-background-hover] active:bg-[--w-color-button-primary-background-active]',
+  secondary: 's-text-link s-border s-bg hover:s-bg-hover hover:s-border-hover active:s-bg-active',
+  utility: 's-text s-bg s-border hover:s-border-hover active:s-border-active',
+  destructive: 's-bg-negative s-text-inverted hover:s-bg-negative-hover active:s-bg-negative-active',
+  pill: 's-icon hover:s-icon-hover active:s-icon-active bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
+  disabled: 's-text-inverted s-bg-disabled',
+  quiet: 'bg-transparent s-text-link hover:s-bg-hover active:s-bg-active',
+  utilityQuiet: 's-text s-bg-transparent hover:s-bg-subtle-hover',
+  negativeQuiet: 's-bg s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
+  loading: 's-text s-bg-subtle',
+  link: 's-text-link',
 };
 
 const buttonTypes = {
@@ -523,7 +523,9 @@ export const backwardsCompatibleClasses = {
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
+  removedBoxTokens: 'i-bg-$color-box-info-background i-text-$color-box-info-text i-bg-$color-box-neutral-background i-text-$color-box-neutral-text i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover',
   removedBreadcrumbsTokens: 'i-text-$color-breadcrumbs-text i-text-$color-breadcrumbs-link-text i-text-$color-breadcrumbs-icon',
+  removedButtonTokens: 'hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active i-text-$color-button-primary-text hover:i-text-$color-button-primary-text i-bg-$color-button-primary-background hover:i-bg-$color-button-primary-background-hover active:i-bg-$color-button-primary-background-active i-text-$color-button-secondary-text hover:i-text-$color-button-secondary-text i-border-$color-button-secondary-border i-bg-$color-button-secondary-background hover:i-bg-$color-button-secondary-background-hover hover:i-border-$color-button-secondary-border-hover active:i-bg-$color-button-secondary-background-active i-text-$color-button-utility-text hover:i-text-$color-button-utility-text i-bg-$color-button-utility-background i-border-$color-button-utility-border hover:i-bg-$color-button-utility-background hover:i-border-$color-button-utility-border-hover active:i-border-$color-button-utility-border-active i-bg-$color-button-negative-background i-text-$color-button-negative-text hover:i-text-$color-button-negative-text hover:i-bg-$color-button-negative-background-hover active:i-bg-$color-button-negative-background-active i-text-$color-button-pill-icon hover:i-text-$color-button-pill-icon-hover active:i-text-$color-button-pill-icon-active i-bg-$color-button-pill-background hover:i-bg-$color-button-pill-background-hover active:i-bg-$color-button-pill-background-active i-text-$color-button-disabled-text i-bg-$color-button-disabled-background i-bg-$color-button-quiet-background i-text-$color-button-quiet-text hover:i-bg-$color-button-quiet-background-hover active:i-bg-$color-button-quiet-background-active i-text-$color-button-utility-quiet-text i-bg-$color-button-utility-quiet-background hover:i-bg-$color-button-utility-quiet-background-hover i-bg-$color-button-negative-quiet-background i-text-$color-button-negative-quiet-text hover:i-bg-$color-button-negative-quiet-background-hover active:i-bg-$color-button-negative-quiet-background-active i-text-$color-button-loading-text i-bg-$color-button-loading-background i-text-$color-button-link-text',
   removedButtonGroupTokens: 'peer-hover:peer-not-checked:i-bg-$color-buttongroup-primary-background-hover peer-checked:i-text-$color-buttongroup-primary-text-selected peer-checked:i-bg-$color-buttongroup-primary-background-selected peer-checked:i-border-$color-buttongroup-primary-border-selected i-text-$color-buttongroup-primary-text i-bg-$color-buttongroup-primary-background i-border-$color-buttongroup-primary-border i-bg-$color-buttongroup-utility-background-selected! i-border-$color-buttongroup-utility-border-selected i-border-$color-buttongroup-utility-border active:i-border-$color-buttongroup-utility-border-selected active:i-bg-$color-buttongroup-utility-background-selected hover:i-bg-$color-buttongroup-utility-background-hover i-text-$color-buttongroup-utility-text-selected! i-shadow-$shadow-buttongroup i-text-$color-buttongroup-utility-text i-bg-$color-buttongroup-utility-background hover:i-bg-$color-buttongroup-utility-background-hover active:i-text-$color-buttongroup-utility-text-selected active:i-bg-$color-buttongroup-utility-background-selected',
 };
 
