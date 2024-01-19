@@ -235,13 +235,42 @@ color:
           _: s-color-border-selected
           hover: s-color-border-selected-hover
           active: s-color-background-primary-active
+  checkbox:
+    background:
+      disabled: s-color-background-disabled-subtle
+      hover: s-color-background-subtle
+      selected:
+        _: s-color-background-primary
+        disabled: s-color-background-disabled
+        hover: s-color-background-primary-hover
+    border:
+      _: s-color-border
+      disabled: s-color-border-disabled
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-primary
+        disabled: s-color-border-disabled
+        hover: s-color-border-primary-hover
+    negative:
+      background:
+        _: s-color-background
+        hover: s-color-background-negative-subtle-hover
+        selected:
+          _: s-color-background-negative
+          hover: s-color-background-negative-hover
+      border:
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative
+          hover: s-color-border-negative-hover
+    icon: s-color-icon-inverted
 
 shadow:
   buttongroup: shadow-s
   card:
     _: shadow-s
     hover: shadow-m
-
 s:
   color:
     background:
