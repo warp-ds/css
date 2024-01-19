@@ -1,3 +1,10 @@
+## [1.7.1-next.10](https://github.com/warp-ds/css/compare/v1.7.1-next.9...v1.7.1-next.10) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Card component tokens and classes ([#132](https://github.com/warp-ds/css/issues/132)) ([c4d3ecc](https://github.com/warp-ds/css/commit/c4d3ecc1a7d8f234f61fda2b00d09406c7c5d183))
+
 ## [1.7.1-next.9](https://github.com/warp-ds/css/compare/v1.7.1-next.8...v1.7.1-next.9) (2024-01-19)
 
 
