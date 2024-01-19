@@ -285,6 +285,11 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  helptext:
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive
 
 shadow:
   buttongroup: shadow-s
