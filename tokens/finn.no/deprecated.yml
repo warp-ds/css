@@ -273,6 +273,18 @@ color:
         selected:
           _: s-color-background-selected
           hover: s-color-background-selected-hover
+  datepicker:
+    background: s-color-background
+    border: s-color-border
+    button:
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-primary
+    track:
+      background:
+        active: s-color-background-primary-subtle
+        selected: s-color-background-primary-subtle-active
 
 shadow:
   buttongroup: shadow-s
