@@ -1,3 +1,10 @@
+## [1.7.1-next.6](https://github.com/warp-ds/css/compare/v1.7.1-next.5...v1.7.1-next.6) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Box component tokens and classes ([#126](https://github.com/warp-ds/css/issues/126)) ([18b1cab](https://github.com/warp-ds/css/commit/18b1cab805dca20915e960b2f2074fd47df18510))
+
 ## [1.7.1-next.5](https://github.com/warp-ds/css/compare/v1.7.1-next.4...v1.7.1-next.5) (2024-01-18)
 
 
