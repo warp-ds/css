@@ -285,6 +285,10 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  image:
+    placeholder:
+      background: s-color-background-subtle
+      icon: s-color-icon-disabled
 
 shadow:
   buttongroup: shadow-s
