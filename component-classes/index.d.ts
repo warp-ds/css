@@ -502,6 +502,7 @@ export namespace backwardsCompatibleClasses {
     export let removedButtonTokens: string;
     export let removedButtonGroupTokens: string;
     export let removedCalloutTokens: string;
+    export let removedCardTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;
