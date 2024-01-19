@@ -500,6 +500,7 @@ export namespace backwardsCompatibleClasses {
     export let removedBoxTokens: string;
     export let removedBreadcrumbsTokens: string;
     export let removedButtonTokens: string;
+    export let removedButtonGroupTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;
