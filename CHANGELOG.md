@@ -1,3 +1,10 @@
+## [1.7.1-next.11](https://github.com/warp-ds/css/compare/v1.7.1-next.10...v1.7.1-next.11) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Checkbox component tokens and classes ([#133](https://github.com/warp-ds/css/issues/133)) ([d43e677](https://github.com/warp-ds/css/commit/d43e677fecd877b5d3797bca47201185a9133582))
+
 ## [1.7.1-next.10](https://github.com/warp-ds/css/compare/v1.7.1-next.9...v1.7.1-next.10) (2024-01-19)
 
 
