@@ -1,3 +1,10 @@
+## [1.7.1-next.9](https://github.com/warp-ds/css/compare/v1.7.1-next.8...v1.7.1-next.9) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Callout component tokens and classes ([#131](https://github.com/warp-ds/css/issues/131)) ([0dfea19](https://github.com/warp-ds/css/commit/0dfea194d43cf8220fecb9f9096b855b07995ec8))
+
 ## [1.7.1-next.8](https://github.com/warp-ds/css/compare/v1.7.1-next.7...v1.7.1-next.8) (2024-01-19)
 
 
