@@ -285,6 +285,13 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  label:
+    text:
+      _: s-color-text
+      negative: s-color-text-negative
+    optional:
+      text: s-color-text
+    icon: s-color-icon
 
 shadow:
   buttongroup: shadow-s

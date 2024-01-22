@@ -406,9 +406,9 @@ export const select = {
 };
 
 export const label = {
-  label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer i-text-$color-label-text',
-  labelInvalid: 'i-text-$color-label-text-negative',
-  optional: 'pl-8 font-normal text-s i-text-$color-label-optional-text',
+  label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
+  labelInvalid: 's-text-negative',
+  optional: 'pl-8 font-normal s-text',
 };
 
 export const helpText = {
@@ -423,14 +423,14 @@ export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs i-text-$color-label-text',
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapperBase + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs i-text-$color-label-text',
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const breadcrumbs = {
@@ -450,7 +450,7 @@ export const toggle = {
   inputDisabled: 'pointer-events-none',
   focusable: 'peer-focus:focusable',
   focusableWithin: 'focus-within:focusable',
-  label: 'cursor-pointer text-m i-text-$color-label-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
+  label: 'cursor-pointer text-m s-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
   deadToggleLabel: '-mt-2',
   noContent: `before:content-[""]`,
   indeterminate: `before:flex! before:items-center before:justify-center before:s-icon-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:s-border-negative peer-indeterminate:before:s-bg-primary peer-indeterminate:hover:before:s-border-primary peer-indeterminate:hover:before:s-bg-primary-hover`,
@@ -531,6 +531,7 @@ export const backwardsCompatibleClasses = {
   removedCardTokens: 'i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active active:i-border-$color-card-flat-border i-border-$color-card-border i-border-$color-card-border-selected hover:i-border-$color-card-border-selected-hover',
   removedCheckboxTokens: 'i-border-$color-checkbox-border peer-indeterminate:before:i-border-$color-checkbox-border-selected before:i-text-$color-checkbox-icon peer-checked:before:i-border-$color-checkbox-negative-border hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:peer-hover:before:i-border-$ before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover before:i-border-$color-checkbox-border-disabled hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-checked:before:i-border-$color-checkbox-border-selected peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:peer-hover:before:i-border-$color-checkbox-border-selected-hover peer-checked:before:i-bg-$color-checkbox-background-selected peer-indeterminate:before:i-bg-$color-checkbox-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-background-selected-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-selected-hover peer-checked:before:i-bg-$color-checkbox-background-selected-disabled hover:before:i-bg-$color-checkbox-background-hover peer-disabled:before:i-bg-$color-checkbox-background-disabled',
   removedComboboxTokens: 'i-bg-$color-combobox-option-background-selected hover:i-bg-$color-combobox-option-background-selected-hover hover:i-bg-$color-combobox-option-background-hover i-bg-$color-combobox-background i-shadow-$shadow-combobox',
+  removedLabelTokens: 'i-text-$color-label-text-negative text-s i-text-$color-label-optional-text i-text-$color-label-text',
 };
 
 export const pagination = {
