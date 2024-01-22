@@ -285,6 +285,11 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  pageindicator:
+    background:
+      _: s-color-icon-disabled
+      hover: s-color-icon-subtle
+      selected: s-color-icon-selected
 
 shadow:
   buttongroup: shadow-s
