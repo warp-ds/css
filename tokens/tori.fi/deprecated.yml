@@ -103,6 +103,10 @@ color:
     primary:
       text: s-color-text-inverted
       icon: s-color-icon-inverted
+      border:
+        _: watermelon-600
+        hover: watermelon-700
+        active: watermelon-800
     secondary:
       text: s-color-text-link
       background:

@@ -103,6 +103,10 @@ color:
     primary:
       text: s-color-text-inverted
       icon: s-color-icon-inverted
+      border:
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
     secondary:
       text: s-color-text-link
       background:
