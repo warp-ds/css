@@ -285,6 +285,14 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  list:
+    text: s-color-text
+    bulleted:
+      icon: s-color-text
+    numbered:
+      icon: s-color-text
+    checked:
+      icon: s-color-icon-primary
 
 shadow:
   buttongroup: shadow-s
