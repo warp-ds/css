@@ -285,6 +285,13 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  modal:
+    backdrop:
+      background: black
+    text:
+      title: s-color-text
+      paragraph: s-color-text
+    background: s-color-background
 
 shadow:
   buttongroup: shadow-s
@@ -292,6 +299,7 @@ shadow:
     _: shadow-s
     hover: shadow-m
   combobox: shadow-m
+  modal: shadow-m
 
 s:
   color:
