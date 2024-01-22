@@ -215,13 +215,13 @@ const buttonDefaultStyling = 'font-bold focusable justify-center transition-colo
 const buttonColors = {
   primary: 's-text-inverted bg-[--w-color-button-primary-background] hover:bg-[--w-color-button-primary-background-hover] active:bg-[--w-color-button-primary-background-active]',
   secondary: 's-text-link s-border s-bg hover:s-bg-hover hover:s-border-hover active:s-bg-active',
-  utility: 's-text s-bg s-border hover:s-border-hover active:s-border-active',
+  utility: 's-text s-bg hover:s-bg-hover s-border hover:s-border-hover active:s-border-active',
   destructive: 's-bg-negative s-text-inverted hover:s-bg-negative-hover active:s-bg-negative-active',
   pill: 's-icon hover:s-icon-hover active:s-icon-active bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
   disabled: 's-text-inverted s-bg-disabled',
   quiet: 'bg-transparent s-text-link hover:s-bg-hover active:s-bg-active',
-  utilityQuiet: 's-text s-bg-transparent hover:s-bg-subtle-hover',
-  negativeQuiet: 's-bg s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
+  utilityQuiet: 's-text bg-transparent hover:s-bg-subtle-hover',
+  negativeQuiet: 'bg-transparent s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
   loading: 's-text s-bg-subtle',
   link: 's-text-link',
 };
