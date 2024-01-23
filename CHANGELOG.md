@@ -1,3 +1,10 @@
+# [1.8.0-next.5](https://github.com/warp-ds/css/compare/v1.8.0-next.4...v1.8.0-next.5) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Popover component tokens and classes ([#149](https://github.com/warp-ds/css/issues/149)) ([4c3bcdf](https://github.com/warp-ds/css/commit/4c3bcdf0a6fffbac0ff012e4e27d7a71aabb80a9))
+
 # [1.8.0-next.4](https://github.com/warp-ds/css/compare/v1.8.0-next.3...v1.8.0-next.4) (2024-01-23)
 
 
