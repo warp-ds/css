@@ -1,3 +1,10 @@
+## [1.7.1-next.19](https://github.com/warp-ds/css/compare/v1.7.1-next.18...v1.7.1-next.19) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Label component tokens and classes ([#140](https://github.com/warp-ds/css/issues/140)) ([7d12943](https://github.com/warp-ds/css/commit/7d12943bd0311c69472bff4fd30e9078dfaa55be))
+
 ## [1.7.1-next.18](https://github.com/warp-ds/css/compare/v1.7.1-next.17...v1.7.1-next.18) (2024-01-23)
 
 
