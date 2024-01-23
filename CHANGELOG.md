@@ -1,3 +1,10 @@
+## [1.7.1-next.20](https://github.com/warp-ds/css/compare/v1.7.1-next.19...v1.7.1-next.20) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Modal component tokens and classes ([#142](https://github.com/warp-ds/css/issues/142)) ([303050f](https://github.com/warp-ds/css/commit/303050ff0f85d34dcb87dda689c84978915696c2))
+
 ## [1.7.1-next.19](https://github.com/warp-ds/css/compare/v1.7.1-next.18...v1.7.1-next.19) (2024-01-23)
 
 
