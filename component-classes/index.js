@@ -460,11 +460,11 @@ export const toggle = {
   checkboxInvalid: 'before:s-bg hover:before:s-bg-negative-subtle-hover peer-checked:before:s-border-negative hover:before:s-border-negative-hover peer-checked:before:s-bg-negative peer-checked:peer-hover:before:s-bg-negative-hover peer-checked:peer-hover:before:s-border-negative-hover',
   checkboxDisabled: 'peer-disabled:before:s-bg-disabled-subtle before:s-border-disabled peer-checked:before:s-border-disabled peer-checked:before:s-bg-disabled',
   labelCheckboxBorder: 's-border',
-  radio: 'before:s-bg before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-hover:before:i-border-$color-radio-border-hover peer-hover:before:i-bg-$color-radio-background-hover',
-  radioChecked: 'peer-checked:before:i-border-$color-radio-border-selected',
-  radioInvalid: 'before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover ',
-  radioDisabled: 'peer-disabled:before:i-bg-$color-radio-background-disabled before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled',
-  labelRadioBorder: 'i-border-$color-radio-border',
+  radio: 'before:s-bg before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:s-border-selected-hover peer-hover:before:s-border-primary peer-hover:before:s-bg-primary-subtle',
+  radioChecked: 'peer-checked:before:s-border-selected',
+  radioInvalid: 'before:s-bg peer-hover:before:s-bg-negative-subtle before:s-border-negative peer-hover:before:s-border-negative-hover peer-checked:before:s-border-negative peer-checked:peer-hover:before:s-border-negative-hover ',
+  radioDisabled: 'peer-disabled:before:s-bg-disabled-subtle before:s-border-disabled peer-checked:before:s-border-disabled',
+  labelRadioBorder: 's-border',
   radioButtons: 'inline-flex relative font-bold rounded-8',
   radioButtonsGroup: 'group',
   radioButtonsLabel: 'peer-hover:peer-not-checked:s-bg-hover peer-checked:s-text-inverted peer-checked:s-bg-primary peer-checked:s-border-primary block relative text-s font-bold cursor-pointer s-text-link text-center s-bg border-2 s-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
@@ -539,6 +539,7 @@ export const backwardsCompatibleClasses = {
   removedPageIndicatorTokens: 'i-bg-$color-pageindicator-background hover:i-bg-$color-pageindicator-background-hover i-bg-$color-pageindicator-background-selected',
   removedPillTokens: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text i-text-$color-pill-suggestion-text',
   removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
+  removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
 };
 
 export const pagination = {
