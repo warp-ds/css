@@ -1,3 +1,45 @@
+## [1.7.1-next.19](https://github.com/warp-ds/css/compare/v1.7.1-next.18...v1.7.1-next.19) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Label component tokens and classes ([#140](https://github.com/warp-ds/css/issues/140)) ([7d12943](https://github.com/warp-ds/css/commit/7d12943bd0311c69472bff4fd30e9078dfaa55be))
+
+## [1.7.1-next.18](https://github.com/warp-ds/css/compare/v1.7.1-next.17...v1.7.1-next.18) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant List component tokens ([#141](https://github.com/warp-ds/css/issues/141)) ([0f3b974](https://github.com/warp-ds/css/commit/0f3b974b180861b3478202124b7dc64a1c3121cb))
+
+## [1.7.1-next.17](https://github.com/warp-ds/css/compare/v1.7.1-next.16...v1.7.1-next.17) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Input component tokens and classes ([#139](https://github.com/warp-ds/css/issues/139)) ([8e79742](https://github.com/warp-ds/css/commit/8e79742fcb7818a69f6e4b25231983a5fc5cd829))
+
+## [1.7.1-next.16](https://github.com/warp-ds/css/compare/v1.7.1-next.15...v1.7.1-next.16) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Image component tokens ([#138](https://github.com/warp-ds/css/issues/138)) ([e11a007](https://github.com/warp-ds/css/commit/e11a0073457b5cec20814b085212a44c9861dff7))
+
+## [1.7.1-next.15](https://github.com/warp-ds/css/compare/v1.7.1-next.14...v1.7.1-next.15) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant HelpText component tokens and classes ([#137](https://github.com/warp-ds/css/issues/137)) ([9508b19](https://github.com/warp-ds/css/commit/9508b198fc9cfd5eb05d9184e32883a2e6453e4f))
+
+## [1.7.1-next.14](https://github.com/warp-ds/css/compare/v1.7.1-next.13...v1.7.1-next.14) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Expandable component tokens and classes ([#136](https://github.com/warp-ds/css/issues/136)) ([dd14d63](https://github.com/warp-ds/css/commit/dd14d63731387aeedddc02baf142fff74c97e897))
+
 ## [1.7.1-next.13](https://github.com/warp-ds/css/compare/v1.7.1-next.12...v1.7.1-next.13) (2024-01-19)
 
 
