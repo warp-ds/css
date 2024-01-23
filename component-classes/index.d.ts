@@ -511,6 +511,7 @@ export namespace backwardsCompatibleClasses {
     export let removedLabelTokens: string;
     export let removedModalTokens: string;
     export let removedPageIndicatorTokens: string;
+    export let removedPillTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;
