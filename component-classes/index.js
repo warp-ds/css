@@ -63,7 +63,7 @@ export const box = {
 export const pill = {
   pill: 'flex items-center',
   button: 'inline-flex items-center focusable text-xs transition-all',
-  suggestion: ' active:i-bg-$color-pill-suggestion-background-active hover:i-bg-$color-pill-suggestion-background-hover i-bg-$color-pill-suggestion-background s-text font-bold',
+  suggestion: 'i-bg-$color-pill-suggestion-background hover:i-bg-$color-pill-suggestion-background-hover active:i-bg-$color-pill-suggestion-background-active s-text font-bold',
   filter: 's-bg-primary hover:s-bg-primary-hover active:s-bg-primary-active s-text-inverted',
   label: 'pl-12 py-8 rounded-l-full',
   labelWithoutClose: 'pr-12 rounded-r-full',
