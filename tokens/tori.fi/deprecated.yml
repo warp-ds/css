@@ -285,6 +285,20 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  expandable:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background:
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+    icon: s-color-icon
+  helptext:
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive
   image:
     placeholder:
       background: s-color-background-subtle
