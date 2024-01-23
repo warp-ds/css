@@ -373,6 +373,28 @@ color:
     suggestion:
       text: s-color-text
       icon: s-color-icon
+  radio:
+    background:
+      disabled: s-color-background-disabled-subtle
+      hover: s-color-background-primary-subtle
+    border:
+      _: s-color-border
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
+        disabled: s-color-border-disabled
+      disabled: s-color-border-disabled
+    negative:
+      background:
+        _: s-color-background
+        hover: s-color-background-negative-subtle
+      border:
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative-selected
+          hover: s-color-border-negative-selected-hover
 
 shadow:
   buttongroup: shadow-s
