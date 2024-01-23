@@ -285,6 +285,66 @@ color:
       background:
         active: s-color-background-primary-subtle
         selected: s-color-background-primary-subtle-active
+  expandable:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background:
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+    icon: s-color-icon
+  helptext:
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive
+  image:
+    placeholder:
+      background: s-color-background-subtle
+      icon: s-color-icon-disabled
+  input:
+    text:
+      placeholder: s-color-text-placeholder
+      filled: s-color-text
+      disabled: s-color-text-disabled
+      negative: s-color-text-negative
+      read:
+        only: s-color-text
+    background:
+      _: s-color-background
+      disabled: s-color-background-disabled-subtle
+    border:
+      _: s-color-border
+      hover: s-color-border-hover
+      active: s-color-border-selected
+      filled: s-color-border
+      disabled: s-color-border-disabled
+      negative: s-color-border-negative
+    caret: s-color-icon
+    icon: s-color-icon
+  label:
+    text:
+      _: s-color-text
+      negative: s-color-text-negative
+    optional:
+      text: s-color-text
+    icon: s-color-icon
+  list:
+    text: s-color-text
+    bulleted:
+      icon: s-color-text
+    numbered:
+      icon: s-color-text
+    checked:
+      icon: s-color-icon-primary
+  modal:
+    backdrop:
+      background: black
+    text:
+      title: s-color-text
+      paragraph: s-color-text
+    background: s-color-background
   pageindicator:
     background:
       _: s-color-icon-disabled
@@ -297,6 +357,7 @@ shadow:
     _: shadow-s
     hover: shadow-m
   combobox: shadow-m
+  modal: shadow-m
 
 s:
   color:
