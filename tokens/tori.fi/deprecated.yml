@@ -364,10 +364,6 @@ color:
       icon: s-color-icon-inverted
     suggestion:
       text: s-color-text
-      background:
-        _: gray-200
-        hover: gray-300
-        active: gray-400
       icon: s-color-icon
 
 shadow:

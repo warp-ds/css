@@ -63,7 +63,7 @@ export const box = {
 export const pill = {
   pill: 'flex items-center',
   button: 'inline-flex items-center focusable text-xs transition-all',
-  suggestion: 'bg-[--w-gray-200] hover:bg-[--w-gray-300] active:bg-[--w-gray-400] s-text font-bold',
+  suggestion: ' active:i-bg-$color-pill-suggestion-background-active hover:i-bg-$color-pill-suggestion-background-hover i-bg-$color-pill-suggestion-background s-text font-bold',
   filter: 's-bg-primary hover:s-bg-primary-hover active:s-bg-primary-active s-text-inverted',
   label: 'pl-12 py-8 rounded-l-full',
   labelWithoutClose: 'pr-12 rounded-r-full',
@@ -537,7 +537,7 @@ export const backwardsCompatibleClasses = {
   removedLabelTokens: 'i-text-$color-label-text-negative i-text-$color-label-optional-text i-text-$color-label-text',
   removedModalTokens: 'i-bg-$color-modal-background i-shadow-$shadow-modal before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25',
   removedPageIndicatorTokens: 'i-bg-$color-pageindicator-background hover:i-bg-$color-pageindicator-background-hover i-bg-$color-pageindicator-background-selected',
-  removedPillTokens: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text active:i-bg-$color-pill-suggestion-background-active hover:i-bg-$color-pill-suggestion-background-hover i-bg-$color-pill-suggestion-background',
+  removedPillTokens: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text i-text-$color-pill-suggestion-text',
 };
 
 export const pagination = {

@@ -1,0 +1,10 @@
+---
+token: maps
+
+color:
+  pill:
+    suggestion:
+      background:
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
+        active: s-color-background-subtle-active

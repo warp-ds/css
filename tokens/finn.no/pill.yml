@@ -1,0 +1,10 @@
+---
+token: maps
+
+color:
+  pill:
+    suggestion:
+      background:
+        _: gray-200
+        hover: gray-300
+        active: gray-400
