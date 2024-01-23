@@ -39,6 +39,7 @@ s:
         selected:
           _: green-50
           hover: green-100
+          active: green-200
         subtle:
           _: green-50
           hover: green-100
@@ -50,6 +51,7 @@ s:
         selected:
           _: red-50
           hover: red-100
+          active: red-200
         subtle:
           _: red-50
           hover: red-100
@@ -61,6 +63,7 @@ s:
         selected:
           _: yellow-50
           hover: yellow-100
+          active: yellow-200
         subtle:
           _: yellow-50
           hover: yellow-100
@@ -72,6 +75,7 @@ s:
         selected:
           _: aqua-50
           hover: aqua-100
+          active: aqua-200
         subtle:
           _: aqua-50
           hover: aqua-100
@@ -144,6 +148,7 @@ s:
       selected:
         _: blue-600
         hover: blue-700
+        active: blue-800
       disabled: bluegray-300
       subtle:
         _: bluegray-400
