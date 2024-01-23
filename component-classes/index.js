@@ -395,13 +395,13 @@ export const input = {
 };
 
 export const select = {
-  default: 'block text-m mb-0 leading-m i-text-$color-select-text i-bg-$color-select-background i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
-  disabled: 'i-bg-$color-select-background-disabled i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-text-$color-select-text-disabled pointer-events-none',
-  invalid: 'i-border-$color-select-border-negative',
+  default: 'block text-m mb-0 leading-m s-text s-bg s-border hover:s-border-hover active:s-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
+  disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! active:s-border-disabled! s-text-disabled pointer-events-none',
+  invalid: 's-border-negative',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
-  chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full i-text-$color-select-icon pointer-events-none cursor-pointer',
+  chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full s-icon pointer-events-none cursor-pointer',
   chevronDisabled: 'opacity-25',
 };
 
@@ -540,6 +540,7 @@ export const backwardsCompatibleClasses = {
   removedPillTokens: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text i-text-$color-pill-suggestion-text',
   removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
+  removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
 };
 
 export const pagination = {
