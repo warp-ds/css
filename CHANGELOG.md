@@ -1,3 +1,10 @@
+## [1.7.1-next.18](https://github.com/warp-ds/css/compare/v1.7.1-next.17...v1.7.1-next.18) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant List component tokens ([#141](https://github.com/warp-ds/css/issues/141)) ([0f3b974](https://github.com/warp-ds/css/commit/0f3b974b180861b3478202124b7dc64a1c3121cb))
+
 ## [1.7.1-next.17](https://github.com/warp-ds/css/compare/v1.7.1-next.16...v1.7.1-next.17) (2024-01-23)
 
 
