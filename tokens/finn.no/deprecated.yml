@@ -373,6 +373,12 @@ color:
     suggestion:
       text: s-color-text
       icon: s-color-icon
+  popover:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background: s-color-background
 
 shadow:
   buttongroup: shadow-s
@@ -381,6 +387,7 @@ shadow:
     hover: shadow-m
   combobox: shadow-m
   modal: shadow-m
+  popover: shadow-m
 
 s:
   color:
