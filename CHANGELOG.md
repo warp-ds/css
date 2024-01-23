@@ -1,3 +1,10 @@
+# [1.8.0-next.7](https://github.com/warp-ds/css/compare/v1.8.0-next.6...v1.8.0-next.7) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Select component tokens and classes ([#151](https://github.com/warp-ds/css/issues/151)) ([eb09c50](https://github.com/warp-ds/css/commit/eb09c50685007b82cc4c97033e9269f973a8e0c9))
+
 # [1.8.0-next.6](https://github.com/warp-ds/css/compare/v1.8.0-next.5...v1.8.0-next.6) (2024-01-23)
 
 
