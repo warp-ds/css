@@ -348,10 +348,10 @@ export const buttonGroupItem = {
 };
 
 export const modal = {
-  //TODO: this class can be removed when we have the solution for opacity and we can add rgba values to the background of the backdrop
-  transparentBg: `before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25`,
-  backdrop: 'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px]',
-  modal: 'pb-safe-[32] i-shadow-$shadow-modal max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 i-bg-$color-modal-background flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
+  //TODO: transparentBg can be removed when it has been removed in React and Vue - previously used for opacity before changing to a rgba background in backdrop
+  transparentBg: '',
+  backdrop: 'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px] bg-[--w-black-alpha25]',
+  modal: 'pb-safe-[32] shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 s-bg flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
@@ -535,6 +535,7 @@ export const backwardsCompatibleClasses = {
   removedHelpTextTokens: 'i-text-$color-helptext-text i-text-$color-helptext-text-positive i-text-$color-helptext-text-negative',
   removedInputTokens: 'placeholder:i-text-$color-input-text-placeholder i-text-$color-input-text-read-only i-text-$color-input-text-negative! i-border-$color-input-border-negative i-text-$color-input-text-disabled hover:i-border-$color-input-border-disabled! i-border-$color-input-border-disabled i-bg-$color-input-background-disabled active:i-border-$color-input-border-active hover:i-border-$color-input-border-hover i-border-$color-input-border i-bg-$color-input-background i-text-$color-input-text-filled',
   removedLabelTokens: 'i-text-$color-label-text-negative i-text-$color-label-optional-text i-text-$color-label-text',
+  removedModalTokens: 'i-bg-$color-modal-background i-shadow-$shadow-modal before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25',
 };
 
 export const pagination = {
