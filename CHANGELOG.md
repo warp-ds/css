@@ -1,3 +1,10 @@
+# [1.8.0-next.3](https://github.com/warp-ds/css/compare/v1.8.0-next.2...v1.8.0-next.3) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Pagination component tokens ([#147](https://github.com/warp-ds/css/issues/147)) ([644b707](https://github.com/warp-ds/css/commit/644b7070d4e4adf3ccb78f1df8aede76892eb3b0))
+
 # [1.8.0-next.2](https://github.com/warp-ds/css/compare/v1.8.0-next.1...v1.8.0-next.2) (2024-01-23)
 
 
