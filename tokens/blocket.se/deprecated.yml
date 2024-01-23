@@ -354,6 +354,14 @@ color:
       _: s-color-icon-disabled
       hover: s-color-icon-subtle
       selected: s-color-icon-selected
+  pagination:
+    text:
+      _: s-color-text-link
+      active: s-color-text-inverted
+    background:
+      hover: s-color-background-primary-subtle-hover
+      active: s-color-background-primary
+    icon: s-color-icon
 
 shadow:
   buttongroup: shadow-s
