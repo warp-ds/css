@@ -188,10 +188,10 @@ export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg
 
 export const expandable = {
   expandable: 'will-change-height',
-  expandableTitle: 'font-bold i-text-$color-expandable-title-text',
-  expandableBox: 'i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover py-0 px-0 ' + box.box,
+  expandableTitle: 'font-bold s-text',
+  expandableBox: 's-bg-subtle hover:s-bg-subtle-hover py-0 px-0 ' + box.box,
   expandableBleed: box.bleed,
-  chevron: 'inline-block align-middle i-text-$color-expandable-icon',
+  chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',
   chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
@@ -383,12 +383,12 @@ export const alert = {
 };
 
 export const input = {
-  default: 'block text-m mb-0 leading-m i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
+  default: 'block text-m mb-0 leading-m s-text s-bg s-border hover:s-border-hover active:s-border-selected rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
-  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
-  invalid: 'i-border-$color-input-border-negative i-text-$color-input-text-negative!',
-  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
-  placeholder: 'placeholder:i-text-$color-input-text-placeholder',
+  disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! s-text-disabled pointer-events-none',
+  invalid: 's-border-negative s-text-negative!',
+  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none s-text',
+  placeholder: 'placeholder:s-text-placeholder',
   wrapper: 'relative',
   suffix: 'pr-40',
   prefix: 'pl-40',
@@ -412,9 +412,9 @@ export const label = {
 };
 
 export const helpText = {
-  helpText: 'text-xs mt-4 block i-text-$color-helptext-text',
-  helpTextValid: 'i-text-$color-helptext-text-positive',
-  helpTextInvalid: 'i-text-$color-helptext-text-negative',
+  helpText: 'text-xs mt-4 block s-text-subtle',
+  helpTextValid: 's-text-positive',
+  helpTextInvalid: 's-text-negative',
 };
 
 const prefixSuffixWrapperBase = 'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
@@ -531,6 +531,9 @@ export const backwardsCompatibleClasses = {
   removedCardTokens: 'i-shadow-$shadow-card hover:i-shadow-$shadow-card-hover hover:i-bg-$color-card-background-hover i-bg-$color-card-flat-background i-border-$color-card-flat-border hover:i-bg-$color-card-flat-background-hover hover:i-border-$color-card-flat-border-hover active:i-bg-$color-card-flat-background-active active:i-border-$color-card-flat-border-active i-border-$color-card-flat-border-selected i-bg-$color-card-flat-background-selected hover:i-bg-$color-card-flat-background-selected-hover hover:i-border-$color-card-flat-border-selected-hover active:i-border-$color-card-flat-border-active active:i-bg-$color-card-flat-background-active i-border-$color-card-border-selected i-bg-$color-card-background-selected hover:i-border-$color-card-border-selected-hover hover:i-bg-$color-card-background-selected-hover active:i-border-$color-card-border-selected-active active:i-border-$color-card-flat-border i-border-$color-card-border i-border-$color-card-border-selected hover:i-border-$color-card-border-selected-hover',
   removedCheckboxTokens: 'i-border-$color-checkbox-border peer-indeterminate:before:i-border-$color-checkbox-border-selected before:i-text-$color-checkbox-icon peer-checked:before:i-border-$color-checkbox-negative-border hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:peer-hover:before:i-border-$ before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover before:i-border-$color-checkbox-border-disabled hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-checked:before:i-border-$color-checkbox-border-selected peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:peer-hover:before:i-border-$color-checkbox-border-selected-hover peer-checked:before:i-bg-$color-checkbox-background-selected peer-indeterminate:before:i-bg-$color-checkbox-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-background-selected-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-selected-hover peer-checked:before:i-bg-$color-checkbox-background-selected-disabled hover:before:i-bg-$color-checkbox-background-hover peer-disabled:before:i-bg-$color-checkbox-background-disabled',
   removedComboboxTokens: 'i-bg-$color-combobox-option-background-selected hover:i-bg-$color-combobox-option-background-selected-hover hover:i-bg-$color-combobox-option-background-hover i-bg-$color-combobox-background i-shadow-$shadow-combobox',
+  removedExpandableTokens: 'i-text-$color-expandable-icon i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover i-text-$color-expandable-title-text',
+  removedHelpTextTokens: 'i-text-$color-helptext-text i-text-$color-helptext-text-positive i-text-$color-helptext-text-negative',
+  removedInputTokens: 'placeholder:i-text-$color-input-text-placeholder i-text-$color-input-text-read-only i-text-$color-input-text-negative! i-border-$color-input-border-negative i-text-$color-input-text-disabled hover:i-border-$color-input-border-disabled! i-border-$color-input-border-disabled i-bg-$color-input-background-disabled active:i-border-$color-input-border-active hover:i-border-$color-input-border-hover i-border-$color-input-border i-bg-$color-input-background i-text-$color-input-text-filled',
 };
 
 export const pagination = {
