@@ -401,6 +401,22 @@ color:
         selected:
           _: s-color-border-negative-selected
           hover: s-color-border-negative-selected-hover
+  select:
+    text:
+      _: s-color-text
+      hover: s-color-text-hover
+      active: s-color-text
+      disabled: s-color-text-disabled
+    background:
+      _: s-color-background
+      disabled: s-color-background-disabled-subtle
+    border:
+      _: s-color-border
+      hover: s-color-border-hover
+      active: s-color-border-active
+      disabled: s-color-border-disabled
+      negative: s-color-border-negative
+    icon: s-color-icon
 
 shadow:
   buttongroup: shadow-s
