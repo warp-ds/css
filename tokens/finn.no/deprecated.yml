@@ -294,6 +294,11 @@ color:
       _: s-color-background-subtle
       hover: s-color-background-subtle-hover
     icon: s-color-icon
+  helptext:
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive
 
 shadow:
   buttongroup: shadow-s

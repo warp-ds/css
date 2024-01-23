@@ -412,9 +412,9 @@ export const label = {
 };
 
 export const helpText = {
-  helpText: 'text-xs mt-4 block i-text-$color-helptext-text',
-  helpTextValid: 'i-text-$color-helptext-text-positive',
-  helpTextInvalid: 'i-text-$color-helptext-text-negative',
+  helpText: 'text-xs mt-4 block s-text-subtle',
+  helpTextValid: 's-text-positive',
+  helpTextInvalid: 's-text-negative',
 };
 
 const prefixSuffixWrapperBase = 'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
@@ -532,6 +532,7 @@ export const backwardsCompatibleClasses = {
   removedCheckboxTokens: 'i-border-$color-checkbox-border peer-indeterminate:before:i-border-$color-checkbox-border-selected before:i-text-$color-checkbox-icon peer-checked:before:i-border-$color-checkbox-negative-border hover:before:i-border-$color-checkbox-negative-border-hover peer-checked:peer-hover:before:i-border-$ before:i-bg-$color-checkbox-negative-background hover:before:i-bg-$color-checkbox-negative-background-hover peer-checked:before:i-bg-$color-checkbox-negative-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-negative-background-selected-hover before:i-border-$color-checkbox-border-disabled hover:before:i-border-$color-checkbox-border-hover peer-indeterminate:hover:before:i-border-$color-checkbox-border-hover peer-checked:before:i-border-$color-checkbox-border-selected peer-checked:before:i-border-$color-checkbox-border-selected-disabled peer-checked:peer-hover:before:i-border-$color-checkbox-border-selected-hover peer-checked:before:i-bg-$color-checkbox-background-selected peer-indeterminate:before:i-bg-$color-checkbox-background-selected peer-checked:peer-hover:before:i-bg-$color-checkbox-background-selected-hover peer-indeterminate:hover:before:i-bg-$color-checkbox-background-selected-hover peer-checked:before:i-bg-$color-checkbox-background-selected-disabled hover:before:i-bg-$color-checkbox-background-hover peer-disabled:before:i-bg-$color-checkbox-background-disabled',
   removedComboboxTokens: 'i-bg-$color-combobox-option-background-selected hover:i-bg-$color-combobox-option-background-selected-hover hover:i-bg-$color-combobox-option-background-hover i-bg-$color-combobox-background i-shadow-$shadow-combobox',
   removedExpandableTokens: 'i-text-$color-expandable-icon i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover i-text-$color-expandable-title-text',
+  removedHelpTextTokens: 'i-text-$color-helptext-text i-text-$color-helptext-text-positive i-text-$color-helptext-text-negative',
 };
 
 export const pagination = {
