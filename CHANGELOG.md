@@ -1,3 +1,10 @@
+## [1.7.1-next.16](https://github.com/warp-ds/css/compare/v1.7.1-next.15...v1.7.1-next.16) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Image component tokens ([#138](https://github.com/warp-ds/css/issues/138)) ([e11a007](https://github.com/warp-ds/css/commit/e11a0073457b5cec20814b085212a44c9861dff7))
+
 ## [1.7.1-next.15](https://github.com/warp-ds/css/compare/v1.7.1-next.14...v1.7.1-next.15) (2024-01-23)
 
 
