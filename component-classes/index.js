@@ -497,7 +497,7 @@ export const attention = {
   tooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
   callout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
   highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m',
-  popover: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text rounded-8 p-16 drop-shadow-m',
+  popover: 's-bg border-[--w-s-color-background] s-text rounded-8 p-16 drop-shadow-m',
   arrowBase: 'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeft: '-left-[8px]',
   arrowDirectionRight: '-right-[8px]',
@@ -505,7 +505,7 @@ export const attention = {
   arrowDirectionTop: '-top-[8px]',
   arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
   arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
-  arrowPopover: 'i-bg-$color-popover-background i-border-$color-popover-background',
+  arrowPopover: 's-bg border-[--w-s-color-background]',
   arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
@@ -538,6 +538,7 @@ export const backwardsCompatibleClasses = {
   removedModalTokens: 'i-bg-$color-modal-background i-shadow-$shadow-modal before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25',
   removedPageIndicatorTokens: 'i-bg-$color-pageindicator-background hover:i-bg-$color-pageindicator-background-hover i-bg-$color-pageindicator-background-selected',
   removedPillTokens: 'i-bg-$color-pill-filter-background hover:i-bg-$color-pill-filter-background-hover active:i-bg-$color-pill-filter-background-active i-text-$color-pill-filter-text i-text-$color-pill-suggestion-text',
+  removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
 };
 
 export const pagination = {
