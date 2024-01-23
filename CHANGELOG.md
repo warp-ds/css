@@ -1,3 +1,10 @@
+## [1.7.1-next.22](https://github.com/warp-ds/css/compare/v1.7.1-next.21...v1.7.1-next.22) (2024-01-23)
+
+
+### Bug Fixes
+
+* Button tokens/classes fixes ([#144](https://github.com/warp-ds/css/issues/144)) ([997c62e](https://github.com/warp-ds/css/commit/997c62e85b117c9c60577ad44db91d867acc708f))
+
 ## [1.7.1-next.21](https://github.com/warp-ds/css/compare/v1.7.1-next.20...v1.7.1-next.21) (2024-01-23)
 
 
