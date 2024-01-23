@@ -1,3 +1,10 @@
+## [1.7.1-next.17](https://github.com/warp-ds/css/compare/v1.7.1-next.16...v1.7.1-next.17) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Input component tokens and classes ([#139](https://github.com/warp-ds/css/issues/139)) ([8e79742](https://github.com/warp-ds/css/commit/8e79742fcb7818a69f6e4b25231983a5fc5cd829))
+
 ## [1.7.1-next.16](https://github.com/warp-ds/css/compare/v1.7.1-next.15...v1.7.1-next.16) (2024-01-23)
 
 
