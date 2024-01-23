@@ -508,6 +508,7 @@ export namespace backwardsCompatibleClasses {
     export let removedExpandableTokens: string;
     export let removedHelpTextTokens: string;
     export let removedInputTokens: string;
+    export let removedLabelTokens: string;
 }
 export namespace pagination {
     export let currentPage: string;

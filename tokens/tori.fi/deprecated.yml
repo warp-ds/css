@@ -323,6 +323,13 @@ color:
       negative: s-color-border-negative
     caret: s-color-icon
     icon: s-color-icon
+  label:
+    text:
+      _: s-color-text
+      negative: s-color-text-negative
+    optional:
+      text: s-color-text
+    icon: s-color-icon
   list:
     text: s-color-text
     bulleted:
