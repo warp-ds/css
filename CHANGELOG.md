@@ -1,3 +1,10 @@
+# [1.8.0-next.1](https://github.com/warp-ds/css/compare/v1.7.1-next.22...v1.8.0-next.1) (2024-01-23)
+
+
+### Features
+
+* Add semantic background and border tokens for selected-active states ([#145](https://github.com/warp-ds/css/issues/145)) ([af45aaf](https://github.com/warp-ds/css/commit/af45aaf57f460a2ec27eddc6a201cf9493bb3d6c))
+
 ## [1.7.1-next.22](https://github.com/warp-ds/css/compare/v1.7.1-next.21...v1.7.1-next.22) (2024-01-23)
 
 
