@@ -1,3 +1,10 @@
+## [1.7.1-next.14](https://github.com/warp-ds/css/compare/v1.7.1-next.13...v1.7.1-next.14) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Expandable component tokens and classes ([#136](https://github.com/warp-ds/css/issues/136)) ([dd14d63](https://github.com/warp-ds/css/commit/dd14d63731387aeedddc02baf142fff74c97e897))
+
 ## [1.7.1-next.13](https://github.com/warp-ds/css/compare/v1.7.1-next.12...v1.7.1-next.13) (2024-01-19)
 
 
