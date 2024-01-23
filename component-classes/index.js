@@ -112,7 +112,7 @@ export const card = {
   cardFlatUnselected: 's-bg s-border hover:s-bg-subtle-hover hover:s-border-hover active:s-bg-active active:s-border-active',
   cardFlatSelected: 's-border-selected s-bg-selected hover:s-bg-selected-hover hover:s-border-selected-hover active:s-border-selected-active active:s-bg-selected-active',
   cardUnselected: 's-bg',
-  cardSelected: 's-border-selected s-bg-selected hover:s-border-selected-hover hover:s-bg-selected-hover active:s-border-selected-active',
+  cardSelected: 's-border-selected s-bg-selected hover:s-border-selected-hover hover:s-bg-selected-hover active:s-border-selected-active active:s-bg-selected-active',
   cardOutline: 'active:s-border absolute rounded-8 inset-0 transition-all border-2',
   cardOutlineUnselected: 'border-transparent',
   cardOutlineSelected: 's-border-selected hover:s-border-selected-hover',

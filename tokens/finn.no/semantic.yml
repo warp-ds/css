@@ -11,6 +11,7 @@ s:
       selected:
         _: blue-50
         hover: blue-100
+        active: blue-200
       disabled:
         _: bluegray-300
         subtle: bluegray-200
@@ -86,6 +87,7 @@ s:
       selected:
         _: blue-600
         hover: blue-700
+        active: blue-800
       inverted: white
       primary:
         _: blue-600

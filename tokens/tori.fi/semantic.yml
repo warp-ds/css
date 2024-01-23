@@ -11,6 +11,7 @@ s:
       selected:
         _: blueberry-50
         hover: blueberry-100
+        active: blueberry-200
       disabled:
         _: gray-300
         subtle: gray-200
@@ -86,6 +87,7 @@ s:
       selected:
         _: blueberry-600
         hover: blueberry-700
+        active: blueberry-800
       inverted: white
       primary:
         _: blueberry-600
