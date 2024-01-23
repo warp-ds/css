@@ -1,3 +1,10 @@
+# [1.8.0-next.2](https://github.com/warp-ds/css/compare/v1.8.0-next.1...v1.8.0-next.2) (2024-01-23)
+
+
+### Bug Fixes
+
+* Correct border tokens for checkbox ([#146](https://github.com/warp-ds/css/issues/146)) ([dfcd560](https://github.com/warp-ds/css/commit/dfcd560ddeb24a2a443805522e8c1a638a55762d))
+
 # [1.8.0-next.1](https://github.com/warp-ds/css/compare/v1.7.1-next.22...v1.8.0-next.1) (2024-01-23)
 
 
