@@ -1,3 +1,10 @@
+## [1.7.1-next.21](https://github.com/warp-ds/css/compare/v1.7.1-next.20...v1.7.1-next.21) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant PageIndicator component tokens and classes ([#143](https://github.com/warp-ds/css/issues/143)) ([42a9902](https://github.com/warp-ds/css/commit/42a9902c2cf4ec1c51cf9f46752ea7e25a0af7cc))
+
 ## [1.7.1-next.20](https://github.com/warp-ds/css/compare/v1.7.1-next.19...v1.7.1-next.20) (2024-01-23)
 
 
