@@ -8,10 +8,6 @@ color:
         _: s-color-background-primary
         hover: s-color-background-primary-hover
         active: s-color-background-primary-active
-      border:
-        _: s-color-border-primary
-        hover: s-color-border-primary-hover
-        active: s-color-border-primary-active
     pill:
       background:
         hover: blue-300-alpha30

@@ -8,10 +8,6 @@ color:
         _: watermelon-600
         hover: watermelon-700
         active: watermelon-800
-      border:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
     pill:
       background:
         hover: gray-300-alpha30
