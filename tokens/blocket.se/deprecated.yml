@@ -354,6 +354,21 @@ color:
       _: s-color-icon-disabled
       hover: s-color-icon-subtle
       selected: s-color-icon-selected
+  pill:
+    filter:
+      text: s-color-text-inverted
+      background:
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+      icon: s-color-icon-inverted
+    suggestion:
+      text: s-color-text
+      background:
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
+        active: s-color-background-subtle-active
+      icon: s-color-icon
 
 shadow:
   buttongroup: shadow-s
