@@ -299,6 +299,10 @@ color:
       _: s-color-text-subtle
       negative: s-color-text-negative
       positive: s-color-text-positive
+  image:
+    placeholder:
+      background: s-color-background-subtle
+      icon: s-color-icon-disabled
 
 shadow:
   buttongroup: shadow-s
