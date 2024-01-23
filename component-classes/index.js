@@ -1,8 +1,8 @@
 export const pageIndicator = {
   wrapper: 'flex space-x-8 p-8',
   dot: 'h-8 w-8 rounded-full',
-  inactive: 'i-bg-$color-pageindicator-background hover:i-bg-$color-pageindicator-background-hover',
-  active: 'i-bg-$color-pageindicator-background-selected',
+  inactive: 'bg-[--w-s-icon-disabled] hover:bg-[--w-s-icon-subtle]',
+  active: 'bg-[--w-s-icon-selected]',
 };
 
 // Deprecated: Use Badge component
@@ -536,6 +536,7 @@ export const backwardsCompatibleClasses = {
   removedInputTokens: 'placeholder:i-text-$color-input-text-placeholder i-text-$color-input-text-read-only i-text-$color-input-text-negative! i-border-$color-input-border-negative i-text-$color-input-text-disabled hover:i-border-$color-input-border-disabled! i-border-$color-input-border-disabled i-bg-$color-input-background-disabled active:i-border-$color-input-border-active hover:i-border-$color-input-border-hover i-border-$color-input-border i-bg-$color-input-background i-text-$color-input-text-filled',
   removedLabelTokens: 'i-text-$color-label-text-negative i-text-$color-label-optional-text i-text-$color-label-text',
   removedModalTokens: 'i-bg-$color-modal-background i-shadow-$shadow-modal before:i-bg-$color-modal-backdrop-background before:content-[""] before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:opacity-25',
+  removedPageIndicatorTokens: 'i-bg-$color-pageindicator-background hover:i-bg-$color-pageindicator-background-hover i-bg-$color-pageindicator-background-selected',
 };
 
 export const pagination = {
