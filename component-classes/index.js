@@ -383,12 +383,12 @@ export const alert = {
 };
 
 export const input = {
-  default: 'block text-m mb-0 leading-m i-text-$color-input-text-filled i-bg-$color-input-background i-border-$color-input-border hover:i-border-$color-input-border-hover active:i-border-$color-input-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
+  default: 'block text-m mb-0 leading-m s-text s-bg s-border hover:s-border-hover active:s-border-selected rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] caret-current',
   textArea: 'min-h-[42] sm:min-h-[45]',
-  disabled: 'i-bg-$color-input-background-disabled i-border-$color-input-border-disabled hover:i-border-$color-input-border-disabled! i-text-$color-input-text-disabled pointer-events-none',
-  invalid: 'i-border-$color-input-border-negative i-text-$color-input-text-negative!',
-  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none i-text-$color-input-text-read-only',
-  placeholder: 'placeholder:i-text-$color-input-text-placeholder',
+  disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! s-text-disabled pointer-events-none',
+  invalid: 's-border-negative s-text-negative!',
+  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none s-text',
+  placeholder: 'placeholder:s-text-placeholder',
   wrapper: 'relative',
   suffix: 'pr-40',
   prefix: 'pl-40',
@@ -533,6 +533,7 @@ export const backwardsCompatibleClasses = {
   removedComboboxTokens: 'i-bg-$color-combobox-option-background-selected hover:i-bg-$color-combobox-option-background-selected-hover hover:i-bg-$color-combobox-option-background-hover i-bg-$color-combobox-background i-shadow-$shadow-combobox',
   removedExpandableTokens: 'i-text-$color-expandable-icon i-bg-$color-expandable-background hover:i-bg-$color-expandable-background-hover i-text-$color-expandable-title-text',
   removedHelpTextTokens: 'i-text-$color-helptext-text i-text-$color-helptext-text-positive i-text-$color-helptext-text-negative',
+  removedInputTokens: 'placeholder:i-text-$color-input-text-placeholder i-text-$color-input-text-read-only i-text-$color-input-text-negative! i-border-$color-input-border-negative i-text-$color-input-text-disabled hover:i-border-$color-input-border-disabled! i-border-$color-input-border-disabled i-bg-$color-input-background-disabled active:i-border-$color-input-border-active hover:i-border-$color-input-border-hover i-border-$color-input-border i-bg-$color-input-background i-text-$color-input-text-filled',
 };
 
 export const pagination = {
