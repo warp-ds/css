@@ -1,3 +1,10 @@
+# [1.8.0-next.6](https://github.com/warp-ds/css/compare/v1.8.0-next.5...v1.8.0-next.6) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Radio component tokens and classes ([#150](https://github.com/warp-ds/css/issues/150)) ([8cb4dc7](https://github.com/warp-ds/css/commit/8cb4dc79212d82303752e906643d4e7133c64cc0))
+
 # [1.8.0-next.5](https://github.com/warp-ds/css/compare/v1.8.0-next.4...v1.8.0-next.5) (2024-01-23)
 
 
