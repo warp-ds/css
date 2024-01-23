@@ -1,3 +1,10 @@
+# [1.8.0-next.4](https://github.com/warp-ds/css/compare/v1.8.0-next.3...v1.8.0-next.4) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Pill component tokens and classes ([#148](https://github.com/warp-ds/css/issues/148)) ([bb58888](https://github.com/warp-ds/css/commit/bb58888e41feb27bad166d4afd8391b20fc90c90))
+
 # [1.8.0-next.3](https://github.com/warp-ds/css/compare/v1.8.0-next.2...v1.8.0-next.3) (2024-01-23)
 
 
