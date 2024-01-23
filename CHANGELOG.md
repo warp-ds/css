@@ -1,3 +1,10 @@
+## [1.7.1-next.15](https://github.com/warp-ds/css/compare/v1.7.1-next.14...v1.7.1-next.15) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant HelpText component tokens and classes ([#137](https://github.com/warp-ds/css/issues/137)) ([9508b19](https://github.com/warp-ds/css/commit/9508b198fc9cfd5eb05d9184e32883a2e6453e4f))
+
 ## [1.7.1-next.14](https://github.com/warp-ds/css/compare/v1.7.1-next.13...v1.7.1-next.14) (2024-01-23)
 
 
