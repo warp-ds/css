@@ -1,3 +1,10 @@
+# [1.8.0-next.14](https://github.com/warp-ds/css/compare/v1.8.0-next.13...v1.8.0-next.14) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Tooltip component tokens and classes ([#159](https://github.com/warp-ds/css/issues/159)) ([ebf6f66](https://github.com/warp-ds/css/commit/ebf6f66da3a5dcb70f7dd2b8f6c523a034cd68ae))
+
 # [1.8.0-next.13](https://github.com/warp-ds/css/compare/v1.8.0-next.12...v1.8.0-next.13) (2024-01-24)
 
 
