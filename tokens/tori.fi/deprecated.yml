@@ -417,6 +417,9 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  tooltip:
+    text: s-color-text-inverted
+    background: s-color-background-inverted
 
 shadow:
   buttongroup: shadow-s
@@ -426,6 +429,7 @@ shadow:
   combobox: shadow-m
   modal: shadow-m
   popover: shadow-m
+  tooltip: shadow-m
 
 s:
   color:
