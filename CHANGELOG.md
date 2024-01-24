@@ -1,3 +1,10 @@
+# [1.8.0-next.13](https://github.com/warp-ds/css/compare/v1.8.0-next.12...v1.8.0-next.13) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Toast component tokens and classes ([#158](https://github.com/warp-ds/css/issues/158)) ([a57f2c5](https://github.com/warp-ds/css/commit/a57f2c5077d0680626848ce2305d7f7316e0c8ad))
+
 # [1.8.0-next.12](https://github.com/warp-ds/css/compare/v1.8.0-next.11...v1.8.0-next.12) (2024-01-24)
 
 
