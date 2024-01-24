@@ -11,4 +11,4 @@ shadow:
     _: none
     handle:
       active: 0 0 0 8px rgba(0,0,0,.08)
-      hover: 0 0 0 8px rgba(0,0,0,.06)
+      hover: 0 0 0 6px rgba(0,0,0,.08)
