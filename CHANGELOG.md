@@ -1,3 +1,10 @@
+# [1.8.0-next.10](https://github.com/warp-ds/css/compare/v1.8.0-next.9...v1.8.0-next.10) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant StepIndicator component tokens and classes ([#155](https://github.com/warp-ds/css/issues/155)) ([31fb0d2](https://github.com/warp-ds/css/commit/31fb0d24de1725bd3b8443a87d4124af7d641eff))
+
 # [1.8.0-next.9](https://github.com/warp-ds/css/compare/v1.8.0-next.8...v1.8.0-next.9) (2024-01-24)
 
 
