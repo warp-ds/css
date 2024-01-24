@@ -79,11 +79,11 @@ export const step = {
   stepVerticalRight: 'grid-cols-[1fr_20px] text-right',
   stepHorizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
-  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 i-text-$color-stepindicator-handle-icon',
+  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 s-icon-inverted',
   stepDotVerticalRight: 'col-start-2',
   stepDotHorizontal: 'row-start-2 justify-self-end',
-  stepDotActive: 'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active',
-  stepDotIncomplete: 'i-border-$color-stepindicator-handle-border i-bg-$color-stepindicator-handle-background',
+  stepDotActive: 's-border-primary s-bg-primary',
+  stepDotIncomplete: 's-border s-bg',
 
   stepLine: 'group-last/stepv:hidden transition-colors duration-300',
   stepLineVertical: 'w-2 h-full justify-self-center',
@@ -92,8 +92,8 @@ export const step = {
   stepLineHorizontalRight: 'group-last/steph:bg-transparent',
   stepLineHorizontalLeft: 'group-first/steph:bg-transparent',
 
-  stepLineIncomplete: 'i-bg-$color-stepindicator-track-background',
-  stepLineComplete: 'i-bg-$color-stepindicator-track-background-active',
+  stepLineIncomplete: 's-bg-disabled',
+  stepLineComplete: 's-bg-primary',
 
   content: 'last:mb-0 group-last/step:last:pb-0',
   contentVertical: 'row-span-2 pb-32',
@@ -124,13 +124,13 @@ export const switchToggle = {
   label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
-  trackActive: 'i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover',
-  trackInactive: 'i-bg-$color-switch-track-background group-hover:i-bg-$color-switch-track-background-hover',
-  trackDisabled: 'i-bg-$color-switch-track-background-disabled',
+  trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
+  trackInactive: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
+  trackDisabled: 's-bg-disabled-subtle',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
-  handleNotDisabled: 'i-bg-$color-switch-handle-background i-shadow-$shadow-switch-handle',
-  handleDisabled: 'i-bg-$color-switch-handle-background-disabled',
+  handleNotDisabled: 's-bg shadow-s',
+  handleDisabled: 's-bg-disabled',
   a11y: 'sr-only',
 };
 
@@ -541,6 +541,8 @@ export const backwardsCompatibleClasses = {
   removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
   removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
+  removedStepindicatorTokens: 'i-bg-$color-stepindicator-track-background-active i-bg-$color-stepindicator-track-background i-text-$color-stepindicator-handle-icon i-border-$color-stepindicator-handle-border i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background i-bg-$color-stepindicator-handle-background-active',
+  removedSwitchTokens: 'i-bg-$color-switch-handle-background-disabled i-bg-$color-switch-handle-background i-bg-$color-switch-track-background-disabled i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover group-hover:i-bg-$color-switch-track-background-hover i-bg-$color-switch-track-background i-shadow-$shadow-switch-handle',
   removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
 };
 
