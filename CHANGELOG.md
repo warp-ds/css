@@ -1,3 +1,10 @@
+# [1.8.0-next.12](https://github.com/warp-ds/css/compare/v1.8.0-next.11...v1.8.0-next.12) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Tabs component tokens and classes ([#157](https://github.com/warp-ds/css/issues/157)) ([df90f25](https://github.com/warp-ds/css/commit/df90f25e03015adc7b4f718a1d72461c627a26c4))
+
 # [1.8.0-next.11](https://github.com/warp-ds/css/compare/v1.8.0-next.10...v1.8.0-next.11) (2024-01-24)
 
 
