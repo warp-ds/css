@@ -417,6 +417,8 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  starrating:
+    icon: s-color-icon-primary
 
 shadow:
   buttongroup: shadow-s
