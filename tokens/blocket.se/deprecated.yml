@@ -420,6 +420,8 @@ color:
   spinner:
     border:
       top: s-color-border-primary
+  starrating:
+    icon: s-color-icon-primary
 
 shadow:
   buttongroup: shadow-s
