@@ -79,11 +79,11 @@ export const step = {
   stepVerticalRight: 'grid-cols-[1fr_20px] text-right',
   stepHorizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
-  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 i-text-$color-stepindicator-handle-icon',
+  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 s-icon-inverted',
   stepDotVerticalRight: 'col-start-2',
   stepDotHorizontal: 'row-start-2 justify-self-end',
-  stepDotActive: 'i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background-active',
-  stepDotIncomplete: 'i-border-$color-stepindicator-handle-border i-bg-$color-stepindicator-handle-background',
+  stepDotActive: 's-border-primary s-bg-primary',
+  stepDotIncomplete: 's-border s-bg',
 
   stepLine: 'group-last/stepv:hidden transition-colors duration-300',
   stepLineVertical: 'w-2 h-full justify-self-center',
@@ -92,8 +92,8 @@ export const step = {
   stepLineHorizontalRight: 'group-last/steph:bg-transparent',
   stepLineHorizontalLeft: 'group-first/steph:bg-transparent',
 
-  stepLineIncomplete: 'i-bg-$color-stepindicator-track-background',
-  stepLineComplete: 'i-bg-$color-stepindicator-track-background-active',
+  stepLineIncomplete: 's-bg-disabled',
+  stepLineComplete: 's-bg-primary',
 
   content: 'last:mb-0 group-last/step:last:pb-0',
   contentVertical: 'row-span-2 pb-32',
@@ -124,13 +124,13 @@ export const switchToggle = {
   label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
-  trackActive: 'i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover',
-  trackInactive: 'i-bg-$color-switch-track-background group-hover:i-bg-$color-switch-track-background-hover',
-  trackDisabled: 'i-bg-$color-switch-track-background-disabled',
+  trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
+  trackInactive: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
+  trackDisabled: 's-bg-disabled-subtle',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
-  handleNotDisabled: 'i-bg-$color-switch-handle-background i-shadow-$shadow-switch-handle',
-  handleDisabled: 'i-bg-$color-switch-handle-background-disabled',
+  handleNotDisabled: 's-bg shadow-s',
+  handleDisabled: 's-bg-disabled',
   a11y: 'sr-only',
 };
 
@@ -143,32 +143,32 @@ export const toaster = {
 export const toast = {
   wrapper: 'relative overflow-hidden w-full',
   toast: 'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
-  positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
-  warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
-  negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
+  positive: 's-bg-positive-subtle s-border-positive-subtle s-text',
+  warning: 's-bg-warning-subtle s-border-warning-subtle s-text',
+  negative: 's-bg-negative-subtle s-border-negative-subtle s-text',
   icon: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
-  iconPositive: 'i-text-$color-toast-positive-icon',
-  iconWarning: 'i-text-$color-toast-warning-icon',
-  iconNegative: 'i-text-$color-toast-negative-icon',
+  iconPositive: 's-icon-positive',
+  iconWarning: 's-icon-warning',
+  iconNegative: 's-icon-negative',
   iconLoading: 'animate-bounce',
   content: 'self-center mr-8 py-4 last-child:mb-0',
-  close: 'bg-transparent ml-auto p-[8px] i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
+  close: 'bg-transparent ml-auto p-[8px] s-icon hover:s-icon-hover active:s-icon-active',
 };
 
 export const tabs = {
   tabContainer: 'inline-grid relative',
-  wunderbar: 'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
-  wrapperUnderlined: 'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
+  wunderbar: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
+  wrapperUnderlined: 'border-b border-transparent -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
 };
 
 export const tab = {
-  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
-  tabActive: 'i-text-$color-tabs-text-selected',
-  icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
-  iconUnderlinedActive: 'i-text-$color-tabs-text-selected',
+  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent s-text-subtle border-transparent hover:s-text-link hover:s-border-primary',
+  tabActive: 's-text-link',
+  icon: 'mx-auto hover:s-text-link',
+  iconUnderlinedActive: 's-text-link',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedActive: 'i-text-$color-tabs-text-selected',
+  contentUnderlinedActive: 's-text-link',
 };
 
 // Todo: Handle dynamic classnames
@@ -494,7 +494,7 @@ export const combobox = {
 
 export const attention = {
   base: 'border-2 relative flex items-start',
-  tooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
+  tooltip: 's-bg-inverted border-[--w-s-color-background-inverted] shadow-m s-text-inverted rounded-4 py-6 px-8',
   callout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
   highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m',
   popover: 's-bg border-[--w-s-color-background] s-text rounded-8 p-16 drop-shadow-m',
@@ -503,7 +503,7 @@ export const attention = {
   arrowDirectionRight: '-right-[8px]',
   arrowDirectionBottom: '-bottom-[8px]',
   arrowDirectionTop: '-top-[8px]',
-  arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
+  arrowTooltip: 's-bg-inverted border-[--w-s-color-background-inverted]',
   arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   arrowPopover: 's-bg border-[--w-s-color-background]',
   arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
@@ -542,6 +542,11 @@ export const backwardsCompatibleClasses = {
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
   removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
   removedSliderTokens: 'i-bg-$color-slider-track-background-active i-bg-$color-slider-track-background-disabled i-bg-$color-slider-track-background focus:i-border-$color-slider-handle-border-hover active:i-border-$color-slider-handle-border-active hover:i-border-$color-slider-handle-border-hover i-border-$color-slider-handle-border i-bg-$color-slider-handle-background-disabled focus:i-bg-$color-slider-handle-background-hover active:i-bg-$color-slider-handle-background-active hover:i-bg-$color-slider-handle-background-hover i-bg-$color-slider-handle-background i-shadow-$shadow-slider active:slider-handle-shadow-active focus:slider-handle-shadow-hover hover:slider-handle-shadow-hover',
+  removedStepindicatorTokens: 'i-bg-$color-stepindicator-track-background-active i-bg-$color-stepindicator-track-background i-text-$color-stepindicator-handle-icon i-border-$color-stepindicator-handle-border i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background i-bg-$color-stepindicator-handle-background-active',
+  removedSwitchTokens: 'i-bg-$color-switch-handle-background-disabled i-bg-$color-switch-handle-background i-bg-$color-switch-track-background-disabled i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover group-hover:i-bg-$color-switch-track-background-hover i-bg-$color-switch-track-background i-shadow-$shadow-switch-handle',
+  removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
+  removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
+  removedTooltipTokens: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background shadow-m i-text-$color-tooltip-text i-shadow-$shadow-tooltip',
 };
 
 export const pagination = {

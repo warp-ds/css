@@ -1,3 +1,52 @@
+# [1.8.0-next.14](https://github.com/warp-ds/css/compare/v1.8.0-next.13...v1.8.0-next.14) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Tooltip component tokens and classes ([#159](https://github.com/warp-ds/css/issues/159)) ([ebf6f66](https://github.com/warp-ds/css/commit/ebf6f66da3a5dcb70f7dd2b8f6c523a034cd68ae))
+
+# [1.8.0-next.13](https://github.com/warp-ds/css/compare/v1.8.0-next.12...v1.8.0-next.13) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Toast component tokens and classes ([#158](https://github.com/warp-ds/css/issues/158)) ([a57f2c5](https://github.com/warp-ds/css/commit/a57f2c5077d0680626848ce2305d7f7316e0c8ad))
+
+# [1.8.0-next.12](https://github.com/warp-ds/css/compare/v1.8.0-next.11...v1.8.0-next.12) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Tabs component tokens and classes ([#157](https://github.com/warp-ds/css/issues/157)) ([df90f25](https://github.com/warp-ds/css/commit/df90f25e03015adc7b4f718a1d72461c627a26c4))
+
+# [1.8.0-next.11](https://github.com/warp-ds/css/compare/v1.8.0-next.10...v1.8.0-next.11) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Switch component tokens and classes ([#156](https://github.com/warp-ds/css/issues/156)) ([414c21c](https://github.com/warp-ds/css/commit/414c21c235929370b3c8dea2fe2ea1af4b26de3f))
+
+# [1.8.0-next.10](https://github.com/warp-ds/css/compare/v1.8.0-next.9...v1.8.0-next.10) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant StepIndicator component tokens and classes ([#155](https://github.com/warp-ds/css/issues/155)) ([31fb0d2](https://github.com/warp-ds/css/commit/31fb0d24de1725bd3b8443a87d4124af7d641eff))
+
+# [1.8.0-next.9](https://github.com/warp-ds/css/compare/v1.8.0-next.8...v1.8.0-next.9) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Starrating component token ([#154](https://github.com/warp-ds/css/issues/154)) ([b2bbe3b](https://github.com/warp-ds/css/commit/b2bbe3bfb1e156b20fd360efa02019c0b7cadf98))
+
+# [1.8.0-next.8](https://github.com/warp-ds/css/compare/v1.8.0-next.7...v1.8.0-next.8) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Spinner component token ([#153](https://github.com/warp-ds/css/issues/153)) ([a654272](https://github.com/warp-ds/css/commit/a6542727505e1487e5f3b59fcb80d3564033f300))
+
 # [1.8.0-next.7](https://github.com/warp-ds/css/compare/v1.8.0-next.6...v1.8.0-next.7) (2024-01-23)
 
 
