@@ -1,3 +1,10 @@
+# [1.8.0-next.8](https://github.com/warp-ds/css/compare/v1.8.0-next.7...v1.8.0-next.8) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Spinner component token ([#153](https://github.com/warp-ds/css/issues/153)) ([a654272](https://github.com/warp-ds/css/commit/a6542727505e1487e5f3b59fcb80d3564033f300))
+
 # [1.8.0-next.7](https://github.com/warp-ds/css/compare/v1.8.0-next.6...v1.8.0-next.7) (2024-01-23)
 
 
