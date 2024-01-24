@@ -143,16 +143,16 @@ export const toaster = {
 export const toast = {
   wrapper: 'relative overflow-hidden w-full',
   toast: 'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
-  positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
-  warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
-  negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
+  positive: 's-bg-positive-subtle s-border-positive-subtle s-text',
+  warning: 's-bg-warning-subtle s-border-warning-subtle s-text',
+  negative: 's-bg-negative-subtle s-border-negative-subtle s-text',
   icon: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
-  iconPositive: 'i-text-$color-toast-positive-icon',
-  iconWarning: 'i-text-$color-toast-warning-icon',
-  iconNegative: 'i-text-$color-toast-negative-icon',
+  iconPositive: 's-icon-positive',
+  iconWarning: 's-icon-warning',
+  iconNegative: 's-icon-negative',
   iconLoading: 'animate-bounce',
   content: 'self-center mr-8 py-4 last-child:mb-0',
-  close: 'bg-transparent ml-auto p-[8px] i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
+  close: 'bg-transparent ml-auto p-[8px] s-icon hover:s-icon-hover active:s-icon-active',
 };
 
 export const tabs = {
@@ -544,6 +544,7 @@ export const backwardsCompatibleClasses = {
   removedStepindicatorTokens: 'i-bg-$color-stepindicator-track-background-active i-bg-$color-stepindicator-track-background i-text-$color-stepindicator-handle-icon i-border-$color-stepindicator-handle-border i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background i-bg-$color-stepindicator-handle-background-active',
   removedSwitchTokens: 'i-bg-$color-switch-handle-background-disabled i-bg-$color-switch-handle-background i-bg-$color-switch-track-background-disabled i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover group-hover:i-bg-$color-switch-track-background-hover i-bg-$color-switch-track-background i-shadow-$shadow-switch-handle',
   removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
+  removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
 };
 
 export const pagination = {
