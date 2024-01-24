@@ -515,6 +515,7 @@ export namespace backwardsCompatibleClasses {
     export let removedPopoverTokens: string;
     export let removedRadioTokens: string;
     export let removedSelectTokens: string;
+    export let removedStepindicatorTokens: string;
     export let removedSwitchTokens: string;
 }
 export namespace pagination {

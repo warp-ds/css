@@ -417,6 +417,24 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  spinner:
+    border:
+      top: s-color-border-primary
+  starrating:
+    icon: s-color-icon-primary
+  stepindicator:
+    handle:
+      background:
+        _: s-color-background
+        active: s-color-background-primary
+      border:
+        _: s-color-border
+        active: s-color-border-primary
+      icon: s-color-icon-inverted
+    track:
+      background:
+        _: s-color-background-disabled
+        active: s-color-background-primary
   switch:
     track:
       background:
