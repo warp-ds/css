@@ -129,7 +129,7 @@ export const switchToggle = {
   trackDisabled: 's-bg-disabled-subtle',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
-  handleNotDisabled: 's-bg s-shadow',
+  handleNotDisabled: 's-bg shadow-s',
   handleDisabled: 's-bg-disabled',
   a11y: 'sr-only',
 };
