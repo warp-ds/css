@@ -124,13 +124,13 @@ export const switchToggle = {
   label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
-  trackActive: 'i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover',
-  trackInactive: 'i-bg-$color-switch-track-background group-hover:i-bg-$color-switch-track-background-hover',
-  trackDisabled: 'i-bg-$color-switch-track-background-disabled',
+  trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
+  trackInactive: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
+  trackDisabled: 's-bg-disabled-subtle',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
-  handleNotDisabled: 'i-bg-$color-switch-handle-background i-shadow-$shadow-switch-handle',
-  handleDisabled: 'i-bg-$color-switch-handle-background-disabled',
+  handleNotDisabled: 's-bg shadow-s',
+  handleDisabled: 's-bg-disabled',
   a11y: 'sr-only',
 };
 
@@ -542,6 +542,7 @@ export const backwardsCompatibleClasses = {
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
   removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
   removedStepindicatorTokens: 'i-bg-$color-stepindicator-track-background-active i-bg-$color-stepindicator-track-background i-text-$color-stepindicator-handle-icon i-border-$color-stepindicator-handle-border i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background i-bg-$color-stepindicator-handle-background-active',
+  removedSwitchTokens: 'i-bg-$color-switch-handle-background-disabled i-bg-$color-switch-handle-background i-bg-$color-switch-track-background-disabled i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover group-hover:i-bg-$color-switch-track-background-hover i-bg-$color-switch-track-background i-shadow-$shadow-switch-handle',
 };
 
 export const pagination = {
