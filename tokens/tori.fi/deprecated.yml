@@ -417,6 +417,17 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  switch:
+    track:
+      background:
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+        disabled: s-color-background-disabled-subtle
+    handle:
+      background:
+        _: s-color-background
+        disabled: s-color-background-disabled
 
 shadow:
   buttongroup: shadow-s
@@ -426,6 +437,8 @@ shadow:
   combobox: shadow-m
   modal: shadow-m
   popover: shadow-m
+  switch:
+    handle: shadow-s
 
 s:
   color:
