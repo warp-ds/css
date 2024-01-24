@@ -1,3 +1,10 @@
+# [1.8.0-next.11](https://github.com/warp-ds/css/compare/v1.8.0-next.10...v1.8.0-next.11) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Switch component tokens and classes ([#156](https://github.com/warp-ds/css/issues/156)) ([414c21c](https://github.com/warp-ds/css/commit/414c21c235929370b3c8dea2fe2ea1af4b26de3f))
+
 # [1.8.0-next.10](https://github.com/warp-ds/css/compare/v1.8.0-next.9...v1.8.0-next.10) (2024-01-24)
 
 
