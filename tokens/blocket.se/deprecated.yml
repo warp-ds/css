@@ -417,6 +417,19 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  tabs:
+    border:
+      _: transparent
+      hover: s-color-border-primary
+      selected: s-color-border-selected
+    text:
+      _: s-color-text-subtle
+      hover: s-color-text-link
+      selected: s-color-text-link
+    icon:
+      _: s-color-icon
+      hover: s-color-icon-primary
+      selected: s-color-icon-selected
 
 shadow:
   buttongroup: shadow-s

@@ -157,18 +157,18 @@ export const toast = {
 
 export const tabs = {
   tabContainer: 'inline-grid relative',
-  wunderbar: 'absolute i-border-$color-tabs-border-selected -bottom-0 border-b-4 transition-all',
-  wrapperUnderlined: 'border-b i-border-$color-tabs-border -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
+  wunderbar: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
+  wrapperUnderlined: 'border-b border-transparent -mx-16 sm:mx-0 px-4 sm:px-0 mb-32 ',
 };
 
 export const tab = {
-  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent i-text-$color-tabs-text i-border-$color-tabs-border hover:i-text-$color-tabs-text-hover hover:i-border-$color-tabs-border-hover',
-  tabActive: 'i-text-$color-tabs-text-selected',
-  icon: 'mx-auto hover:i-text-$color-tabs-text-hover',
-  iconUnderlinedActive: 'i-text-$color-tabs-text-selected',
+  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent s-text-subtle border-transparent hover:s-text-link hover:s-border-primary',
+  tabActive: 's-text-link',
+  icon: 'mx-auto hover:s-text-link',
+  iconUnderlinedActive: 's-text-link',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedActive: 'i-text-$color-tabs-text-selected',
+  contentUnderlinedActive: 's-text-link',
 };
 
 // Todo: Handle dynamic classnames
@@ -541,6 +541,7 @@ export const backwardsCompatibleClasses = {
   removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
   removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
+  removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
 };
 
 export const pagination = {
