@@ -486,6 +486,9 @@ color:
       subtle:
         border: s-color-border-negative-subtle
       icon: s-color-icon-negative
+  tooltip:
+    text: s-color-text-inverted
+    background: s-color-background-inverted
 
 shadow:
   buttongroup: shadow-s
@@ -497,6 +500,7 @@ shadow:
   popover: shadow-m
   switch:
     handle: shadow-s
+  tooltip: shadow-m
 
 s:
   color:

@@ -494,7 +494,7 @@ export const combobox = {
 
 export const attention = {
   base: 'border-2 relative flex items-start',
-  tooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background i-shadow-$shadow-tooltip i-text-$color-tooltip-text rounded-4 py-6 px-8',
+  tooltip: 's-bg-inverted border-[--w-s-color-background-inverted] shadow-m s-text-inverted rounded-4 py-6 px-8',
   callout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
   highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m',
   popover: 's-bg border-[--w-s-color-background] s-text rounded-8 p-16 drop-shadow-m',
@@ -503,7 +503,7 @@ export const attention = {
   arrowDirectionRight: '-right-[8px]',
   arrowDirectionBottom: '-bottom-[8px]',
   arrowDirectionTop: '-top-[8px]',
-  arrowTooltip: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background',
+  arrowTooltip: 's-bg-inverted border-[--w-s-color-background-inverted]',
   arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   arrowPopover: 's-bg border-[--w-s-color-background]',
   arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
@@ -545,6 +545,7 @@ export const backwardsCompatibleClasses = {
   removedSwitchTokens: 'i-bg-$color-switch-handle-background-disabled i-bg-$color-switch-handle-background i-bg-$color-switch-track-background-disabled i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover group-hover:i-bg-$color-switch-track-background-hover i-bg-$color-switch-track-background i-shadow-$shadow-switch-handle',
   removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
   removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
+  removedTooltipTokens: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background shadow-m i-text-$color-tooltip-text i-shadow-$shadow-tooltip',
 };
 
 export const pagination = {

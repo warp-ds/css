@@ -1,9 +1,0 @@
----
-token: maps
-
-color:
-  tooltip:
-    text: s-color-text-inverted
-    background: s-color-background-inverted
-shadow:
-  tooltip: shadow-m
