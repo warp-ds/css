@@ -417,6 +417,75 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  spinner:
+    border:
+      top: s-color-border-primary
+  starrating:
+    icon: s-color-icon-primary
+  stepindicator:
+    handle:
+      background:
+        _: s-color-background
+        active: s-color-background-primary
+      border:
+        _: s-color-border
+        active: s-color-border-primary
+      icon: s-color-icon-inverted
+    track:
+      background:
+        _: s-color-background-disabled
+        active: s-color-background-primary
+  switch:
+    track:
+      background:
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+        disabled: s-color-background-disabled-subtle
+    handle:
+      background:
+        _: s-color-background
+        disabled: s-color-background-disabled
+  tabs:
+    border:
+      _: transparent
+      hover: s-color-border-primary
+      selected: s-color-border-selected
+    text:
+      _: s-color-text-subtle
+      hover: s-color-text-link
+      selected: s-color-text-link
+    icon:
+      _: s-color-icon
+      hover: s-color-icon-primary
+      selected: s-color-icon-selected
+  toast:
+    close:
+      icon:
+        _: s-color-icon
+        hover: s-color-icon-hover
+        active: s-color-icon-active
+    positive:
+      text: s-color-text
+      background: s-color-background-positive-subtle
+      border: s-color-border-positive
+      subtle:
+        border: s-color-border-positive-subtle
+      icon: s-color-icon-positive
+    warning:
+      text: s-color-text
+      background: s-color-background-warning-subtle
+      border: s-color-border-warning
+      subtle:
+        border: s-color-border-warning-subtle
+      icon: s-color-icon-warning
+    negative:
+      text: s-color-text
+      background: s-color-background-negative-subtle
+      border: s-color-border-negative
+      subtle:
+        border: s-color-border-negative-subtle
+      icon: s-color-icon-negative
   tooltip:
     text: s-color-text-inverted
     background: s-color-background-inverted
@@ -429,6 +498,8 @@ shadow:
   combobox: shadow-m
   modal: shadow-m
   popover: shadow-m
+  switch:
+    handle: shadow-s
   tooltip: shadow-m
 
 s:
