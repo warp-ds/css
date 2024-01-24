@@ -143,16 +143,16 @@ export const toaster = {
 export const toast = {
   wrapper: 'relative overflow-hidden w-full',
   toast: 'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
-  positive: 'i-bg-$color-toast-positive-background i-border-$color-toast-positive-subtle-border i-text-$color-toast-positive-text',
-  warning: 'i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text',
-  negative: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text',
+  positive: 's-bg-positive-subtle s-border-positive-subtle s-text',
+  warning: 's-bg-warning-subtle s-border-warning-subtle s-text',
+  negative: 's-bg-negative-subtle s-border-negative-subtle s-text',
   icon: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
-  iconPositive: 'i-text-$color-toast-positive-icon',
-  iconWarning: 'i-text-$color-toast-warning-icon',
-  iconNegative: 'i-text-$color-toast-negative-icon',
+  iconPositive: 's-icon-positive',
+  iconWarning: 's-icon-warning',
+  iconNegative: 's-icon-negative',
   iconLoading: 'animate-bounce',
   content: 'self-center mr-8 py-4 last-child:mb-0',
-  close: 'bg-transparent ml-auto p-[8px] i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
+  close: 'bg-transparent ml-auto p-[8px] s-icon hover:s-icon-hover active:s-icon-active',
 };
 
 export const tabs = {
@@ -541,6 +541,7 @@ export const backwardsCompatibleClasses = {
   removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
   removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
+  removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
 };
 
 export const pagination = {
