@@ -1,4 +1,5 @@
-import { button } from './index.js'
+import { button } from './index.js';
+
 export const buttons = {
   button: button.secondary,
   'button--secondary': button.secondary,
