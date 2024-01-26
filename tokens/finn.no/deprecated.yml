@@ -417,6 +417,22 @@ color:
       disabled: s-color-border-disabled
       negative: s-color-border-negative
     icon: s-color-icon
+  slider:
+    handle:
+      background:
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+        disabled: s-color-background-disabled
+      border:
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
+    track:
+      background:
+        _: s-color-background-disabled
+        active: s-color-background-primary
+        disabled: s-color-background-disabled
   spinner:
     border:
       top: s-color-border-primary

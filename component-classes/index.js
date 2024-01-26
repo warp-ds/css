@@ -40,13 +40,13 @@ export const badge = {
 
 export const slider = {
   wrapper: 'touch-pan-y relative w-full h-44 py-2',
-  track: 'absolute i-bg-$color-slider-track-background h-4 top-20 rounded-4 w-full ',
-  trackDisabled: 'pointer-events-none i-bg-$color-slider-track-background-disabled',
-  activeTrack: 'absolute i-bg-$color-slider-track-background-active h-6 top-[19px] rounded-4',
-  activeTrackDisabled: 'i-bg-$color-slider-track-background-disabled pointer-events-none',
+  track: 'absolute s-bg-disabled h-4 top-20 rounded-4 w-full ',
+  trackDisabled: 'pointer-events-none s-bg-disabled',
+  activeTrack: 'absolute s-bg-primary h-6 top-[19px] rounded-4',
+  activeTrackDisabled: 's-bg-disabled pointer-events-none',
   thumb: 'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
-  thumbEnabled: 'border-2 i-shadow-$shadow-slider cursor-pointer i-bg-$color-slider-handle-background i-border-$color-slider-handle-border hover:i-bg-$color-slider-handle-background-hover hover:i-border-$color-slider-handle-border-hover hover:slider-handle-shadow-hover active:i-bg-$color-slider-handle-background-active active:i-border-$color-slider-handle-border-active active:slider-handle-shadow-active focus:slider-handle-shadow-hover focus:i-border-$color-slider-handle-border-hover focus:i-bg-$color-slider-handle-background-hover',
-  thumbDisabled: 'i-bg-$color-slider-handle-background-disabled cursor-disabled pointer-events-none',
+  thumbEnabled: 'border-2 shadow-[--w-shadow-slider] cursor-pointer s-bg-primary s-border-primary hover:s-bg-primary-hover hover:s-border-primary-hover hover:shadow-[--w-shadow-slider-handle-hover] active:s-bg-primary-active active:s-border-primary-active active:shadow-[--w-shadow-slider-handle-active] focus:shadow-[--w-shadow-slider-handle-hover] focus:s-border-primary-hover focus:s-bg-primary-hover',
+  thumbDisabled: 's-bg-disabled cursor-disabled pointer-events-none',
 };
 
 export const box = {
@@ -541,6 +541,7 @@ export const backwardsCompatibleClasses = {
   removedPopoverTokens: 'i-bg-$color-popover-background i-border-$color-popover-background i-text-$color-popover-paragraph-text',
   removedRadioTokens: 'before:i-border-$color-radio-negative-border peer-hover:before:i-border-$color-radio-negative-border-hover peer-checked:before:i-border-$color-radio-negative-border peer-checked:peer-hover:before:i-border-$color-radio-negative-border-hover before:i-bg-$color-radio-negative-background peer-hover:before:i-bg-$color-radio-negative-background-hover i-border-$color-radio-border peer-hover:before:i-border-$color-radio-border-hover before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-disabled peer-checked:before:i-border-$color-radio-border-selected peer-checked:peer-hover:before:i-border-$color-radio-border-selected-hover peer-disabled:before:i-bg-$color-radio-background-disabled  peer-hover:before:i-bg-$color-radio-background-hover',
   removedSelectTokens: 'i-border-$color-select-border-negative i-border-$color-select-border-disabled hover:i-border-$color-select-border-disabled! active:i-border-$color-select-border-disabled! i-border-$color-select-border hover:i-border-$color-select-border-hover active:i-border-$color-select-border-active i-text-$color-select-icon i-bg-$color-select-background-disabled i-bg-$color-select-background i-text-$color-select-text-disabled i-text-$color-select-text',
+  removedSliderTokens: 'i-bg-$color-slider-track-background-active i-bg-$color-slider-track-background-disabled i-bg-$color-slider-track-background focus:i-border-$color-slider-handle-border-hover active:i-border-$color-slider-handle-border-active hover:i-border-$color-slider-handle-border-hover i-border-$color-slider-handle-border i-bg-$color-slider-handle-background-disabled focus:i-bg-$color-slider-handle-background-hover active:i-bg-$color-slider-handle-background-active hover:i-bg-$color-slider-handle-background-hover i-bg-$color-slider-handle-background i-shadow-$shadow-slider active:slider-handle-shadow-active focus:slider-handle-shadow-hover hover:slider-handle-shadow-hover',
   removedStepindicatorTokens: 'i-bg-$color-stepindicator-track-background-active i-bg-$color-stepindicator-track-background i-text-$color-stepindicator-handle-icon i-border-$color-stepindicator-handle-border i-border-$color-stepindicator-handle-border-active i-bg-$color-stepindicator-handle-background i-bg-$color-stepindicator-handle-background-active',
   removedSwitchTokens: 'i-bg-$color-switch-handle-background-disabled i-bg-$color-switch-handle-background i-bg-$color-switch-track-background-disabled i-bg-$color-switch-track-background-selected group-hover:i-bg-$color-switch-track-background-selected-hover group-hover:i-bg-$color-switch-track-background-hover i-bg-$color-switch-track-background i-shadow-$shadow-switch-handle',
   removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
