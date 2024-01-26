@@ -1,3 +1,10 @@
+# [1.8.0-next.15](https://github.com/warp-ds/css/compare/v1.8.0-next.14...v1.8.0-next.15) (2024-01-26)
+
+
+### Bug Fixes
+
+* Deprecate redundant Slider component tokens and classes ([#152](https://github.com/warp-ds/css/issues/152)) ([d75e1f5](https://github.com/warp-ds/css/commit/d75e1f50381038fe6793c6758dc259b653f5e6c5))
+
 # [1.8.0-next.14](https://github.com/warp-ds/css/compare/v1.8.0-next.13...v1.8.0-next.14) (2024-01-24)
 
 
