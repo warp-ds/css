@@ -1,3 +1,10 @@
+# [1.8.0-next.16](https://github.com/warp-ds/css/compare/v1.8.0-next.15...v1.8.0-next.16) (2024-01-29)
+
+
+### Bug Fixes
+
+* Replace internal classes with semantic or arbitrary classes for button shortcuts ([#160](https://github.com/warp-ds/css/issues/160)) ([0f1c355](https://github.com/warp-ds/css/commit/0f1c355bedf742dd8a105728af4d2a42ece6c394))
+
 # [1.8.0-next.15](https://github.com/warp-ds/css/compare/v1.8.0-next.14...v1.8.0-next.15) (2024-01-26)
 
 
