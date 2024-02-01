@@ -1,5 +1,6 @@
 ---
 token: defs
+duplicate_as_rgb: true
 
 white: white
 black:
