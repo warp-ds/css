@@ -7,9 +7,6 @@ black:
   _: black
   alpha25: "rgba(0,0,0,.25)"
   alpha70: "rgba(0,0,0,.7)"
-transparent: transparent
-inherit: inherit
-none: none
 blue:
   50: "#eff5ff"
   100: "#e1edfe"
