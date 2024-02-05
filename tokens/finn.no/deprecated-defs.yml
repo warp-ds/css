@@ -1,0 +1,6 @@
+---
+token: defs
+
+gray:
+  900:
+    alpha70: "rgba(24,24,27,.7)"

@@ -1,14 +1,12 @@
 ---
 token: defs
+duplicate_as_rgb: true
 
 white: white
 black:
   _: black
   alpha25: "rgba(0,0,0,.25)"
   alpha70: "rgba(0,0,0,.7)"
-transparent: transparent
-inherit: inherit
-none: none
 blue:
   50: "#eff5ff"
   100: "#e1edfe"
@@ -36,9 +34,7 @@ gray:
   600: "#52525b"
   700: "#3f3f46"
   800: "#27272a"
-  900:
-    _: "#18181b"
-    alpha70: "rgba(24,24,27,.7)" #TODO: Should be remove in v2 as it is not used internally anymore
+  900: "#18181b"
 aqua:
   50: "#f1f9ff"
   100: "#e0f6ff"

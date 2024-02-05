@@ -3,7 +3,11 @@ token: defs
 
 # TODO: font-size, line-height, shadows, colors and all other common things should live in a common.css rather than brand.css.
 
-# values are in pixels but they render by default as rems. Using `usePixels=true` flag in @warp-ds/uno forces them to pixels.
+transparent: transparent
+inherit: inherit
+none: none
+
+# values are in pixels, but they render by default as rems. Using `usePixels=true` flag in @warp-ds/uno forces them to pixels.
 font:
   size:
     xs: 1.2rem
