@@ -1,3 +1,10 @@
+# [1.8.0-next.17](https://github.com/warp-ds/css/compare/v1.8.0-next.16...v1.8.0-next.17) (2024-02-05)
+
+
+### Features
+
+* Support upcoming alpha channel modifier in css color classes by duplicating tokens as rgb ([#161](https://github.com/warp-ds/css/issues/161)) ([d5ba747](https://github.com/warp-ds/css/commit/d5ba7477abdf9f33bf8a0fd5df1a42c963ccb146))
+
 # [1.8.0-next.16](https://github.com/warp-ds/css/compare/v1.8.0-next.15...v1.8.0-next.16) (2024-01-29)
 
 
