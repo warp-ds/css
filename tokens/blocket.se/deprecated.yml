@@ -22,6 +22,502 @@ color:
       hover: blue-800
       visited: inherit
 
+  alert:
+    info:
+      text: s-color-text
+      background: s-color-background-info-subtle
+      border: s-color-border-info
+      subtle:
+        border: s-color-border-info-subtle
+      icon: s-color-icon-info
+    positive:
+      text: s-color-text
+      background: s-color-background-positive-subtle
+      border: s-color-border-positive
+      subtle:
+        border: s-color-border-positive-subtle
+      icon: s-color-icon-positive
+    warning:
+      text: s-color-text
+      background: s-color-background-warning-subtle
+      border: s-color-border-warning
+      subtle:
+        border: s-color-border-warning-subtle
+      icon: s-color-icon-warning
+    negative:
+      text: s-color-text
+      background: s-color-background-negative-subtle
+      border: s-color-border-negative
+      subtle:
+        border: s-color-border-negative-subtle
+      icon: s-color-icon-negative
+  badge:
+    neutral:
+      text: s-color-text
+    info:
+      text: s-color-text
+    positive:
+      text: s-color-text
+    warning:
+      text: s-color-text
+    negative:
+      text: s-color-text
+    disabled:
+      text: s-color-text
+      background: s-color-background-disabled
+    price:
+      text: s-color-text-inverted
+    notification:
+      text: s-color-text-notification
+      background: s-color-background-notification
+  box:
+    info:
+      text: s-color-text
+      background:
+        _: s-color-background-info-subtle
+        hover: s-color-background-info-subtle-hover
+    neutral:
+      text: s-color-text
+      background:
+        _: s-color-background-subtle
+        hover: s-color-background-subtle-hover
+    bordered:
+      text: s-color-text
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+      border:
+        _: s-color-border
+        hover: s-color-border-hover
+  breadcrumbs:
+    text: s-color-text
+    link:
+      text: s-color-text-link
+    icon: s-color-icon
+  broadcast:
+    text: s-color-text
+    background: s-color-background-warning-subtle
+    border: s-color-border-warning-subtle
+    icon: s-color-icon-warning
+  button:
+    primary:
+      text: s-color-text-inverted
+      icon: s-color-icon-inverted
+      border:
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
+    secondary:
+      text: s-color-text-link
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-active
+      border:
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+      icon: s-color-icon-primary
+    quiet:
+      text: s-color-text-link
+      background:
+        _: transparent
+        hover: s-color-background-hover
+        active: s-color-background-active
+      icon: s-color-icon-primary
+    negative:
+      text: s-color-text-inverted
+      background:
+        _: s-color-background-negative
+        hover: s-color-background-negative-hover
+        active: s-color-background-negative-active
+      border:
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        active: s-color-border-negative-active
+      icon: s-color-icon-inverted
+      quiet:
+        text: s-color-text-negative
+        background:
+          _: transparent
+          hover: s-color-background-negative-subtle-hover
+          active: s-color-background-negative-subtle-active
+        border:
+          _: transparent
+          hover: transparent
+          active: transparent
+        icon: s-color-icon-negative
+    disabled:
+      text: s-color-text-inverted
+      background: s-color-background-disabled
+    link:
+      text: s-color-text-link
+    pill:
+      background:
+        _: transparent
+      icon:
+        _: s-color-icon
+        hover: s-color-icon-hover
+        active: s-color-icon-active
+      overlay:
+        icon:
+          _: s-color-icon-inverted
+          hover: s-color-icon-inverted-hover
+          active: s-color-icon-inverted-active
+    loading:
+      text: s-color-text
+      background: s-color-background-subtle
+      icon: s-color-icon
+    utility:
+      text: s-color-text
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-active
+      border:
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+      quiet:
+        text: s-color-text
+        background:
+          _: transparent
+          hover: s-color-background-subtle-hover
+          active: s-color-background-subtle-active
+        border:
+          _: transparent
+          hover: transparent
+          active: transparent
+  buttongroup:
+    primary:
+      text:
+        _: s-color-text-link
+        selected: s-color-text-inverted
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        selected: s-color-background-primary
+      border:
+        _: s-color-border
+        selected: s-color-border-primary
+    utility:
+      text:
+        _: s-color-text
+        selected: s-color-text
+      background:
+        _: s-color-background
+  callout:
+    text: s-color-text
+  card:
+    background:
+      _: s-color-background
+      hover: s-color-background-hover
+      active: s-color-background-active
+      selected:
+        _: s-color-background-selected
+        hover: s-color-background-selected-hover
+    border:
+      _: transparent
+      hover: transparent
+      active: transparent
+      selected:
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
+    flat:
+      background:
+        _: s-color-background
+        hover: s-color-background-subtle-hover
+        active: s-color-background-active
+        selected:
+          _: s-color-background-selected
+          hover: s-color-background-selected-hover
+      border:
+        _: s-color-border
+        hover: s-color-border-hover
+        active: s-color-border-active
+        selected:
+          _: s-color-border-selected
+          hover: s-color-border-selected-hover
+          active: s-color-background-primary-active
+  checkbox:
+    background:
+      disabled: s-color-background-disabled-subtle
+      hover: s-color-background-subtle
+      selected:
+        _: s-color-background-primary
+        disabled: s-color-background-disabled
+        hover: s-color-background-primary-hover
+    border:
+      _: s-color-border
+      disabled: s-color-border-disabled
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-primary
+        disabled: s-color-border-disabled
+        hover: s-color-border-primary-hover
+    negative:
+      background:
+        _: s-color-background
+        hover: s-color-background-negative-subtle-hover
+        selected:
+          _: s-color-background-negative
+          hover: s-color-background-negative-hover
+      border:
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative
+          hover: s-color-border-negative-hover
+    icon: s-color-icon-inverted
+  combobox:
+    background: s-color-background
+    option:
+      background:
+        hover: s-color-background-hover
+        selected:
+          _: s-color-background-selected
+          hover: s-color-background-selected-hover
+  datepicker:
+    background: s-color-background
+    border: s-color-border
+    button:
+      background:
+        _: s-color-background
+        hover: s-color-background-hover
+        active: s-color-background-primary
+    track:
+      background:
+        active: s-color-background-primary-subtle
+        selected: s-color-background-primary-subtle-active
+  expandable:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background:
+      _: s-color-background-subtle
+      hover: s-color-background-subtle-hover
+    icon: s-color-icon
+  helptext:
+    text:
+      _: s-color-text-subtle
+      negative: s-color-text-negative
+      positive: s-color-text-positive
+  image:
+    placeholder:
+      background: s-color-background-subtle
+      icon: s-color-icon-disabled
+  input:
+    text:
+      placeholder: s-color-text-placeholder
+      filled: s-color-text
+      disabled: s-color-text-disabled
+      negative: s-color-text-negative
+      read:
+        only: s-color-text
+    background:
+      _: s-color-background
+      disabled: s-color-background-disabled-subtle
+    border:
+      _: s-color-border
+      hover: s-color-border-hover
+      active: s-color-border-selected
+      filled: s-color-border
+      disabled: s-color-border-disabled
+      negative: s-color-border-negative
+    caret: s-color-icon
+    icon: s-color-icon
+  label:
+    text:
+      _: s-color-text
+      negative: s-color-text-negative
+    optional:
+      text: s-color-text
+    icon: s-color-icon
+  list:
+    text: s-color-text
+    bulleted:
+      icon: s-color-text
+    numbered:
+      icon: s-color-text
+    checked:
+      icon: s-color-icon-primary
+  modal:
+    backdrop:
+      background: black
+    text:
+      title: s-color-text
+      paragraph: s-color-text
+    background: s-color-background
+  pageindicator:
+    background:
+      _: s-color-icon-disabled
+      hover: s-color-icon-subtle
+      selected: s-color-icon-selected
+  pagination:
+    text:
+      _: s-color-text-link
+      active: s-color-text-inverted
+    background:
+      hover: s-color-background-primary-subtle-hover
+      active: s-color-background-primary
+    icon: s-color-icon
+  pill:
+    filter:
+      text: s-color-text-inverted
+      background:
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+      icon: s-color-icon-inverted
+    suggestion:
+      text: s-color-text
+      icon: s-color-icon
+  popover:
+    title:
+      text: s-color-text
+    paragraph:
+      text: s-color-text
+    background: s-color-background
+  radio:
+    background:
+      disabled: s-color-background-disabled-subtle
+      hover: s-color-background-primary-subtle
+    border:
+      _: s-color-border
+      hover: s-color-border-primary
+      selected:
+        _: s-color-border-selected
+        hover: s-color-border-selected-hover
+        disabled: s-color-border-disabled
+      disabled: s-color-border-disabled
+    negative:
+      background:
+        _: s-color-background
+        hover: s-color-background-negative-subtle
+      border:
+        _: s-color-border-negative
+        hover: s-color-border-negative-hover
+        selected:
+          _: s-color-border-negative-selected
+          hover: s-color-border-negative-selected-hover
+  select:
+    text:
+      _: s-color-text
+      hover: s-color-text-hover
+      active: s-color-text
+      disabled: s-color-text-disabled
+    background:
+      _: s-color-background
+      disabled: s-color-background-disabled-subtle
+    border:
+      _: s-color-border
+      hover: s-color-border-hover
+      active: s-color-border-active
+      disabled: s-color-border-disabled
+      negative: s-color-border-negative
+    icon: s-color-icon
+  slider:
+    handle:
+      background:
+        _: s-color-background-primary
+        hover: s-color-background-primary-hover
+        active: s-color-background-primary-active
+        disabled: s-color-background-disabled
+      border:
+        _: s-color-border-primary
+        hover: s-color-border-primary-hover
+        active: s-color-border-primary-active
+    track:
+      background:
+        _: s-color-background-disabled
+        active: s-color-background-primary
+        disabled: s-color-background-disabled
+  spinner:
+    border:
+      top: s-color-border-primary
+  starrating:
+    icon: s-color-icon-primary
+  stepindicator:
+    handle:
+      background:
+        _: s-color-background
+        active: s-color-background-primary
+      border:
+        _: s-color-border
+        active: s-color-border-primary
+      icon: s-color-icon-inverted
+    track:
+      background:
+        _: s-color-background-disabled
+        active: s-color-background-primary
+  switch:
+    track:
+      background:
+        selected:
+          _: s-color-background-primary
+          hover: s-color-background-primary-hover
+        disabled: s-color-background-disabled-subtle
+    handle:
+      background:
+        _: s-color-background
+        disabled: s-color-background-disabled
+  tabs:
+    border:
+      _: transparent
+      hover: s-color-border-primary
+      selected: s-color-border-selected
+    text:
+      _: s-color-text-subtle
+      hover: s-color-text-link
+      selected: s-color-text-link
+    icon:
+      _: s-color-icon
+      hover: s-color-icon-primary
+      selected: s-color-icon-selected
+  toast:
+    close:
+      icon:
+        _: s-color-icon
+        hover: s-color-icon-hover
+        active: s-color-icon-active
+    positive:
+      text: s-color-text
+      background: s-color-background-positive-subtle
+      border: s-color-border-positive
+      subtle:
+        border: s-color-border-positive-subtle
+      icon: s-color-icon-positive
+    warning:
+      text: s-color-text
+      background: s-color-background-warning-subtle
+      border: s-color-border-warning
+      subtle:
+        border: s-color-border-warning-subtle
+      icon: s-color-icon-warning
+    negative:
+      text: s-color-text
+      background: s-color-background-negative-subtle
+      border: s-color-border-negative
+      subtle:
+        border: s-color-border-negative-subtle
+      icon: s-color-icon-negative
+  tooltip:
+    text: s-color-text-inverted
+    background: s-color-background-inverted
+
+shadow:
+  buttongroup: shadow-s
+  card:
+    _: shadow-s
+    hover: shadow-m
+  combobox: shadow-m
+  modal: shadow-m
+  popover: shadow-m
+  switch:
+    handle: shadow-s
+  tooltip: shadow-m
+
 s:
   color:
     background:

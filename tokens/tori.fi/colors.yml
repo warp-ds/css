@@ -1,13 +1,12 @@
 ---
 token: defs
+duplicate_as_rgb: true
 
 white: white
 black:
   _: black
+  alpha25: "rgba(0,0,0,.25)"
   alpha70: "rgba(0,0,0,.7)"
-transparent: transparent
-inherit: inherit
-none: none
 watermelon:
   50: "#FFF3F2"
   100: "#FFE6E4"
@@ -32,19 +31,6 @@ blueberry:
   700: "#1D4E92"
   800: "#122F58"
   900: "#06101E"
-petroleum: # DEPRECATED: Do not use! TODO: Remove in v2
-  50: "#EEF4F5"
-  100: "#DDE9EC"
-  200: "#BAD3DA"
-  300: "#97BDC6"
-  400: "#74A8B4"
-  500: "#4D93A2"
-  600:
-    _: "#167A8B"
-    alpha50: "rgba(22,122,139,.5)"
-  700: "#1B5E6A"
-  800: "#193F47"
-  900: "#122226"
 blue:
   50: "#ECF7FE"
   100:	"#C7E7FB"
@@ -103,6 +89,4 @@ gray:
   600: "#575757"
   700: "#434343"
   800: "#292929"
-  900:
-    _: "#1A1A1A"
-    alpha70: "rgba(26,26,26,.7)" #TODO: Should be remove in v2 as it is not used internally anymore
+  900: "#1A1A1A"

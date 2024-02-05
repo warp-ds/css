@@ -1,5 +1,6 @@
 ---
 token: maps
+duplicate_as_rgb: true
 
 s:
   color:
@@ -11,6 +12,7 @@ s:
       selected:
         _: blue-50
         hover: blue-100
+        active: blue-200
       disabled:
         _: bluegray-300
         subtle: bluegray-200
@@ -38,6 +40,7 @@ s:
         selected:
           _: green-50
           hover: green-100
+          active: green-200
         subtle:
           _: green-50
           hover: green-100
@@ -49,6 +52,7 @@ s:
         selected:
           _: red-50
           hover: red-100
+          active: red-200
         subtle:
           _: red-50
           hover: red-100
@@ -60,6 +64,7 @@ s:
         selected:
           _: yellow-50
           hover: yellow-100
+          active: yellow-200
         subtle:
           _: yellow-50
           hover: yellow-100
@@ -71,6 +76,7 @@ s:
         selected:
           _: aqua-50
           hover: aqua-100
+          active: aqua-200
         subtle:
           _: aqua-50
           hover: aqua-100
@@ -86,6 +92,7 @@ s:
       selected:
         _: blue-600
         hover: blue-700
+        active: blue-800
       inverted: white
       primary:
         _: blue-600
@@ -142,6 +149,7 @@ s:
       selected:
         _: blue-600
         hover: blue-700
+        active: blue-800
       disabled: bluegray-300
       subtle:
         _: bluegray-400
