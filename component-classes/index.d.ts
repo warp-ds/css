@@ -523,13 +523,14 @@ export namespace backwardsCompatibleClasses {
     export let removedTooltipTokens: string;
 }
 export namespace pagination {
+    let button_2: string;
+    export { button_2 as button };
     export let currentPage: string;
     let icon_4: string;
     export { icon_4 as icon };
     export let containerNav: string;
     export let heading: string;
     export let pages: string;
-    export let nextPage: string;
     export let firstPageButton: string;
     export let firstPageLabel: string;
     let active_1: string;
