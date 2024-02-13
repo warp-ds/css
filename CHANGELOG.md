@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/warp-ds/css/compare/v1.8.0...v1.8.1) (2024-02-13)
+
+
+### Bug Fixes
+
+* **cc:** add classes for pagination button ([#163](https://github.com/warp-ds/css/issues/163)) ([50104f1](https://github.com/warp-ds/css/commit/50104f1a4721b4dd5ccb61d009cc72ccc7464c4a))
+
 ## [1.8.1-next.1](https://github.com/warp-ds/css/compare/v1.8.0...v1.8.1-next.1) (2024-02-13)
 
 
