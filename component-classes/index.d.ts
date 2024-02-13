@@ -535,5 +535,5 @@ export namespace pagination {
     export let firstPageLabel: string;
     let active_1: string;
     export { active_1 as active };
-    export let defaultPage: string;
+    export let notActive: string;
 }

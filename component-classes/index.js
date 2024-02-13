@@ -562,6 +562,6 @@ export const pagination = {
   pages: 'hidden md:block s-text-link',
   firstPageButton: 'md:hidden',
   firstPageLabel: 'font-bold',
-  active: 's-bg-primary s-text-inverted hover:s-text-link',
-  defaultPage: 'hover:s-bg-primary-subtle-hover',
+  active: 's-bg-primary s-text-inverted',
+  notActive: 'hover:s-bg-primary-subtle-hover',
 };
