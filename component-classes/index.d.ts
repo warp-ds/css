@@ -524,16 +524,15 @@ export namespace backwardsCompatibleClasses {
     export let removedAlphaTokens: string;
 }
 export namespace pagination {
-    let button_2: string;
-    export { button_2 as button };
+    let link_2: string;
+    export { link_2 as link };
     export let currentPage: string;
     let icon_4: string;
     export { icon_4 as icon };
     export let containerNav: string;
-    export let heading: string;
+    let a11y_7: string;
+    export { a11y_7 as a11y };
     export let pages: string;
-    export let firstPageButton: string;
-    export let firstPageLabel: string;
     let active_1: string;
     export { active_1 as active };
     export let notActive: string;
