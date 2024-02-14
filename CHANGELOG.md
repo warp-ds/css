@@ -1,3 +1,10 @@
+## [1.8.2-next.1](https://github.com/warp-ds/css/compare/v1.8.1...v1.8.2-next.1) (2024-02-14)
+
+
+### Bug Fixes
+
+* Deprecate old hard coded rgba tokens and change to use new alpha modifier in tokenizer ([#165](https://github.com/warp-ds/css/issues/165)) ([fef67e3](https://github.com/warp-ds/css/commit/fef67e35ee6b8d5dcf10ea9504ba799997364d6e))
+
 ## [1.8.1](https://github.com/warp-ds/css/compare/v1.8.0...v1.8.1) (2024-02-13)
 
 
