@@ -549,6 +549,9 @@ s:
           default: green-300
       negative:
         default: red-600
+        selected:
+          _: red-600
+          hover: red-700
         subtle:
           default: red-300
       warning:
