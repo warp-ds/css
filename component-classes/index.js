@@ -564,5 +564,5 @@ export const pagination = {
   firstPageButton: 'md:hidden',
   firstPageLabel: 'font-bold',
   active: 's-bg-primary s-text-inverted',
-  notActive: 'hover:bg-[--w-color-button-pill-background-hover]',
+  notActive: 'hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
 };
