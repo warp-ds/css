@@ -10,5 +10,5 @@ color:
         active: s-color-background-primary-active
     pill:
       background:
-        hover: blue-300-alpha30
-        active: blue-400-alpha30
+        hover: blue-300/30
+        active: blue-400/30

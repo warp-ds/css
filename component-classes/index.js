@@ -27,7 +27,7 @@ export const badge = {
   warning: 'bg-[--w-color-badge-warning-background] s-text',
   negative: 'bg-[--w-color-badge-negative-background] s-text',
   disabled: 's-bg-disabled s-text',
-  price: 'bg-[--w-color-badge-price-background] s-text-inverted',
+  price: 'bg-[--w-black/70] s-text-inverted',
   sponsored: 'bg-[--w-color-badge-sponsored-background] s-text',
   // Notification badge is deprecated: Do not use!
   notification: 'i-bg-$color-badge-notification-background i-text-$color-badge-notification-text',
@@ -350,7 +350,7 @@ export const buttonGroupItem = {
 export const modal = {
   //TODO: transparentBg can be removed when it has been removed in React and Vue - previously used for opacity before changing to a rgba background in backdrop
   transparentBg: '',
-  backdrop: 'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px] bg-[--w-black-alpha25]',
+  backdrop: 'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px] bg-[--w-black/25]',
   modal: 'pb-safe-[32] shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 s-bg flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
@@ -551,6 +551,7 @@ export const backwardsCompatibleClasses = {
   removedTabsTokens: 'i-text-$color-tabs-text-selected hover:i-text-$color-tabs-text-hover i-text-$color-tabs-text hover:i-border-$color-tabs-border-hover i-border-$color-tabs-border-selected i-border-$color-tabs-border',
   removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
   removedTooltipTokens: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background shadow-m i-text-$color-tooltip-text i-shadow-$shadow-tooltip',
+  removedAlphaTokens: 'bg-[--w-color-badge-price-background] bg-[--w-black-alpha25]',
 };
 
 export const pagination = {

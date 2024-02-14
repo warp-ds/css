@@ -1,7 +1,0 @@
----
-token: maps
-
-color:
-  spinner:
-    border:
-      _: blue-600-alpha50
