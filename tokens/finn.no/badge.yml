@@ -13,7 +13,5 @@ color:
       background: yellow-100
     negative:
       background: red-100
-    price:
-      background: black-alpha70
     sponsored:
       background: aqua-200

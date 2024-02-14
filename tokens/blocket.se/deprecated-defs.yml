@@ -1,6 +1,18 @@
 ---
 token: defs
 
+black:
+  alpha25: "rgba(0,0,0,.25)"
+  alpha70: "rgba(0,0,0,.7)"
+
 gray:
   900:
     alpha70: "rgba(24,24,27,.7)"
+
+blue:
+  300:
+    alpha30: "rgba(154,193,254,.3)"
+  400:
+    alpha30: "rgba(92,156,255,.3)"
+  600:
+    alpha50: "rgba(0,99,251,.5)"

@@ -67,6 +67,7 @@ color:
       background: s-color-background-disabled
     price:
       text: s-color-text-inverted
+      background: black-alpha70
     notification:
       text: s-color-text-notification
       background: s-color-background-notification
@@ -435,6 +436,7 @@ color:
         disabled: s-color-background-disabled
   spinner:
     border:
+      _: blueberry-600-alpha50
       top: s-color-border-primary
   starrating:
     icon: s-color-icon-primary
