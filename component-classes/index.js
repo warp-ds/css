@@ -558,7 +558,7 @@ export const pagination = {
   button: 'hover:no-underline focus:no-underline focusable inline-flex justify-center items-center transition-colors ease-in-out min-h-[44px] min-w-[44px] p-4 rounded-full border-0 hover:bg-clip-padding',
   currentPage: 'block md:hidden p-8 font-bold',
   icon: 's-icon hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
-  containerNav: 'flex items-center justify-center space-x-8 p-8',
+  containerNav: 'flex items-center justify-center p-8',
   heading: 'sr-only',
   pages: 'hidden md:block s-text-link',
   firstPageButton: 'md:hidden',
