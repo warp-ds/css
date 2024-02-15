@@ -118,9 +118,6 @@ s:
         _: red-600
         hover: red-700
         active: red-800
-        selected: #TODO: These should be removed in v2 as they are the same as the above and not used internally anymore
-          _: red-600
-          hover: red-700
         subtle:
           _: red-300
           hover: red-400
