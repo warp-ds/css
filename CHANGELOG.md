@@ -1,3 +1,347 @@
+## [1.8.2](https://github.com/warp-ds/css/compare/v1.8.1...v1.8.2) (2024-02-15)
+
+
+### Bug Fixes
+
+* **cc:** fix pagination classes ([#166](https://github.com/warp-ds/css/issues/166)) ([7b2b741](https://github.com/warp-ds/css/commit/7b2b74177ae9f7d960b0ca0cd89f775c78a2511e))
+* Deprecate old hard coded rgba tokens and change to use new alpha modifier in tokenizer ([#165](https://github.com/warp-ds/css/issues/165)) ([fef67e3](https://github.com/warp-ds/css/commit/fef67e35ee6b8d5dcf10ea9504ba799997364d6e))
+
+## [1.8.2-next.2](https://github.com/warp-ds/css/compare/v1.8.2-next.1...v1.8.2-next.2) (2024-02-14)
+
+
+### Bug Fixes
+
+* **cc:** fix pagination classes ([#166](https://github.com/warp-ds/css/issues/166)) ([7b2b741](https://github.com/warp-ds/css/commit/7b2b74177ae9f7d960b0ca0cd89f775c78a2511e))
+
+## [1.8.2-next.1](https://github.com/warp-ds/css/compare/v1.8.1...v1.8.2-next.1) (2024-02-14)
+
+
+### Bug Fixes
+
+* Deprecate old hard coded rgba tokens and change to use new alpha modifier in tokenizer ([#165](https://github.com/warp-ds/css/issues/165)) ([fef67e3](https://github.com/warp-ds/css/commit/fef67e35ee6b8d5dcf10ea9504ba799997364d6e))
+
+## [1.8.1](https://github.com/warp-ds/css/compare/v1.8.0...v1.8.1) (2024-02-13)
+
+
+### Bug Fixes
+
+* **cc:** add classes for pagination button ([#163](https://github.com/warp-ds/css/issues/163)) ([50104f1](https://github.com/warp-ds/css/commit/50104f1a4721b4dd5ccb61d009cc72ccc7464c4a))
+
+## [1.8.1-next.1](https://github.com/warp-ds/css/compare/v1.8.0...v1.8.1-next.1) (2024-02-13)
+
+
+### Bug Fixes
+
+* **cc:** add classes for pagination button ([#163](https://github.com/warp-ds/css/issues/163)) ([50104f1](https://github.com/warp-ds/css/commit/50104f1a4721b4dd5ccb61d009cc72ccc7464c4a))
+
+# [1.8.0](https://github.com/warp-ds/css/compare/v1.7.0...v1.8.0) (2024-02-05)
+
+
+### Bug Fixes
+
+* Button tokens/classes fixes ([#144](https://github.com/warp-ds/css/issues/144)) ([997c62e](https://github.com/warp-ds/css/commit/997c62e85b117c9c60577ad44db91d867acc708f))
+* Changes to Badge tokens and component classes ([#124](https://github.com/warp-ds/css/issues/124)) ([6a42830](https://github.com/warp-ds/css/commit/6a42830afc5b5a89a4616201773e5e3d3cfed15d))
+* Correct border tokens for checkbox ([#146](https://github.com/warp-ds/css/issues/146)) ([dfcd560](https://github.com/warp-ds/css/commit/dfcd560ddeb24a2a443805522e8c1a638a55762d))
+* Deprecate redundant Alert component tokens and classes ([#125](https://github.com/warp-ds/css/issues/125)) ([ecca97c](https://github.com/warp-ds/css/commit/ecca97ce1b6959e119b4cb00fc614bdae8c02df8))
+* Deprecate redundant Box component tokens and classes ([#126](https://github.com/warp-ds/css/issues/126)) ([18b1cab](https://github.com/warp-ds/css/commit/18b1cab805dca20915e960b2f2074fd47df18510))
+* Deprecate redundant Breadcrumbs component tokens and classes ([#127](https://github.com/warp-ds/css/issues/127)) ([bcdaf2c](https://github.com/warp-ds/css/commit/bcdaf2c64a1456cef6b73519f11e56b3bf0c4cfe))
+* Deprecate redundant Broadcast component tokens ([#128](https://github.com/warp-ds/css/issues/128)) ([4ae8434](https://github.com/warp-ds/css/commit/4ae8434a5f6a9b1948105b11e2792f9b371579ed))
+* Deprecate redundant Button component tokens and classes ([#129](https://github.com/warp-ds/css/issues/129)) ([63cb0a7](https://github.com/warp-ds/css/commit/63cb0a74a6c580176ac8522a299bfe577198cca1))
+* Deprecate redundant ButtonGroup component tokens and classes ([#130](https://github.com/warp-ds/css/issues/130)) ([1d86dc1](https://github.com/warp-ds/css/commit/1d86dc1dd0bb7777ce6562d0104256b43c778f1c))
+* Deprecate redundant Callout component tokens and classes ([#131](https://github.com/warp-ds/css/issues/131)) ([0dfea19](https://github.com/warp-ds/css/commit/0dfea194d43cf8220fecb9f9096b855b07995ec8))
+* Deprecate redundant Card component tokens and classes ([#132](https://github.com/warp-ds/css/issues/132)) ([c4d3ecc](https://github.com/warp-ds/css/commit/c4d3ecc1a7d8f234f61fda2b00d09406c7c5d183))
+* Deprecate redundant Checkbox component tokens and classes ([#133](https://github.com/warp-ds/css/issues/133)) ([d43e677](https://github.com/warp-ds/css/commit/d43e677fecd877b5d3797bca47201185a9133582))
+* Deprecate redundant Combobox component tokens and classes ([#134](https://github.com/warp-ds/css/issues/134)) ([5059242](https://github.com/warp-ds/css/commit/50592429ce98782fa278dab75aff705e71870a8d))
+* Deprecate redundant Datepicker component tokens ([#135](https://github.com/warp-ds/css/issues/135)) ([f7b6898](https://github.com/warp-ds/css/commit/f7b689871b95ab46949731ca98e368541b07374d))
+* Deprecate redundant Expandable component tokens and classes ([#136](https://github.com/warp-ds/css/issues/136)) ([dd14d63](https://github.com/warp-ds/css/commit/dd14d63731387aeedddc02baf142fff74c97e897))
+* Deprecate redundant HelpText component tokens and classes ([#137](https://github.com/warp-ds/css/issues/137)) ([9508b19](https://github.com/warp-ds/css/commit/9508b198fc9cfd5eb05d9184e32883a2e6453e4f))
+* Deprecate redundant Image component tokens ([#138](https://github.com/warp-ds/css/issues/138)) ([e11a007](https://github.com/warp-ds/css/commit/e11a0073457b5cec20814b085212a44c9861dff7))
+* Deprecate redundant Input component tokens and classes ([#139](https://github.com/warp-ds/css/issues/139)) ([8e79742](https://github.com/warp-ds/css/commit/8e79742fcb7818a69f6e4b25231983a5fc5cd829))
+* Deprecate redundant Label component tokens and classes ([#140](https://github.com/warp-ds/css/issues/140)) ([7d12943](https://github.com/warp-ds/css/commit/7d12943bd0311c69472bff4fd30e9078dfaa55be))
+* Deprecate redundant List component tokens ([#141](https://github.com/warp-ds/css/issues/141)) ([0f3b974](https://github.com/warp-ds/css/commit/0f3b974b180861b3478202124b7dc64a1c3121cb))
+* Deprecate redundant Modal component tokens and classes ([#142](https://github.com/warp-ds/css/issues/142)) ([303050f](https://github.com/warp-ds/css/commit/303050ff0f85d34dcb87dda689c84978915696c2))
+* Deprecate redundant PageIndicator component tokens and classes ([#143](https://github.com/warp-ds/css/issues/143)) ([42a9902](https://github.com/warp-ds/css/commit/42a9902c2cf4ec1c51cf9f46752ea7e25a0af7cc))
+* Deprecate redundant Pagination component tokens ([#147](https://github.com/warp-ds/css/issues/147)) ([644b707](https://github.com/warp-ds/css/commit/644b7070d4e4adf3ccb78f1df8aede76892eb3b0))
+* Deprecate redundant Pill component tokens and classes ([#148](https://github.com/warp-ds/css/issues/148)) ([bb58888](https://github.com/warp-ds/css/commit/bb58888e41feb27bad166d4afd8391b20fc90c90))
+* Deprecate redundant Popover component tokens and classes ([#149](https://github.com/warp-ds/css/issues/149)) ([4c3bcdf](https://github.com/warp-ds/css/commit/4c3bcdf0a6fffbac0ff012e4e27d7a71aabb80a9))
+* Deprecate redundant Radio component tokens and classes ([#150](https://github.com/warp-ds/css/issues/150)) ([8cb4dc7](https://github.com/warp-ds/css/commit/8cb4dc79212d82303752e906643d4e7133c64cc0))
+* Deprecate redundant Select component tokens and classes ([#151](https://github.com/warp-ds/css/issues/151)) ([eb09c50](https://github.com/warp-ds/css/commit/eb09c50685007b82cc4c97033e9269f973a8e0c9))
+* Deprecate redundant Slider component tokens and classes ([#152](https://github.com/warp-ds/css/issues/152)) ([d75e1f5](https://github.com/warp-ds/css/commit/d75e1f50381038fe6793c6758dc259b653f5e6c5))
+* Deprecate redundant Spinner component token ([#153](https://github.com/warp-ds/css/issues/153)) ([a654272](https://github.com/warp-ds/css/commit/a6542727505e1487e5f3b59fcb80d3564033f300))
+* Deprecate redundant Starrating component token ([#154](https://github.com/warp-ds/css/issues/154)) ([b2bbe3b](https://github.com/warp-ds/css/commit/b2bbe3bfb1e156b20fd360efa02019c0b7cadf98))
+* Deprecate redundant StepIndicator component tokens and classes ([#155](https://github.com/warp-ds/css/issues/155)) ([31fb0d2](https://github.com/warp-ds/css/commit/31fb0d24de1725bd3b8443a87d4124af7d641eff))
+* Deprecate redundant Switch component tokens and classes ([#156](https://github.com/warp-ds/css/issues/156)) ([414c21c](https://github.com/warp-ds/css/commit/414c21c235929370b3c8dea2fe2ea1af4b26de3f))
+* Deprecate redundant Tabs component tokens and classes ([#157](https://github.com/warp-ds/css/issues/157)) ([df90f25](https://github.com/warp-ds/css/commit/df90f25e03015adc7b4f718a1d72461c627a26c4))
+* Deprecate redundant Toast component tokens and classes ([#158](https://github.com/warp-ds/css/issues/158)) ([a57f2c5](https://github.com/warp-ds/css/commit/a57f2c5077d0680626848ce2305d7f7316e0c8ad))
+* Deprecate redundant Tooltip component tokens and classes ([#159](https://github.com/warp-ds/css/issues/159)) ([ebf6f66](https://github.com/warp-ds/css/commit/ebf6f66da3a5dcb70f7dd2b8f6c523a034cd68ae))
+* **index.d.ts:** replace const with let after typescript update ([#122](https://github.com/warp-ds/css/issues/122)) ([c3cc2cd](https://github.com/warp-ds/css/commit/c3cc2cdf98f58b625bcaf42cc4698b8e23642316))
+* Replace internal classes with semantic or arbitrary classes for button shortcuts ([#160](https://github.com/warp-ds/css/issues/160)) ([0f1c355](https://github.com/warp-ds/css/commit/0f1c355bedf742dd8a105728af4d2a42ece6c394))
+
+
+### Features
+
+* Add semantic background and border tokens for selected-active states ([#145](https://github.com/warp-ds/css/issues/145)) ([af45aaf](https://github.com/warp-ds/css/commit/af45aaf57f460a2ec27eddc6a201cf9493bb3d6c))
+* Support upcoming alpha channel modifier in css color classes by duplicating tokens as rgb ([#161](https://github.com/warp-ds/css/issues/161)) ([d5ba747](https://github.com/warp-ds/css/commit/d5ba7477abdf9f33bf8a0fd5df1a42c963ccb146))
+
+# [1.8.0-next.17](https://github.com/warp-ds/css/compare/v1.8.0-next.16...v1.8.0-next.17) (2024-02-05)
+
+
+### Features
+
+* Support upcoming alpha channel modifier in css color classes by duplicating tokens as rgb ([#161](https://github.com/warp-ds/css/issues/161)) ([d5ba747](https://github.com/warp-ds/css/commit/d5ba7477abdf9f33bf8a0fd5df1a42c963ccb146))
+
+# [1.8.0-next.16](https://github.com/warp-ds/css/compare/v1.8.0-next.15...v1.8.0-next.16) (2024-01-29)
+
+
+### Bug Fixes
+
+* Replace internal classes with semantic or arbitrary classes for button shortcuts ([#160](https://github.com/warp-ds/css/issues/160)) ([0f1c355](https://github.com/warp-ds/css/commit/0f1c355bedf742dd8a105728af4d2a42ece6c394))
+
+# [1.8.0-next.15](https://github.com/warp-ds/css/compare/v1.8.0-next.14...v1.8.0-next.15) (2024-01-26)
+
+
+### Bug Fixes
+
+* Deprecate redundant Slider component tokens and classes ([#152](https://github.com/warp-ds/css/issues/152)) ([d75e1f5](https://github.com/warp-ds/css/commit/d75e1f50381038fe6793c6758dc259b653f5e6c5))
+
+# [1.8.0-next.14](https://github.com/warp-ds/css/compare/v1.8.0-next.13...v1.8.0-next.14) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Tooltip component tokens and classes ([#159](https://github.com/warp-ds/css/issues/159)) ([ebf6f66](https://github.com/warp-ds/css/commit/ebf6f66da3a5dcb70f7dd2b8f6c523a034cd68ae))
+
+# [1.8.0-next.13](https://github.com/warp-ds/css/compare/v1.8.0-next.12...v1.8.0-next.13) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Toast component tokens and classes ([#158](https://github.com/warp-ds/css/issues/158)) ([a57f2c5](https://github.com/warp-ds/css/commit/a57f2c5077d0680626848ce2305d7f7316e0c8ad))
+
+# [1.8.0-next.12](https://github.com/warp-ds/css/compare/v1.8.0-next.11...v1.8.0-next.12) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Tabs component tokens and classes ([#157](https://github.com/warp-ds/css/issues/157)) ([df90f25](https://github.com/warp-ds/css/commit/df90f25e03015adc7b4f718a1d72461c627a26c4))
+
+# [1.8.0-next.11](https://github.com/warp-ds/css/compare/v1.8.0-next.10...v1.8.0-next.11) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Switch component tokens and classes ([#156](https://github.com/warp-ds/css/issues/156)) ([414c21c](https://github.com/warp-ds/css/commit/414c21c235929370b3c8dea2fe2ea1af4b26de3f))
+
+# [1.8.0-next.10](https://github.com/warp-ds/css/compare/v1.8.0-next.9...v1.8.0-next.10) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant StepIndicator component tokens and classes ([#155](https://github.com/warp-ds/css/issues/155)) ([31fb0d2](https://github.com/warp-ds/css/commit/31fb0d24de1725bd3b8443a87d4124af7d641eff))
+
+# [1.8.0-next.9](https://github.com/warp-ds/css/compare/v1.8.0-next.8...v1.8.0-next.9) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Starrating component token ([#154](https://github.com/warp-ds/css/issues/154)) ([b2bbe3b](https://github.com/warp-ds/css/commit/b2bbe3bfb1e156b20fd360efa02019c0b7cadf98))
+
+# [1.8.0-next.8](https://github.com/warp-ds/css/compare/v1.8.0-next.7...v1.8.0-next.8) (2024-01-24)
+
+
+### Bug Fixes
+
+* Deprecate redundant Spinner component token ([#153](https://github.com/warp-ds/css/issues/153)) ([a654272](https://github.com/warp-ds/css/commit/a6542727505e1487e5f3b59fcb80d3564033f300))
+
+# [1.8.0-next.7](https://github.com/warp-ds/css/compare/v1.8.0-next.6...v1.8.0-next.7) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Select component tokens and classes ([#151](https://github.com/warp-ds/css/issues/151)) ([eb09c50](https://github.com/warp-ds/css/commit/eb09c50685007b82cc4c97033e9269f973a8e0c9))
+
+# [1.8.0-next.6](https://github.com/warp-ds/css/compare/v1.8.0-next.5...v1.8.0-next.6) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Radio component tokens and classes ([#150](https://github.com/warp-ds/css/issues/150)) ([8cb4dc7](https://github.com/warp-ds/css/commit/8cb4dc79212d82303752e906643d4e7133c64cc0))
+
+# [1.8.0-next.5](https://github.com/warp-ds/css/compare/v1.8.0-next.4...v1.8.0-next.5) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Popover component tokens and classes ([#149](https://github.com/warp-ds/css/issues/149)) ([4c3bcdf](https://github.com/warp-ds/css/commit/4c3bcdf0a6fffbac0ff012e4e27d7a71aabb80a9))
+
+# [1.8.0-next.4](https://github.com/warp-ds/css/compare/v1.8.0-next.3...v1.8.0-next.4) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Pill component tokens and classes ([#148](https://github.com/warp-ds/css/issues/148)) ([bb58888](https://github.com/warp-ds/css/commit/bb58888e41feb27bad166d4afd8391b20fc90c90))
+
+# [1.8.0-next.3](https://github.com/warp-ds/css/compare/v1.8.0-next.2...v1.8.0-next.3) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Pagination component tokens ([#147](https://github.com/warp-ds/css/issues/147)) ([644b707](https://github.com/warp-ds/css/commit/644b7070d4e4adf3ccb78f1df8aede76892eb3b0))
+
+# [1.8.0-next.2](https://github.com/warp-ds/css/compare/v1.8.0-next.1...v1.8.0-next.2) (2024-01-23)
+
+
+### Bug Fixes
+
+* Correct border tokens for checkbox ([#146](https://github.com/warp-ds/css/issues/146)) ([dfcd560](https://github.com/warp-ds/css/commit/dfcd560ddeb24a2a443805522e8c1a638a55762d))
+
+# [1.8.0-next.1](https://github.com/warp-ds/css/compare/v1.7.1-next.22...v1.8.0-next.1) (2024-01-23)
+
+
+### Features
+
+* Add semantic background and border tokens for selected-active states ([#145](https://github.com/warp-ds/css/issues/145)) ([af45aaf](https://github.com/warp-ds/css/commit/af45aaf57f460a2ec27eddc6a201cf9493bb3d6c))
+
+## [1.7.1-next.22](https://github.com/warp-ds/css/compare/v1.7.1-next.21...v1.7.1-next.22) (2024-01-23)
+
+
+### Bug Fixes
+
+* Button tokens/classes fixes ([#144](https://github.com/warp-ds/css/issues/144)) ([997c62e](https://github.com/warp-ds/css/commit/997c62e85b117c9c60577ad44db91d867acc708f))
+
+## [1.7.1-next.21](https://github.com/warp-ds/css/compare/v1.7.1-next.20...v1.7.1-next.21) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant PageIndicator component tokens and classes ([#143](https://github.com/warp-ds/css/issues/143)) ([42a9902](https://github.com/warp-ds/css/commit/42a9902c2cf4ec1c51cf9f46752ea7e25a0af7cc))
+
+## [1.7.1-next.20](https://github.com/warp-ds/css/compare/v1.7.1-next.19...v1.7.1-next.20) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Modal component tokens and classes ([#142](https://github.com/warp-ds/css/issues/142)) ([303050f](https://github.com/warp-ds/css/commit/303050ff0f85d34dcb87dda689c84978915696c2))
+
+## [1.7.1-next.19](https://github.com/warp-ds/css/compare/v1.7.1-next.18...v1.7.1-next.19) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Label component tokens and classes ([#140](https://github.com/warp-ds/css/issues/140)) ([7d12943](https://github.com/warp-ds/css/commit/7d12943bd0311c69472bff4fd30e9078dfaa55be))
+
+## [1.7.1-next.18](https://github.com/warp-ds/css/compare/v1.7.1-next.17...v1.7.1-next.18) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant List component tokens ([#141](https://github.com/warp-ds/css/issues/141)) ([0f3b974](https://github.com/warp-ds/css/commit/0f3b974b180861b3478202124b7dc64a1c3121cb))
+
+## [1.7.1-next.17](https://github.com/warp-ds/css/compare/v1.7.1-next.16...v1.7.1-next.17) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Input component tokens and classes ([#139](https://github.com/warp-ds/css/issues/139)) ([8e79742](https://github.com/warp-ds/css/commit/8e79742fcb7818a69f6e4b25231983a5fc5cd829))
+
+## [1.7.1-next.16](https://github.com/warp-ds/css/compare/v1.7.1-next.15...v1.7.1-next.16) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Image component tokens ([#138](https://github.com/warp-ds/css/issues/138)) ([e11a007](https://github.com/warp-ds/css/commit/e11a0073457b5cec20814b085212a44c9861dff7))
+
+## [1.7.1-next.15](https://github.com/warp-ds/css/compare/v1.7.1-next.14...v1.7.1-next.15) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant HelpText component tokens and classes ([#137](https://github.com/warp-ds/css/issues/137)) ([9508b19](https://github.com/warp-ds/css/commit/9508b198fc9cfd5eb05d9184e32883a2e6453e4f))
+
+## [1.7.1-next.14](https://github.com/warp-ds/css/compare/v1.7.1-next.13...v1.7.1-next.14) (2024-01-23)
+
+
+### Bug Fixes
+
+* Deprecate redundant Expandable component tokens and classes ([#136](https://github.com/warp-ds/css/issues/136)) ([dd14d63](https://github.com/warp-ds/css/commit/dd14d63731387aeedddc02baf142fff74c97e897))
+
+## [1.7.1-next.13](https://github.com/warp-ds/css/compare/v1.7.1-next.12...v1.7.1-next.13) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Datepicker component tokens ([#135](https://github.com/warp-ds/css/issues/135)) ([f7b6898](https://github.com/warp-ds/css/commit/f7b689871b95ab46949731ca98e368541b07374d))
+
+## [1.7.1-next.12](https://github.com/warp-ds/css/compare/v1.7.1-next.11...v1.7.1-next.12) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Combobox component tokens and classes ([#134](https://github.com/warp-ds/css/issues/134)) ([5059242](https://github.com/warp-ds/css/commit/50592429ce98782fa278dab75aff705e71870a8d))
+
+## [1.7.1-next.11](https://github.com/warp-ds/css/compare/v1.7.1-next.10...v1.7.1-next.11) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Checkbox component tokens and classes ([#133](https://github.com/warp-ds/css/issues/133)) ([d43e677](https://github.com/warp-ds/css/commit/d43e677fecd877b5d3797bca47201185a9133582))
+
+## [1.7.1-next.10](https://github.com/warp-ds/css/compare/v1.7.1-next.9...v1.7.1-next.10) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Card component tokens and classes ([#132](https://github.com/warp-ds/css/issues/132)) ([c4d3ecc](https://github.com/warp-ds/css/commit/c4d3ecc1a7d8f234f61fda2b00d09406c7c5d183))
+
+## [1.7.1-next.9](https://github.com/warp-ds/css/compare/v1.7.1-next.8...v1.7.1-next.9) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Callout component tokens and classes ([#131](https://github.com/warp-ds/css/issues/131)) ([0dfea19](https://github.com/warp-ds/css/commit/0dfea194d43cf8220fecb9f9096b855b07995ec8))
+
+## [1.7.1-next.8](https://github.com/warp-ds/css/compare/v1.7.1-next.7...v1.7.1-next.8) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant ButtonGroup component tokens and classes ([#130](https://github.com/warp-ds/css/issues/130)) ([1d86dc1](https://github.com/warp-ds/css/commit/1d86dc1dd0bb7777ce6562d0104256b43c778f1c))
+
+## [1.7.1-next.7](https://github.com/warp-ds/css/compare/v1.7.1-next.6...v1.7.1-next.7) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Button component tokens and classes ([#129](https://github.com/warp-ds/css/issues/129)) ([63cb0a7](https://github.com/warp-ds/css/commit/63cb0a74a6c580176ac8522a299bfe577198cca1))
+
+## [1.7.1-next.6](https://github.com/warp-ds/css/compare/v1.7.1-next.5...v1.7.1-next.6) (2024-01-19)
+
+
+### Bug Fixes
+
+* Deprecate redundant Box component tokens and classes ([#126](https://github.com/warp-ds/css/issues/126)) ([18b1cab](https://github.com/warp-ds/css/commit/18b1cab805dca20915e960b2f2074fd47df18510))
+
+## [1.7.1-next.5](https://github.com/warp-ds/css/compare/v1.7.1-next.4...v1.7.1-next.5) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Broadcast component tokens ([#128](https://github.com/warp-ds/css/issues/128)) ([4ae8434](https://github.com/warp-ds/css/commit/4ae8434a5f6a9b1948105b11e2792f9b371579ed))
+
+## [1.7.1-next.4](https://github.com/warp-ds/css/compare/v1.7.1-next.3...v1.7.1-next.4) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Breadcrumbs component tokens and classes ([#127](https://github.com/warp-ds/css/issues/127)) ([bcdaf2c](https://github.com/warp-ds/css/commit/bcdaf2c64a1456cef6b73519f11e56b3bf0c4cfe))
+
+## [1.7.1-next.3](https://github.com/warp-ds/css/compare/v1.7.1-next.2...v1.7.1-next.3) (2024-01-18)
+
+
+### Bug Fixes
+
+* Deprecate redundant Alert component tokens and classes ([#125](https://github.com/warp-ds/css/issues/125)) ([ecca97c](https://github.com/warp-ds/css/commit/ecca97ce1b6959e119b4cb00fc614bdae8c02df8))
+
 ## [1.7.1-next.2](https://github.com/warp-ds/css/compare/v1.7.1-next.1...v1.7.1-next.2) (2024-01-17)
 
 

@@ -13,7 +13,5 @@ color:
       background: s-color-background-warning-subtle
     negative:
       background: s-color-background-negative-subtle
-    price:
-      background: black-alpha70
     sponsored:
       background: s-color-background

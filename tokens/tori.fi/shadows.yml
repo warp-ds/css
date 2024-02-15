@@ -6,3 +6,9 @@ shadow:
   m: 0 3px 6px rgba(0, 0, 0 , .1), 0 3px 8px rgba(0, 0, 0 , .16)
   l: 0 6px 12px rgba(0, 0, 0 , .2), 0 10px 20px rgba(0, 0, 0 , .1)
   xl: 0 9px 18px rgba(0, 0, 0 , .1), 0 14px 28px rgba(0, 0, 0 , .2)
+
+  slider:
+    _: none
+    handle:
+      active: 0 0 0 8px rgba(0,0,0,.08)
+      hover: 0 0 0 6px rgba(0,0,0,.08)
