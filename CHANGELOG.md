@@ -1,3 +1,17 @@
+## [1.8.3](https://github.com/warp-ds/css/compare/v1.8.2...v1.8.3) (2024-02-15)
+
+
+### Bug Fixes
+
+* Slider active track disabled state fix ([#168](https://github.com/warp-ds/css/issues/168)) ([0e847a0](https://github.com/warp-ds/css/commit/0e847a0dd86b67c2b8634bc37048e3a6b77cf2ce))
+
+## [1.8.3-next.1](https://github.com/warp-ds/css/compare/v1.8.2...v1.8.3-next.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* Slider active track disabled state fix ([#168](https://github.com/warp-ds/css/issues/168)) ([0e847a0](https://github.com/warp-ds/css/commit/0e847a0dd86b67c2b8634bc37048e3a6b77cf2ce))
+
 ## [1.8.2](https://github.com/warp-ds/css/compare/v1.8.1...v1.8.2) (2024-02-15)
 
 

@@ -41,9 +41,9 @@ export const badge = {
 export const slider = {
   wrapper: 'touch-pan-y relative w-full h-44 py-2',
   track: 'absolute s-bg-disabled h-4 top-20 rounded-4 w-full ',
-  trackDisabled: 'pointer-events-none s-bg-disabled',
+  trackDisabled: 'pointer-events-none',
   activeTrack: 'absolute s-bg-primary h-6 top-[19px] rounded-4',
-  activeTrackDisabled: 's-bg-disabled pointer-events-none',
+  activeTrackDisabled: 'absolute s-bg-disabled h-6 top-[19px] rounded-4 pointer-events-none',
   thumb: 'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
   thumbEnabled: 'border-2 shadow-[--w-shadow-slider] cursor-pointer s-bg-primary s-border-primary hover:s-bg-primary-hover hover:s-border-primary-hover hover:shadow-[--w-shadow-slider-handle-hover] active:s-bg-primary-active active:s-border-primary-active active:shadow-[--w-shadow-slider-handle-active] focus:shadow-[--w-shadow-slider-handle-hover] focus:s-border-primary-hover focus:s-bg-primary-hover',
   thumbDisabled: 's-bg-disabled cursor-disabled pointer-events-none',
