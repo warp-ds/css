@@ -10,5 +10,5 @@ color:
         active: watermelon-800
     pill:
       background:
-        hover: gray-300/30
-        active: gray-400/30
+        hover: blueberry-300/30
+        active: blueberry-400/30

@@ -7,20 +7,20 @@ s:
 
     background:
       _: white
-      hover: bluegray-100
-      active: bluegray-200
+      hover: gray-100
+      active: gray-200
       selected:
         _: blue-50
         hover: blue-100
         active: blue-200
       disabled:
-        _: bluegray-300
-        subtle: bluegray-200
+        _: gray-300
+        subtle: gray-200
       inverted: gray-900
       subtle:
-        _: bluegray-50
-        hover: bluegray-100
-        active: bluegray-200
+        _: gray-100
+        hover: gray-200
+        active: gray-300
       primary:
         _: blue-600
         hover: blue-700
@@ -37,10 +37,6 @@ s:
         _: green-600
         hover: green-700
         active: green-800
-        selected:
-          _: green-50
-          hover: green-100
-          active: green-200
         subtle:
           _: green-50
           hover: green-100
@@ -49,10 +45,6 @@ s:
         _: red-600
         hover: red-700
         active: red-800
-        selected:
-          _: red-50
-          hover: red-100
-          active: red-200
         subtle:
           _: red-50
           hover: red-100
@@ -61,10 +53,6 @@ s:
         _: yellow-600
         hover: yellow-700
         active: yellow-800
-        selected:
-          _: yellow-50
-          hover: yellow-100
-          active: yellow-200
         subtle:
           _: yellow-50
           hover: yellow-100
@@ -73,10 +61,6 @@ s:
         _: aqua-600
         hover: aqua-700
         active: aqua-800
-        selected:
-          _: aqua-50
-          hover: aqua-100
-          active: aqua-200
         subtle:
           _: aqua-50
           hover: aqua-100
@@ -84,10 +68,10 @@ s:
       notification: red-600
 
     border:
-      _: bluegray-300
-      hover: bluegray-400
-      active: bluegray-500
-      disabled: bluegray-300
+      _: gray-300
+      hover: gray-400
+      active: gray-500
+      disabled: gray-300
       focused: aqua-400
       selected:
         _: blue-600
@@ -141,21 +125,23 @@ s:
 
     icon:
       _: gray-700
+      static: gray-700
       hover: blue-600
       active: blue-700
       selected:
         _: blue-600
         hover: blue-700
         active: blue-800
-      disabled: bluegray-300
+      disabled: gray-300
       subtle:
-        _: bluegray-400
-        hover: bluegray-500
-        active: bluegray-600
+        _: gray-400
+        hover: gray-500
+        active: gray-600
       inverted:
         _: white
-        hover: bluegray-100
-        active: bluegray-200
+        hover: gray-100
+        active: gray-200
+        static: white
       primary: blue-600
       secondary:
         _: aqua-400
@@ -168,17 +154,51 @@ s:
 
     text:
       _: gray-700
+      static: gray-700
       subtle: gray-500
-      placeholder: bluegray-300
+      placeholder: gray-300
       inverted:
         _: white
+        static: white
         subtle: gray-50
       link: blue-600
-      disabled: bluegray-300
+      disabled: gray-300
       negative: red-600
       positive: green-600
       notification: white
 
     focused: aqua-400
 
-    divider: bluegray-200
+    divider: gray-200
+
+    surface:
+      sunken: gray-50
+      elevated:
+        100:
+          _: white
+          hover: gray-100
+          active: gray-200
+        200:
+          _: white
+          hover: gray-100
+          active: gray-200
+        300:
+          _: white
+          hover: gray-100
+          active: gray-200
+
+  shadow:
+    surface:
+      elevated:
+        100:
+          _: shadow-m
+          hover: shadow-l
+          active: shadow-m
+        200:
+          _: shadow-s
+          hover: shadow-m
+          active: shadow-s
+        300:
+          _: shadow-l
+          hover: shadow-xl
+          active: shadow-l
