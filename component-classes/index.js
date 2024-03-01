@@ -387,7 +387,7 @@ export const input = {
   textArea: 'min-h-[42] sm:min-h-[45]',
   disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! s-text-disabled pointer-events-none',
   invalid: 's-border-negative s-text-negative!',
-  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none s-text',
+  readOnly: 'pl-0 bg-transparent! border-0! pointer-events-none',
   placeholder: 'placeholder:s-text-placeholder',
   wrapper: 'relative',
   suffix: 'pr-40',
