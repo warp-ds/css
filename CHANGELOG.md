@@ -1,3 +1,10 @@
+## [1.8.4-next.2](https://github.com/warp-ds/css/compare/v1.8.4-next.1...v1.8.4-next.2) (2024-03-04)
+
+
+### Bug Fixes
+
+* Add class for Expandable info variant ([#175](https://github.com/warp-ds/css/issues/175)) ([c740e6e](https://github.com/warp-ds/css/commit/c740e6e916fb4f38d6f8891586ea5860b8178d44))
+
 ## [1.8.4-next.1](https://github.com/warp-ds/css/compare/v1.8.3...v1.8.4-next.1) (2024-03-01)
 
 
