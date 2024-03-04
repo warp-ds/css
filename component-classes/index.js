@@ -442,37 +442,43 @@ export const breadcrumbs = {
 };
 
 export const toggle = {
-  field: 'relative text-m',
-  wrapper: 'relative py-1',
-  deadToggleWrapper: 'h-20 w-20 pointer-events-none',
+  // wrapper classes
+  field: 'relative text-m', // true
+  wrapper: 'relative py-1', // true
+  wrapperRadioButtons: 'inline-flex font-bold rounded-8 focus-within:focusable', // isRadioButton && !isEqualWidth
+  wrapperRadioButtonsJustified: 'flex font-bold rounded-8 focus-within:focusable', // isRadioButton && isEqualWidth,
+
+  // group classes
+  radioButtonsGroup: 'group', // isRadioButton
+  radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto', // isRadioButton && isEqualWidth
+
+  // input classes
   input: 'peer',
-  deadToggleInput: 'hidden',
-  inputDisabled: 'pointer-events-none',
-  focusable: 'peer-focus:focusable',
-  focusableWithin: 'focus-within:focusable',
-  label: 'cursor-pointer text-m s-text py-2 pl-28 select-none relative block before:block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2',
-  deadToggleLabel: '-mt-2',
-  noContent: `before:content-[""]`,
-  indeterminate: `before:flex! before:items-center before:justify-center before:s-icon-inverted before:text-center before:font-bold before:content-["-"] peer-indeterminate:before:s-border-primary peer-indeterminate:before:s-bg-primary peer-indeterminate:hover:before:s-border-primary peer-indeterminate:hover:before:s-bg-primary-hover`,
-  labelDisabled: 'pointer-events-none',
-  checkbox: 'before:s-bg before:rounded-2 hover:before:s-border-primary hover:before:s-bg-subtle',
-  checkboxChecked: 'peer-checked:before:s-border-primary peer-checked:before:s-bg-primary peer-checked:peer-hover:before:s-border-primary-hover peer-checked:peer-hover:before:s-bg-primary-hover',
-  checkboxInvalid: 'before:s-bg hover:before:s-bg-negative-subtle-hover peer-checked:before:s-border-negative hover:before:s-border-negative-hover peer-checked:before:s-bg-negative peer-checked:peer-hover:before:s-bg-negative-hover peer-checked:peer-hover:before:s-border-negative-hover',
-  checkboxDisabled: 'peer-disabled:before:s-bg-disabled-subtle before:s-border-disabled peer-checked:before:s-border-disabled peer-checked:before:s-bg-disabled',
-  labelCheckboxBorder: 's-border',
-  radio: 'before:s-bg before:rounded-full peer-checked:before:border-[6] peer-checked:peer-hover:before:s-border-selected-hover peer-hover:before:s-border-primary peer-hover:before:s-bg-primary-subtle',
-  radioChecked: 'peer-checked:before:s-border-selected',
-  radioInvalid: 'before:s-bg peer-hover:before:s-bg-negative-subtle before:s-border-negative peer-hover:before:s-border-negative-hover peer-checked:before:s-border-negative peer-checked:peer-hover:before:s-border-negative-hover ',
-  radioDisabled: 'peer-disabled:before:s-bg-disabled-subtle before:s-border-disabled peer-checked:before:s-border-disabled',
-  labelRadioBorder: 's-border',
-  radioButtons: 'inline-flex relative font-bold rounded-8',
-  radioButtonsGroup: 'group',
-  radioButtonsLabel: 'peer-hover:peer-not-checked:s-bg-hover peer-checked:s-text-inverted peer-checked:s-bg-primary peer-checked:s-border-primary block relative text-s font-bold cursor-pointer s-text-link text-center s-bg border-2 s-border py-8 pl-12 pr-14 group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2',
-  radioButtonsJustified: 'flex!',
-  radioButtonsGroupJustified: 'grow-1 shrink-0 basis-auto',
-  radioButtonsLabelSmall: 'text-xs py-[5px]! px-[8px]!',
-  icon: `peer-checked:before:bg-center before:bg-[url(var(--w-form-check-mark))]`,
   a11y: 'sr-only',
+
+  // label classes
+  label: 'peer-focus:focusable cursor-pointer text-m s-text s-border py-2 pl-28 select-none relative block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2', // !isRadioButton
+  labelBefore: 'before:content-[""] before:block', // !isRadioButton && !isIndeterminate
+  indeterminate: 'before:content-["-"] before:flex before:items-center before:justify-center before:text-center before:font-bold before:s-icon-inverted peer-indeterminate:before:s-border-primary peer-indeterminate:before:s-bg-primary peer-indeterminate:hover:before:s-border-primary peer-indeterminate:hover:before:s-bg-primary-hover', // isIndeterminate && !isDisabled
+  indeterminateDisabled: 'before:content-["-"] before:flex before:items-center before:justify-center before:text-center before:font-bold before:s-icon-inverted peer-indeterminate:before:s-border-disabled peer-indeterminate:before:s-bg-disabled-subtle peer-indeterminate:hover:before:s-border-disabled peer-indeterminate:hover:before:s-bg-disabled-subtle', // isIndeterminate && isDisabled
+  checkbox: 'before:s-bg before:rounded-2 hover:before:s-border-primary hover:before:s-bg-subtle peer-checked:before:bg-center peer-checked:before:bg-[url(var(--w-form-check-mark))] peer-checked:before:s-border-primary peer-checked:before:s-bg-primary peer-checked:peer-hover:before:s-border-primary-hover peer-checked:peer-hover:before:s-bg-primary-hover', // isCheckbox && !isInvalid && !isDisabled && !isIndeterminate
+  checkboxDisabled: 'before:s-bg-disabled-subtle before:s-border-disabled pointer-events-none before:rounded-2 peer-checked:before:bg-center peer-checked:before:bg-[url(var(--w-form-check-mark))]', // isCheckbox && !isInvalid && isDisabled
+  checkboxInvalid: 'before:s-bg before:s-border-negative before:rounded-2 hover:before:s-bg-negative-subtle-hover hover:before:s-border-negative-hover peer-checked:before:bg-center peer-checked:before:bg-[url(var(--w-form-check-mark))] peer-checked:before:s-bg-negative peer-checked:peer-hover:before:s-bg-negative-hover peer-checked:peer-hover:before:s-border-negative-hover', // isCheckbox && isInvalid && !isDisabled
+  radio: 'before:s-bg before:rounded-full peer-checked:before:border-[6] peer-checked:before:s-border-selected peer-checked:peer-hover:before:s-border-selected-hover peer-hover:before:s-border-primary peer-hover:before:s-bg-primary-subtle', // isRadio && !isDisabled && !isInvalid
+  radioDisabled: 'before:s-bg-disabled-subtle before:s-border-disabled pointer-events-none before:rounded-full peer-checked:before:border-[6]', // isRadio && !isInvalid && isDisabled
+  radioInvalid: 'before:s-bg before:s-border-negative before:rounded-full peer-checked:before:border-[6] peer-hover:before:s-bg-negative-subtle peer-hover:before:s-border-negative-hover peer-checked:before:s-border-negative peer-checked:peer-hover:before:s-border-negative-hover', // isRadio && isInvalid && !isDisabled
+  radioButtonsLabel: 'peer-hover:peer-not-checked:s-bg-hover peer-checked:s-text-inverted peer-checked:s-bg-primary peer-checked:s-border-primary block relative  font-bold cursor-pointer s-text-link text-center s-bg border-2 s-border group-first-of-type:rounded-tl-8 group-first-of-type:rounded-bl-8 group-last-of-type:rounded-tr-8 group-last-of-type:rounded-br-8 group-not-last-of-type:border-r-0 peer-checked:z-10 group-not-first:-ml-2', // isRadioButtons
+  radioButtonsRegular: 'text-s py-8 pl-12 pr-14', // isRadioButtons && !isSmall
+  radioButtonsSmall: 'text-xs py-[5px] px-[8px]', // isRadioButtons && isSmall
+};
+
+export const deadToggle = {
+  wrapper: `${toggle.wrapper} h-20 w-20 pointer-events-none`,
+  input: `${toggle.input} hidden`,
+  inputVue: 'hidden',
+  labelRadio: `${toggle.label} ${toggle.labelBeforeRegular} ${toggle.radio}`,
+  labelCheckbox: `${toggle.label} ${toggle.labelBeforeRegular} ${toggle.checkbox}`,
+  labelVue: '-mt-2',
 };
 
 export const clickable = {

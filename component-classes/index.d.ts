@@ -408,39 +408,37 @@ export namespace toggle {
     export let field: string;
     let wrapper_10: string;
     export { wrapper_10 as wrapper };
-    export let deadToggleWrapper: string;
-    export let input: string;
-    export let deadToggleInput: string;
-    export let inputDisabled: string;
-    export let focusable: string;
-    export let focusableWithin: string;
-    let label_5: string;
-    export { label_5 as label };
-    export let deadToggleLabel: string;
-    export let noContent: string;
-    export let indeterminate: string;
-    let labelDisabled_1: string;
-    export { labelDisabled_1 as labelDisabled };
-    export let checkbox: string;
-    export let checkboxChecked: string;
-    export let checkboxInvalid: string;
-    export let checkboxDisabled: string;
-    export let labelCheckboxBorder: string;
-    export let radio: string;
-    export let radioChecked: string;
-    export let radioInvalid: string;
-    export let radioDisabled: string;
-    export let labelRadioBorder: string;
-    export let radioButtons: string;
+    export let wrapperRadioButtons: string;
+    export let wrapperRadioButtonsJustified: string;
     export let radioButtonsGroup: string;
-    export let radioButtonsLabel: string;
-    export let radioButtonsJustified: string;
     export let radioButtonsGroupJustified: string;
-    export let radioButtonsLabelSmall: string;
-    let icon_3: string;
-    export { icon_3 as icon };
+    export let input: string;
     let a11y_5: string;
     export { a11y_5 as a11y };
+    let label_5: string;
+    export { label_5 as label };
+    export let labelBefore: string;
+    export let indeterminate: string;
+    export let indeterminateDisabled: string;
+    export let checkbox: string;
+    export let checkboxDisabled: string;
+    export let checkboxInvalid: string;
+    export let radio: string;
+    export let radioDisabled: string;
+    export let radioInvalid: string;
+    export let radioButtonsLabel: string;
+    export let radioButtonsRegular: string;
+    export let radioButtonsSmall: string;
+}
+export namespace deadToggle {
+    let wrapper_11: string;
+    export { wrapper_11 as wrapper };
+    let input_1: string;
+    export { input_1 as input };
+    export let inputVue: string;
+    export let labelRadio: string;
+    export let labelCheckbox: string;
+    export let labelVue: string;
 }
 export namespace clickable {
     export let toggle: string;
@@ -450,8 +448,8 @@ export namespace clickable {
     export let buttonOrLinkStretch: string;
 }
 export namespace combobox {
-    let wrapper_11: string;
-    export { wrapper_11 as wrapper };
+    let wrapper_12: string;
+    export { wrapper_12 as wrapper };
     export let combobox: string;
     export let textMatch: string;
     export let listbox: string;
@@ -527,8 +525,8 @@ export namespace pagination {
     let link_2: string;
     export { link_2 as link };
     export let currentPage: string;
-    let icon_4: string;
-    export { icon_4 as icon };
+    let icon_3: string;
+    export { icon_3 as icon };
     export let containerNav: string;
     let a11y_7: string;
     export { a11y_7 as a11y };
