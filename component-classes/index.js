@@ -190,6 +190,7 @@ export const expandable = {
   expandable: 'will-change-height',
   expandableTitle: 'font-bold s-text',
   expandableBox: 's-bg-subtle hover:s-bg-subtle-hover py-0 px-0 ' + box.box,
+  expandableInfo: 's-bg-info-subtle! hover:s-bg-info-subtle-hover!',
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',

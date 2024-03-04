@@ -191,6 +191,7 @@ export namespace expandable {
     export let expandable: string;
     export let expandableTitle: string;
     export let expandableBox: string;
+    export let expandableInfo: string;
     import expandableBleed = box.bleed;
     export { expandableBleed };
     export let chevron: string;
