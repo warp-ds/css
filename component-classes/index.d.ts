@@ -494,6 +494,10 @@ export namespace backwardsCompatibleClasses {
     export { radioDisabled_1 as radioDisabled };
     export let modalTitle: string;
     export let pillClose: string;
+    let toggle_1: string;
+    export { toggle_1 as toggle };
+    export let radioButton: string;
+    export let toggleIndeterminate: string;
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBoxTokens: string;
