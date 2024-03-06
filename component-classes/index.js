@@ -477,8 +477,8 @@ export const deadToggle = {
   wrapper: `${toggle.wrapper} h-20 w-20 pointer-events-none`,
   input: `${toggle.input} hidden`,
   inputVue: 'hidden',
-  labelRadio: `${toggle.label} ${toggle.labelBeforeRegular} ${toggle.radio}`,
-  labelCheckbox: `${toggle.label} ${toggle.labelBeforeRegular} ${toggle.checkbox}`,
+  labelRadio: `${toggle.label} ${toggle.labelBefore} ${toggle.radio}`,
+  labelCheckbox: `${toggle.label} ${toggle.labelBefore} ${toggle.checkbox}`,
   labelVue: '-mt-2',
 };
 
