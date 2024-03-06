@@ -417,7 +417,6 @@ export namespace toggle {
     export { a11y_5 as a11y };
     let label_5: string;
     export { label_5 as label };
-    export let labelBefore: string;
     export let indeterminate: string;
     export let indeterminateDisabled: string;
     export let checkbox: string;
