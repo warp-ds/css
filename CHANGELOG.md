@@ -1,3 +1,10 @@
+## [1.8.4-next.3](https://github.com/warp-ds/css/compare/v1.8.4-next.2...v1.8.4-next.3) (2024-03-07)
+
+
+### Bug Fixes
+
+* **toggle:** clean up classes to fix style overriding ([#176](https://github.com/warp-ds/css/issues/176)) ([c9ff573](https://github.com/warp-ds/css/commit/c9ff5735d66ba7f425ea2571018dc1a2d407f0d4))
+
 ## [1.8.4-next.2](https://github.com/warp-ds/css/compare/v1.8.4-next.1...v1.8.4-next.2) (2024-03-04)
 
 
