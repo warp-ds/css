@@ -529,7 +529,7 @@ export const backwardsCompatibleClasses = {
   radioDisabled: 'before:i-bg-$color-radio-background-disabled before:i-bg-$color-checkbox-background-disabled peer-checked:before:i-border-$color-radio-border-selected-disabled', //replaced in v1.5.0
   modalTitle: 'h-40 sm:h-48 items-center', // replaced by min-h-40 sm:min-h-48 items-start
   pillClose: 'pt-4 pb-6 text-m!', //replaced by py-8
-  toggle: 'peer-disabled:before:s-bg-disabled-subtle',
+  toggle: 'peer-disabled:before:s-bg-disabled-subtle before:bg-[url(var(--w-form-check-mark))]',
   radioButton: 'flex! py-[5px]! px-[8px]!',
   toggleIndeterminate: 'before:content-["-"] before:flex! before:items-center before:justify-center peer-indeterminate:hover:before:s-border-primary',
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
