@@ -1,3 +1,10 @@
+## [1.8.5-next.1](https://github.com/warp-ds/css/compare/v1.8.4...v1.8.5-next.1) (2024-03-08)
+
+
+### Bug Fixes
+
+* **cc:** restore missing checkmark class for backwards compatibility ([#178](https://github.com/warp-ds/css/issues/178)) ([dcd980e](https://github.com/warp-ds/css/commit/dcd980e59639681dd81fb0935c552efc5c9f6666))
+
 ## [1.8.4](https://github.com/warp-ds/css/compare/v1.8.3...v1.8.4) (2024-03-07)
 
 
