@@ -53,7 +53,7 @@ export const box = {
   box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
   info: 's-bg-info-subtle',
-  neutral: 's-bg-sunken',
+  neutral: 'bg-[--w-s-color-surface-sunken]',
   bordered: 'border-2 s-border s-bg',
   infoClickable: 'hover:s-bg-info-subtle-hover active:s-bg-info-subtle-hover',
   neutralClickable: 'hover:s-bg-subtle-hover active:s-bg-subtle-hover',
