@@ -1,3 +1,10 @@
+# [1.9.0-next.1](https://github.com/warp-ds/css/compare/v1.8.5...v1.9.0-next.1) (2024-03-14)
+
+
+### Features
+
+* add styles to attention ([#170](https://github.com/warp-ds/css/issues/170)) ([192a683](https://github.com/warp-ds/css/commit/192a6839183af22215f914339088a12938cf2a19))
+
 ## [1.8.5](https://github.com/warp-ds/css/compare/v1.8.4...v1.8.5) (2024-03-08)
 
 
