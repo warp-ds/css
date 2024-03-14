@@ -1,7 +1,7 @@
 {
   "name": "@warp-ds/css",
   "repository": "git@github.com:warp-ds/css.git",
-  "version": "1.8.3",
+  "version": "1.8.5",
   "scripts": {
     "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc",
     "commit": "cz",

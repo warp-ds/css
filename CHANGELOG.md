@@ -1,3 +1,47 @@
+## [1.8.5](https://github.com/warp-ds/css/compare/v1.8.4...v1.8.5) (2024-03-08)
+
+
+### Bug Fixes
+
+* **cc:** restore missing checkmark class for backwards compatibility ([#178](https://github.com/warp-ds/css/issues/178)) ([dcd980e](https://github.com/warp-ds/css/commit/dcd980e59639681dd81fb0935c552efc5c9f6666))
+
+## [1.8.5-next.1](https://github.com/warp-ds/css/compare/v1.8.4...v1.8.5-next.1) (2024-03-08)
+
+
+### Bug Fixes
+
+* **cc:** restore missing checkmark class for backwards compatibility ([#178](https://github.com/warp-ds/css/issues/178)) ([dcd980e](https://github.com/warp-ds/css/commit/dcd980e59639681dd81fb0935c552efc5c9f6666))
+
+## [1.8.4](https://github.com/warp-ds/css/compare/v1.8.3...v1.8.4) (2024-03-07)
+
+
+### Bug Fixes
+
+* Add class for Expandable info variant ([#175](https://github.com/warp-ds/css/issues/175)) ([c740e6e](https://github.com/warp-ds/css/commit/c740e6e916fb4f38d6f8891586ea5860b8178d44))
+* Fix transparent background for readonly textfields ([#172](https://github.com/warp-ds/css/issues/172)) ([709bd1e](https://github.com/warp-ds/css/commit/709bd1ebda2cf063beedffe19bf37de8e6c01d06))
+* **toggle:** clean up classes to fix style overriding ([#176](https://github.com/warp-ds/css/issues/176)) ([c9ff573](https://github.com/warp-ds/css/commit/c9ff5735d66ba7f425ea2571018dc1a2d407f0d4))
+
+## [1.8.4-next.3](https://github.com/warp-ds/css/compare/v1.8.4-next.2...v1.8.4-next.3) (2024-03-07)
+
+
+### Bug Fixes
+
+* **toggle:** clean up classes to fix style overriding ([#176](https://github.com/warp-ds/css/issues/176)) ([c9ff573](https://github.com/warp-ds/css/commit/c9ff5735d66ba7f425ea2571018dc1a2d407f0d4))
+
+## [1.8.4-next.2](https://github.com/warp-ds/css/compare/v1.8.4-next.1...v1.8.4-next.2) (2024-03-04)
+
+
+### Bug Fixes
+
+* Add class for Expandable info variant ([#175](https://github.com/warp-ds/css/issues/175)) ([c740e6e](https://github.com/warp-ds/css/commit/c740e6e916fb4f38d6f8891586ea5860b8178d44))
+
+## [1.8.4-next.1](https://github.com/warp-ds/css/compare/v1.8.3...v1.8.4-next.1) (2024-03-01)
+
+
+### Bug Fixes
+
+* Fix transparent background for readonly textfields ([#172](https://github.com/warp-ds/css/issues/172)) ([709bd1e](https://github.com/warp-ds/css/commit/709bd1ebda2cf063beedffe19bf37de8e6c01d06))
+
 ## [1.8.3](https://github.com/warp-ds/css/compare/v1.8.2...v1.8.3) (2024-02-15)
 
 
