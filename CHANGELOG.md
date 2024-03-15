@@ -1,3 +1,10 @@
+# [1.9.0-next.2](https://github.com/warp-ds/css/compare/v1.9.0-next.1...v1.9.0-next.2) (2024-03-15)
+
+
+### Features
+
+* Rework of tokens (dark mode foundation) ([#174](https://github.com/warp-ds/css/issues/174)) ([24207a3](https://github.com/warp-ds/css/commit/24207a31ae5968e6bd547575f4ed744c59c6b301))
+
 # [1.9.0-next.1](https://github.com/warp-ds/css/compare/v1.8.5...v1.9.0-next.1) (2024-03-14)
 
 
