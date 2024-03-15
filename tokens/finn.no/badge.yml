@@ -4,7 +4,7 @@ token: maps
 color:
   badge:
     neutral:
-      background: bluegray-100
+      background: gray-100
     info:
       background: aqua-100
     positive:
