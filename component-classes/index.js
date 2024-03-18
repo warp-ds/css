@@ -412,9 +412,9 @@ export const label = {
 };
 
 export const helpText = {
-  helpText: 'text-xs mt-4 block s-text-subtle',
-  helpTextValid: 's-text-positive',
-  helpTextInvalid: 's-text-negative',
+  helpText: 'text-xs mt-4 block',
+  helpTextColor: 's-text-subtle',
+  helpTextColorInvalid: 's-text-negative',
 };
 
 const prefixSuffixWrapperBase = 'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
