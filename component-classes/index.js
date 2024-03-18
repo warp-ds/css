@@ -407,8 +407,7 @@ export const select = {
 
 export const label = {
   label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
-  labelInvalid: 's-text-negative',
-  optional: 'pl-8 font-normal text-s s-text',
+  optional: 'pl-8 font-normal text-s s-text-subtle',
 };
 
 export const helpText = {

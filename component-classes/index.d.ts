@@ -369,7 +369,6 @@ export namespace select {
 export namespace label {
     let label_2: string;
     export { label_2 as label };
-    export let labelInvalid: string;
     export let optional: string;
 }
 export namespace helpText {
