@@ -397,7 +397,7 @@ export const input = {
 export const select = {
   default: 'block text-m mb-0 leading-m s-text s-bg s-border hover:s-border-hover active:s-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
   disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! active:s-border-disabled! s-text-disabled pointer-events-none',
-  invalid: 's-border-negative',
+  invalid: 's-border-negative hover:s-border-negative-hover! outline-[--w-s-color-border-negative]!',
   readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
