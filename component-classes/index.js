@@ -417,7 +417,7 @@ export const helpText = {
   helpTextInvalid: 's-text-negative',
 };
 
-const prefixSuffixWrapperBase = 'absolute top-0 bottom-0 flex justify-center items-center focusable focus:[--w-outline-offset:-2px] bg-transparent ';
+const prefixSuffixWrapperBase = 'absolute top-0 bottom-0 flex justify-center items-center focusable rounded-4 focus:[--w-outline-offset:-2px] bg-transparent ';
 
 export const suffix = {
   wrapper: prefixSuffixWrapperBase + 'right-0',
