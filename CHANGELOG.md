@@ -1,3 +1,10 @@
+# [1.9.0-next.3](https://github.com/warp-ds/css/compare/v1.9.0-next.2...v1.9.0-next.3) (2024-03-19)
+
+
+### Bug Fixes
+
+* **cc-input/select:** fix outline color in invalid state ([#181](https://github.com/warp-ds/css/issues/181)) ([73a55f0](https://github.com/warp-ds/css/commit/73a55f0ec4bacf97e10178937ad8d778f5f53e44))
+
 # [1.9.0-next.2](https://github.com/warp-ds/css/compare/v1.9.0-next.1...v1.9.0-next.2) (2024-03-15)
 
 
