@@ -18,9 +18,9 @@ s:
         subtle: gray-200
       inverted: gray-900
       subtle:
-        _: gray-50
-        hover: gray-100
-        active: gray-200
+        _: gray-100
+        hover: gray-200
+        active: gray-300
       primary:
         _: blueberry-600
         hover: blueberry-700
@@ -37,10 +37,6 @@ s:
         _: green-600
         hover: green-700
         active: green-800
-        selected:
-          _: green-50
-          hover: green-100
-          active: green-200
         subtle:
           _: green-50
           hover: green-100
@@ -49,10 +45,6 @@ s:
         _: red-600
         hover: red-700
         active: red-800
-        selected:
-          _: red-50
-          hover: red-100
-          active: red-200
         subtle:
           _: red-50
           hover: red-100
@@ -61,10 +53,6 @@ s:
         _: yellow-600
         hover: yellow-700
         active: yellow-800
-        selected:
-          _: yellow-50
-          hover: yellow-100
-          active: yellow-200
         subtle:
           _: yellow-50
           hover: yellow-100
@@ -73,15 +61,11 @@ s:
         _: blue-600
         hover: blue-700
         active: blue-800
-        selected:
-          _: blue-50
-          hover: blue-100
-          active: blue-200
         subtle:
           _: blue-50
           hover: blue-100
           active: blue-200
-      notification: red-600
+      notification: watermelon-600
 
     border:
       _: gray-300
@@ -141,6 +125,7 @@ s:
 
     icon:
       _: gray-900
+      static: gray-900
       hover: gray-900
       active: gray-900
       selected:
@@ -156,6 +141,7 @@ s:
         _: white
         hover: gray-100
         active: gray-200
+        static: white
       primary: blueberry-600
       secondary:
         _: watermelon-500
@@ -168,10 +154,12 @@ s:
 
     text:
       _: gray-900
+      static: gray-900
       subtle: gray-500
       placeholder: gray-300
       inverted:
         _: white
+        static: white
         subtle: gray-50
       link: blueberry-600
       disabled: gray-300
@@ -182,3 +170,35 @@ s:
     focused: blue-300
 
     divider: gray-200
+
+    surface:
+      sunken: gray-50
+      elevated:
+        100:
+          _: white
+          hover: gray-100
+          active: gray-200
+        200:
+          _: white
+          hover: gray-100
+          active: gray-200
+        300:
+          _: white
+          hover: gray-100
+          active: gray-200
+
+  shadow:
+    surface:
+      elevated:
+        100:
+          _: shadow-m
+          hover: shadow-l
+          active: shadow-m
+        200:
+          _: shadow-s
+          hover: shadow-m
+          active: shadow-s
+        300:
+          _: shadow-l
+          hover: shadow-xl
+          active: shadow-l

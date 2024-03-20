@@ -5,5 +5,5 @@ color:
   switch:
     track:
       background:
-        _: gray-300
-        hover: gray-400
+        _: gray-200
+        hover: gray-300

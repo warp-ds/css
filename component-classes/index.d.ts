@@ -369,11 +369,13 @@ export namespace select {
 export namespace label {
     let label_2: string;
     export { label_2 as label };
-    export let labelInvalid: string;
     export let optional: string;
+    export let labelInvalid: string;
 }
 export namespace helpText {
     let helpText: string;
+    let helpTextColor: string;
+    let helpTextColorInvalid: string;
     let helpTextValid: string;
     let helpTextInvalid: string;
 }
@@ -468,10 +470,18 @@ export namespace attention {
     export let highlight: string;
     export let popover: string;
     export let arrowBase: string;
+    export let arrowDirectionLeftStart: string;
     export let arrowDirectionLeft: string;
+    export let arrowDirectionLeftEnd: string;
+    export let arrowDirectionRightStart: string;
     export let arrowDirectionRight: string;
+    export let arrowDirectionRightEnd: string;
+    export let arrowDirectionBottomStart: string;
     export let arrowDirectionBottom: string;
+    export let arrowDirectionBottomEnd: string;
+    export let arrowDirectionTopStart: string;
     export let arrowDirectionTop: string;
+    export let arrowDirectionTopEnd: string;
     export let arrowTooltip: string;
     export let arrowCallout: string;
     export let arrowPopover: string;

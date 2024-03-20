@@ -1,3 +1,38 @@
+# [1.9.0-next.5](https://github.com/warp-ds/css/compare/v1.9.0-next.4...v1.9.0-next.5) (2024-03-20)
+
+
+### Bug Fixes
+
+* **cc:** fix label and helpText colors ([#180](https://github.com/warp-ds/css/issues/180)) ([e7b99e1](https://github.com/warp-ds/css/commit/e7b99e1b6931483a85fd52be1beee87c6f1d979d))
+
+# [1.9.0-next.4](https://github.com/warp-ds/css/compare/v1.9.0-next.3...v1.9.0-next.4) (2024-03-20)
+
+
+### Bug Fixes
+
+* Hovered links should have underline, for all brands, through the resets css ([#182](https://github.com/warp-ds/css/issues/182)) ([710e67d](https://github.com/warp-ds/css/commit/710e67def7c5caec431d5ab65aec457ff0e789a6))
+
+# [1.9.0-next.3](https://github.com/warp-ds/css/compare/v1.9.0-next.2...v1.9.0-next.3) (2024-03-19)
+
+
+### Bug Fixes
+
+* **cc-input/select:** fix outline color in invalid state ([#181](https://github.com/warp-ds/css/issues/181)) ([73a55f0](https://github.com/warp-ds/css/commit/73a55f0ec4bacf97e10178937ad8d778f5f53e44))
+
+# [1.9.0-next.2](https://github.com/warp-ds/css/compare/v1.9.0-next.1...v1.9.0-next.2) (2024-03-15)
+
+
+### Features
+
+* Rework of tokens (dark mode foundation) ([#174](https://github.com/warp-ds/css/issues/174)) ([24207a3](https://github.com/warp-ds/css/commit/24207a31ae5968e6bd547575f4ed744c59c6b301))
+
+# [1.9.0-next.1](https://github.com/warp-ds/css/compare/v1.8.5...v1.9.0-next.1) (2024-03-14)
+
+
+### Features
+
+* add styles to attention ([#170](https://github.com/warp-ds/css/issues/170)) ([192a683](https://github.com/warp-ds/css/commit/192a6839183af22215f914339088a12938cf2a19))
+
 ## [1.8.5](https://github.com/warp-ds/css/compare/v1.8.4...v1.8.5) (2024-03-08)
 
 

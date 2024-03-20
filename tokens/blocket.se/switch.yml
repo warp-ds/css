@@ -5,5 +5,5 @@ color:
   switch:
     track:
       background:
-        _: s-color-background-subtle
-        hover: s-color-background-subtle-hover
+        _: gray-200
+        hover: gray-300

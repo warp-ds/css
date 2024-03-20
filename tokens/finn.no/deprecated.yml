@@ -66,7 +66,7 @@ color:
       text: s-color-text
       background: s-color-background-disabled
     price:
-      text: s-color-text-inverted
+      text: s-color-text-inverted-static
       background: black-alpha70
     notification:
       text: s-color-text-notification
@@ -530,12 +530,28 @@ s:
         default: blue-600
       positive:
         default: green-50
+        selected:
+          _: green-50
+          hover: green-100
+          active: green-200
       negative:
         default: red-50
+        selected:
+          _: red-50
+          hover: red-100
+          active: red-200
       warning:
         default: yellow-50
+        selected:
+          _: yellow-50
+          hover: yellow-100
+          active: yellow-200
       info:
         default: aqua-50
+        selected:
+          _: blue-50
+          hover: blue-100
+          active: blue-200
 
     border:
       default: bluegray-300

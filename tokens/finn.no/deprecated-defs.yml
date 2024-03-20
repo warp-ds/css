@@ -16,3 +16,19 @@ blue:
     alpha30: "rgba(92,156,255,.3)"
   600:
     alpha50: "rgba(0,99,251,.5)"
+
+bluegray:
+  50: "#f8fafc"
+  100: "#f1f4f9"
+  200: "#e1e6ee"
+  300: "#c3ccd9"
+  400: "#9ba8ba"
+  500: "#6f7d90"
+  600: "#4d586f"
+  700: "#3B4353"
+  800: "#292d38"
+  900: "#181a1f"
+
+decoration:
+  text:
+    link: underline
