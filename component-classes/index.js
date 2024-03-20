@@ -407,12 +407,15 @@ export const select = {
 
 export const label = {
   label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
-  labelInvalid: 's-text-negative',
-  optional: 'pl-8 font-normal text-s s-text',
+  optional: 'pl-8 font-normal text-s s-text-subtle',
+  labelInvalid: 's-text-negative', // TODO: Remove in v2 - kept for backwards compatibility
 };
 
 export const helpText = {
-  helpText: 'text-xs mt-4 block s-text-subtle',
+  helpText: 'text-xs mt-4 block',
+  helpTextColor: 's-text-subtle',
+  helpTextColorInvalid: 's-text-negative',
+  // TODO: Remove below properties in v2 - kept for backwards compatibility
   helpTextValid: 's-text-positive',
   helpTextInvalid: 's-text-negative',
 };
