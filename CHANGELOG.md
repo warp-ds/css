@@ -1,3 +1,10 @@
+# [1.9.0-next.4](https://github.com/warp-ds/css/compare/v1.9.0-next.3...v1.9.0-next.4) (2024-03-20)
+
+
+### Bug Fixes
+
+* Hovered links should have underline, for all brands, through the resets css ([#182](https://github.com/warp-ds/css/issues/182)) ([710e67d](https://github.com/warp-ds/css/commit/710e67def7c5caec431d5ab65aec457ff0e789a6))
+
 # [1.9.0-next.3](https://github.com/warp-ds/css/compare/v1.9.0-next.2...v1.9.0-next.3) (2024-03-19)
 
 
