@@ -370,11 +370,14 @@ export namespace label {
     let label_2: string;
     export { label_2 as label };
     export let optional: string;
+    export let labelInvalid: string;
 }
 export namespace helpText {
     let helpText: string;
     let helpTextColor: string;
     let helpTextColorInvalid: string;
+    let helpTextValid: string;
+    let helpTextInvalid: string;
 }
 export namespace suffix {
     let wrapper_7: string;
