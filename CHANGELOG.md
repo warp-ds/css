@@ -1,3 +1,10 @@
+# [1.9.0-next.5](https://github.com/warp-ds/css/compare/v1.9.0-next.4...v1.9.0-next.5) (2024-03-20)
+
+
+### Bug Fixes
+
+* **cc:** fix label and helpText colors ([#180](https://github.com/warp-ds/css/issues/180)) ([e7b99e1](https://github.com/warp-ds/css/commit/e7b99e1b6931483a85fd52be1beee87c6f1d979d))
+
 # [1.9.0-next.4](https://github.com/warp-ds/css/compare/v1.9.0-next.3...v1.9.0-next.4) (2024-03-20)
 
 
