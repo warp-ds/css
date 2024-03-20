@@ -30,3 +30,7 @@ petroleum:
   700: "#1B5E6A"
   800: "#193F47"
   900: "#122226"
+
+decoration:
+  text:
+    link: underline
