@@ -105,7 +105,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  text-decoration: var(--w-decoration-text-link);
+  text-decoration: underline;
 }
 
 /*

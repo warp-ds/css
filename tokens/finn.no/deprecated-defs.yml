@@ -28,3 +28,7 @@ bluegray:
   700: "#3B4353"
   800: "#292d38"
   900: "#181a1f"
+
+decoration:
+  text:
+    link: underline
