@@ -1,3 +1,10 @@
+## [1.9.2-next.1](https://github.com/warp-ds/css/compare/v1.9.1...v1.9.2-next.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* Update Box and Card to use new surface concept ([#186](https://github.com/warp-ds/css/issues/186)) ([215d8cf](https://github.com/warp-ds/css/commit/215d8cf37287f146da4c66a38725fe1a80b6c17f))
+
 ## [1.9.1](https://github.com/warp-ds/css/compare/v1.9.0...v1.9.1) (2024-03-20)
 
 
