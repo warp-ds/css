@@ -233,7 +233,7 @@ const buttonTypes = {
   utility: `border rounded-4 ${buttonDefaultStyling}`,
   negative: `border-0 rounded-8 ${buttonDefaultStyling}`,
   pill: `p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding ${buttonDefaultStyling}`,
-  link: `bg-transparent focusable ease-in-out inline active:underline hover:underline ${buttonColors.link}`,
+  link: `bg-transparent focusable ease-in-out inline active:underline hover:underline focus:underline ${buttonColors.link}`,
 };
 
 const buttonSizes = {
@@ -323,7 +323,7 @@ export const button = {
 
   link: `${buttonSizes.link} ${buttonTextSizes.medium} ${buttonTypes.link}`,
   linkSmall: `${buttonSizes.link} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
-  linkAsButton: 'inline-block hover:no-underline text-center',
+  linkAsButton: 'inline-block active:no-underline hover:no-underline focus:no-underline text-center',
   a11y: 'sr-only',
   fullWidth: 'w-full max-w-full',
   contentWidth: 'max-w-max',
