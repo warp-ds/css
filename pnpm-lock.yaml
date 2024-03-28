@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.0.4
     version: 0.0.4
   '@warp-ds/uno':
-    specifier: 1.10.1
-    version: 1.10.1
+    specifier: 1.10.2
+    version: 1.10.2
 
 devDependencies:
   '@eik/cli':
@@ -1770,8 +1770,8 @@ packages:
       yaml: 2.3.4
     dev: false
 
-  /@warp-ds/uno@1.10.1:
-    resolution: {integrity: sha512-rTg/NHN4eua8ZgFlDuMGEqr9qQXENJbUfgGcnwXeIzuIJFgeagsDWWxjGiSn4rndAWQZ0z9AhS3/out7/8doPQ==}
+  /@warp-ds/uno@1.10.2:
+    resolution: {integrity: sha512-w3oJ57EPY2Yl2SAJFflw+E+pDIotp68b1ECddoxHgMvxkqeNEYjoObAF/X+x9McLdzV4LTziBirW/XeDGyJoTw==}
     dependencies:
       '@unocss/core': 0.58.5
       '@unocss/preset-mini': 0.58.5
