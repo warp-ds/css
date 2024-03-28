@@ -1,3 +1,10 @@
+## [1.9.2-next.2](https://github.com/warp-ds/css/compare/v1.9.2-next.1...v1.9.2-next.2) (2024-03-28)
+
+
+### Bug Fixes
+
+* Resolved underline issues in Button component ([#187](https://github.com/warp-ds/css/issues/187)) ([4812cfd](https://github.com/warp-ds/css/commit/4812cfd224de2709f7b26faab6293f5dc18efc43))
+
 ## [1.9.2-next.1](https://github.com/warp-ds/css/compare/v1.9.1...v1.9.2-next.1) (2024-03-27)
 
 
