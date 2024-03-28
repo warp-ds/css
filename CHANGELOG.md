@@ -1,3 +1,10 @@
+## [1.9.2-next.3](https://github.com/warp-ds/css/compare/v1.9.2-next.2...v1.9.2-next.3) (2024-03-28)
+
+
+### Bug Fixes
+
+* Update warp-ds/uno ([#188](https://github.com/warp-ds/css/issues/188)) ([20909d2](https://github.com/warp-ds/css/commit/20909d274cbdcb7bf5eb0b04165aed78459738f7))
+
 ## [1.9.2-next.2](https://github.com/warp-ds/css/compare/v1.9.2-next.1...v1.9.2-next.2) (2024-03-28)
 
 
