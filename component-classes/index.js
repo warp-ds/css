@@ -53,11 +53,11 @@ export const box = {
   box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
   info: 's-bg-info-subtle',
-  neutral: 'bg-[--w-s-color-surface-sunken]',
+  neutral: 's-surface-sunken',
   bordered: 'border-2 s-border s-bg',
-  infoClickable: 'hover:s-bg-info-subtle-hover active:s-bg-info-subtle-hover',
-  neutralClickable: 'hover:s-bg-subtle-hover active:s-bg-subtle-hover',
-  borderedClickable: 'hover:s-bg-hover active:s-bg-hover hover:s-border-hover active:s-border-hover',
+  infoClickable: 'hover:s-bg-info-subtle-hover active:s-bg-info-subtle-active', // Deprecated - Remove in v2 (after removing Clickable prop in the Box components)
+  neutralClickable: 'hover:s-bg-hover active:s-bg-active', // Deprecated - Remove in v2 (after removing Clickable prop in the Box components)
+  borderedClickable: 'hover:s-bg-hover active:s-bg-active hover:s-border-hover active:s-border-active', // Deprecated - Remove in v2 (after removing Clickable prop in the Box components)
 };
 
 export const pill = {
@@ -107,12 +107,12 @@ export const steps = {
 
 export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all',
-  cardShadow: 'rounded-8 shadow-s hover:shadow-m hover:s-bg-subtle-hover tap-highlight-transparent',
+  cardShadow: 'rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover',
   cardFlat: 'border-2 rounded-4',
   cardFlatUnselected: 's-bg s-border hover:s-bg-hover hover:s-border-hover active:s-bg-active active:s-border-active',
   cardFlatSelected: 's-border-selected s-bg-selected hover:s-bg-selected-hover hover:s-border-selected-hover active:s-border-selected-active active:s-bg-selected-active',
   cardUnselected: 's-bg',
-  cardSelected: 's-border-selected s-bg-selected hover:s-border-selected-hover hover:s-bg-selected-hover active:s-border-selected-active active:s-bg-selected-active',
+  cardSelected: 's-border-selected !s-bg-selected hover:s-border-selected-hover !hover:s-bg-selected-hover active:s-border-selected-active !active:s-bg-selected-active',
   cardOutline: 'active:s-border absolute rounded-8 inset-0 transition-all border-2',
   cardOutlineUnselected: 'border-transparent',
   cardOutlineSelected: 's-border-selected hover:s-border-selected-hover',
@@ -120,7 +120,7 @@ export const card = {
 };
 
 export const switchToggle = {
-  switch: 'tap-highlight-transparent',
+  switch: '', // TODO: Remove this in v2
   label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
@@ -233,7 +233,7 @@ const buttonTypes = {
   utility: `border rounded-4 ${buttonDefaultStyling}`,
   negative: `border-0 rounded-8 ${buttonDefaultStyling}`,
   pill: `p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding ${buttonDefaultStyling}`,
-  link: `bg-transparent focusable ease-in-out inline active:underline hover:underline ${buttonColors.link}`,
+  link: `bg-transparent focusable ease-in-out inline active:underline hover:underline focus:underline ${buttonColors.link}`,
 };
 
 const buttonSizes = {
@@ -323,7 +323,7 @@ export const button = {
 
   link: `${buttonSizes.link} ${buttonTextSizes.medium} ${buttonTypes.link}`,
   linkSmall: `${buttonSizes.link} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
-  linkAsButton: 'inline-block hover:no-underline text-center',
+  linkAsButton: 'inline-block active:no-underline hover:no-underline focus:no-underline text-center',
   a11y: 'sr-only',
   fullWidth: 'w-full max-w-full',
   contentWidth: 'max-w-max',
@@ -573,6 +573,7 @@ export const backwardsCompatibleClasses = {
   removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
   removedTooltipTokens: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background shadow-m i-text-$color-tooltip-text i-shadow-$shadow-tooltip',
   removedAlphaTokens: 'bg-[--w-color-badge-price-background] bg-[--w-black-alpha25]',
+  surfaceUpdates: 'hover:shadow-m bg-[--w-s-color-surface-sunken] active:s-bg-hover active:s-bg-subtle-hover active:s-border-hover active:s-bg-info-subtle-hover',
 };
 
 export const pagination = {

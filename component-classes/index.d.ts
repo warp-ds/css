@@ -536,6 +536,7 @@ export namespace backwardsCompatibleClasses {
     export let removedToastTokens: string;
     export let removedTooltipTokens: string;
     export let removedAlphaTokens: string;
+    export let surfaceUpdates: string;
 }
 export namespace pagination {
     let link_2: string;
