@@ -1,3 +1,10 @@
+## [1.9.3-next.1](https://github.com/warp-ds/css/compare/v1.9.2...v1.9.3-next.1) (2024-04-11)
+
+
+### Bug Fixes
+
+* Updates for Card (and Expandable box) component classes ([#191](https://github.com/warp-ds/css/issues/191)) ([3f9c63c](https://github.com/warp-ds/css/commit/3f9c63cbcab7ab473d98af4d4b033e0bbda52a3c))
+
 ## [1.9.2](https://github.com/warp-ds/css/compare/v1.9.1...v1.9.2) (2024-04-04)
 
 
