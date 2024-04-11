@@ -1,3 +1,11 @@
+## [1.9.3](https://github.com/warp-ds/css/compare/v1.9.2...v1.9.3) (2024-04-11)
+
+
+### Bug Fixes
+
+* New semantic icon colors for hover and active states in Tori ([#192](https://github.com/warp-ds/css/issues/192)) ([2a9107c](https://github.com/warp-ds/css/commit/2a9107c4cd2e8a310b37c2182e8b2f1b4932b224))
+* Updates for Card (and Expandable box) component classes ([#191](https://github.com/warp-ds/css/issues/191)) ([3f9c63c](https://github.com/warp-ds/css/commit/3f9c63cbcab7ab473d98af4d4b033e0bbda52a3c))
+
 ## [1.9.3-next.2](https://github.com/warp-ds/css/compare/v1.9.3-next.1...v1.9.3-next.2) (2024-04-11)
 
 
