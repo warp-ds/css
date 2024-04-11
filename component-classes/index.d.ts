@@ -103,14 +103,14 @@ export namespace steps {
 export namespace card {
     export let card: string;
     export let cardShadow: string;
-    export let cardFlat: string;
-    export let cardFlatUnselected: string;
-    export let cardFlatSelected: string;
     export let cardUnselected: string;
     export let cardSelected: string;
     export let cardOutline: string;
     export let cardOutlineUnselected: string;
     export let cardOutlineSelected: string;
+    export let cardFlat: string;
+    export let cardFlatUnselected: string;
+    export let cardFlatSelected: string;
     let a11y_1: string;
     export { a11y_1 as a11y };
 }
