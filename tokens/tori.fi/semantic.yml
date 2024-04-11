@@ -126,8 +126,8 @@ s:
     icon:
       _: gray-900
       static: gray-900
-      hover: gray-900
-      active: gray-900
+      hover: blueberry-800
+      active: blueberry-900
       selected:
         _: blueberry-600
         hover: blueberry-700
