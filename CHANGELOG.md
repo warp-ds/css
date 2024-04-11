@@ -1,3 +1,10 @@
+## [1.9.3-next.2](https://github.com/warp-ds/css/compare/v1.9.3-next.1...v1.9.3-next.2) (2024-04-11)
+
+
+### Bug Fixes
+
+* New semantic icon colors for hover and active states in Tori ([#192](https://github.com/warp-ds/css/issues/192)) ([2a9107c](https://github.com/warp-ds/css/commit/2a9107c4cd2e8a310b37c2182e8b2f1b4932b224))
+
 ## [1.9.3-next.1](https://github.com/warp-ds/css/compare/v1.9.2...v1.9.3-next.1) (2024-04-11)
 
 
