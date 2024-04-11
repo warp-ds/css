@@ -107,15 +107,15 @@ export const steps = {
 
 export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all',
-  cardShadow: 'rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover',
+  cardShadow: 'group rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
+  cardUnselected: '', // TODO: Remove in v2 - Not used after introducing surface
+  cardSelected: '!s-bg-selected !hover:s-bg-selected-hover !active:s-bg-selected-active',
+  cardOutline: 'absolute border-2 rounded-8 inset-0 transition-all',
+  cardOutlineUnselected: 'border-transparent group-active:s-border-active',
+  cardOutlineSelected: 's-border-selected group-hover:s-border-selected-hover group-active:s-border-selected-active',
   cardFlat: 'border-2 rounded-4',
-  cardFlatUnselected: 's-bg s-border hover:s-bg-hover hover:s-border-hover active:s-bg-active active:s-border-active',
-  cardFlatSelected: 's-border-selected s-bg-selected hover:s-bg-selected-hover hover:s-border-selected-hover active:s-border-selected-active active:s-bg-selected-active',
-  cardUnselected: 's-bg',
-  cardSelected: 's-border-selected !s-bg-selected hover:s-border-selected-hover !hover:s-bg-selected-hover active:s-border-selected-active !active:s-bg-selected-active',
-  cardOutline: 'active:s-border absolute rounded-8 inset-0 transition-all border-2',
-  cardOutlineUnselected: 'border-transparent',
-  cardOutlineSelected: 's-border-selected hover:s-border-selected-hover',
+  cardFlatUnselected: 's-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
+  cardFlatSelected: 's-bg-selected hover:s-bg-selected-hover active:s-bg-selected-active s-border-selected hover:s-border-selected-hover active:s-border-selected-active',
   a11y: 'sr-only',
 };
 
@@ -189,7 +189,7 @@ export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg
 export const expandable = {
   expandable: 'will-change-height',
   expandableTitle: 'font-bold s-text',
-  expandableBox: 's-bg-subtle hover:s-bg-subtle-hover py-0 px-0 ' + box.box,
+  expandableBox: 's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 ' + box.box,
   expandableInfo: 's-bg-info-subtle! hover:s-bg-info-subtle-hover!',
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle s-icon',
@@ -573,7 +573,7 @@ export const backwardsCompatibleClasses = {
   removedToastTokens: 'i-bg-$color-toast-negative-background i-border-$color-toast-negative-subtle-border i-text-$color-toast-negative-text i-bg-$color-toast-warning-background i-border-$color-toast-warning-subtle-border i-text-$color-toast-warning-text i-text-$color-toast-negative-icon i-text-$color-toast-warning-icon i-text-$color-toast-positive-icon i-border-$color-toast-positive-subtle-border i-bg-$color-toast-positive-background i-text-$color-toast-positive-text i-text-$color-toast-close-icon hover:i-text-$color-toast-close-icon-hover active:i-text-$color-toast-close-icon-active',
   removedTooltipTokens: 'i-bg-$color-tooltip-background i-border-$color-tooltip-background shadow-m i-text-$color-tooltip-text i-shadow-$shadow-tooltip',
   removedAlphaTokens: 'bg-[--w-color-badge-price-background] bg-[--w-black-alpha25]',
-  surfaceUpdates: 'hover:shadow-m bg-[--w-s-color-surface-sunken] active:s-bg-hover active:s-bg-subtle-hover active:s-border-hover active:s-bg-info-subtle-hover',
+  surfaceUpdates: 'hover:s-bg-subtle-hover hover:shadow-m bg-[--w-s-color-surface-sunken] active:s-bg-hover active:s-bg-subtle-hover active:s-border-hover active:s-bg-info-subtle-hover',
 };
 
 export const pagination = {
