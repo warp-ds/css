@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/warp-ds/css/compare/v1.9.3...v1.9.4) (2024-04-15)
+
+
+### Bug Fixes
+
+* Add icon tokens for list-checked ([#194](https://github.com/warp-ds/css/issues/194)) ([258e332](https://github.com/warp-ds/css/commit/258e3324ab8e9b72ebb6657700a0caa65b35db90))
+
 ## [1.9.4-next.1](https://github.com/warp-ds/css/compare/v1.9.3...v1.9.4-next.1) (2024-04-15)
 
 
