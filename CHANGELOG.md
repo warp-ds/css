@@ -1,3 +1,10 @@
+## [1.9.5-next.1](https://github.com/warp-ds/css/compare/v1.9.4...v1.9.5-next.1) (2024-04-23)
+
+
+### Bug Fixes
+
+* Grayscale modifications ([#196](https://github.com/warp-ds/css/issues/196)) ([4f72ac4](https://github.com/warp-ds/css/commit/4f72ac4df1dd3ef5a8691cb9718b7f2ef5b4ac0a))
+
 ## [1.9.4](https://github.com/warp-ds/css/compare/v1.9.3...v1.9.4) (2024-04-15)
 
 
