@@ -41,7 +41,7 @@
   ],
   "dependencies": {
     "@warp-ds/tokenizer": "^0.0.4",
-    "@warp-ds/uno": "1.10.2"
+    "@warp-ds/uno": "1.12.0"
   },
   "devDependencies": {
     "@eik/cli": "^2.0.33",
