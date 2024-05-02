@@ -1,3 +1,10 @@
+## [1.9.6-next.1](https://github.com/warp-ds/css/compare/v1.9.5...v1.9.6-next.1) (2024-05-02)
+
+
+### Bug Fixes
+
+* **cc-input:** avoid style overriding ([#198](https://github.com/warp-ds/css/issues/198)) ([d7b5092](https://github.com/warp-ds/css/commit/d7b509289afa4878e9275330ca3f12eedbc5bfd0))
+
 ## [1.9.5](https://github.com/warp-ds/css/compare/v1.9.4...v1.9.5) (2024-04-23)
 
 
