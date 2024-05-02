@@ -337,18 +337,20 @@ export namespace alert {
     export let infoIcon: string;
 }
 export namespace input {
+    let wrapper_5: string;
+    export { wrapper_5 as wrapper };
+    let base_2: string;
+    export { base_2 as base };
     let _default: string;
     export { _default as default };
-    export let textArea: string;
     let disabled_2: string;
     export { disabled_2 as disabled };
     export let invalid: string;
     export let readOnly: string;
     export let placeholder: string;
-    let wrapper_5: string;
-    export { wrapper_5 as wrapper };
     export let suffix: string;
     export let prefix: string;
+    export let textArea: string;
 }
 export namespace select {
     let _default_1: string;
@@ -463,8 +465,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_2: string;
-    export { base_2 as base };
+    let base_3: string;
+    export { base_3 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
@@ -509,6 +511,8 @@ export namespace backwardsCompatibleClasses {
     export { toggle_1 as toggle };
     export let radioButton: string;
     export let toggleIndeterminate: string;
+    let input_2: string;
+    export { input_2 as input };
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBoxTokens: string;
