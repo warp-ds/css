@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 <!--- Replace `<componentName>` with the actual component name in the title before submitting. --->
-<!--- Add the issue to WARP project under the Project section --->
+<!--- Select WARP under the Project section --->
+<!--- Select "Component classes cleanup" under the Milestone section --->
 
 ### Description
 Ensure no classes styling the same CSS properties are being set on the same HTML element.
