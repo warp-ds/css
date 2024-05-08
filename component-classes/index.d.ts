@@ -513,6 +513,7 @@ export namespace backwardsCompatibleClasses {
     export let toggleIndeterminate: string;
     let input_2: string;
     export { input_2 as input };
+    export let tabs: string;
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBoxTokens: string;
