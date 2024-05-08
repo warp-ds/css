@@ -162,13 +162,12 @@ export const tabs = {
 };
 
 export const tab = {
-  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent s-text-subtle border-transparent hover:s-text-link hover:s-border-primary',
+  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent border-transparent hover:s-text-link hover:s-border-primary',
+  tabInactive: 's-text-subtle',
   tabActive: 's-text-link',
-  icon: 'mx-auto hover:s-text-link',
-  iconUnderlinedActive: 's-text-link',
+  icon: 'mx-auto',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
-  contentUnderlinedActive: 's-text-link',
 };
 
 // Todo: Handle dynamic classnames
