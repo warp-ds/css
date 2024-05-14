@@ -18,6 +18,7 @@ jobs:
           node-version: lts/*
       - uses: pnpm/action-setup@v2
         with:
+          version: 9
           run_install: true
       - name: Build
         run: pnpm build
