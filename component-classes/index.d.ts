@@ -166,14 +166,13 @@ export namespace tabs {
 }
 export namespace tab {
     export let tab: string;
+    export let tabInactive: string;
     export let tabActive: string;
     let icon_1: string;
     export { icon_1 as icon };
-    export let iconUnderlinedActive: string;
     let content_3: string;
     export { content_3 as content };
     export let contentUnderlined: string;
-    export let contentUnderlinedActive: string;
 }
 export namespace gridLayout {
     let cols1: string;
@@ -513,6 +512,7 @@ export namespace backwardsCompatibleClasses {
     export let toggleIndeterminate: string;
     let input_2: string;
     export { input_2 as input };
+    export let tabs: string;
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBoxTokens: string;
