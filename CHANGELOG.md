@@ -1,3 +1,10 @@
+## [1.9.7-next.1](https://github.com/warp-ds/css/compare/v1.9.6...v1.9.7-next.1) (2024-05-16)
+
+
+### Bug Fixes
+
+* Fixed list-checked icon token name for Finn ([#209](https://github.com/warp-ds/css/issues/209)) ([89c0c59](https://github.com/warp-ds/css/commit/89c0c59993cf26b97eb611b6aef784a7a6d4c636))
+
 ## [1.9.6](https://github.com/warp-ds/css/compare/v1.9.5...v1.9.6) (2024-05-13)
 
 
