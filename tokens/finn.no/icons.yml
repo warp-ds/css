@@ -4,7 +4,7 @@ token: defs
 icon:
   # Used for list-checked, hard coded stroke color value set to the equivalent of s-color-icon-selected (as it is not possible to have css vars as values in background images)
   list:
-    check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Ctitle%3ECheckmark%3C/title%3E%3Cpath stroke='%230063fb' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.83 7.667 7.163 11l5.334-6'%3E%3C/path%3E%3C/svg%3E");
+    checked: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Ctitle%3ECheckmark%3C/title%3E%3Cpath stroke='%230063fb' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M3.83 7.667 7.163 11l5.334-6'%3E%3C/path%3E%3C/svg%3E");
 
 # TODO This is not the way to go but it is a shortcut made to be able to add a check mark icon to the toggle. Toggle component needs to be refactored to inline the icon or handled in another way
 form:
