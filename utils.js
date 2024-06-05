@@ -8,7 +8,7 @@ import unzipper from 'unzipper';
 const webReleasesUrl = 'https://github.com/warp-ds/tokens/releases/download/latest/web.zip';
 const webReleasesFileName = 'web.zip';
 const tempDir = 'tmp/';
-const outputDir = 'output/web';
+export const outputDir = 'output/web';
 
 export const init = () => {
   console.log('Initializing setup...');
@@ -39,4 +39,32 @@ export const brandToName = (brand) => {
     case 'TORI light':
       return 'tori-fi';
   }
+};
+
+export const processHexCss = (brandMode) => {
+  let cssHex = fs.readFileSync(`./${outputDir}/${brandMode}/variables.css`, 'utf8');
+  cssHex = cssHex.replaceAll(':root ', ':root,:host ');
+  cssHex = cssHex.replaceAll('--color-', '--w-');
+  cssHex = cssHex.replaceAll('--semantic-color-', '--w-s-color-');
+  cssHex = cssHex.replaceAll('--components-', '--w-color-');
+  cssHex = cssHex.replaceAll('-default:', ':');
+
+  return cssHex;
+};
+
+export const processRGBCss = (brandMode) => {
+  // this regex converts token: rgb(255, 255, 255) to token: 255, 255, 255 which is needed for unocss to work
+  const rgbValuesRegex = /rgb\(([^)]+)\)/g;
+  // this regex removes the components rgb values from the rgb css
+  const componentsRGBRegex = /--components-.*?:\s*var\(\s*--.*\);/g;
+
+  let cssRgb = fs.readFileSync(`./${outputDir}/${brandMode}/variables-rgb.css`, 'utf8');
+  cssRgb = cssRgb.replaceAll(':root ', ':root,:host ');
+  cssRgb = cssRgb.replaceAll('--color-', '--w-rgb-');
+  cssRgb = cssRgb.replaceAll('--semantic-color-', '--w-s-rgb-');
+  cssRgb = cssRgb.replaceAll(componentsRGBRegex, '');
+  cssRgb = cssRgb.replaceAll('-default:', ':');
+  cssRgb = cssRgb.replaceAll(rgbValuesRegex, '$1');
+
+  return cssRgb;
 };
