@@ -1,21 +1,13 @@
-import { finished } from 'node:stream/promises';
-import { Readable } from 'node:stream';
-import { transform } from 'lightningcss';
 import fs from 'fs-extra';
-import path from 'node:path';
+import { transform } from 'lightningcss';
 import unzipper from 'unzipper';
+
+import { downloadFile } from './utils.js';
 
 fs.removeSync('tmp/web.zip');
 fs.removeSync('output/web');
 fs.ensureDirSync('tmp');
 fs.ensureDirSync('output/web');
-
-const downloadFile = async (url, fileName) => {
-  const res = await fetch(url);
-  const destination = path.resolve('./tmp', fileName);
-  const fileStream = fs.createWriteStream(destination, { flags: 'wx' });
-  await finished(Readable.fromWeb(res.body).pipe(fileStream));
-};
 
 await downloadFile('https://github.com/warp-ds/tokens/releases/download/latest/web.zip', 'web.zip');
 
@@ -23,6 +15,7 @@ await unzipper.Open.file('tmp/web.zip').then((d) => d.extract({ path: 'output/we
 
 let cssHex = fs.readFileSync('./output/web/FINN light/variables.css', 'utf8');
 let cssRgb = fs.readFileSync('./output/web/FINN light/variables-rgb.css', 'utf8');
+// this converts rgb(255, 255, 255) to 255, 255, 255 which is needed for unocss to work
 let regex = /rgb\(([^)]+)\)/g;
 
 // these are in hex
@@ -36,8 +29,9 @@ cssHex = cssHex.replaceAll('-default:', ':');
 cssRgb = cssRgb.replaceAll(':root ', ':root,:host ');
 cssRgb = cssRgb.replaceAll('--color-', '--w-rgb-');
 cssRgb = cssRgb.replaceAll('--semantic-color-', '--w-s-rgb-');
+cssRgb = cssRgb.replaceAll(/--components-.*?:\s*var\(\s*--.*\);/g, '');
 cssRgb = cssRgb.replaceAll('-default:', ':');
-//cssRgb = cssRgb.replaceAll('--components-', '--w-color-rgb-');
+
 cssRgb = cssRgb.replaceAll(regex, '$1');
 
 const css = cssHex + cssRgb;
