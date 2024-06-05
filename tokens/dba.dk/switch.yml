@@ -2,9 +2,8 @@
 token: maps
 
 color:
-  pill:
-    suggestion:
+  switch:
+    track:
       background:
         _: gray-200
         hover: gray-300
-        active: gray-400
