@@ -3,6 +3,7 @@ import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 
 import fs from 'fs-extra';
+import { transform } from 'lightningcss';
 import unzipper from 'unzipper';
 
 const webReleasesUrl = 'https://github.com/warp-ds/tokens/releases/download/latest/web.zip';
@@ -27,6 +28,8 @@ export const downloadReleaseFile = async () => {
   console.log('Extracting asset...');
   await unzipper.Open.file(tempDir + webReleasesFileName).then((d) => d.extract({ path: outputDir, concurrency: 5 }));
 };
+
+export const getBrandModes = () => fs.readdirSync(outputDir).filter((item) => fs.statSync(path.join(outputDir, item)).isDirectory());
 
 export const brandToName = (brand) => {
   switch (brand) {
@@ -67,4 +70,17 @@ export const processRGBCss = (brandMode) => {
   cssRgb = cssRgb.replaceAll(rgbValuesRegex, '$1');
 
   return cssRgb;
+};
+
+export const geneateFinalCss = (css, brandMode) => {
+  const { code } = transform({
+    code: Buffer.from(css),
+    //minify: true,
+    targets: {
+      safari: 13 << 16,
+    },
+  });
+
+  // Outputting to a temp directory for now
+  fs.outputFileSync(`./dist-new/${brandToName(brandMode)}.css`, code.toString(), 'utf8');
 };
