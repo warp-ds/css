@@ -33,13 +33,13 @@ export const getBrandModes = () => fs.readdirSync(outputDir).filter((item) => fs
 
 export const brandToName = (brand) => {
   switch (brand) {
-    case 'FINN light':
+    case 'finn-light':
       return 'finn-no';
-    case 'Blocket light':
+    case 'blocket-light':
       return 'blocket-se';
-    case 'DBA light':
+    case 'dba-light':
       return 'dba-dk';
-    case 'TORI light':
+    case 'tori-light':
       return 'tori-fi';
   }
 };

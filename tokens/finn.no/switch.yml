@@ -1,9 +1,0 @@
----
-token: maps
-
-color:
-  switch:
-    track:
-      background:
-        _: gray-200
-        hover: gray-300
