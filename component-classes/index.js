@@ -398,10 +398,10 @@ export const input = {
 };
 
 export const select = {
-  base: 'block text-m mb-0 py-12 pr-32 rounded-4 border-1 w-full focus:[--w-outline-offset:-2px] appearance-none cursor-pointer caret-current',
-  default: 's-text s-bg pl-8 s-border hover:s-border-hover active:s-border-active focusable',
-  disabled: ' s-text-disabled s-bg-disabled-subtle pl-8 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none focusable',
-  invalid: 's-text s-bg pl-8 s-border-negative hover:s-border-negative-hover active:s-border-active outline-[--w-s-color-border-negative]',
+  base: 'block text-m mb-0 py-12 pr-32 rounded-4 w-full focus:[--w-outline-offset:-2px] appearance-none cursor-pointer caret-current',
+  default: 's-text s-bg pl-8 border-1 s-border hover:s-border-hover active:s-border-active focusable',
+  disabled: ' s-text-disabled s-bg-disabled-subtle pl-8 border-1 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none focusable',
+  invalid: 's-text s-bg pl-8 border-1 s-border-negative hover:s-border-negative-hover active:s-border-active outline-[--w-s-color-border-negative]',
   readOnly: 's-text bg-transparent pl-0 border-0 pointer-events-none before:hidden focusable',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
