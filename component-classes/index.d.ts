@@ -515,6 +515,7 @@ export namespace backwardsCompatibleClasses {
     let input_2: string;
     export { input_2 as input };
     export let tabs: string;
+    export let select: string;
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBoxTokens: string;
