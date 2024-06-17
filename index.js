@@ -20,5 +20,5 @@ brandModes.forEach((brandMode) => {
   const css = cssHex + cssRgb + cssTokens;
 
   console.log(`Outputting ${brandMode}...`);
-  geneateFinalCss(css, brandMode);
+  generateFinalCss(css, brandMode);
 });
