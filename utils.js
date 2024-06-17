@@ -72,7 +72,7 @@ export const processRGBCss = (brandMode) => {
   return cssRgb;
 };
 
-export const geneateFinalCss = (css, brandMode) => {
+export const generateFinalCss = (css, brandMode) => {
   const { code } = transform({
     code: Buffer.from(css),
     //minify: true,
