@@ -1,6 +1,6 @@
 import tokenize from '@warp-ds/tokenizer';
 
-import { init, brandToName, downloadReleaseFile, geneateFinalCss, getBrandModes, processHexCss, processRGBCss } from './utils.js';
+import { init, brandToName, downloadReleaseFile, generateFinalCss, getBrandModes, processHexCss, processRGBCss } from './utils.js';
 
 init();
 
