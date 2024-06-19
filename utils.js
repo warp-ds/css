@@ -75,7 +75,7 @@ export const processRGBCss = (brandMode) => {
 export const generateFinalCss = (css, brandMode) => {
   const { code } = transform({
     code: Buffer.from(css),
-    //minify: true,
+    minify: true,
     targets: {
       safari: 13 << 16,
     },
