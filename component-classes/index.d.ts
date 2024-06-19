@@ -360,6 +360,8 @@ export namespace select {
     export { disabled_3 as disabled };
     let invalid_1: string;
     export { invalid_1 as invalid };
+    let readOnly_1: string;
+    export { readOnly_1 as readOnly };
     let wrapper_6: string;
     export { wrapper_6 as wrapper };
     export let selectWrapper: string;
