@@ -7,7 +7,7 @@
     "commit": "cz",
     "semantic-release": "semantic-release",
     "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build",
-    "build:tokens": "cd tokens && node index.js",
+    "build:tokens": "node index.js",
     "build:resets": "cd resets && node index.js",
     "lint": "eslint . --fix --ignore-path .gitignore",
     "lint:check": "eslint . --ignore-path .gitignore"

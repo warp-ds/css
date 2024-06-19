@@ -5,7 +5,7 @@ duplicate_as_rgb: true
 s:
   color:
     border:
-      focused: aqua-400
+      focused: jeanblue-300
       
   shadow:
     surface:

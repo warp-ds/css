@@ -82,5 +82,5 @@ export const generateFinalCss = (css, brandMode) => {
   });
 
   // Outputting to a temp directory for now
-  fs.outputFileSync(`./dist-new/${brandToName(brandMode)}.css`, code.toString(), 'utf8');
+  fs.outputFileSync(`./dist/tokens/${brandToName(brandMode)}.css`, code.toString(), 'utf8');
 };
