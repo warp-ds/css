@@ -369,7 +369,7 @@ export const modal = {
 export const modalElement = {
   // several items in here are 'resets' for the <dialog> element
   dialogEl: 'bg-transparent backface-hidden w-unset h-unset max-w-unset max-h-unset p-0 m-auto border-0 inset-0 open:flex open:fixed sm:place-content-center sm:place-items-center items-end [--w-modal-max-height:80%] [--w-modal-width:640px]',
-  dialogInner: 'transition-all relative pb-safe-[24] sm:pb-24 shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] ease-in-out backface-hidden will-change-height rounded-8 sm:mx-16 s-bg flex flex-col overflow-hidden gap-12 lt-sm:rounded-b-0',
+  dialogInner: 'transition-all relative pb-safe-[32] sm:pb-32 shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] ease-in-out backface-hidden will-change-height rounded-8 sm:mx-16 s-bg flex flex-col overflow-hidden gap-12 lt-sm:rounded-b-0',
   contentSlot: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   header: 'relative',
   headerTitleBar: 'pt-16 sm:pt-24 px-16 sm:px-32 grid gap-12 grid-cols-[auto_1fr_auto] items-start shrink-0!',
