@@ -376,7 +376,7 @@ export const modalElement = {
   headerButton: 'sm:min-h-[32px] sm:min-w-[32px] min-h-[40px] min-w-[40px] text-m leading-[24] p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding font-bold focusable transition-colors ease-in-out',
   headerButtonLeft: '-ml-8 s-icon bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
   headerCloseButton: '-mr-8 s-icon bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
-  headerCloseButtonOnImage: `absolute right-8 sm:right-16 top-8 sm:top-16 z-10 s-color-inverted bg-[var(--w-black)/70] hover:bg-[var(--w-black)/85] active:bg-[var(--w-black)] s-text-inverted`,
+  headerCloseButtonOnImage: `absolute right-8 top-8 z-10 s-color-inverted bg-[var(--w-black)/70] hover:bg-[var(--w-black)/85] active:bg-[var(--w-black)] s-text-inverted`,
   headerTitle: 'mb-0 t3 self-center',
   headerTitleWithBackButton: 'justify-self-center',
   headerTitleWithoutBackButton: 'col-span-2',
