@@ -315,6 +315,23 @@ export namespace modal {
     export let titleButtonIcon: string;
     export let titleButtonIconRotated: string;
 }
+export namespace modalElement {
+    export let dialogEl: string;
+    export let dialogInner: string;
+    export let contentSlot: string;
+    export let header: string;
+    export let headerTitleBar: string;
+    export let headerButton: string;
+    export let headerButtonLeft: string;
+    export let headerCloseButton: string;
+    export let headerCloseButtonOnImage: string;
+    export let headerTitle: string;
+    export let headerTitleWithBackButton: string;
+    export let headerTitleWithoutBackButton: string;
+    export let headerTitleWithTopArea: string;
+    let footer_1: string;
+    export { footer_1 as footer };
+}
 export namespace alert {
     export let alert: string;
     export let willChangeHeight: string;

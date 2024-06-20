@@ -366,6 +366,24 @@ export const modal = {
   titleButtonIconRotated: 'transform rotate-90',
 };
 
+export const modalElement = {
+  // several items in here are 'resets' for the <dialog> element
+  dialogEl: 'bg-transparent backface-hidden w-unset h-unset max-w-unset max-h-unset p-0 m-auto border-0 inset-0 open:flex open:fixed sm:place-content-center sm:place-items-center items-end [--w-modal-max-height:80%] [--w-modal-width:640px]',
+  dialogInner: 'transition-all relative pb-safe-[24] sm:pb-24 shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] ease-in-out backface-hidden will-change-height rounded-8 sm:mx-16 s-bg flex flex-col overflow-hidden gap-12 lt-sm:rounded-b-0',
+  contentSlot: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
+  header: 'relative',
+  headerTitleBar: 'pt-16 sm:pt-24 px-16 sm:px-32 grid gap-12 grid-cols-[auto_1fr_auto] items-start shrink-0!',
+  headerButton: 'sm:min-h-[32px] sm:min-w-[32px] min-h-[40px] min-w-[40px] text-m leading-[24] p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding font-bold focusable transition-colors ease-in-out',
+  headerButtonLeft: 'sm:-ml-8 -ml-12 s-icon bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
+  headerCloseButton: 'sm:-mr-8 -mr-12 s-icon bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
+  headerCloseButtonOnImage: `absolute right-8 sm:right-16 top-8 sm:top-16 z-10 s-color-inverted bg-[var(--w-black)/70] hover:bg-[var(--w-black)/85] active:bg-[var(--w-black)] s-text-inverted`,
+  headerTitle: 'mb-0 t3 self-center',
+  headerTitleWithBackButton: 'justify-self-center',
+  headerTitleWithoutBackButton: 'col-span-2',
+  headerTitleWithTopArea: 'pt-16 px-16 sm:px-32',
+  footer: 'flex justify-end shrink-0 px-16 sm:px-32',
+};
+
 export const alert = {
   alert: 'flex p-16 border border-l-4 rounded-4 s-text',
   willChangeHeight: 'will-change-height',
