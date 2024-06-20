@@ -377,11 +377,11 @@ export const modalElement = {
   headerButtonLeft: 'sm:-ml-8 -ml-12 s-icon bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
   headerCloseButton: 'sm:-mr-8 -mr-12 s-icon bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
   headerCloseButtonOnImage: `absolute right-8 sm:right-16 top-8 sm:top-16 z-10 s-color-inverted bg-[var(--w-black)/70] hover:bg-[var(--w-black)/85] active:bg-[var(--w-black)] s-text-inverted`,
-  headerTitle: 'mb-0 h3 self-center',
+  headerTitle: 'mb-0 t3 self-center',
   headerTitleWithBackButton: 'justify-self-center',
   headerTitleWithoutBackButton: 'col-span-2',
   headerTitleWithTopArea: 'pt-16 px-16 sm:px-32',
-  footer: `flex justify-end shrink-0 px-16 sm:px-32`,
+  footer: 'flex justify-end shrink-0 px-16 sm:px-32',
 };
 
 export const alert = {
