@@ -1,3 +1,10 @@
+# [1.10.0-next.2](https://github.com/warp-ds/css/compare/v1.10.0-next.1...v1.10.0-next.2) (2024-06-20)
+
+
+### Bug Fixes
+
+* use t3 instead of h3 class ([#216](https://github.com/warp-ds/css/issues/216)) ([6a193ed](https://github.com/warp-ds/css/commit/6a193ed96eb86e1ff7cadb3743c8643666fcbcd8))
+
 # [1.10.0-next.1](https://github.com/warp-ds/css/compare/v1.9.7...v1.10.0-next.1) (2024-06-20)
 
 
