@@ -1,3 +1,10 @@
+# [1.10.0-next.1](https://github.com/warp-ds/css/compare/v1.9.7...v1.10.0-next.1) (2024-06-20)
+
+
+### Features
+
+* add classes for modal element ([#214](https://github.com/warp-ds/css/issues/214)) ([0adfe33](https://github.com/warp-ds/css/commit/0adfe33ac4c0f764f2a75b6f152618d2f7570950))
+
 ## [1.9.7](https://github.com/warp-ds/css/compare/v1.9.6...v1.9.7) (2024-05-16)
 
 
