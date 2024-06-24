@@ -1,8 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { resets } from './resets.js';
-import { minify } from '../css-minify.js';
+
 import drnm from 'drnm';
+
+import { minify } from '../css-minify.js';
+
+import { resets } from './resets.js';
 
 const __dirname = drnm(import.meta.url);
 const outPath = path.join(__dirname, '../dist');
