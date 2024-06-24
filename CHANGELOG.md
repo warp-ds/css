@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/warp-ds/css/compare/v1.10.0...v1.10.1) (2024-06-24)
+
+
+### Bug Fixes
+
+* **cc-modal-element:** adjust spacings ([#217](https://github.com/warp-ds/css/issues/217)) ([5f25e65](https://github.com/warp-ds/css/commit/5f25e65cbcaaa83a4c6645f674df7115881e496c))
+
 ## [1.10.1-next.1](https://github.com/warp-ds/css/compare/v1.10.0...v1.10.1-next.1) (2024-06-24)
 
 
