@@ -1,3 +1,41 @@
+# [2.0.0-next.1](https://github.com/warp-ds/css/compare/v1.10.1...v2.0.0-next.1) (2024-06-24)
+
+
+### Features
+
+* build all css tokens from the style-dictionary output ([#212](https://github.com/warp-ds/css/issues/212)) ([4d42258](https://github.com/warp-ds/css/commit/4d42258a37bafdadc4d6dac759ea732e19264501))
+
+
+### BREAKING CHANGES
+
+* * fetch from GH and build
+
+* Add eslint and refactor
+
+* Remove redundant tokens and generate prod ready css tokens
+
+* More refactor
+
+* Refactor more
+
+* Remove switch and update brandNames
+
+* Update utils.js
+
+Co-authored-by: Balbina K <41303231+BalbinaK@users.noreply.github.com>
+
+* Update index.js
+
+Co-authored-by: Balbina K <41303231+BalbinaK@users.noreply.github.com>
+
+* Update index.js
+
+Co-authored-by: Balbina K <41303231+BalbinaK@users.noreply.github.com>
+
+* Cleanup and fix tokens
+
+* minify
+
 ## [1.10.1](https://github.com/warp-ds/css/compare/v1.10.0...v1.10.1) (2024-06-24)
 
 
