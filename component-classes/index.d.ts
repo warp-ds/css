@@ -352,6 +352,8 @@ export namespace input {
     export let textArea: string;
 }
 export namespace select {
+    let base_3: string;
+    export { base_3 as base };
     let _default_1: string;
     export { _default_1 as default };
     let disabled_3: string;
@@ -464,8 +466,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_3: string;
-    export { base_3 as base };
+    let base_4: string;
+    export { base_4 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
@@ -513,6 +515,7 @@ export namespace backwardsCompatibleClasses {
     let input_2: string;
     export { input_2 as input };
     export let tabs: string;
+    export let select: string;
     export let removedAlertTokens: string;
     export let removedBadgeTokens: string;
     export let removedBoxTokens: string;

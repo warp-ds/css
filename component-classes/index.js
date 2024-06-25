@@ -398,13 +398,14 @@ export const input = {
 };
 
 export const select = {
-  default: 'block text-m mb-0 leading-m s-text s-bg s-border hover:s-border-hover active:s-border-active rounded-4 py-12 px-8 block border-1 w-full focusable focus:[--w-outline-offset:-2px] appearance-none pr-32 cursor-pointer caret-current',
-  disabled: 's-bg-disabled-subtle s-border-disabled hover:s-border-disabled! active:s-border-disabled! s-text-disabled pointer-events-none',
-  invalid: 's-border-negative hover:s-border-negative-hover! outline-[--w-s-color-border-negative]!',
-  readOnly: 'pl-0 bg-transparent border-0 pointer-events-none before:hidden',
+  base: 'block text-m mb-0 py-12 pr-32 rounded-4 w-full focusable focus:[--w-outline-offset:-2px] appearance-none cursor-pointer caret-current',
+  default: 's-text s-bg pl-8 border-1 s-border hover:s-border-hover active:s-border-active',
+  disabled: ' s-text-disabled s-bg-disabled-subtle pl-8 border-1 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none',
+  invalid: 's-text s-bg pl-8 border-1 s-border-negative hover:s-border-negative-hover active:s-border-active outline-[--w-s-color-border-negative]!',
+  readOnly: 's-text bg-transparent pl-0 border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
-  chevron: 'absolute top-[30%] block right-0 bottom-0 w-32 h-full s-icon pointer-events-none cursor-pointer',
+  chevron: 'block absolute top-[30%] right-0 bottom-0 w-32 h-full s-icon pointer-events-none cursor-pointer',
   chevronDisabled: 'opacity-25',
 };
 
@@ -547,6 +548,7 @@ export const backwardsCompatibleClasses = {
   toggleIndeterminate: 'before:content-["-"] before:flex! before:items-center before:justify-center peer-indeterminate:hover:before:s-border-primary',
   input: 'hover:s-border-disabled! s-text-negative! hover:s-border-negative-hover! bg-transparent! border-0! pl-40',
   tabs: 'px-4 sm:px-0',
+  select: 'active:s-border-disabled!',
   removedAlertTokens: 'i-border-$color-alert-negative-subtle-border i-bg-$color-alert-negative-background i-text-$color-alert-negative-text i-border-l-$color-alert-negative-border i-text-$color-alert-negative-icon i-border-$color-alert-positive-subtle-border i-bg-$color-alert-positive-background i-text-$color-alert-positive-text i-border-l-$color-alert-positive-border i-text-$color-alert-positive-icon i-border-$color-alert-warning-subtle-border i-bg-$color-alert-warning-background i-text-$color-alert-warning-text i-border-l-$color-alert-warning-border i-text-$color-alert-warning-icon i-border-$color-alert-info-subtle-border i-bg-$color-alert-info-background i-text-$color-alert-info-text i-border-l-$color-alert-info-border i-text-$color-alert-info-icon',
   removedBadgeTokens: 'i-bg-$color-badge-price-background i-bg-$color-badge-negative-background i-bg-$color-badge-warning-background i-bg-$color-badge-positive-background i-bg-$color-badge-info-background i-bg-$color-badge-neutral-background i-text-$color-badge-neutral-text i-text-$color-badge-negative-text i-text-$color-badge-warning-text i-text-$color-badge-positive-text i-text-$color-badge-info-text i-text-$color-badge-disabled-text i-bg-$color-badge-disabled-background i-text-$color-badge-price-text',
   removedBoxTokens: 'i-bg-$color-box-info-background i-text-$color-box-info-text i-bg-$color-box-neutral-background i-text-$color-box-neutral-text i-border-$color-box-bordered-border i-bg-$color-box-bordered-background i-text-$color-box-bordered-text hover:i-bg-$color-box-info-background-hover active:i-bg-$color-box-info-background-hover hover:i-bg-$color-box-neutral-background-hover active:i-bg-$color-box-neutral-background-hover hover:i-bg-$color-box-bordered-background-hover active:i-bg-$color-box-bordered-background-hover hover:i-border-$color-box-bordered-border-hover active:i-border-$color-box-bordered-border-hover',
