@@ -40,9 +40,6 @@ export const box = {
   info: 's-bg-info-subtle',
   neutral: 's-surface-sunken',
   bordered: 'border-2 s-border s-bg',
-  infoClickable: 'hover:s-bg-info-subtle-hover active:s-bg-info-subtle-active', // Deprecated - Remove in v2 (after removing Clickable prop in the Box components)
-  neutralClickable: 'hover:s-bg-hover active:s-bg-active', // Deprecated - Remove in v2 (after removing Clickable prop in the Box components)
-  borderedClickable: 'hover:s-bg-hover active:s-bg-active hover:s-border-hover active:s-border-active', // Deprecated - Remove in v2 (after removing Clickable prop in the Box components)
 };
 
 export const pill = {
