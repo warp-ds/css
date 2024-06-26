@@ -15,8 +15,6 @@ export const badge = {
   disabled: 's-bg-disabled s-text',
   price: 'bg-[--w-black/70] s-text-inverted-static',
   sponsored: 'bg-[--w-color-badge-sponsored-background] s-text',
-  // Notification badge is deprecated: Do not use! TODO: Remove in v2
-  notification: 'i-bg-$color-badge-notification-background i-text-$color-badge-notification-text',
   positionBase: 'absolute backdrop-blur',
   positionTL: 'rounded-tl-0 rounded-tr-0 rounded-bl-0 top-0 left-0',
   positionTR: 'rounded-tl-0 rounded-tr-0 rounded-br-0 top-0 right-0',
