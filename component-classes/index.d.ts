@@ -14,7 +14,6 @@ export namespace badge {
     let disabled: string;
     let price: string;
     let sponsored: string;
-    let notification: string;
     let positionBase: string;
     let positionTL: string;
     let positionTR: string;
@@ -40,9 +39,6 @@ export namespace box {
     let neutral_1: string;
     export { neutral_1 as neutral };
     export let bordered: string;
-    export let infoClickable: string;
-    export let neutralClickable: string;
-    export let borderedClickable: string;
 }
 export namespace pill {
     let pill: string;
@@ -85,7 +81,6 @@ export namespace steps {
 export namespace card {
     export let card: string;
     export let cardShadow: string;
-    export let cardUnselected: string;
     export let cardSelected: string;
     export let cardOutline: string;
     export let cardOutlineUnselected: string;
@@ -491,55 +486,6 @@ export namespace attention {
     export { content_5 as content };
     export let notCallout: string;
     export let closeBtn: string;
-}
-export namespace backwardsCompatibleClasses {
-    export let modalBackdrop: string;
-    let chevronBox_1: string;
-    export { chevronBox_1 as chevronBox };
-    let chevronNonBox_1: string;
-    export { chevronNonBox_1 as chevronNonBox };
-    let checkboxInvalid_1: string;
-    export { checkboxInvalid_1 as checkboxInvalid };
-    let radioInvalid_1: string;
-    export { radioInvalid_1 as radioInvalid };
-    let radioDisabled_1: string;
-    export { radioDisabled_1 as radioDisabled };
-    export let modalTitle: string;
-    export let pillClose: string;
-    let toggle_1: string;
-    export { toggle_1 as toggle };
-    export let radioButton: string;
-    export let toggleIndeterminate: string;
-    let input_2: string;
-    export { input_2 as input };
-    export let removedAlertTokens: string;
-    export let removedBadgeTokens: string;
-    export let removedBoxTokens: string;
-    export let removedBreadcrumbsTokens: string;
-    export let removedButtonTokens: string;
-    export let removedButtonGroupTokens: string;
-    export let removedCalloutTokens: string;
-    export let removedCardTokens: string;
-    export let removedCheckboxTokens: string;
-    export let removedComboboxTokens: string;
-    export let removedExpandableTokens: string;
-    export let removedHelpTextTokens: string;
-    export let removedInputTokens: string;
-    export let removedLabelTokens: string;
-    export let removedModalTokens: string;
-    export let removedPageIndicatorTokens: string;
-    export let removedPillTokens: string;
-    export let removedPopoverTokens: string;
-    export let removedRadioTokens: string;
-    export let removedSelectTokens: string;
-    export let removedSliderTokens: string;
-    export let removedStepindicatorTokens: string;
-    export let removedSwitchTokens: string;
-    export let removedTabsTokens: string;
-    export let removedToastTokens: string;
-    export let removedTooltipTokens: string;
-    export let removedAlphaTokens: string;
-    export let surfaceUpdates: string;
 }
 export namespace pagination {
     let link_2: string;
