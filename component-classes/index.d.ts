@@ -272,7 +272,6 @@ export namespace buttonGroupItem {
     export let selected: string;
 }
 export namespace modal {
-    export let transparentBg: string;
     export let backdrop: string;
     export let modal: string;
     let content_4: string;

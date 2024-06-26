@@ -335,7 +335,6 @@ export const buttonGroupItem = {
 };
 
 export const modal = {
-  transparentBg: '', //TODO: Remove in v2 - previously used for opacity before changing to a rgba background in backdrop
   backdrop:
     'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px] bg-[--w-black/25]',
   modal:
