@@ -92,8 +92,6 @@ export namespace card {
     export { a11y_1 as a11y };
 }
 export namespace switchToggle {
-    let _switch: string;
-    export { _switch as switch };
     let label_1: string;
     export { label_1 as label };
     export let labelDisabled: string;

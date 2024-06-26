@@ -103,7 +103,6 @@ export const card = {
 };
 
 export const switchToggle = {
-  switch: '', // TODO: Remove this in v2
   label: 'block relative h-24 w-44 cursor-pointer group',
   labelDisabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
