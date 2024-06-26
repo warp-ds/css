@@ -363,7 +363,6 @@ export namespace label {
     let label_2: string;
     export { label_2 as label };
     export let optional: string;
-    export let labelInvalid: string;
 }
 export namespace helpText {
     let helpText: string;

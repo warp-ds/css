@@ -424,7 +424,6 @@ export const select = {
 export const label = {
   label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
   optional: 'pl-8 font-normal text-s s-text-subtle',
-  labelInvalid: 's-text-negative', // TODO: Remove in v2 - kept for backwards compatibility
 };
 
 export const helpText = {
