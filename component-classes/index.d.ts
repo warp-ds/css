@@ -4,40 +4,22 @@ export namespace pageIndicator {
     let inactive: string;
     let active: string;
 }
-export namespace ribbon {
-    let base: string;
-    let info: string;
-    let success: string;
-    let warning: string;
-    let error: string;
-    let disabled: string;
-    let sponsored: string;
-    let neutral: string;
-    let roundedTopRightBottomLeft: string;
-    let roundedTopLeftBottomRight: string;
-}
 export namespace badge {
-    let base_1: string;
-    export { base_1 as base };
-    let neutral_1: string;
-    export { neutral_1 as neutral };
-    let info_1: string;
-    export { info_1 as info };
-    export let positive: string;
-    let warning_1: string;
-    export { warning_1 as warning };
-    export let negative: string;
-    let disabled_1: string;
-    export { disabled_1 as disabled };
-    export let price: string;
-    let sponsored_1: string;
-    export { sponsored_1 as sponsored };
-    export let notification: string;
-    export let positionBase: string;
-    export let positionTL: string;
-    export let positionTR: string;
-    export let positionBR: string;
-    export let positionBL: string;
+    let base: string;
+    let neutral: string;
+    let info: string;
+    let positive: string;
+    let warning: string;
+    let negative: string;
+    let disabled: string;
+    let price: string;
+    let sponsored: string;
+    let notification: string;
+    let positionBase: string;
+    let positionTL: string;
+    let positionTR: string;
+    let positionBR: string;
+    let positionBL: string;
 }
 export namespace slider {
     let wrapper_1: string;
@@ -53,10 +35,10 @@ export namespace slider {
 export namespace box {
     export let box: string;
     export let bleed: string;
-    let info_2: string;
-    export { info_2 as info };
-    let neutral_2: string;
-    export { neutral_2 as neutral };
+    let info_1: string;
+    export { info_1 as info };
+    let neutral_1: string;
+    export { neutral_1 as neutral };
     export let bordered: string;
     export let infoClickable: string;
     export let neutralClickable: string;
@@ -145,8 +127,8 @@ export namespace toast {
     export let toast: string;
     let positive_1: string;
     export { positive_1 as positive };
-    let warning_2: string;
-    export { warning_2 as warning };
+    let warning_1: string;
+    export { warning_1 as warning };
     let negative_1: string;
     export { negative_1 as negative };
     export let icon: string;
@@ -346,22 +328,22 @@ export namespace alert {
     let positive_2: string;
     export { positive_2 as positive };
     export let positiveIcon: string;
-    let warning_3: string;
-    export { warning_3 as warning };
+    let warning_2: string;
+    export { warning_2 as warning };
     export let warningIcon: string;
-    let info_3: string;
-    export { info_3 as info };
+    let info_2: string;
+    export { info_2 as info };
     export let infoIcon: string;
 }
 export namespace input {
     let wrapper_5: string;
     export { wrapper_5 as wrapper };
-    let base_2: string;
-    export { base_2 as base };
+    let base_1: string;
+    export { base_1 as base };
     let _default: string;
     export { _default as default };
-    let disabled_2: string;
-    export { disabled_2 as disabled };
+    let disabled_1: string;
+    export { disabled_1 as disabled };
     export let invalid: string;
     export let readOnly: string;
     export let placeholder: string;
@@ -372,8 +354,8 @@ export namespace input {
 export namespace select {
     let _default_1: string;
     export { _default_1 as default };
-    let disabled_3: string;
-    export { disabled_3 as disabled };
+    let disabled_2: string;
+    export { disabled_2 as disabled };
     let invalid_1: string;
     export { invalid_1 as invalid };
     let readOnly_1: string;
@@ -482,8 +464,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_3: string;
-    export { base_3 as base };
+    let base_2: string;
+    export { base_2 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
