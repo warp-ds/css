@@ -430,9 +430,6 @@ export const helpText = {
   helpText: 'text-xs mt-4 block',
   helpTextColor: 's-text-subtle',
   helpTextColorInvalid: 's-text-negative',
-  // TODO: Remove below properties in v2 - kept for backwards compatibility
-  helpTextValid: 's-text-positive',
-  helpTextInvalid: 's-text-negative',
 };
 
 const prefixSuffixWrapperBase =

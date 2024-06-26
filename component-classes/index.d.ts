@@ -368,8 +368,6 @@ export namespace helpText {
     let helpText: string;
     let helpTextColor: string;
     let helpTextColorInvalid: string;
-    let helpTextValid: string;
-    let helpTextInvalid: string;
 }
 export namespace suffix {
     let wrapper_7: string;
