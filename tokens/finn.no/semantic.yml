@@ -1,12 +1,7 @@
 ---
 token: maps
-duplicate_as_rgb: true
 
-s:
-  color:
-    border:
-      focused: aqua-400
-      
+s:    
   shadow:
     surface:
       elevated:
