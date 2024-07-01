@@ -1,3 +1,10 @@
+# [2.0.0-next.2](https://github.com/warp-ds/css/compare/v2.0.0-next.1...v2.0.0-next.2) (2024-07-01)
+
+
+### Bug Fixes
+
+* remove deprecated tokens and classes ([#219](https://github.com/warp-ds/css/issues/219)) ([c10955f](https://github.com/warp-ds/css/commit/c10955f40f5c3f7a5de275c3f200deeefd385a90))
+
 # [2.0.0-next.1](https://github.com/warp-ds/css/compare/v1.10.1...v2.0.0-next.1) (2024-06-24)
 
 
