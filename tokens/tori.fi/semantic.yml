@@ -3,10 +3,6 @@ token: maps
 duplicate_as_rgb: true
 
 s:
-  color:
-    border:
-      focused: blue-300
-
   shadow:
     surface:
       elevated:

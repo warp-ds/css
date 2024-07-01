@@ -2,11 +2,7 @@
 token: maps
 duplicate_as_rgb: true
 
-s:
-  color:
-    border:
-      focused: jeanblue-300
-      
+s:    
   shadow:
     surface:
       elevated:
