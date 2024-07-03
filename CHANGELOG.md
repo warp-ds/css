@@ -1,3 +1,10 @@
+# [2.0.0-next.4](https://github.com/warp-ds/css/compare/v2.0.0-next.3...v2.0.0-next.4) (2024-07-03)
+
+
+### Bug Fixes
+
+* make @warp-ds/uno as a peerDep and devDependency ([#220](https://github.com/warp-ds/css/issues/220)) ([e3a568a](https://github.com/warp-ds/css/commit/e3a568a8e6df31d656760ba11f8d809d47597ed8))
+
 # [2.0.0-next.3](https://github.com/warp-ds/css/compare/v2.0.0-next.2...v2.0.0-next.3) (2024-07-03)
 
 
