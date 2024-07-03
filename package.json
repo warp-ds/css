@@ -3,7 +3,7 @@
   "repository": "git@github.com:warp-ds/css.git",
   "version": "2.0.0-next.2",
   "peerDependencies": {
-    "@warp-ds/uno": "2.0.0-next.1"
+    "@warp-ds/uno": "2.x"
   },
   "scripts": {
     "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc",
@@ -48,9 +48,9 @@
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@sindresorhus/slugify": "^2.2.1",
-    "@warp-ds/tokenizer": "^0.0.4",
     "@warp-ds/eslint-config": "1.0.5",
-    "@warp-ds/uno": "2.0.0-next.1",
+    "@warp-ds/tokenizer": "^0.0.4",
+    "@warp-ds/uno": "2.x",
     "cz-conventional-changelog": "^3.3.0",
     "drnm": "^0.9.0",
     "eslint": "8.57.0",
