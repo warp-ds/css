@@ -1,3 +1,10 @@
+# [2.0.0-next.3](https://github.com/warp-ds/css/compare/v2.0.0-next.2...v2.0.0-next.3) (2024-07-03)
+
+
+### Bug Fixes
+
+* Rename checkmark icon token for Toggle component ([#221](https://github.com/warp-ds/css/issues/221)) ([f7d729f](https://github.com/warp-ds/css/commit/f7d729f01fb2bf06b0b1d79259fd588a19c987d4))
+
 # [2.0.0-next.2](https://github.com/warp-ds/css/compare/v2.0.0-next.1...v2.0.0-next.2) (2024-07-01)
 
 
