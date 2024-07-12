@@ -53,30 +53,31 @@ export namespace pill {
 }
 export namespace step {
     let step: string;
-    let stepVertical: string;
-    let stepVerticalLeft: string;
-    let stepVerticalRight: string;
-    let stepHorizontal: string;
+    let vertical: string;
+    let horizontal: string;
+    let alignLeft: string;
+    let alignRight: string;
     let stepDot: string;
-    let stepDotVerticalRight: string;
-    let stepDotHorizontal: string;
-    let stepDotActive: string;
-    let stepDotIncomplete: string;
+    let dotAlignRight: string;
+    let dotHorizontal: string;
+    let dotActive: string;
+    let dotIncomplete: string;
     let stepLine: string;
-    let stepLineVertical: string;
-    let stepLineVerticalRight: string;
-    let stepLineHorizontal: string;
-    let stepLineHorizontalRight: string;
-    let stepLineHorizontalLeft: string;
-    let stepLineIncomplete: string;
-    let stepLineComplete: string;
+    let lineVertical: string;
+    let lineAlignRight: string;
+    let lineHorizontal: string;
+    let lineHorizontalAlignRight: string;
+    let lineHorizontalAlignLeft: string;
+    let lineIncomplete: string;
+    let lineComplete: string;
     let content: string;
     let contentVertical: string;
     let contentHorizontal: string;
 }
 export namespace steps {
-    let steps: string;
-    let stepsHorizontal: string;
+    export let container: string;
+    let horizontal_1: string;
+    export { horizontal_1 as horizontal };
 }
 export namespace card {
     export let card: string;
@@ -109,7 +110,8 @@ export namespace switchToggle {
     export { a11y_2 as a11y };
 }
 export namespace toaster {
-    export let container: string;
+    let container_1: string;
+    export { container_1 as container };
     let content_1: string;
     export { content_1 as content };
     export let toaster: string;
@@ -255,7 +257,8 @@ export namespace buttonGroup {
     let wrapper_3: string;
     export { wrapper_3 as wrapper };
     export let raised: string;
-    export let vertical: string;
+    let vertical_1: string;
+    export { vertical_1 as vertical };
     export let nonOutlinedVertical: string;
     export let nonOutlinedHorizontal: string;
 }
