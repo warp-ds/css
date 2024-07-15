@@ -52,27 +52,28 @@ export namespace pill {
     let a11y: string;
 }
 export namespace step {
-    let step: string;
-    let vertical: string;
-    let horizontal: string;
-    let alignLeft: string;
-    let alignRight: string;
-    let stepDot: string;
-    let dotAlignRight: string;
-    let dotHorizontal: string;
-    let dotActive: string;
-    let dotIncomplete: string;
-    let stepLine: string;
-    let lineVertical: string;
-    let lineAlignRight: string;
-    let lineHorizontal: string;
-    let lineHorizontalAlignRight: string;
-    let lineHorizontalAlignLeft: string;
-    let lineIncomplete: string;
-    let lineComplete: string;
-    let content: string;
-    let contentVertical: string;
-    let contentHorizontal: string;
+    export let step: string;
+    export let vertical: string;
+    export let horizontal: string;
+    export let alignLeft: string;
+    export let alignRight: string;
+    let dot_1: string;
+    export { dot_1 as dot };
+    export let dotAlignRight: string;
+    export let dotHorizontal: string;
+    export let dotActive: string;
+    export let dotIncomplete: string;
+    export let line: string;
+    export let lineVertical: string;
+    export let lineAlignRight: string;
+    export let lineHorizontal: string;
+    export let lineHorizontalAlignRight: string;
+    export let lineHorizontalAlignLeft: string;
+    export let lineIncomplete: string;
+    export let lineComplete: string;
+    export let content: string;
+    export let contentVertical: string;
+    export let contentHorizontal: string;
 }
 export namespace steps {
     export let container: string;

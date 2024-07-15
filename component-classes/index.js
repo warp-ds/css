@@ -63,13 +63,13 @@ export const step = {
   alignLeft: 'grid-cols-[20px_1fr]',
   alignRight: 'grid-cols-[1fr_20px] text-right',
 
-  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 s-icon-inverted',
+  dot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 s-icon-inverted',
   dotAlignRight: 'col-start-2',
   dotHorizontal: 'row-start-2 justify-self-end',
   dotActive: 's-border-primary s-bg-primary',
   dotIncomplete: 's-border s-bg',
 
-  stepLine: 'group-last/stepv:hidden transition-colors duration-300',
+  line: 'group-last/stepv:hidden transition-colors duration-300',
   lineVertical: 'w-2 h-full justify-self-center',
   lineAlignRight: 'col-start-2',
   lineHorizontal: 'h-2 w-full row-start-2',
