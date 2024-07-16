@@ -52,7 +52,7 @@ export namespace pill {
     let a11y: string;
 }
 export namespace step {
-    export let step: string;
+    export let container: string;
     export let vertical: string;
     export let horizontal: string;
     export let alignLeft: string;
@@ -76,7 +76,8 @@ export namespace step {
     export let contentHorizontal: string;
 }
 export namespace steps {
-    export let container: string;
+    let container_1: string;
+    export { container_1 as container };
     let horizontal_1: string;
     export { horizontal_1 as horizontal };
 }
@@ -111,8 +112,8 @@ export namespace switchToggle {
     export { a11y_2 as a11y };
 }
 export namespace toaster {
-    let container_1: string;
-    export { container_1 as container };
+    let container_2: string;
+    export { container_2 as container };
     let content_1: string;
     export { content_1 as content };
     export let toaster: string;

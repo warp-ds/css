@@ -56,7 +56,7 @@ export const pill = {
 };
 
 export const step = {
-  step: 'group/step',
+  container: 'group/step',
   vertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
   horizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
