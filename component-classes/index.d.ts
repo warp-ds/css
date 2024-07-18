@@ -445,17 +445,19 @@ export namespace clickable {
 export namespace combobox {
     let wrapper_12: string;
     export { wrapper_12 as wrapper };
-    export let combobox: string;
-    export let textMatch: string;
+    let base_3: string;
+    export { base_3 as base };
     export let listbox: string;
-    export let option: string;
+    export let optionBase: string;
+    export let optionUnselected: string;
     export let optionSelected: string;
+    export let textMatch: string;
     let a11y_6: string;
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_3: string;
-    export { base_3 as base };
+    let base_4: string;
+    export { base_4 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
