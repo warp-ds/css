@@ -448,7 +448,7 @@ export namespace combobox {
     let base_3: string;
     export { base_3 as base };
     export let listbox: string;
-    export let optionBase: string;
+    export let option: string;
     export let optionUnselected: string;
     export let optionSelected: string;
     export let textMatch: string;

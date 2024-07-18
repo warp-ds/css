@@ -519,7 +519,7 @@ export const combobox = {
   wrapper: 'relative',
   base: 'absolute left-0 right-0 pb-8 rounded-8 shadow-m',
   listbox: 'm-0 p-0 select-none list-none',
-  optionBase: 'block cursor-pointer p-8',
+  option: 'block cursor-pointer p-8',
   optionUnselected: 's-bg hover:s-bg-hover',
   optionSelected: 's-bg-selected hover:s-bg-selected-hover',
   textMatch: 'font-bold',
