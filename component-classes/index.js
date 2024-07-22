@@ -322,8 +322,7 @@ export const buttonGroup = {
 };
 
 export const buttonGroupItem = {
-  wrapper:
-    'relative s-text',
+  wrapper: 'relative s-text',
   outlined: 'border hover:z-30',
   outlinedVertical: '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
   outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
@@ -331,7 +330,8 @@ export const buttonGroupItem = {
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
   outlinedUnselected: 'border-[--w-color-buttongroup-utility-border] active:border-[--w-color-buttongroup-utility-border-selected]',
   outlinedSelected: 'border-[--w-color-buttongroup-utility-border-selected]',
-  unSelected: 's-bg hover:bg-[--w-color-buttongroup-utility-background-hover] active:s-text active:bg-[--w-color-buttongroup-utility-background-selected]',
+  unSelected:
+    's-bg hover:bg-[--w-color-buttongroup-utility-background-hover] active:s-text active:bg-[--w-color-buttongroup-utility-background-selected]',
   selected: 'z-30 bg-[--w-color-buttongroup-utility-background-selected]',
 };
 
@@ -413,8 +413,10 @@ export const input = {
 export const select = {
   base: 'block text-m mb-0 py-12 pr-32 rounded-4 w-full focusable focus:[--w-outline-offset:-2px] appearance-none cursor-pointer caret-current',
   default: 's-text s-bg pl-8 border-1 s-border hover:s-border-hover active:s-border-active',
-  disabled: ' s-text-disabled s-bg-disabled-subtle pl-8 border-1 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none',
-  invalid: 's-text s-bg pl-8 border-1 s-border-negative hover:s-border-negative-hover active:s-border-active outline-[--w-s-color-border-negative]!',
+  disabled:
+    ' s-text-disabled s-bg-disabled-subtle pl-8 border-1 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none',
+  invalid:
+    's-text s-bg pl-8 border-1 s-border-negative hover:s-border-negative-hover active:s-border-active outline-[--w-s-color-border-negative]!',
   readOnly: 's-text bg-transparent pl-0 border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
