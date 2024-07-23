@@ -56,27 +56,28 @@ export const pill = {
 };
 
 export const step = {
-  step: 'group/step',
-  stepVertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
-  stepVerticalLeft: 'grid-cols-[20px_1fr]',
-  stepVerticalRight: 'grid-cols-[1fr_20px] text-right',
-  stepHorizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
+  container: 'group/step',
+  vertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
+  horizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
-  stepDot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 s-icon-inverted',
-  stepDotVerticalRight: 'col-start-2',
-  stepDotHorizontal: 'row-start-2 justify-self-end',
-  stepDotActive: 's-border-primary s-bg-primary',
-  stepDotIncomplete: 's-border s-bg',
+  alignLeft: 'grid-cols-[20px_1fr]',
+  alignRight: 'grid-cols-[1fr_20px] text-right',
 
-  stepLine: 'group-last/stepv:hidden transition-colors duration-300',
-  stepLineVertical: 'w-2 h-full justify-self-center',
-  stepLineVerticalRight: 'col-start-2',
-  stepLineHorizontal: 'h-2 w-full row-start-2',
-  stepLineHorizontalRight: 'group-last/steph:bg-transparent',
-  stepLineHorizontalLeft: 'group-first/steph:bg-transparent',
+  dot: 'rounded-full border-2 h-20 w-20 transition-colors duration-300 s-icon-inverted',
+  dotAlignRight: 'col-start-2',
+  dotHorizontal: 'row-start-2 justify-self-end',
+  dotActive: 's-border-primary s-bg-primary',
+  dotIncomplete: 's-border s-bg',
 
-  stepLineIncomplete: 's-bg-disabled',
-  stepLineComplete: 's-bg-primary',
+  line: 'group-last/stepv:hidden transition-colors duration-300',
+  lineVertical: 'w-2 h-full justify-self-center',
+  lineAlignRight: 'col-start-2',
+  lineHorizontal: 'h-2 w-full row-start-2',
+  lineHorizontalAlignRight: 'group-last/steph:bg-transparent',
+  lineHorizontalAlignLeft: 'group-first/steph:bg-transparent',
+
+  lineIncomplete: 's-bg-disabled',
+  lineComplete: 's-bg-primary',
 
   content: 'last:mb-0 group-last/step:last:pb-0',
   contentVertical: 'row-span-2 pb-32',
@@ -84,8 +85,8 @@ export const step = {
 };
 
 export const steps = {
-  steps: 'w-full',
-  stepsHorizontal: 'flex',
+  container: 'w-full',
+  horizontal: 'flex',
 };
 
 export const card = {
@@ -124,11 +125,11 @@ export const toaster = {
 
 export const toast = {
   wrapper: 'relative overflow-hidden w-full',
-  toast: 'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
+  base: 'flex group p-8 mt-16 rounded-8 border-2 pointer-events-auto transition-all',
   positive: 's-bg-positive-subtle s-border-positive-subtle s-text',
   warning: 's-bg-warning-subtle s-border-warning-subtle s-text',
   negative: 's-bg-negative-subtle s-border-negative-subtle s-text',
-  icon: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
+  iconBase: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
   iconPositive: 's-icon-positive',
   iconWarning: 's-icon-warning',
   iconNegative: 's-icon-negative',
