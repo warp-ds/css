@@ -121,14 +121,15 @@ export namespace toaster {
 export namespace toast {
     let wrapper_2: string;
     export { wrapper_2 as wrapper };
-    export let toast: string;
+    let base_1: string;
+    export { base_1 as base };
     let positive_1: string;
     export { positive_1 as positive };
     let warning_1: string;
     export { warning_1 as warning };
     let negative_1: string;
     export { negative_1 as negative };
-    export let icon: string;
+    export let iconBase: string;
     export let iconPositive: string;
     export let iconWarning: string;
     export let iconNegative: string;
@@ -147,8 +148,7 @@ export namespace tab {
     export let tab: string;
     export let tabInactive: string;
     export let tabActive: string;
-    let icon_1: string;
-    export { icon_1 as icon };
+    export let icon: string;
     let content_3: string;
     export { content_3 as content };
     export let contentUnderlined: string;
@@ -318,8 +318,8 @@ export namespace alert {
     export let textWrapper: string;
     let title_2: string;
     export { title_2 as title };
-    let icon_2: string;
-    export { icon_2 as icon };
+    let icon_1: string;
+    export { icon_1 as icon };
     let negative_3: string;
     export { negative_3 as negative };
     export let negativeIcon: string;
@@ -336,8 +336,8 @@ export namespace alert {
 export namespace input {
     let wrapper_5: string;
     export { wrapper_5 as wrapper };
-    let base_1: string;
-    export { base_1 as base };
+    let base_2: string;
+    export { base_2 as base };
     let _default: string;
     export { _default as default };
     let disabled_1: string;
@@ -350,8 +350,8 @@ export namespace input {
     export let textArea: string;
 }
 export namespace select {
-    let base_2: string;
-    export { base_2 as base };
+    let base_3: string;
+    export { base_3 as base };
     let _default_1: string;
     export { _default_1 as default };
     let disabled_2: string;
@@ -461,8 +461,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_3: string;
-    export { base_3 as base };
+    let base_4: string;
+    export { base_4 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
@@ -493,8 +493,8 @@ export namespace pagination {
     let link_2: string;
     export { link_2 as link };
     export let currentPage: string;
-    let icon_3: string;
-    export { icon_3 as icon };
+    let icon_2: string;
+    export { icon_2 as icon };
     export let containerNav: string;
     let a11y_7: string;
     export { a11y_7 as a11y };

@@ -125,11 +125,11 @@ export const toaster = {
 
 export const toast = {
   wrapper: 'relative overflow-hidden w-full',
-  toast: 'flex group p-8 mt-16 rounded-8 border-2 w-full pointer-events-auto transition-all',
+  base: 'flex group p-8 mt-16 rounded-8 border-2 pointer-events-auto transition-all',
   positive: 's-bg-positive-subtle s-border-positive-subtle s-text',
   warning: 's-bg-warning-subtle s-border-warning-subtle s-text',
   negative: 's-bg-negative-subtle s-border-negative-subtle s-text',
-  icon: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
+  iconBase: 'shrink-0 rounded-full w-[16px] h-[16px] m-[8px]',
   iconPositive: 's-icon-positive',
   iconWarning: 's-icon-warning',
   iconNegative: 's-icon-negative',
