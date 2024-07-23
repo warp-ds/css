@@ -52,31 +52,34 @@ export namespace pill {
     let a11y: string;
 }
 export namespace step {
-    let step: string;
-    let stepVertical: string;
-    let stepVerticalLeft: string;
-    let stepVerticalRight: string;
-    let stepHorizontal: string;
-    let stepDot: string;
-    let stepDotVerticalRight: string;
-    let stepDotHorizontal: string;
-    let stepDotActive: string;
-    let stepDotIncomplete: string;
-    let stepLine: string;
-    let stepLineVertical: string;
-    let stepLineVerticalRight: string;
-    let stepLineHorizontal: string;
-    let stepLineHorizontalRight: string;
-    let stepLineHorizontalLeft: string;
-    let stepLineIncomplete: string;
-    let stepLineComplete: string;
-    let content: string;
-    let contentVertical: string;
-    let contentHorizontal: string;
+    export let container: string;
+    export let vertical: string;
+    export let horizontal: string;
+    export let alignLeft: string;
+    export let alignRight: string;
+    let dot_1: string;
+    export { dot_1 as dot };
+    export let dotAlignRight: string;
+    export let dotHorizontal: string;
+    export let dotActive: string;
+    export let dotIncomplete: string;
+    export let line: string;
+    export let lineVertical: string;
+    export let lineAlignRight: string;
+    export let lineHorizontal: string;
+    export let lineHorizontalAlignRight: string;
+    export let lineHorizontalAlignLeft: string;
+    export let lineIncomplete: string;
+    export let lineComplete: string;
+    export let content: string;
+    export let contentVertical: string;
+    export let contentHorizontal: string;
 }
 export namespace steps {
-    let steps: string;
-    let stepsHorizontal: string;
+    let container_1: string;
+    export { container_1 as container };
+    let horizontal_1: string;
+    export { horizontal_1 as horizontal };
 }
 export namespace card {
     export let card: string;
@@ -109,7 +112,8 @@ export namespace switchToggle {
     export { a11y_2 as a11y };
 }
 export namespace toaster {
-    export let container: string;
+    let container_2: string;
+    export { container_2 as container };
     let content_1: string;
     export { content_1 as content };
     export let toaster: string;
@@ -255,7 +259,8 @@ export namespace buttonGroup {
     let wrapper_3: string;
     export { wrapper_3 as wrapper };
     export let raised: string;
-    export let vertical: string;
+    let vertical_1: string;
+    export { vertical_1 as vertical };
     export let nonOutlinedVertical: string;
     export let nonOutlinedHorizontal: string;
 }
