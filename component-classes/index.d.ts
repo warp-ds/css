@@ -267,7 +267,9 @@ export namespace buttonGroupItem {
     export let outlinedHorizontal: string;
     export let outlinedVerticalResets: string;
     export let outlinedHorizontalResets: string;
+    export let outlinedUnselected: string;
     export let outlinedSelected: string;
+    export let unSelected: string;
     export let selected: string;
 }
 export namespace modal {
