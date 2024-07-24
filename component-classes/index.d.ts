@@ -26,6 +26,7 @@ export namespace slider {
     export let track: string;
     export let trackDisabled: string;
     export let activeTrack: string;
+    export let activeTrackEnabled: string;
     export let activeTrackDisabled: string;
     export let thumb: string;
     export let thumbEnabled: string;
@@ -452,8 +453,8 @@ export namespace clickable {
 export namespace combobox {
     let wrapper_12: string;
     export { wrapper_12 as wrapper };
-    let base_3: string;
-    export { base_3 as base };
+    let base_4: string;
+    export { base_4 as base };
     export let listbox: string;
     export let option: string;
     export let optionUnselected: string;
@@ -463,8 +464,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_4: string;
-    export { base_4 as base };
+    let base_5: string;
+    export { base_5 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
