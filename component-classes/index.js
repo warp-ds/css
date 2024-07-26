@@ -177,7 +177,6 @@ export const expandable = {
   expandableBleed: box.bleed,
   chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',
-  chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',

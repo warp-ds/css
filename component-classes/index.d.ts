@@ -175,7 +175,6 @@ export namespace expandable {
     export { expandableBleed };
     export let chevron: string;
     export let chevronNonBox: string;
-    export let chevronBox: string;
     export let chevronTransform: string;
     export let chevronExpand: string;
     export let chevronCollapse: string;
