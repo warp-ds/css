@@ -182,9 +182,9 @@ export const expandable = {
   chevronCollapse: 'rotate-180',
   elementsTransformChevronDownPart:
     'part-[w-icon-chevron-down-16-part]:transform part-[w-icon-chevron-down-16-part]:transition-transform part-[w-icon-chevron-down-16-part]:transform-gpu part-[w-icon-chevron-down-16-part]:ease-in-out',
-  elementsChevronDownExpandPart: 'part-[w-icon-chevron-down-16-part]:-rotate-180',
   elementsTransformChevronUpPart:
     'part-[w-icon-chevron-up-16-part]:transform part-[w-icon-chevron-up-16-part]:transition-transform part-[w-icon-chevron-up-16-part]:transform-gpu part-[w-icon-chevron-up-16-part]:ease-in-out',
+  elementsChevronDownExpandPart: 'part-[w-icon-chevron-down-16-part]:-rotate-180',
   elementsChevronUpCollapsePart: 'part-[w-icon-chevron-up-16-part]:rotate-180',
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',

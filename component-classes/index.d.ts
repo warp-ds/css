@@ -179,8 +179,8 @@ export namespace expandable {
     export let chevronExpand: string;
     export let chevronCollapse: string;
     export let elementsTransformChevronDownPart: string;
-    export let elementsChevronDownExpandPart: string;
     export let elementsTransformChevronUpPart: string;
+    export let elementsChevronDownExpandPart: string;
     export let elementsChevronUpCollapsePart: string;
     export let expansion: string;
     export let expansionNotExpanded: string;
