@@ -180,6 +180,7 @@ export const expandable = {
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',
+  
   // These are web component specific classes, using the ::part-selector:
   elementsChevronDownTransform:
     'part-[w-icon-chevron-down-16-part]:transform part-[w-icon-chevron-down-16-part]:transition-transform part-[w-icon-chevron-down-16-part]:transform-gpu part-[w-icon-chevron-down-16-part]:ease-in-out',
