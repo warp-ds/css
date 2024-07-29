@@ -85,6 +85,7 @@ export namespace steps {
 export namespace card {
     export let card: string;
     export let cardShadow: string;
+    export let cardShadowBackground: string;
     export let cardSelected: string;
     export let cardOutline: string;
     export let cardOutlineUnselected: string;
