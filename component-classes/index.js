@@ -192,9 +192,9 @@ export const expandable = {
   expansionNotExpanded: 'h-0 invisible',
   button: 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 hover:underline focus-visible:underline',
   buttonBox: 'w-full text-left relative inline-flex items-center justify-between group relative break-words last-child:mb-0 p-16 rounded-8',
-  paddingTop: 'pt-0',
+  contentWithTitle: 'pt-0',
   title: 'flex w-full justify-between items-center',
-  titleType: 'h4',
+  titleType: 't4',
 };
 
 const buttonDefaultStyling = 'font-bold focusable justify-center transition-colors ease-in-out';

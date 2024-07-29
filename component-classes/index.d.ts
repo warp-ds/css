@@ -184,7 +184,7 @@ export namespace expandable {
     let button_1: string;
     export { button_1 as button };
     export let buttonBox: string;
-    export let paddingTop: string;
+    export let contentWithTitle: string;
     export let title: string;
     export let titleType: string;
 }
