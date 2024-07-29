@@ -170,8 +170,7 @@ export const gridLayout = {
 export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
 
 export const expandable = {
-  expandable: 'will-change-height',
-  expandableTitle: 'font-bold s-text',
+  expandable: 'will-change-height s-text',
   expandableBox: 's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 ' + box.box,
   expandableInfo: 's-bg-info-subtle! hover:s-bg-info-subtle-hover!',
   expandableBleed: box.bleed,

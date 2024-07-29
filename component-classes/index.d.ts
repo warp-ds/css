@@ -168,7 +168,6 @@ export namespace gridLayout {
 export const buttonReset: "focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block";
 export namespace expandable {
     export let expandable: string;
-    export let expandableTitle: string;
     export let expandableBox: string;
     export let expandableInfo: string;
     import expandableBleed = box.bleed;
