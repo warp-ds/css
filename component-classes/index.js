@@ -171,9 +171,8 @@ export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg
 
 export const expandable = {
   expandable: 'will-change-height s-text',
-  expandableBox: 's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 ' + box.box,
-  expandableInfo: 's-bg-info-subtle! hover:s-bg-info-subtle-hover!',
-  expandableBleed: box.bleed,
+  expandableBox: 's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 group block relative break-words last-child:mb-0 rounded-8',
+  expandableBleed: '-mx-16 rounded-l-0 rounded-r-0 sm:mx-0 sm:rounded-8',
   chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
@@ -190,8 +189,8 @@ export const expandable = {
 
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
-  button: buttonReset + ' hover:underline focus-visible:underline',
-  buttonBox: 'w-full text-left relative inline-flex items-center justify-between ' + box.box,
+  button: 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 hover:underline focus-visible:underline',
+  buttonBox: 'w-full text-left relative inline-flex items-center justify-between group relative break-words last-child:mb-0 p-16 rounded-8',
   paddingTop: 'pt-0',
   title: 'flex w-full justify-between items-center',
   titleType: 'h4',

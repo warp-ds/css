@@ -169,9 +169,7 @@ export const buttonReset: "focus:outline-none appearance-none cursor-pointer bg-
 export namespace expandable {
     export let expandable: string;
     export let expandableBox: string;
-    export let expandableInfo: string;
-    import expandableBleed = box.bleed;
-    export { expandableBleed };
+    export let expandableBleed: string;
     export let chevron: string;
     export let chevronNonBox: string;
     export let chevronTransform: string;
