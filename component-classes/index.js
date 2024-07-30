@@ -171,30 +171,31 @@ export const gridLayout = {
 export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
 
 export const expandable = {
-  expandable: 'will-change-height',
-  expandableTitle: 'font-bold s-text',
-  expandableBox: 's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 ' + box.box,
-  expandableInfo: 's-bg-info-subtle! hover:s-bg-info-subtle-hover!',
-  expandableBleed: box.bleed,
+  expandable: 'will-change-height s-text',
+  expandableBox:
+    's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 group block relative break-words last-child:mb-0 rounded-8',
+  expandableBleed: '-mx-16 rounded-l-0 rounded-r-0 sm:mx-0 sm:rounded-8',
   chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',
-  chevronBox: '',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',
-  elementsTransformChevronDownPart:
+
+  // These are web component specific classes, using the ::part-selector:
+  elementsChevronDownTransform:
     'part-[w-icon-chevron-down-16-part]:transform part-[w-icon-chevron-down-16-part]:transition-transform part-[w-icon-chevron-down-16-part]:transform-gpu part-[w-icon-chevron-down-16-part]:ease-in-out',
-  elementsChevronDownExpandPart: 'part-[w-icon-chevron-down-16-part]:-rotate-180',
-  elementsTransformChevronUpPart:
+  elementsChevronUpTransform:
     'part-[w-icon-chevron-up-16-part]:transform part-[w-icon-chevron-up-16-part]:transition-transform part-[w-icon-chevron-up-16-part]:transform-gpu part-[w-icon-chevron-up-16-part]:ease-in-out',
-  elementsChevronUpCollapsePart: 'part-[w-icon-chevron-up-16-part]:rotate-180',
+  elementsChevronExpand: 'part-[w-icon-chevron-down-16-part]:-rotate-180',
+  elementsChevronCollapse: 'part-[w-icon-chevron-up-16-part]:rotate-180',
+
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
-  button: buttonReset + ' hover:underline focus-visible:underline',
-  buttonBox: 'w-full text-left relative inline-flex items-center justify-between ' + box.box,
-  paddingTop: 'pt-0',
+  button: 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 hover:underline focus-visible:underline',
+  buttonBox: 'w-full text-left relative inline-flex items-center justify-between group relative break-words last-child:mb-0 p-16 rounded-8',
+  contentWithTitle: 'pt-0',
   title: 'flex w-full justify-between items-center',
-  titleType: 'h4',
+  titleType: 't4',
 };
 
 const buttonDefaultStyling = 'font-bold focusable justify-center transition-colors ease-in-out';
