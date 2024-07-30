@@ -93,7 +93,7 @@ export const steps = {
 export const card = {
   card: 'cursor-pointer overflow-hidden relative transition-all',
   cardShadow: 'group rounded-8',
-  cardShadowBackground: ' s-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
+  cardShadowBackground: 's-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
   cardSelected: 's-bg-selected hover:s-bg-selected-hover active:s-bg-selected-active',
   cardOutline: 'absolute border-2 rounded-8 inset-0 transition-all',
   cardOutlineUnselected: 'border-transparent group-active:s-border-active',
