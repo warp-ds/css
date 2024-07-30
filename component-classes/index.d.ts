@@ -168,27 +168,23 @@ export namespace gridLayout {
 export const buttonReset: "focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block";
 export namespace expandable {
     export let expandable: string;
-    export let expandableTitle: string;
     export let expandableBox: string;
-    export let expandableInfo: string;
-    import expandableBleed = box.bleed;
-    export { expandableBleed };
+    export let expandableBleed: string;
     export let chevron: string;
     export let chevronNonBox: string;
-    export let chevronBox: string;
     export let chevronTransform: string;
     export let chevronExpand: string;
     export let chevronCollapse: string;
-    export let elementsTransformChevronDownPart: string;
-    export let elementsChevronDownExpandPart: string;
-    export let elementsTransformChevronUpPart: string;
-    export let elementsChevronUpCollapsePart: string;
+    export let elementsChevronDownTransform: string;
+    export let elementsChevronUpTransform: string;
+    export let elementsChevronExpand: string;
+    export let elementsChevronCollapse: string;
     export let expansion: string;
     export let expansionNotExpanded: string;
     let button_1: string;
     export { button_1 as button };
     export let buttonBox: string;
-    export let paddingTop: string;
+    export let contentWithTitle: string;
     export let title: string;
     export let titleType: string;
 }
