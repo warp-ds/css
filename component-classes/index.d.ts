@@ -83,7 +83,8 @@ export namespace steps {
     export { horizontal_1 as horizontal };
 }
 export namespace card {
-    export let card: string;
+    let base_1: string;
+    export { base_1 as base };
     export let shadow: string;
     export let selected: string;
     export let outline: string;
@@ -122,8 +123,8 @@ export namespace toaster {
 export namespace toast {
     let wrapper_2: string;
     export { wrapper_2 as wrapper };
-    let base_1: string;
-    export { base_1 as base };
+    let base_2: string;
+    export { base_2 as base };
     let positive_1: string;
     export { positive_1 as positive };
     let warning_1: string;
@@ -334,8 +335,8 @@ export namespace alert {
 export namespace input {
     let wrapper_5: string;
     export { wrapper_5 as wrapper };
-    let base_2: string;
-    export { base_2 as base };
+    let base_3: string;
+    export { base_3 as base };
     let _default: string;
     export { _default as default };
     let disabled_1: string;
@@ -348,8 +349,8 @@ export namespace input {
     export let textArea: string;
 }
 export namespace select {
-    let base_3: string;
-    export { base_3 as base };
+    let base_4: string;
+    export { base_4 as base };
     let _default_1: string;
     export { _default_1 as default };
     let disabled_2: string;
@@ -450,8 +451,8 @@ export namespace clickable {
 export namespace combobox {
     let wrapper_12: string;
     export { wrapper_12 as wrapper };
-    let base_4: string;
-    export { base_4 as base };
+    let base_5: string;
+    export { base_5 as base };
     export let listbox: string;
     export let option: string;
     export let optionUnselected: string;
@@ -461,8 +462,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_5: string;
-    export { base_5 as base };
+    let base_6: string;
+    export { base_6 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
