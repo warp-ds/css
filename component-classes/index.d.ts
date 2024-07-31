@@ -84,15 +84,14 @@ export namespace steps {
 }
 export namespace card {
     export let card: string;
-    export let cardShadow: string;
-    export let cardShadowBackground: string;
-    export let cardSelected: string;
-    export let cardOutline: string;
-    export let cardOutlineUnselected: string;
-    export let cardOutlineSelected: string;
-    export let cardFlat: string;
-    export let cardFlatUnselected: string;
-    export let cardFlatSelected: string;
+    export let shadow: string;
+    export let selected: string;
+    export let outline: string;
+    export let outlineUnselected: string;
+    export let outlineSelected: string;
+    export let flat: string;
+    export let flatUnselected: string;
+    export let flatSelected: string;
     let a11y_1: string;
     export { a11y_1 as a11y };
 }
@@ -273,7 +272,8 @@ export namespace buttonGroupItem {
     export let outlinedUnselected: string;
     export let outlinedSelected: string;
     export let unSelected: string;
-    export let selected: string;
+    let selected_1: string;
+    export { selected_1 as selected };
 }
 export namespace modal {
     export let backdrop: string;
