@@ -36,7 +36,7 @@ export const slider = {
 };
 
 export const box = {
-  box: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
+  base: 'group block relative break-words last-child:mb-0 p-16 rounded-8', // Relative here enables w-clickable
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
   info: 's-bg-info-subtle',
   neutral: 's-surface-sunken',
@@ -44,7 +44,7 @@ export const box = {
 };
 
 export const pill = {
-  pill: 'flex items-center',
+  wrapper: 'flex items-center',
   button: 'inline-flex items-center focusable text-xs transition-all',
   suggestion:
     'bg-[--w-color-pill-suggestion-background] hover:bg-[--w-color-pill-suggestion-background-hover] active:bg-[--w-color-pill-suggestion-background-active] s-text font-bold',
@@ -120,8 +120,8 @@ export const switchToggle = {
 
 export const toaster = {
   container: 'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+  base: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
   content: 'w-full',
-  toaster: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
 };
 
 export const toast = {
@@ -140,15 +140,15 @@ export const toast = {
 };
 
 export const tabs = {
-  tabContainer: 'inline-grid relative -mb-1',
-  wunderbar: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
-  wrapperUnderlined: 'inline-block border-b s-border mb-32',
+  wrapper: 'inline-block border-b s-border mb-32',
+  container: 'inline-grid relative -mb-1',
+  selectionIndicator: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
 };
 
 export const tab = {
-  tab: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent border-transparent hover:s-text-link hover:s-border-primary',
-  tabInactive: 's-text-subtle',
-  tabActive: 's-text-link',
+  base: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent border-transparent hover:s-text-link hover:s-border-primary',
+  inactive: 's-text-subtle',
+  active: 's-text-link',
   icon: 'mx-auto',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
@@ -170,10 +170,9 @@ export const gridLayout = {
 export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
 
 export const expandable = {
-  expandable: 'will-change-height s-text',
-  expandableBox:
-    's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 group block relative break-words last-child:mb-0 rounded-8',
-  expandableBleed: '-mx-16 rounded-l-0 rounded-r-0 sm:mx-0 sm:rounded-8',
+  wrapper: 'will-change-height s-text',
+  box: 's-surface-sunken hover:s-bg-hover active:s-bg-active py-0 px-0 group block relative break-words last-child:mb-0 rounded-8',
+  bleed: '-mx-16 rounded-l-0 rounded-r-0 sm:mx-0 sm:rounded-8',
   chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',
   chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
@@ -341,8 +340,7 @@ export const buttonGroupItem = {
 export const modal = {
   backdrop:
     'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px] bg-[--w-black/25]',
-  modal:
-    'pb-safe-[32] shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 bg-[--w-s-color-surface-elevated-100] flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
+  base: 'pb-safe-[32] shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 bg-[--w-s-color-surface-elevated-100] flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
   content: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
@@ -382,7 +380,7 @@ export const modalElement = {
 };
 
 export const alert = {
-  alert: 'flex p-16 border border-l-4 rounded-4 s-text',
+  wrapper: 'flex p-16 border border-l-4 rounded-4 s-text',
   willChangeHeight: 'will-change-height',
   textWrapper: 'last-child:mb-0 text-s',
   title: 'text-s',
@@ -428,28 +426,28 @@ export const select = {
 };
 
 export const label = {
-  label: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
+  base: 'antialiased block relative text-s font-bold pb-4 cursor-pointer s-text',
   optional: 'pl-8 font-normal text-s s-text-subtle',
 };
 
 export const helpText = {
-  helpText: 'text-xs mt-4 block',
-  helpTextColor: 's-text-subtle',
-  helpTextColorInvalid: 's-text-negative',
+  base: 'text-xs mt-4 block',
+  color: 's-text-subtle',
+  colorInvalid: 's-text-negative',
 };
 
-const prefixSuffixWrapperBase =
+const prefixSuffixWrapper =
   'absolute top-0 bottom-0 flex justify-center items-center focusable rounded-4 focus:[--w-outline-offset:-2px] bg-transparent ';
 
 export const suffix = {
-  wrapper: prefixSuffixWrapperBase + 'right-0',
+  wrapper: prefixSuffixWrapper + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
   label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const prefix = {
-  wrapper: prefixSuffixWrapperBase + 'left-0',
+  wrapper: prefixSuffixWrapper + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
   label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
@@ -540,6 +538,7 @@ export const attention = {
   highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m translate-z-0',
   popover:
     'bg-[--w-s-color-surface-elevated-300] border-[--w-s-color-surface-elevated-300] s-text rounded-8 p-16 drop-shadow-m translate-z-0',
+
   arrowBase: 'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeftStart: '-left-[8px]',
   arrowDirectionLeft: '-left-[8px]',
@@ -557,6 +556,7 @@ export const attention = {
   arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
   arrowPopover: 'bg-[--w-s-color-surface-elevated-300] border-[--w-s-color-surface-elevated-300]',
   arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
+
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
   closeBtn: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} justify-self-end -mr-8 ml-8`,
