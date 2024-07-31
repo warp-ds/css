@@ -91,15 +91,15 @@ export const steps = {
 };
 
 export const card = {
-  card: 'cursor-pointer overflow-hidden relative transition-all',
-  cardShadow: 'group rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
-  cardSelected: '!s-bg-selected !hover:s-bg-selected-hover !active:s-bg-selected-active',
-  cardOutline: 'absolute border-2 rounded-8 inset-0 transition-all',
-  cardOutlineUnselected: 'border-transparent group-active:s-border-active',
-  cardOutlineSelected: 's-border-selected group-hover:s-border-selected-hover group-active:s-border-selected-active',
-  cardFlat: 'border-2 rounded-4',
-  cardFlatUnselected: 's-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
-  cardFlatSelected:
+  base: 'cursor-pointer overflow-hidden relative transition-all',
+  shadow: 'group rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
+  selected: '!s-bg-selected !hover:s-bg-selected-hover !active:s-bg-selected-active',
+  outline: 'absolute border-2 rounded-8 inset-0 transition-all',
+  outlineUnselected: 'border-transparent group-active:s-border-active',
+  outlineSelected: 's-border-selected group-hover:s-border-selected-hover group-active:s-border-selected-active',
+  flat: 'border-2 rounded-4',
+  flatUnselected: 's-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
+  flatSelected:
     's-bg-selected hover:s-bg-selected-hover active:s-bg-selected-active s-border-selected hover:s-border-selected-hover active:s-border-selected-active',
   a11y: 'sr-only',
 };
