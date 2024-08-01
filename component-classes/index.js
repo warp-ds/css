@@ -52,7 +52,6 @@ const buttonVariants = {
 const prefixSuffixWrapper =
   'absolute top-0 bottom-0 flex justify-center items-center focusable rounded-4 focus:[--w-outline-offset:-2px] bg-transparent ';
 
-  
 export const alert = {
   wrapper: 'flex p-16 border border-l-4 rounded-4 s-text',
   willChangeHeight: 'will-change-height',
@@ -507,7 +506,6 @@ export const toaster = {
   base: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
   content: 'w-full',
 };
-
 
 // TOGGLE COMPONENTS:
 export const switchToggle = {
