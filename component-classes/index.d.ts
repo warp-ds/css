@@ -463,9 +463,10 @@ export namespace toaster {
     export { content_5 as content };
 }
 export namespace switchToggle {
-    let label_4: string;
-    export { label_4 as label };
-    export let labelDisabled: string;
+    let base_13: string;
+    export { base_13 as base };
+    let disabled_3: string;
+    export { disabled_3 as disabled };
     let track_1: string;
     export { track_1 as track };
     export let trackActive: string;
@@ -490,8 +491,8 @@ export namespace toggle {
     export let input: string;
     let a11y_7: string;
     export { a11y_7 as a11y };
-    let label_5: string;
-    export { label_5 as label };
+    let label_4: string;
+    export { label_4 as label };
     export let labelBefore: string;
     export let checkbox: string;
     export let checkboxInvalid: string;
