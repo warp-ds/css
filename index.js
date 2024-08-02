@@ -9,8 +9,8 @@ await downloadReleaseFile();
 const brandModes = getBrandModes();
 
 brandModes.forEach((brandMode) => {
-  // skip dark themes for now
-  if (brandMode.includes('dark')) return;
+  // skip dark themes and oikotie for now
+  if (brandMode.includes('dark') || brandMode.includes('oikotie')) return;
 
   console.log(`Processing ${brandMode}...`);
   const cssHex = processHexCss(brandMode);

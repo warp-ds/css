@@ -41,6 +41,8 @@ export const brandToName = (brand) => {
       return 'dba-dk';
     case 'tori-light':
       return 'tori-fi';
+    case 'oikotie-light':
+      return 'oikotie-fi';
   }
 };
 
