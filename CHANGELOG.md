@@ -1,3 +1,10 @@
+# [2.0.0-next.5](https://github.com/warp-ds/css/compare/v2.0.0-next.4...v2.0.0-next.5) (2024-08-02)
+
+
+### Bug Fixes
+
+* return if brandMode includes oikotie ([#232](https://github.com/warp-ds/css/issues/232)) ([7dfa5fe](https://github.com/warp-ds/css/commit/7dfa5fed9e1c0373343fee2e21a888e14cde7e82))
+
 # [2.0.0-next.4](https://github.com/warp-ds/css/compare/v2.0.0-next.3...v2.0.0-next.4) (2024-07-03)
 
 
