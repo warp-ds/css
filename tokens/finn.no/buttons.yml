@@ -6,4 +6,4 @@ color:
     pill:
       background:
         active: blue-400/30
-        hover: blue-400/40
+        hover: blue-300/30
