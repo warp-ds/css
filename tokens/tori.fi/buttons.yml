@@ -6,4 +6,4 @@ color:
     pill:
       background:
         active: blueberry-400/30
-        hover: blueberry-400/40
+        hover: blueberry-300/30

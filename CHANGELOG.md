@@ -1,3 +1,10 @@
+# [2.0.0-next.6](https://github.com/warp-ds/css/compare/v2.0.0-next.5...v2.0.0-next.6) (2024-08-06)
+
+
+### Bug Fixes
+
+* **tokens:** update to correct color in button-pill-background-hover ([#233](https://github.com/warp-ds/css/issues/233)) ([c225c36](https://github.com/warp-ds/css/commit/c225c3644f20c53cb4f49217db06ec1d50c1d722))
+
 # [2.0.0-next.5](https://github.com/warp-ds/css/compare/v2.0.0-next.4...v2.0.0-next.5) (2024-08-02)
 
 
