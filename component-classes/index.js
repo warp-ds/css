@@ -509,8 +509,8 @@ export const toaster = {
 
 // TOGGLE COMPONENTS:
 export const switchToggle = {
-  label: 'block relative h-24 w-44 cursor-pointer group',
-  labelDisabled: 'pointer-events-none',
+  base: 'block relative h-24 w-44 cursor-pointer group focusable rounded-full',
+  disabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
   trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
   trackInactive: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
