@@ -283,7 +283,7 @@ export namespace buttonGroupItem {
     export let outlinedHorizontalResets: string;
     export let outlinedUnselected: string;
     export let outlinedSelected: string;
-    export let unSelected: string;
+    export let unselected: string;
     let selected_1: string;
     export { selected_1 as selected };
 }

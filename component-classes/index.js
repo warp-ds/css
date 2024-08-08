@@ -332,7 +332,7 @@ export const buttonGroupItem = {
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
   outlinedUnselected: 'border-[--w-color-buttongroup-utility-border] active:border-[--w-color-buttongroup-utility-border-selected]',
   outlinedSelected: 'border-[--w-color-buttongroup-utility-border-selected]',
-  unSelected:
+  unselected:
     's-bg hover:bg-[--w-color-buttongroup-utility-background-hover] active:s-text active:bg-[--w-color-buttongroup-utility-background-selected]',
   selected: 'z-30 bg-[--w-color-buttongroup-utility-background-selected]',
 };
