@@ -55,7 +55,8 @@ export namespace pill {
     export let a11y: string;
 }
 export namespace step {
-    export let container: string;
+    let base_2: string;
+    export { base_2 as base };
     export let vertical: string;
     export let horizontal: string;
     export let alignLeft: string;
@@ -79,14 +80,14 @@ export namespace step {
     export let contentHorizontal: string;
 }
 export namespace steps {
-    let container_1: string;
-    export { container_1 as container };
+    let wrapper_3: string;
+    export { wrapper_3 as wrapper };
     let horizontal_1: string;
     export { horizontal_1 as horizontal };
 }
 export namespace card {
-    let base_2: string;
-    export { base_2 as base };
+    let base_3: string;
+    export { base_3 as base };
     export let shadow: string;
     export let selected: string;
     export let outline: string;
@@ -99,8 +100,8 @@ export namespace card {
     export { a11y_1 as a11y };
 }
 export namespace switchToggle {
-    let base_3: string;
-    export { base_3 as base };
+    let base_4: string;
+    export { base_4 as base };
     let disabled_1: string;
     export { disabled_1 as disabled };
     let track_1: string;
@@ -117,18 +118,18 @@ export namespace switchToggle {
     export { a11y_2 as a11y };
 }
 export namespace toaster {
-    let container_2: string;
-    export { container_2 as container };
-    let base_4: string;
-    export { base_4 as base };
+    let wrapper_4: string;
+    export { wrapper_4 as wrapper };
+    let base_5: string;
+    export { base_5 as base };
     let content_1: string;
     export { content_1 as content };
 }
 export namespace toast {
-    let wrapper_3: string;
-    export { wrapper_3 as wrapper };
-    let base_5: string;
-    export { base_5 as base };
+    let wrapper_5: string;
+    export { wrapper_5 as wrapper };
+    let base_6: string;
+    export { base_6 as base };
     let positive_1: string;
     export { positive_1 as positive };
     let warning_1: string;
@@ -146,15 +147,15 @@ export namespace toast {
     export { close_1 as close };
 }
 export namespace tabs {
-    let wrapper_4: string;
-    export { wrapper_4 as wrapper };
-    let container_3: string;
-    export { container_3 as container };
+    let wrapper_6: string;
+    export { wrapper_6 as wrapper };
+    let base_7: string;
+    export { base_7 as base };
     export let selectionIndicator: string;
 }
 export namespace tab {
-    let base_6: string;
-    export { base_6 as base };
+    let base_8: string;
+    export { base_8 as base };
     let inactive_1: string;
     export { inactive_1 as inactive };
     let active_1: string;
@@ -177,8 +178,8 @@ export namespace gridLayout {
 }
 export const buttonReset: "focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block";
 export namespace expandable {
-    let wrapper_5: string;
-    export { wrapper_5 as wrapper };
+    let wrapper_7: string;
+    export { wrapper_7 as wrapper };
     export let box: string;
     let bleed_1: string;
     export { bleed_1 as bleed };
@@ -264,8 +265,8 @@ export namespace button {
     export let contentWidth: string;
 }
 export namespace buttonGroup {
-    let wrapper_6: string;
-    export { wrapper_6 as wrapper };
+    let wrapper_8: string;
+    export { wrapper_8 as wrapper };
     export let raised: string;
     let vertical_1: string;
     export { vertical_1 as vertical };
@@ -273,8 +274,8 @@ export namespace buttonGroup {
     export let nonOutlinedHorizontal: string;
 }
 export namespace buttonGroupItem {
-    let wrapper_7: string;
-    export { wrapper_7 as wrapper };
+    let wrapper_9: string;
+    export { wrapper_9 as wrapper };
     export let outlined: string;
     export let outlinedVertical: string;
     export let outlinedHorizontal: string;
@@ -288,8 +289,8 @@ export namespace buttonGroupItem {
 }
 export namespace modal {
     export let backdrop: string;
-    let base_7: string;
-    export { base_7 as base };
+    let base_9: string;
+    export { base_9 as base };
     let content_4: string;
     export { content_4 as content };
     export let footer: string;
@@ -323,8 +324,8 @@ export namespace modalElement {
     export { footer_1 as footer };
 }
 export namespace alert {
-    let wrapper_8: string;
-    export { wrapper_8 as wrapper };
+    let wrapper_10: string;
+    export { wrapper_10 as wrapper };
     export let willChangeHeight: string;
     export let textWrapper: string;
     let title_2: string;
@@ -345,10 +346,10 @@ export namespace alert {
     export let infoIcon: string;
 }
 export namespace input {
-    let wrapper_9: string;
-    export { wrapper_9 as wrapper };
-    let base_8: string;
-    export { base_8 as base };
+    let wrapper_11: string;
+    export { wrapper_11 as wrapper };
+    let base_10: string;
+    export { base_10 as base };
     let _default: string;
     export { _default as default };
     let disabled_2: string;
@@ -361,8 +362,8 @@ export namespace input {
     export let textArea: string;
 }
 export namespace select {
-    let base_9: string;
-    export { base_9 as base };
+    let base_11: string;
+    export { base_11 as base };
     let _default_1: string;
     export { _default_1 as default };
     let disabled_3: string;
@@ -371,35 +372,35 @@ export namespace select {
     export { invalid_1 as invalid };
     let readOnly_1: string;
     export { readOnly_1 as readOnly };
-    let wrapper_10: string;
-    export { wrapper_10 as wrapper };
+    let wrapper_12: string;
+    export { wrapper_12 as wrapper };
     export let selectWrapper: string;
     let chevron_1: string;
     export { chevron_1 as chevron };
     export let chevronDisabled: string;
 }
 export namespace label {
-    let base_10: string;
-    export { base_10 as base };
+    let base_12: string;
+    export { base_12 as base };
     export let optional: string;
 }
 export namespace helpText {
-    let base_11: string;
-    export { base_11 as base };
+    let base_13: string;
+    export { base_13 as base };
     export let color: string;
     export let colorInvalid: string;
 }
 export namespace suffix {
-    let wrapper_11: string;
-    export { wrapper_11 as wrapper };
+    let wrapper_13: string;
+    export { wrapper_13 as wrapper };
     export let wrapperWithLabel: string;
     export let wrapperWithIcon: string;
     let label_1: string;
     export { label_1 as label };
 }
 export namespace prefix {
-    let wrapper_12: string;
-    export { wrapper_12 as wrapper };
+    let wrapper_14: string;
+    export { wrapper_14 as wrapper };
     let wrapperWithLabel_1: string;
     export { wrapperWithLabel_1 as wrapperWithLabel };
     let wrapperWithIcon_1: string;
@@ -408,8 +409,8 @@ export namespace prefix {
     export { label_2 as label };
 }
 export namespace breadcrumbs {
-    let wrapper_13: string;
-    export { wrapper_13 as wrapper };
+    let wrapper_15: string;
+    export { wrapper_15 as wrapper };
     export let text: string;
     let link_1: string;
     export { link_1 as link };
@@ -419,8 +420,8 @@ export namespace breadcrumbs {
 }
 export namespace toggle {
     export let field: string;
-    let wrapper_14: string;
-    export { wrapper_14 as wrapper };
+    let wrapper_16: string;
+    export { wrapper_16 as wrapper };
     export let wrapperRadioButtons: string;
     export let wrapperRadioButtonsJustified: string;
     export let radioButtonsGroup: string;
@@ -445,8 +446,8 @@ export namespace toggle {
     export let radioButtonsSmall: string;
 }
 export namespace deadToggle {
-    let wrapper_15: string;
-    export { wrapper_15 as wrapper };
+    let wrapper_17: string;
+    export { wrapper_17 as wrapper };
     let input_1: string;
     export { input_1 as input };
     export let inputVue: string;
@@ -462,10 +463,10 @@ export namespace clickable {
     export let buttonOrLinkStretch: string;
 }
 export namespace combobox {
-    let wrapper_16: string;
-    export { wrapper_16 as wrapper };
-    let base_12: string;
-    export { base_12 as base };
+    let wrapper_18: string;
+    export { wrapper_18 as wrapper };
+    let base_14: string;
+    export { base_14 as base };
     export let listbox: string;
     export let option: string;
     export let optionUnselected: string;
@@ -475,8 +476,8 @@ export namespace combobox {
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_13: string;
-    export { base_13 as base };
+    let base_15: string;
+    export { base_15 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;

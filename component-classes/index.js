@@ -57,7 +57,7 @@ export const pill = {
 };
 
 export const step = {
-  container: 'group/step',
+  base: 'group/step',
   vertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
   horizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
@@ -86,7 +86,7 @@ export const step = {
 };
 
 export const steps = {
-  container: 'w-full',
+  wrapper: 'w-full',
   horizontal: 'flex',
 };
 
@@ -119,7 +119,7 @@ export const switchToggle = {
 };
 
 export const toaster = {
-  container: 'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+  wrapper: 'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
   base: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
   content: 'w-full',
 };
@@ -141,7 +141,7 @@ export const toast = {
 
 export const tabs = {
   wrapper: 'inline-block border-b s-border mb-32',
-  container: 'inline-grid relative -mb-1',
+  base: 'inline-grid relative -mb-1',
   selectionIndicator: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
 };
 
