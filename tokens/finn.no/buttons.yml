@@ -3,12 +3,7 @@ token: maps
 
 color:
   button:
-    primary:
-      background:
-        _: s-color-background-primary
-        hover: s-color-background-primary-hover
-        active: s-color-background-primary-active
     pill:
       background:
-        hover: blue-300/30
         active: blue-400/30
+        hover: blue-300/30

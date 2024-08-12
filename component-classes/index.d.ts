@@ -4,40 +4,21 @@ export namespace pageIndicator {
     let inactive: string;
     let active: string;
 }
-export namespace ribbon {
-    let base: string;
-    let info: string;
-    let success: string;
-    let warning: string;
-    let error: string;
-    let disabled: string;
-    let sponsored: string;
-    let neutral: string;
-    let roundedTopRightBottomLeft: string;
-    let roundedTopLeftBottomRight: string;
-}
 export namespace badge {
-    let base_1: string;
-    export { base_1 as base };
-    let neutral_1: string;
-    export { neutral_1 as neutral };
-    let info_1: string;
-    export { info_1 as info };
-    export let positive: string;
-    let warning_1: string;
-    export { warning_1 as warning };
-    export let negative: string;
-    let disabled_1: string;
-    export { disabled_1 as disabled };
-    export let price: string;
-    let sponsored_1: string;
-    export { sponsored_1 as sponsored };
-    export let notification: string;
-    export let positionBase: string;
-    export let positionTL: string;
-    export let positionTR: string;
-    export let positionBR: string;
-    export let positionBL: string;
+    let base: string;
+    let neutral: string;
+    let info: string;
+    let positive: string;
+    let warning: string;
+    let negative: string;
+    let disabled: string;
+    let price: string;
+    let sponsored: string;
+    let positionBase: string;
+    let positionTL: string;
+    let positionTR: string;
+    let positionBR: string;
+    let positionBL: string;
 }
 export namespace slider {
     let wrapper_1: string;
@@ -45,81 +26,84 @@ export namespace slider {
     export let track: string;
     export let trackDisabled: string;
     export let activeTrack: string;
+    export let activeTrackEnabled: string;
     export let activeTrackDisabled: string;
     export let thumb: string;
     export let thumbEnabled: string;
     export let thumbDisabled: string;
 }
 export namespace box {
-    export let box: string;
+    let base_1: string;
+    export { base_1 as base };
     export let bleed: string;
-    let info_2: string;
-    export { info_2 as info };
-    let neutral_2: string;
-    export { neutral_2 as neutral };
+    let info_1: string;
+    export { info_1 as info };
+    let neutral_1: string;
+    export { neutral_1 as neutral };
     export let bordered: string;
-    export let infoClickable: string;
-    export let neutralClickable: string;
-    export let borderedClickable: string;
 }
 export namespace pill {
-    let pill: string;
-    let button: string;
-    let suggestion: string;
-    let filter: string;
-    let label: string;
-    let labelWithoutClose: string;
-    let labelWithClose: string;
-    let close: string;
-    let a11y: string;
+    let wrapper_2: string;
+    export { wrapper_2 as wrapper };
+    export let button: string;
+    export let suggestion: string;
+    export let filter: string;
+    export let label: string;
+    export let labelWithoutClose: string;
+    export let labelWithClose: string;
+    export let close: string;
+    export let a11y: string;
 }
 export namespace step {
-    let step: string;
-    let stepVertical: string;
-    let stepVerticalLeft: string;
-    let stepVerticalRight: string;
-    let stepHorizontal: string;
-    let stepDot: string;
-    let stepDotVerticalRight: string;
-    let stepDotHorizontal: string;
-    let stepDotActive: string;
-    let stepDotIncomplete: string;
-    let stepLine: string;
-    let stepLineVertical: string;
-    let stepLineVerticalRight: string;
-    let stepLineHorizontal: string;
-    let stepLineHorizontalRight: string;
-    let stepLineHorizontalLeft: string;
-    let stepLineIncomplete: string;
-    let stepLineComplete: string;
-    let content: string;
-    let contentVertical: string;
-    let contentHorizontal: string;
+    let base_2: string;
+    export { base_2 as base };
+    export let vertical: string;
+    export let horizontal: string;
+    export let alignLeft: string;
+    export let alignRight: string;
+    let dot_1: string;
+    export { dot_1 as dot };
+    export let dotAlignRight: string;
+    export let dotHorizontal: string;
+    export let dotActive: string;
+    export let dotIncomplete: string;
+    export let line: string;
+    export let lineVertical: string;
+    export let lineAlignRight: string;
+    export let lineHorizontal: string;
+    export let lineHorizontalAlignRight: string;
+    export let lineHorizontalAlignLeft: string;
+    export let lineIncomplete: string;
+    export let lineComplete: string;
+    export let content: string;
+    export let contentVertical: string;
+    export let contentHorizontal: string;
 }
 export namespace steps {
-    let steps: string;
-    let stepsHorizontal: string;
+    let wrapper_3: string;
+    export { wrapper_3 as wrapper };
+    let horizontal_1: string;
+    export { horizontal_1 as horizontal };
 }
 export namespace card {
-    export let card: string;
-    export let cardShadow: string;
-    export let cardUnselected: string;
-    export let cardSelected: string;
-    export let cardOutline: string;
-    export let cardOutlineUnselected: string;
-    export let cardOutlineSelected: string;
-    export let cardFlat: string;
-    export let cardFlatUnselected: string;
-    export let cardFlatSelected: string;
+    let base_3: string;
+    export { base_3 as base };
+    export let shadow: string;
+    export let selected: string;
+    export let outline: string;
+    export let outlineUnselected: string;
+    export let outlineSelected: string;
+    export let flat: string;
+    export let flatUnselected: string;
+    export let flatSelected: string;
     let a11y_1: string;
     export { a11y_1 as a11y };
 }
 export namespace switchToggle {
-    let _switch: string;
-    export { _switch as switch };
-    let label_1: string;
-    export { label_1 as label };
-    export let labelDisabled: string;
+    let base_4: string;
+    export { base_4 as base };
+    let disabled_1: string;
+    export { disabled_1 as disabled };
     let track_1: string;
     export { track_1 as track };
     export let trackActive: string;
@@ -134,22 +118,25 @@ export namespace switchToggle {
     export { a11y_2 as a11y };
 }
 export namespace toaster {
-    export let container: string;
+    let wrapper_4: string;
+    export { wrapper_4 as wrapper };
+    let base_5: string;
+    export { base_5 as base };
     let content_1: string;
     export { content_1 as content };
-    export let toaster: string;
 }
 export namespace toast {
-    let wrapper_2: string;
-    export { wrapper_2 as wrapper };
-    export let toast: string;
+    let wrapper_5: string;
+    export { wrapper_5 as wrapper };
+    let base_6: string;
+    export { base_6 as base };
     let positive_1: string;
     export { positive_1 as positive };
-    let warning_2: string;
-    export { warning_2 as warning };
+    let warning_1: string;
+    export { warning_1 as warning };
     let negative_1: string;
     export { negative_1 as negative };
-    export let icon: string;
+    export let iconBase: string;
     export let iconPositive: string;
     export let iconWarning: string;
     export let iconNegative: string;
@@ -160,20 +147,23 @@ export namespace toast {
     export { close_1 as close };
 }
 export namespace tabs {
-    let tabContainer: string;
-    let wunderbar: string;
-    let wrapperUnderlined: string;
+    let wrapper_6: string;
+    export { wrapper_6 as wrapper };
+    let base_7: string;
+    export { base_7 as base };
+    export let selectionIndicator: string;
 }
 export namespace tab {
-    export let tab: string;
-    export let tabActive: string;
-    let icon_1: string;
-    export { icon_1 as icon };
-    export let iconUnderlinedActive: string;
+    let base_8: string;
+    export { base_8 as base };
+    let inactive_1: string;
+    export { inactive_1 as inactive };
+    let active_1: string;
+    export { active_1 as active };
+    export let icon: string;
     let content_3: string;
     export { content_3 as content };
     export let contentUnderlined: string;
-    export let contentUnderlinedActive: string;
 }
 export namespace gridLayout {
     let cols1: string;
@@ -188,28 +178,26 @@ export namespace gridLayout {
 }
 export const buttonReset: "focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block";
 export namespace expandable {
-    export let expandable: string;
-    export let expandableTitle: string;
-    export let expandableBox: string;
-    export let expandableInfo: string;
-    import expandableBleed = box.bleed;
-    export { expandableBleed };
+    let wrapper_7: string;
+    export { wrapper_7 as wrapper };
+    export let box: string;
+    let bleed_1: string;
+    export { bleed_1 as bleed };
     export let chevron: string;
     export let chevronNonBox: string;
-    export let chevronBox: string;
     export let chevronTransform: string;
     export let chevronExpand: string;
     export let chevronCollapse: string;
-    export let elementsTransformChevronDownPart: string;
-    export let elementsChevronDownExpandPart: string;
-    export let elementsTransformChevronUpPart: string;
-    export let elementsChevronUpCollapsePart: string;
+    export let elementsChevronDownTransform: string;
+    export let elementsChevronUpTransform: string;
+    export let elementsChevronExpand: string;
+    export let elementsChevronCollapse: string;
     export let expansion: string;
     export let expansionNotExpanded: string;
     let button_1: string;
     export { button_1 as button };
     export let buttonBox: string;
-    export let paddingTop: string;
+    export let contentWithTitle: string;
     export let title: string;
     export let titleType: string;
 }
@@ -264,8 +252,7 @@ export namespace button {
     export let negativeSmallLoading: string;
     export let negativeQuietLoading: string;
     export let negativeSmallQuietLoading: string;
-    let pill_1: string;
-    export { pill_1 as pill };
+    export let pill: string;
     export let pillSmall: string;
     export let pillLoading: string;
     export let pillSmallLoading: string;
@@ -278,28 +265,32 @@ export namespace button {
     export let contentWidth: string;
 }
 export namespace buttonGroup {
-    let wrapper_3: string;
-    export { wrapper_3 as wrapper };
+    let wrapper_8: string;
+    export { wrapper_8 as wrapper };
     export let raised: string;
-    export let vertical: string;
+    let vertical_1: string;
+    export { vertical_1 as vertical };
     export let nonOutlinedVertical: string;
     export let nonOutlinedHorizontal: string;
 }
 export namespace buttonGroupItem {
-    let wrapper_4: string;
-    export { wrapper_4 as wrapper };
+    let wrapper_9: string;
+    export { wrapper_9 as wrapper };
     export let outlined: string;
     export let outlinedVertical: string;
     export let outlinedHorizontal: string;
     export let outlinedVerticalResets: string;
     export let outlinedHorizontalResets: string;
+    export let outlinedUnselected: string;
     export let outlinedSelected: string;
-    export let selected: string;
+    export let unselected: string;
+    let selected_1: string;
+    export { selected_1 as selected };
 }
 export namespace modal {
-    export let transparentBg: string;
     export let backdrop: string;
-    export let modal: string;
+    let base_9: string;
+    export { base_9 as base };
     let content_4: string;
     export { content_4 as content };
     export let footer: string;
@@ -333,31 +324,32 @@ export namespace modalElement {
     export { footer_1 as footer };
 }
 export namespace alert {
-    export let alert: string;
+    let wrapper_10: string;
+    export { wrapper_10 as wrapper };
     export let willChangeHeight: string;
     export let textWrapper: string;
     let title_2: string;
     export { title_2 as title };
-    let icon_2: string;
-    export { icon_2 as icon };
+    let icon_1: string;
+    export { icon_1 as icon };
     let negative_3: string;
     export { negative_3 as negative };
     export let negativeIcon: string;
     let positive_2: string;
     export { positive_2 as positive };
     export let positiveIcon: string;
-    let warning_3: string;
-    export { warning_3 as warning };
+    let warning_2: string;
+    export { warning_2 as warning };
     export let warningIcon: string;
-    let info_3: string;
-    export { info_3 as info };
+    let info_2: string;
+    export { info_2 as info };
     export let infoIcon: string;
 }
 export namespace input {
-    let wrapper_5: string;
-    export { wrapper_5 as wrapper };
-    let base_2: string;
-    export { base_2 as base };
+    let wrapper_11: string;
+    export { wrapper_11 as wrapper };
+    let base_10: string;
+    export { base_10 as base };
     let _default: string;
     export { _default as default };
     let disabled_2: string;
@@ -370,6 +362,8 @@ export namespace input {
     export let textArea: string;
 }
 export namespace select {
+    let base_11: string;
+    export { base_11 as base };
     let _default_1: string;
     export { _default_1 as default };
     let disabled_3: string;
@@ -378,47 +372,45 @@ export namespace select {
     export { invalid_1 as invalid };
     let readOnly_1: string;
     export { readOnly_1 as readOnly };
-    let wrapper_6: string;
-    export { wrapper_6 as wrapper };
+    let wrapper_12: string;
+    export { wrapper_12 as wrapper };
     export let selectWrapper: string;
     let chevron_1: string;
     export { chevron_1 as chevron };
     export let chevronDisabled: string;
 }
 export namespace label {
-    let label_2: string;
-    export { label_2 as label };
+    let base_12: string;
+    export { base_12 as base };
     export let optional: string;
-    export let labelInvalid: string;
 }
 export namespace helpText {
-    let helpText: string;
-    let helpTextColor: string;
-    let helpTextColorInvalid: string;
-    let helpTextValid: string;
-    let helpTextInvalid: string;
+    let base_13: string;
+    export { base_13 as base };
+    export let color: string;
+    export let colorInvalid: string;
 }
 export namespace suffix {
-    let wrapper_7: string;
-    export { wrapper_7 as wrapper };
+    let wrapper_13: string;
+    export { wrapper_13 as wrapper };
     export let wrapperWithLabel: string;
     export let wrapperWithIcon: string;
-    let label_3: string;
-    export { label_3 as label };
+    let label_1: string;
+    export { label_1 as label };
 }
 export namespace prefix {
-    let wrapper_8: string;
-    export { wrapper_8 as wrapper };
+    let wrapper_14: string;
+    export { wrapper_14 as wrapper };
     let wrapperWithLabel_1: string;
     export { wrapperWithLabel_1 as wrapperWithLabel };
     let wrapperWithIcon_1: string;
     export { wrapperWithIcon_1 as wrapperWithIcon };
-    let label_4: string;
-    export { label_4 as label };
+    let label_2: string;
+    export { label_2 as label };
 }
 export namespace breadcrumbs {
-    let wrapper_9: string;
-    export { wrapper_9 as wrapper };
+    let wrapper_15: string;
+    export { wrapper_15 as wrapper };
     export let text: string;
     let link_1: string;
     export { link_1 as link };
@@ -428,8 +420,8 @@ export namespace breadcrumbs {
 }
 export namespace toggle {
     export let field: string;
-    let wrapper_10: string;
-    export { wrapper_10 as wrapper };
+    let wrapper_16: string;
+    export { wrapper_16 as wrapper };
     export let wrapperRadioButtons: string;
     export let wrapperRadioButtonsJustified: string;
     export let radioButtonsGroup: string;
@@ -437,8 +429,8 @@ export namespace toggle {
     export let input: string;
     let a11y_5: string;
     export { a11y_5 as a11y };
-    let label_5: string;
-    export { label_5 as label };
+    let label_3: string;
+    export { label_3 as label };
     export let labelBefore: string;
     export let checkbox: string;
     export let checkboxInvalid: string;
@@ -454,36 +446,38 @@ export namespace toggle {
     export let radioButtonsSmall: string;
 }
 export namespace deadToggle {
-    let wrapper_11: string;
-    export { wrapper_11 as wrapper };
+    let wrapper_17: string;
+    export { wrapper_17 as wrapper };
     let input_1: string;
     export { input_1 as input };
     export let inputVue: string;
+    export let labelVue: string;
     export let labelRadio: string;
     export let labelCheckbox: string;
-    export let labelVue: string;
 }
 export namespace clickable {
     export let toggle: string;
-    let label_6: string;
-    export { label_6 as label };
+    let label_4: string;
+    export { label_4 as label };
     export let buttonOrLink: string;
     export let buttonOrLinkStretch: string;
 }
 export namespace combobox {
-    let wrapper_12: string;
-    export { wrapper_12 as wrapper };
-    export let combobox: string;
-    export let textMatch: string;
+    let wrapper_18: string;
+    export { wrapper_18 as wrapper };
+    let base_14: string;
+    export { base_14 as base };
     export let listbox: string;
     export let option: string;
+    export let optionUnselected: string;
     export let optionSelected: string;
+    export let textMatch: string;
     let a11y_6: string;
     export { a11y_6 as a11y };
 }
 export namespace attention {
-    let base_3: string;
-    export { base_3 as base };
+    let base_15: string;
+    export { base_15 as base };
     export let tooltip: string;
     export let callout: string;
     export let highlight: string;
@@ -510,66 +504,17 @@ export namespace attention {
     export let notCallout: string;
     export let closeBtn: string;
 }
-export namespace backwardsCompatibleClasses {
-    export let modalBackdrop: string;
-    let chevronBox_1: string;
-    export { chevronBox_1 as chevronBox };
-    let chevronNonBox_1: string;
-    export { chevronNonBox_1 as chevronNonBox };
-    let checkboxInvalid_1: string;
-    export { checkboxInvalid_1 as checkboxInvalid };
-    let radioInvalid_1: string;
-    export { radioInvalid_1 as radioInvalid };
-    let radioDisabled_1: string;
-    export { radioDisabled_1 as radioDisabled };
-    export let modalTitle: string;
-    export let pillClose: string;
-    let toggle_1: string;
-    export { toggle_1 as toggle };
-    export let radioButton: string;
-    export let toggleIndeterminate: string;
-    let input_2: string;
-    export { input_2 as input };
-    export let removedAlertTokens: string;
-    export let removedBadgeTokens: string;
-    export let removedBoxTokens: string;
-    export let removedBreadcrumbsTokens: string;
-    export let removedButtonTokens: string;
-    export let removedButtonGroupTokens: string;
-    export let removedCalloutTokens: string;
-    export let removedCardTokens: string;
-    export let removedCheckboxTokens: string;
-    export let removedComboboxTokens: string;
-    export let removedExpandableTokens: string;
-    export let removedHelpTextTokens: string;
-    export let removedInputTokens: string;
-    export let removedLabelTokens: string;
-    export let removedModalTokens: string;
-    export let removedPageIndicatorTokens: string;
-    export let removedPillTokens: string;
-    export let removedPopoverTokens: string;
-    export let removedRadioTokens: string;
-    export let removedSelectTokens: string;
-    export let removedSliderTokens: string;
-    export let removedStepindicatorTokens: string;
-    export let removedSwitchTokens: string;
-    export let removedTabsTokens: string;
-    export let removedToastTokens: string;
-    export let removedTooltipTokens: string;
-    export let removedAlphaTokens: string;
-    export let surfaceUpdates: string;
-}
 export namespace pagination {
     let link_2: string;
     export { link_2 as link };
     export let currentPage: string;
-    let icon_3: string;
-    export { icon_3 as icon };
+    let icon_2: string;
+    export { icon_2 as icon };
     export let containerNav: string;
     let a11y_7: string;
     export { a11y_7 as a11y };
     export let pages: string;
-    let active_1: string;
-    export { active_1 as active };
+    let active_2: string;
+    export { active_2 as active };
     export let notActive: string;
 }

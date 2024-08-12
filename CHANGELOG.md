@@ -1,3 +1,88 @@
+# [2.0.0-next.7](https://github.com/warp-ds/css/compare/v2.0.0-next.6...v2.0.0-next.7) (2024-08-12)
+
+
+### Bug Fixes
+
+* **cc:** no classes styling the same CSS properties are set on one element ([#237](https://github.com/warp-ds/css/issues/237)) ([90ec539](https://github.com/warp-ds/css/commit/90ec539fd5fa9a0a2bcda758f9302330be6ecbaa))
+
+
+### BREAKING CHANGES
+
+* **cc:** expandableInfo class has been removed since info prop has been deprecated
+
+# [2.0.0-next.6](https://github.com/warp-ds/css/compare/v2.0.0-next.5...v2.0.0-next.6) (2024-08-06)
+
+
+### Bug Fixes
+
+* **tokens:** update to correct color in button-pill-background-hover ([#233](https://github.com/warp-ds/css/issues/233)) ([c225c36](https://github.com/warp-ds/css/commit/c225c3644f20c53cb4f49217db06ec1d50c1d722))
+
+# [2.0.0-next.5](https://github.com/warp-ds/css/compare/v2.0.0-next.4...v2.0.0-next.5) (2024-08-02)
+
+
+### Bug Fixes
+
+* return if brandMode includes oikotie ([#232](https://github.com/warp-ds/css/issues/232)) ([7dfa5fe](https://github.com/warp-ds/css/commit/7dfa5fed9e1c0373343fee2e21a888e14cde7e82))
+
+# [2.0.0-next.4](https://github.com/warp-ds/css/compare/v2.0.0-next.3...v2.0.0-next.4) (2024-07-03)
+
+
+### Bug Fixes
+
+* make @warp-ds/uno as a peerDep and devDependency ([#220](https://github.com/warp-ds/css/issues/220)) ([e3a568a](https://github.com/warp-ds/css/commit/e3a568a8e6df31d656760ba11f8d809d47597ed8))
+
+# [2.0.0-next.3](https://github.com/warp-ds/css/compare/v2.0.0-next.2...v2.0.0-next.3) (2024-07-03)
+
+
+### Bug Fixes
+
+* Rename checkmark icon token for Toggle component ([#221](https://github.com/warp-ds/css/issues/221)) ([f7d729f](https://github.com/warp-ds/css/commit/f7d729f01fb2bf06b0b1d79259fd588a19c987d4))
+
+# [2.0.0-next.2](https://github.com/warp-ds/css/compare/v2.0.0-next.1...v2.0.0-next.2) (2024-07-01)
+
+
+### Bug Fixes
+
+* remove deprecated tokens and classes ([#219](https://github.com/warp-ds/css/issues/219)) ([c10955f](https://github.com/warp-ds/css/commit/c10955f40f5c3f7a5de275c3f200deeefd385a90))
+
+# [2.0.0-next.1](https://github.com/warp-ds/css/compare/v1.10.1...v2.0.0-next.1) (2024-06-24)
+
+
+### Features
+
+* build all css tokens from the style-dictionary output ([#212](https://github.com/warp-ds/css/issues/212)) ([4d42258](https://github.com/warp-ds/css/commit/4d42258a37bafdadc4d6dac759ea732e19264501))
+
+
+### BREAKING CHANGES
+
+* * fetch from GH and build
+
+* Add eslint and refactor
+
+* Remove redundant tokens and generate prod ready css tokens
+
+* More refactor
+
+* Refactor more
+
+* Remove switch and update brandNames
+
+* Update utils.js
+
+Co-authored-by: Balbina K <41303231+BalbinaK@users.noreply.github.com>
+
+* Update index.js
+
+Co-authored-by: Balbina K <41303231+BalbinaK@users.noreply.github.com>
+
+* Update index.js
+
+Co-authored-by: Balbina K <41303231+BalbinaK@users.noreply.github.com>
+
+* Cleanup and fix tokens
+
+* minify
+
 ## [1.10.1](https://github.com/warp-ds/css/compare/v1.10.0...v1.10.1) (2024-06-24)
 
 

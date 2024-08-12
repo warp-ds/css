@@ -3,12 +3,7 @@ token: maps
 
 color:
   button:
-    primary:
-      background:
-        _: watermelon-600
-        hover: watermelon-700
-        active: watermelon-800
     pill:
       background:
-        hover: blueberry-300/30
         active: blueberry-400/30
+        hover: blueberry-300/30
