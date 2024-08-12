@@ -1,3 +1,15 @@
+# [2.0.0-next.7](https://github.com/warp-ds/css/compare/v2.0.0-next.6...v2.0.0-next.7) (2024-08-12)
+
+
+### Bug Fixes
+
+* **cc:** no classes styling the same CSS properties are set on one element ([#237](https://github.com/warp-ds/css/issues/237)) ([90ec539](https://github.com/warp-ds/css/commit/90ec539fd5fa9a0a2bcda758f9302330be6ecbaa))
+
+
+### BREAKING CHANGES
+
+* **cc:** expandableInfo class has been removed since info prop has been deprecated
+
 # [2.0.0-next.6](https://github.com/warp-ds/css/compare/v2.0.0-next.5...v2.0.0-next.6) (2024-08-06)
 
 
