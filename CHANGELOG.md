@@ -1,3 +1,10 @@
+## [2.0.1-next.1](https://github.com/warp-ds/css/compare/v2.0.0...v2.0.1-next.1) (2024-09-03)
+
+
+### Bug Fixes
+
+* Prevent bleeding of background colors in rounded corners and fixes transparent bottom padding issue in Combobox component ([#242](https://github.com/warp-ds/css/issues/242)) ([fca4409](https://github.com/warp-ds/css/commit/fca44092afdb4654598ca276e7526fbaa935b1c9))
+
 # [2.0.0](https://github.com/warp-ds/css/compare/v1.10.1...v2.0.0) (2024-08-12)
 
 
