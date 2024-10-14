@@ -43,7 +43,7 @@
     "./component-classes/index.d.ts"
   ],
   "devDependencies": {
-    "@eik/cli": "2.0.38",
+    "@eik/cli": "2.0.39",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -54,13 +54,13 @@
     "cz-conventional-changelog": "3.3.0",
     "drnm": "0.9.0",
     "fs-extra": "11.2.0",
-    "lightningcss": "1.25.1",
-    "prettier": "3.3.2",
+    "lightningcss": "1.27.0",
+    "prettier": "3.3.3",
     "semantic-release": "24.0.0",
-    "typescript": "5.5.3",
+    "typescript": "5.6.3",
     "unocss": "0.x",
-    "unzipper": "0.12.1",
-    "vite": "5.3.3",
+    "unzipper": "0.12.3",
+    "vite": "5.4.9",
     "vite-plugin-dts": "3.9.1"
   },
   "eslintConfig": {
