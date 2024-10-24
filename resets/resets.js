@@ -450,4 +450,9 @@ body:not(:-moz-handler-blocked) fieldset {
   display: table-cell;
 }
 
+/* Disable pointer events on all SVGs */
+svg {
+  pointer-events: none;
+}
+
   `;
