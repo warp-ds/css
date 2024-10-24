@@ -1,3 +1,10 @@
+## [2.0.1-next.2](https://github.com/warp-ds/css/compare/v2.0.1-next.1...v2.0.1-next.2) (2024-10-24)
+
+
+### Bug Fixes
+
+* disable svg tooltip on all sites ([#243](https://github.com/warp-ds/css/issues/243)) ([db335e9](https://github.com/warp-ds/css/commit/db335e9aa773d8eb8d2c0c651b02d0c668724251))
+
 ## [2.0.1-next.1](https://github.com/warp-ds/css/compare/v2.0.0...v2.0.1-next.1) (2024-09-03)
 
 
