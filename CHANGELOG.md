@@ -1,3 +1,10 @@
+## [2.0.1-next.3](https://github.com/warp-ds/css/compare/v2.0.1-next.2...v2.0.1-next.3) (2024-11-08)
+
+
+### Bug Fixes
+
+* **tabs:** set border on selected tab to fix SSR ([#244](https://github.com/warp-ds/css/issues/244)) ([ffc29a6](https://github.com/warp-ds/css/commit/ffc29a62a72c128a28e3ff5ade938cc3c1e512e0))
+
 ## [2.0.1-next.2](https://github.com/warp-ds/css/compare/v2.0.1-next.1...v2.0.1-next.2) (2024-10-24)
 
 
