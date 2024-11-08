@@ -148,7 +148,7 @@ export const tabs = {
 export const tab = {
   base: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent border-transparent hover:s-text-link hover:s-border-primary',
   inactive: 's-text-subtle',
-  active: 's-text-link',
+  active: 's-text-link s-border-selected',
   icon: 'mx-auto',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
