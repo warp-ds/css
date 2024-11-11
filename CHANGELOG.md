@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/warp-ds/css/compare/v2.0.0...v2.0.1) (2024-11-11)
+
+
+### Bug Fixes
+
+* disable svg tooltip on all sites ([#243](https://github.com/warp-ds/css/issues/243)) ([db335e9](https://github.com/warp-ds/css/commit/db335e9aa773d8eb8d2c0c651b02d0c668724251))
+* Prevent bleeding of background colors in rounded corners and fixes transparent bottom padding issue in Combobox component ([#242](https://github.com/warp-ds/css/issues/242)) ([fca4409](https://github.com/warp-ds/css/commit/fca44092afdb4654598ca276e7526fbaa935b1c9))
+* **tabs:** set border on selected tab to fix SSR ([#244](https://github.com/warp-ds/css/issues/244)) ([ffc29a6](https://github.com/warp-ds/css/commit/ffc29a62a72c128a28e3ff5ade938cc3c1e512e0))
+
 ## [2.0.1-next.3](https://github.com/warp-ds/css/compare/v2.0.1-next.2...v2.0.1-next.3) (2024-11-08)
 
 
