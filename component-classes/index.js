@@ -148,7 +148,7 @@ export const tabs = {
 export const tab = {
   base: 'grid items-center font-bold gap-8 focusable antialias p-16 pb-8 border-b-4 bg-transparent border-transparent hover:s-text-link hover:s-border-primary',
   inactive: 's-text-subtle',
-  active: 's-text-link',
+  active: 's-text-link s-border-selected',
   icon: 'mx-auto',
   content: 'flex items-center justify-center gap-8',
   contentUnderlined: 'content-underlined', // content-underlined is a no-op that prevents a quirk in how Vue handles class bindings
@@ -522,10 +522,10 @@ export const clickable = {
 
 export const combobox = {
   wrapper: 'relative',
-  base: 'absolute left-0 right-0 pb-8 rounded-8 shadow-m',
+  base: 'absolute left-0 right-0 s-bg pb-4 rounded-8 overflow-hidden shadow-m',
   listbox: 'm-0 p-0 select-none list-none',
   option: 'block cursor-pointer p-8',
-  optionUnselected: 's-bg hover:s-bg-hover',
+  optionUnselected: 'hover:s-bg-hover',
   optionSelected: 's-bg-selected hover:s-bg-selected-hover',
   textMatch: 'font-bold',
   a11y: 'sr-only',
