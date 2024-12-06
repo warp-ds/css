@@ -1,4 +1,5 @@
 import tokenize from '@warp-ds/tokenizer';
+import fs from 'fs-extra';
 
 import { init, brandToName, downloadReleaseFile, generateFinalCss, getBrandModes, processHexCss, processRGBCss } from './utils.js';
 
@@ -15,9 +16,15 @@ brandModes.forEach((brandMode) => {
   console.log(`Processing ${brandMode}...`);
   const cssHex = processHexCss(brandMode);
   const cssRgb = processRGBCss(brandMode);
-  const cssTokens = tokenize(`./tokens/${brandToName(brandMode).replace('-', '.')}`);
+  let cssCustomTokens = '';
 
-  const css = cssHex + cssRgb + cssTokens;
+  const customTokensFilePath = `./tokens/${brandToName(brandMode).replace('-', '.')}`;
+
+  if (fs.existsSync(customTokensFilePath)) {
+    cssCustomTokens = tokenize(customTokensFilePath);
+  }
+
+  const css = cssHex + cssRgb + cssCustomTokens;
 
   console.log(`Outputting ${brandMode}...`);
   generateFinalCss(css, brandMode);

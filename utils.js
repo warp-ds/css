@@ -43,14 +43,18 @@ export const brandToName = (brand) => {
       return 'tori-fi';
     case 'oikotie-light':
       return 'oikotie-fi';
+    case 'dataviz-light':
+      return 'dataviz';
   }
 };
 
 export const processHexCss = (brandMode) => {
+  const isDataVizToken = brandMode.includes('dataviz');
+
   let cssHex = fs.readFileSync(`./${outputDir}/${brandMode}/variables.css`, 'utf8');
   cssHex = cssHex.replaceAll(':root ', ':root,:host ');
-  cssHex = cssHex.replaceAll('--color-', '--w-');
-  cssHex = cssHex.replaceAll('--semantic-color-', '--w-s-color-');
+  cssHex = cssHex.replaceAll('--color-', isDataVizToken ? '--w-dv-' : '--w-');
+  cssHex = cssHex.replaceAll('--semantic-color-', isDataVizToken ? '--w-dv-s-color-' : '--w-s-color-');
   cssHex = cssHex.replaceAll('--components-', '--w-color-');
   cssHex = cssHex.replaceAll('-default:', ':');
 
@@ -63,10 +67,12 @@ export const processRGBCss = (brandMode) => {
   // this regex removes the components rgb values from the rgb css
   const componentsRGBRegex = /--components-.*?:\s*var\(\s*--.*\);/g;
 
+  const isDataVizToken = brandMode.includes('dataviz');
+
   let cssRgb = fs.readFileSync(`./${outputDir}/${brandMode}/variables-rgb.css`, 'utf8');
   cssRgb = cssRgb.replaceAll(':root ', ':root,:host ');
-  cssRgb = cssRgb.replaceAll('--color-', '--w-rgb-');
-  cssRgb = cssRgb.replaceAll('--semantic-color-', '--w-s-rgb-');
+  cssRgb = cssRgb.replaceAll('--color-', isDataVizToken ? '--w-dv-rgb-' : '--w-rgb-');
+  cssRgb = cssRgb.replaceAll('--semantic-color-', isDataVizToken ? '--w-dv-s-rgb-' : '--w-s-rgb-');
   cssRgb = cssRgb.replaceAll(componentsRGBRegex, '');
   cssRgb = cssRgb.replaceAll('-default:', ':');
   cssRgb = cssRgb.replaceAll(rgbValuesRegex, '$1');
