@@ -572,3 +572,8 @@ export const pagination = {
   active: 's-bg-primary s-text-inverted',
   notActive: 'hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
 };
+
+// Remove in v3
+export const deprecatedClasses = {
+  switch: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
+};
