@@ -109,7 +109,7 @@ export const switchToggle = {
   disabled: 'pointer-events-none',
   track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
   trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
-  trackInactive: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
+  trackInactive: 'bg-[--w-color-switch-handle-background] group-hover:bg-[--w-color-switch-handle-background-hover]',
   trackDisabled: 's-bg-disabled-subtle',
   handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
