@@ -43,6 +43,41 @@ export const brandToName = (brand) => {
       return 'tori-fi';
     case 'oikotie-light':
       return 'oikotie-fi';
+    case 'finn-dark':
+      return 'finn-no';
+    case 'blocket-dark':
+      return 'blocket-se';
+    case 'dba-dark':
+      return 'dba-dk';
+    case 'tori-dark':
+      return 'tori-fi';
+    case 'oikotie-dark':
+      return 'oikotie-fi';
+  }
+};
+
+export const brandToCssFile = (brand) => {
+  switch (brand) {
+    case 'finn-light':
+      return 'finn-no';
+    case 'blocket-light':
+      return 'blocket-se';
+    case 'dba-light':
+      return 'dba-dk';
+    case 'tori-light':
+      return 'tori-fi';
+    case 'oikotie-light':
+      return 'oikotie-fi';
+    case 'finn-dark':
+      return 'finn-no-dark';
+    case 'blocket-dark':
+      return 'blocket-se-dark';
+    case 'dba-dark':
+      return 'dba-dk-dark';
+    case 'tori-dark':
+      return 'tori-fi-dark';
+    case 'oikotie-dark':
+      return 'oikotie-fi-dark';
   }
 };
 
@@ -84,5 +119,5 @@ export const generateFinalCss = (css, brandMode) => {
   });
 
   // Outputting to a temp directory for now
-  fs.outputFileSync(`./dist/tokens/${brandToName(brandMode)}.css`, code.toString(), 'utf8');
+  fs.outputFileSync(`./dist/tokens/${brandToCssFile(brandMode)}.css`, code.toString(), 'utf8');
 };
