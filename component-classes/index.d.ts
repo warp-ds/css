@@ -518,7 +518,3 @@ export namespace pagination {
     export { active_2 as active };
     export let notActive: string;
 }
-export namespace deprecatedClasses {
-    let _switch: string;
-    export { _switch as switch };
-}
