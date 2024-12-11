@@ -1,3 +1,10 @@
+# [2.1.0-next.1](https://github.com/warp-ds/css/compare/v2.0.1...v2.1.0-next.1) (2024-12-11)
+
+
+### Features
+
+* **tokens:** add dataviz.css, update gray colors and handle deprecated tokens ([#248](https://github.com/warp-ds/css/issues/248)) ([29a92e7](https://github.com/warp-ds/css/commit/29a92e75c31a51e299f7f5448d90cdf5d483ee7d)), closes [#247](https://github.com/warp-ds/css/issues/247)
+
 ## [2.0.1](https://github.com/warp-ds/css/compare/v2.0.0...v2.0.1) (2024-11-11)
 
 
