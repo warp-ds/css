@@ -40,7 +40,7 @@ export const box = {
   bleed: '-mx-16 sm:mx-0 rounded-l-0 rounded-r-0 sm:rounded-8', // We target L and R to override the default rounded-8
   info: 's-bg-info-subtle',
   neutral: 's-surface-sunken',
-  bordered: 'border-2 s-border s-bg',
+  bordered: 'border-2 s-border-subtle s-bg',
 };
 
 export const pill = {
@@ -68,7 +68,7 @@ export const step = {
   dotAlignRight: 'col-start-2',
   dotHorizontal: 'row-start-2 justify-self-end',
   dotActive: 's-border-primary s-bg-primary',
-  dotIncomplete: 's-border s-bg',
+  dotIncomplete: 's-border-subtle s-bg',
 
   line: 'group-last/stepv:hidden transition-colors duration-300',
   lineVertical: 'w-2 h-full justify-self-center',
@@ -140,7 +140,7 @@ export const toast = {
 };
 
 export const tabs = {
-  wrapper: 'inline-block border-b s-border mb-32',
+  wrapper: 'inline-block border-b s-border-subtle mb-32',
   base: 'inline-grid relative -mb-1',
   selectionIndicator: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
 };
