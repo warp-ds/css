@@ -1,3 +1,10 @@
+# [2.1.0-next.3](https://github.com/warp-ds/css/compare/v2.1.0-next.2...v2.1.0-next.3) (2024-12-13)
+
+
+### Bug Fixes
+
+* **dataviz:** rename 'categorical' to 'category' in text tokens ([8eec9b1](https://github.com/warp-ds/css/commit/8eec9b1e1738cacedc4f94d4702f89dda5c1c5f2))
+
 # [2.1.0-next.2](https://github.com/warp-ds/css/compare/v2.1.0-next.1...v2.1.0-next.2) (2024-12-13)
 
 
