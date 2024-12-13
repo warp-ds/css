@@ -11,7 +11,7 @@ const brandModes = getBrandModes();
 
 brandModes.forEach((brandMode) => {
   // skip dark themes and oikotie for now
-  if (brandMode.includes('dark') || brandMode.includes('oikotie')) return;
+  if (brandMode.includes('dark')) return;
 
   console.log(`Processing ${brandMode}...`);
   const cssHex = processHexCss(brandMode);
