@@ -1,3 +1,10 @@
+# [2.1.0-next.2](https://github.com/warp-ds/css/compare/v2.1.0-next.1...v2.1.0-next.2) (2024-12-13)
+
+
+### Bug Fixes
+
+* **dist:** release renamed dataviz CSS variables ([#251](https://github.com/warp-ds/css/issues/251)) ([c9ad84e](https://github.com/warp-ds/css/commit/c9ad84e58ae8cff400136a1c344295a85b3fc12d))
+
 # [2.1.0-next.1](https://github.com/warp-ds/css/compare/v2.0.1...v2.1.0-next.1) (2024-12-11)
 
 
