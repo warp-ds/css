@@ -53,6 +53,10 @@ export const brandToName = (brand) => {
       return 'tori-fi';
     case 'oikotie-dark':
       return 'oikotie-fi';
+    case 'dataviz-light':
+      return 'dataviz';
+    case 'dataviz-dark':
+      return 'dataviz';
   }
 };
 

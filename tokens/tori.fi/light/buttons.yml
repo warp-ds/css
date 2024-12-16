@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  button:
+    pill:
+      background:
+        active: blueberry-400/30
+        hover: blueberry-300/30

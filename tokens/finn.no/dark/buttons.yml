@@ -1,0 +1,9 @@
+---
+token: maps
+
+color:
+  button:
+    pill:
+      background:
+        active: blue-400/30
+        hover: blue-300/30
