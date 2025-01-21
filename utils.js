@@ -82,6 +82,10 @@ export const brandToCssFile = (brand) => {
       return 'tori-fi-dark';
     case 'oikotie-dark':
       return 'oikotie-fi-dark';
+    case 'dataviz-light':
+      return 'dataviz';
+    case 'dataviz-dark':
+      return 'dataviz-dark';
   }
 };
 
