@@ -1,3 +1,10 @@
+# [2.1.0-next.4](https://github.com/warp-ds/css/compare/v2.1.0-next.3...v2.1.0-next.4) (2025-01-22)
+
+
+### Features
+
+* init dark mode tokens generation ([#249](https://github.com/warp-ds/css/issues/249)) ([23416e2](https://github.com/warp-ds/css/commit/23416e2d7a9d50db587322c3daf3d5c062a6070b))
+
 # [2.1.0-next.3](https://github.com/warp-ds/css/compare/v2.1.0-next.2...v2.1.0-next.3) (2024-12-13)
 
 
