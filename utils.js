@@ -31,62 +31,21 @@ export const downloadReleaseFile = async () => {
 
 export const getBrandModes = () => fs.readdirSync(outputDir).filter((item) => fs.statSync(path.join(outputDir, item)).isDirectory());
 
-export const brandToName = (brand) => {
-  switch (brand) {
-    case 'finn-light':
-      return 'finn-no';
-    case 'blocket-light':
-      return 'blocket-se';
-    case 'dba-light':
-      return 'dba-dk';
-    case 'tori-light':
-      return 'tori-fi';
-    case 'oikotie-light':
-      return 'oikotie-fi';
-    case 'finn-dark':
-      return 'finn-no';
-    case 'blocket-dark':
-      return 'blocket-se';
-    case 'dba-dark':
-      return 'dba-dk';
-    case 'tori-dark':
-      return 'tori-fi';
-    case 'oikotie-dark':
-      return 'oikotie-fi';
-    case 'dataviz-light':
-      return 'dataviz';
-    case 'dataviz-dark':
-      return 'dataviz';
-  }
-};
+export const BRAND_MAP = {
+  'finn-light': { name: 'finn-no', cssFile: 'finn-no' },
+  'blocket-light': { name: 'blocket-se', cssFile: 'blocket-se' },
+  'dba-light': { name: 'dba-dk', cssFile: 'dba-dk' },
+  'tori-light': { name: 'tori-fi', cssFile: 'tori-fi' },
+  'oikotie-light': { name: 'oikotie-fi', cssFile: 'oikotie-fi' },
 
-export const brandToCssFile = (brand) => {
-  switch (brand) {
-    case 'finn-light':
-      return 'finn-no';
-    case 'blocket-light':
-      return 'blocket-se';
-    case 'dba-light':
-      return 'dba-dk';
-    case 'tori-light':
-      return 'tori-fi';
-    case 'oikotie-light':
-      return 'oikotie-fi';
-    case 'finn-dark':
-      return 'finn-no-dark';
-    case 'blocket-dark':
-      return 'blocket-se-dark';
-    case 'dba-dark':
-      return 'dba-dk-dark';
-    case 'tori-dark':
-      return 'tori-fi-dark';
-    case 'oikotie-dark':
-      return 'oikotie-fi-dark';
-    case 'dataviz-light':
-      return 'dataviz';
-    case 'dataviz-dark':
-      return 'dataviz-dark';
-  }
+  'finn-dark': { name: 'finn-no', cssFile: 'finn-no-dark' },
+  'blocket-dark': { name: 'blocket-se', cssFile: 'blocket-se-dark' },
+  'dba-dark': { name: 'dba-dk', cssFile: 'dba-dk-dark' },
+  'tori-dark': { name: 'tori-fi', cssFile: 'tori-fi-dark' },
+  'oikotie-dark': { name: 'oikotie-fi', cssFile: 'oikotie-fi-dark' },
+
+  'dataviz-light': { name: 'dataviz', cssFile: 'dataviz' },
+  'dataviz-dark': { name: 'dataviz', cssFile: 'dataviz-dark' },
 };
 
 export const processHexCss = (brandMode) => {
@@ -131,5 +90,5 @@ export const generateFinalCss = (css, brandMode) => {
   });
 
   // Outputting to a temp directory for now
-  fs.outputFileSync(`./dist/tokens/${brandToCssFile(brandMode)}.css`, code.toString(), 'utf8');
+  fs.outputFileSync(`./dist/tokens/${BRAND_MAP[brandMode]?.cssFile}.css`, code.toString(), 'utf8');
 };
