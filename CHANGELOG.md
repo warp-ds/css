@@ -1,3 +1,24 @@
+# [2.1.0-next.3](https://github.com/warp-ds/css/compare/v2.1.0-next.2...v2.1.0-next.3) (2024-12-13)
+
+
+### Bug Fixes
+
+* **dataviz:** rename 'categorical' to 'category' in text tokens ([8eec9b1](https://github.com/warp-ds/css/commit/8eec9b1e1738cacedc4f94d4702f89dda5c1c5f2))
+
+# [2.1.0-next.2](https://github.com/warp-ds/css/compare/v2.1.0-next.1...v2.1.0-next.2) (2024-12-13)
+
+
+### Bug Fixes
+
+* **dist:** release renamed dataviz CSS variables ([#251](https://github.com/warp-ds/css/issues/251)) ([c9ad84e](https://github.com/warp-ds/css/commit/c9ad84e58ae8cff400136a1c344295a85b3fc12d))
+
+# [2.1.0-next.1](https://github.com/warp-ds/css/compare/v2.0.1...v2.1.0-next.1) (2024-12-11)
+
+
+### Features
+
+* **tokens:** add dataviz.css, update gray colors and handle deprecated tokens ([#248](https://github.com/warp-ds/css/issues/248)) ([29a92e7](https://github.com/warp-ds/css/commit/29a92e75c31a51e299f7f5448d90cdf5d483ee7d)), closes [#247](https://github.com/warp-ds/css/issues/247)
+
 ## [2.0.1](https://github.com/warp-ds/css/compare/v2.0.0...v2.0.1) (2024-11-11)
 
 
