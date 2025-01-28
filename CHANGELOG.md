@@ -1,3 +1,10 @@
+# [2.1.0-next.5](https://github.com/warp-ds/css/compare/v2.1.0-next.4...v2.1.0-next.5) (2025-01-28)
+
+
+### Bug Fixes
+
+* WARP-682 slider css ([#254](https://github.com/warp-ds/css/issues/254)) ([1047a35](https://github.com/warp-ds/css/commit/1047a35e2d0bc761a7c33280709e07130def7925))
+
 # [2.1.0-next.4](https://github.com/warp-ds/css/compare/v2.1.0-next.3...v2.1.0-next.4) (2025-01-22)
 
 
