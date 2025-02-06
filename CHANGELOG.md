@@ -1,3 +1,10 @@
+# [2.1.0-next.6](https://github.com/warp-ds/css/compare/v2.1.0-next.5...v2.1.0-next.6) (2025-02-06)
+
+
+### Bug Fixes
+
+* push latest dataviz tokens ([a83834e](https://github.com/warp-ds/css/commit/a83834efd82eac2306c0f73f8a2bbab3af5b6a04))
+
 # [2.1.0-next.5](https://github.com/warp-ds/css/compare/v2.1.0-next.4...v2.1.0-next.5) (2025-01-28)
 
 
