@@ -1,3 +1,19 @@
+# [2.1.0](https://github.com/warp-ds/css/compare/v2.0.1...v2.1.0) (2025-02-10)
+
+
+### Bug Fixes
+
+* **dataviz:** rename 'categorical' to 'category' in text tokens ([8eec9b1](https://github.com/warp-ds/css/commit/8eec9b1e1738cacedc4f94d4702f89dda5c1c5f2))
+* **dist:** release renamed dataviz CSS variables ([#251](https://github.com/warp-ds/css/issues/251)) ([c9ad84e](https://github.com/warp-ds/css/commit/c9ad84e58ae8cff400136a1c344295a85b3fc12d))
+* push latest dataviz tokens ([a83834e](https://github.com/warp-ds/css/commit/a83834efd82eac2306c0f73f8a2bbab3af5b6a04))
+* WARP-682 slider css ([#254](https://github.com/warp-ds/css/issues/254)) ([1047a35](https://github.com/warp-ds/css/commit/1047a35e2d0bc761a7c33280709e07130def7925))
+
+
+### Features
+
+* init dark mode tokens generation ([#249](https://github.com/warp-ds/css/issues/249)) ([23416e2](https://github.com/warp-ds/css/commit/23416e2d7a9d50db587322c3daf3d5c062a6070b))
+* **tokens:** add dataviz.css, update gray colors and handle deprecated tokens ([#248](https://github.com/warp-ds/css/issues/248)) ([29a92e7](https://github.com/warp-ds/css/commit/29a92e75c31a51e299f7f5448d90cdf5d483ee7d)), closes [#247](https://github.com/warp-ds/css/issues/247)
+
 # [2.1.0-next.6](https://github.com/warp-ds/css/compare/v2.1.0-next.5...v2.1.0-next.6) (2025-02-06)
 
 
