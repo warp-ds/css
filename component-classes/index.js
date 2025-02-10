@@ -26,7 +26,7 @@ export const slider = {
   wrapper: 'touch-pan-y relative w-full h-44 py-2',
   track: 'absolute s-bg-disabled-subtle h-4 top-20 rounded-4 w-full',
   trackDisabled: 'pointer-events-none',
-  activeTrack: 'absolute h-6 top-[19px] rounded-4',
+  activeTrack: 'absolute h-6 top-[1.92rem] rounded-4',
   activeTrackEnabled: 's-bg-primary',
   activeTrackDisabled: 's-bg-disabled pointer-events-none',
   thumb: 'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',

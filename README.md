@@ -9,11 +9,12 @@ The package includes resets, component classes and tokens.
 The CSS files should be used directly from Eik. This is because we can alias releases by major versions.
 
 
-We publish 3 css files.
+We publish 4 css files.
 
-- Resets: `https://assets.finn.no/pkg/@warp-ds/css/v1/resets.css`
-- Components css: `https://assets.finn.no/pkg/@warp-ds/css/v1/components.css`
-- Brand css with tokens: `https://assets.finn.no/pkg/@warp-ds/css/v1/tokens/[BRANDNAME e.g. tori-fi].css`
+- Resets: `https://assets.finn.no/pkg/@warp-ds/css/v2/resets.css`
+- Components css: `https://assets.finn.no/pkg/@warp-ds/css/v2/components.css`
+- Brand css with tokens: `https://assets.finn.no/pkg/@warp-ds/css/v2/tokens/[BRANDNAME e.g. tori-fi].css`
+- Data Vizualization tokens: `https://assets.finn.no/pkg/@warp-ds/css/v2/tokens/dataviz.css`
 
 ## Usage (npm)
 
@@ -25,26 +26,29 @@ pnpm add @warp-ds/css
 
 ### Component classes
 
-The package includes component classes, such as:
+The package includes component classes for components like:
+- alert
 - attention
-- pageIndicator
-- ribbon
-- slider
-- modal
+- badge
 - box
-- pill
-- step
+- breadcrumbs
+- button
 - card
-- switchToggle
-- toaster
-- toast
-- tabs
-- tab
+- combobox
 - expandable
-- suffix
-- prefix
+- modal
+- page indicator
+- pagination
+- pill
+- select
+- slider
+- switch
+- step
+- tabs
+- toast
+- toggle
 
-And shortcuts, such as:
+And shortcuts for covering use-cases from predecessors of Warp DS, such as:
 - button
 - button--secondary
 - button--default
@@ -62,21 +66,11 @@ And shortcuts, such as:
 
 ### Tokens
 
-Creates brand-css files from tokens. 
+Run `pnpm build` to generate brand CSS and dataviz CSS files containing CSS variables which refer to tokens used in Warp.
 
-Uses the [Tokenizer](https://github.com/warp-ds/tokenizer) to build css vars. The output 
-is css files, one for each support brand. These CSS files are what's actually holding the theme.
+The majority of Warp tokens generated upon build are imported from Figma and initially processed using a library called Style Dictionary in the [@warp-ds/tokens repository](https://github.com/warp-ds/tokens/). The [output files](https://github.com/warp-ds/tokens/releases/tag/latest) are then made available for download by iOS, Android and web.
 
-
-#### Usage of tokens
-
-If you have new components to add tokens to (if you only want to update existing tokens proceed to step 2):
-
-1. Under applicable brand create a new yml file and preferably name it the same as the new component(e.g. button.yml if it is a button component)
-2. Update tokens needed.
-3. Push your changes.
-4. The CSS files for each brand will be built and published to Eik. Please find your release [here](https://github.com/warp-ds/css/actions/workflows/release.yml) and search for the css urls which were published under `Eik login and publish` step.
-! Be aware that it takes some time before we update the aliased version on Eik so if you need to test your changes immediately use the full version and not an alias.
+In the event when tokens are removed from Figma or for some reason are different for each brand, we can add them manually to the [tokens](/tokens) directory in the current repository (in a .yml format). We then use a tool called [Tokenizer](https://github.com/warp-ds/tokenizer) to build CSS variables from those files. The output is added to the final CSS files.
 
 
 ## How to contribute

@@ -31,26 +31,30 @@ export const downloadReleaseFile = async () => {
 
 export const getBrandModes = () => fs.readdirSync(outputDir).filter((item) => fs.statSync(path.join(outputDir, item)).isDirectory());
 
-export const brandToName = (brand) => {
-  switch (brand) {
-    case 'finn-light':
-      return 'finn-no';
-    case 'blocket-light':
-      return 'blocket-se';
-    case 'dba-light':
-      return 'dba-dk';
-    case 'tori-light':
-      return 'tori-fi';
-    case 'oikotie-light':
-      return 'oikotie-fi';
-  }
+export const BRAND_MAP = {
+  'finn-light': { name: 'finn-no', cssFile: 'finn-no' },
+  'blocket-light': { name: 'blocket-se', cssFile: 'blocket-se' },
+  'dba-light': { name: 'dba-dk', cssFile: 'dba-dk' },
+  'tori-light': { name: 'tori-fi', cssFile: 'tori-fi' },
+  'oikotie-light': { name: 'oikotie-fi', cssFile: 'oikotie-fi' },
+
+  'finn-dark': { name: 'finn-no', cssFile: 'finn-no-dark' },
+  'blocket-dark': { name: 'blocket-se', cssFile: 'blocket-se-dark' },
+  'dba-dark': { name: 'dba-dk', cssFile: 'dba-dk-dark' },
+  'tori-dark': { name: 'tori-fi', cssFile: 'tori-fi-dark' },
+  'oikotie-dark': { name: 'oikotie-fi', cssFile: 'oikotie-fi-dark' },
+
+  'dataviz-light': { name: 'dataviz', cssFile: 'dataviz' },
+  'dataviz-dark': { name: 'dataviz', cssFile: 'dataviz-dark' },
 };
 
 export const processHexCss = (brandMode) => {
+  const isDataVizToken = brandMode.includes('dataviz');
+
   let cssHex = fs.readFileSync(`./${outputDir}/${brandMode}/variables.css`, 'utf8');
   cssHex = cssHex.replaceAll(':root ', ':root,:host ');
-  cssHex = cssHex.replaceAll('--color-', '--w-');
-  cssHex = cssHex.replaceAll('--semantic-color-', '--w-s-color-');
+  cssHex = cssHex.replaceAll('--color-', isDataVizToken ? '--w-dv-' : '--w-');
+  cssHex = cssHex.replaceAll('--semantic-color-', isDataVizToken ? '--w-dv-s-color-' : '--w-s-color-');
   cssHex = cssHex.replaceAll('--components-', '--w-color-');
   cssHex = cssHex.replaceAll('-default:', ':');
 
@@ -63,10 +67,12 @@ export const processRGBCss = (brandMode) => {
   // this regex removes the components rgb values from the rgb css
   const componentsRGBRegex = /--components-.*?:\s*var\(\s*--.*\);/g;
 
+  const isDataVizToken = brandMode.includes('dataviz');
+
   let cssRgb = fs.readFileSync(`./${outputDir}/${brandMode}/variables-rgb.css`, 'utf8');
   cssRgb = cssRgb.replaceAll(':root ', ':root,:host ');
-  cssRgb = cssRgb.replaceAll('--color-', '--w-rgb-');
-  cssRgb = cssRgb.replaceAll('--semantic-color-', '--w-s-rgb-');
+  cssRgb = cssRgb.replaceAll('--color-', isDataVizToken ? '--w-dv-rgb-' : '--w-rgb-');
+  cssRgb = cssRgb.replaceAll('--semantic-color-', isDataVizToken ? '--w-dv-s-rgb-' : '--w-s-rgb-');
   cssRgb = cssRgb.replaceAll(componentsRGBRegex, '');
   cssRgb = cssRgb.replaceAll('-default:', ':');
   cssRgb = cssRgb.replaceAll(rgbValuesRegex, '$1');
@@ -84,5 +90,5 @@ export const generateFinalCss = (css, brandMode) => {
   });
 
   // Outputting to a temp directory for now
-  fs.outputFileSync(`./dist/tokens/${brandToName(brandMode)}.css`, code.toString(), 'utf8');
+  fs.outputFileSync(`./dist/tokens/${BRAND_MAP[brandMode]?.cssFile}.css`, code.toString(), 'utf8');
 };
