@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/warp-ds/css/compare/v2.1.0...v2.1.1) (2025-02-11)
+
+
+### Bug Fixes
+
+* add removed class in a backward compatible list ([#257](https://github.com/warp-ds/css/issues/257)) ([a00a9ac](https://github.com/warp-ds/css/commit/a00a9ac1df6491d1dad718ea28768d260ff3a937))
+
 ## [2.1.1-next.1](https://github.com/warp-ds/css/compare/v2.1.0...v2.1.1-next.1) (2025-02-11)
 
 
