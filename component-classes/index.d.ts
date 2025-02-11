@@ -518,3 +518,6 @@ export namespace pagination {
     export { active_2 as active };
     export let notActive: string;
 }
+export namespace backwardsCompatibleClasses {
+    let removedActiveTrack: string;
+}
