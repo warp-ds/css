@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/warp-ds/css/compare/v2.1.1...v2.2.0) (2025-04-10)
+
+
+### Features
+
+* add new token configurations for vend and neutral themes ([#260](https://github.com/warp-ds/css/issues/260)) ([1f397e0](https://github.com/warp-ds/css/commit/1f397e092991a6b03c29a4d4403495dfcf00a24c))
+
 # [2.2.0-next.1](https://github.com/warp-ds/css/compare/v2.1.1...v2.2.0-next.1) (2025-04-10)
 
 
