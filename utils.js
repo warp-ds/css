@@ -37,12 +37,16 @@ export const BRAND_MAP = {
   'dba-light': { name: 'dba-dk', cssFile: 'dba-dk' },
   'tori-light': { name: 'tori-fi', cssFile: 'tori-fi' },
   'oikotie-light': { name: 'oikotie-fi', cssFile: 'oikotie-fi' },
+  'neutral-light': { name: 'neutral-com', cssFile: 'neutral-com' },
+  'vend-light': { name: 'vend-com', cssFile: 'vend-com' },
 
   'finn-dark': { name: 'finn-no', cssFile: 'finn-no-dark' },
   'blocket-dark': { name: 'blocket-se', cssFile: 'blocket-se-dark' },
   'dba-dark': { name: 'dba-dk', cssFile: 'dba-dk-dark' },
   'tori-dark': { name: 'tori-fi', cssFile: 'tori-fi-dark' },
   'oikotie-dark': { name: 'oikotie-fi', cssFile: 'oikotie-fi-dark' },
+  'neutral-dark': { name: 'neutral-com', cssFile: 'neutral-com-dark' },
+  'vend-dark': { name: 'vend-com', cssFile: 'vend-com-dark' },
 
   'dataviz-light': { name: 'dataviz', cssFile: 'dataviz' },
   'dataviz-dark': { name: 'dataviz', cssFile: 'dataviz-dark' },

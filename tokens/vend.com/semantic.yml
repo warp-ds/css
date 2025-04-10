@@ -1,0 +1,19 @@
+---
+token: maps
+
+s:    
+  shadow:
+    surface:
+      elevated:
+        100:
+          _: shadow-m
+          hover: shadow-l
+          active: shadow-m
+        200:
+          _: shadow-s
+          hover: shadow-m
+          active: shadow-s
+        300:
+          _: shadow-l
+          hover: shadow-xl
+          active: shadow-l
