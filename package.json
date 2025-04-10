@@ -1,7 +1,7 @@
 {
   "name": "@warp-ds/css",
   "repository": "git@github.com:warp-ds/css.git",
-  "version": "2.1.1",
+  "version": "2.2.0-next.1",
   "peerDependencies": {
     "@warp-ds/uno": "2.x"
   },
