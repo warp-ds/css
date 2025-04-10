@@ -1,0 +1,12 @@
+---
+token: maps
+
+color:
+  buttongroup:
+    utility:
+      background:
+        hover: gray-100
+        selected: gray-200
+      border:
+        _: gray-300
+        selected: gray-700

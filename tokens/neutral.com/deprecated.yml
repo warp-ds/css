@@ -1,0 +1,22 @@
+---
+token: maps
+
+# Removed from Figma resources in https://github.com/warp-ds/tokens/pull/10
+s:
+  border:
+    inverted: gray-300
+color:
+  datepicker:
+    background:
+      button:
+        hover: s-color-background-hover
+  input:
+    icon: s-color-icon-default
+  switch:
+    track:
+      background:
+        _: gray-200
+        hover: gray-300
+    background:
+      track:
+        disabled: gray-200
