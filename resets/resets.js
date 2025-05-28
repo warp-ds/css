@@ -105,6 +105,10 @@ a:focus,
 a:active {
   text-decoration: underline;
 }
+a:focus-visible {
+    outline: 2px solid var(--w-s-color-border-focus);
+    outline-offset: 1px;
+}
 
 /*
 Add the correct font weight in Edge and Safari.
@@ -455,4 +459,4 @@ svg {
   pointer-events: none;
 }
 
-  `;
+`;
