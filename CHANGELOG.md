@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/warp-ds/css/compare/v2.2.0...v2.2.1) (2025-05-28)
+
+
+### Bug Fixes
+
+* add focus-visible styles for anchor elements in resets.js ([#262](https://github.com/warp-ds/css/issues/262)) ([b81d196](https://github.com/warp-ds/css/commit/b81d196854638bd0564ec4582dcb7b5b846b4ceb))
+
 ## [2.2.1-next.1](https://github.com/warp-ds/css/compare/v2.2.0...v2.2.1-next.1) (2025-05-28)
 
 
