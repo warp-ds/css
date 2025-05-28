@@ -455,4 +455,8 @@ svg {
   pointer-events: none;
 }
 
-  `;
+a:focus-visible {
+    outline: 2px solid var(--w-s-color-border-focus);
+    outline-offset: 1px;
+}
+`;
