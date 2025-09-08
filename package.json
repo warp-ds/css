@@ -58,7 +58,7 @@
     "prettier": "3.3.2",
     "semantic-release": "24.0.0",
     "typescript": "5.5.3",
-    "unocss": "0.x",
+    "unocss": "66.x",
     "unzipper": "0.12.1",
     "vite": "5.3.3",
     "vite-plugin-dts": "3.9.1"
