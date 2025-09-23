@@ -1,3 +1,10 @@
+## [2.2.3-next.1](https://github.com/warp-ds/css/compare/v2.2.2...v2.2.3-next.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* Release updated Neutral Theme tokens(2) ([dc35acb](https://github.com/warp-ds/css/commit/dc35acbb5cf3804ccdcc9e64d391239c2e31c454))
+
 ## [2.2.2](https://github.com/warp-ds/css/compare/v2.2.1...v2.2.2) (2025-09-16)
 
 
