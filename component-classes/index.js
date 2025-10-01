@@ -18,10 +18,8 @@ export const badge = {
   positionBase: 'absolute backdrop-blur',
   positionTL: 'rounded-tl-0 rounded-tr-0 rounded-bl-0 top-0 left-0',
   positionTR: 'rounded-tl-0 rounded-tr-0 rounded-br-0 top-0 right-0',
-  positionBR:
-    'rounded-tr-0 rounded-br-0 rounded-bl-0 bottom-0 right-0',
-  positionBL:
-    'rounded-tl-0 rounded-br-0 rounded-bl-0 bottom-0 left-0',
+  positionBR: 'rounded-tr-0 rounded-br-0 rounded-bl-0 bottom-0 right-0',
+  positionBL: 'rounded-tl-0 rounded-br-0 rounded-bl-0 bottom-0 left-0',
 };
 
 export const slider = {
@@ -31,8 +29,7 @@ export const slider = {
   activeTrack: 'absolute h-6 top-[1.92rem] rounded-4',
   activeTrackEnabled: 's-bg-primary',
   activeTrackDisabled: 's-bg-disabled pointer-events-none',
-  thumb:
-    'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
+  thumb: 'absolute transition-shadow w-24 h-24 bottom-10 rounded-4 outline-none',
   thumbEnabled:
     'border-2 shadow-[--w-shadow-slider] cursor-pointer s-bg-primary s-border-primary hover:s-bg-primary-hover hover:s-border-primary-hover hover:shadow-[--w-shadow-slider-handle-hover] active:s-bg-primary-active active:s-border-primary-active active:shadow-[--w-shadow-slider-handle-active] focus:shadow-[--w-shadow-slider-handle-hover] focus:s-border-primary-hover focus:s-bg-primary-hover',
   thumbDisabled: 's-bg-disabled cursor-disabled pointer-events-none',
@@ -51,8 +48,7 @@ export const pill = {
   button: 'inline-flex items-center focusable text-xs transition-all',
   suggestion:
     'bg-[--w-color-pill-suggestion-background] hover:bg-[--w-color-pill-suggestion-background-hover] active:bg-[--w-color-pill-suggestion-background-active] s-text font-bold',
-  filter:
-    's-bg-primary hover:s-bg-primary-hover active:s-bg-primary-active s-text-inverted',
+  filter: 's-bg-primary hover:s-bg-primary-hover active:s-bg-primary-active s-text-inverted',
   label: 'pl-12 py-8 rounded-l-full',
   labelWithoutClose: 'pr-12 rounded-r-full',
   labelWithClose: 'pr-2',
@@ -62,10 +58,8 @@ export const pill = {
 
 export const step = {
   base: 'group/step',
-  vertical:
-    'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
-  horizontal:
-    'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
+  vertical: 'group/stepv grid-rows-[20px_auto] grid grid-flow-col gap-x-16',
+  horizontal: 'group/steph grid-rows-[auto_20px] grid-cols-[1fr_20px_1fr] flex-1 grid gap-y-16 items-center',
 
   alignLeft: 'grid-cols-[20px_1fr]',
   alignRight: 'grid-cols-[1fr_20px] text-right',
@@ -98,18 +92,13 @@ export const steps = {
 
 export const card = {
   base: 'cursor-pointer overflow-hidden relative transition-all',
-  shadow:
-    'group rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
-  selected:
-    '!s-bg-selected !hover:s-bg-selected-hover !active:s-bg-selected-active',
+  shadow: 'group rounded-8 s-surface-elevated-200 hover:s-surface-elevated-200-hover active:s-surface-elevated-200-active',
+  selected: '!s-bg-selected !hover:s-bg-selected-hover !active:s-bg-selected-active',
   outline: 'absolute border-2 rounded-8 inset-0 transition-all',
-  outlineUnselected:
-    'border-transparent group-active:s-border-active',
-  outlineSelected:
-    's-border-selected group-hover:s-border-selected-hover group-active:s-border-selected-active',
+  outlineUnselected: 'border-transparent group-active:s-border-active',
+  outlineSelected: 's-border-selected group-hover:s-border-selected-hover group-active:s-border-selected-active',
   flat: 'border-2 rounded-4',
-  flatUnselected:
-    's-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
+  flatUnselected: 's-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
   flatSelected:
     's-bg-selected hover:s-bg-selected-hover active:s-bg-selected-active s-border-selected hover:s-border-selected-hover active:s-border-selected-active',
   a11y: 'sr-only',
@@ -118,14 +107,11 @@ export const card = {
 export const switchToggle = {
   base: 'block relative h-24 w-44 cursor-pointer group focusable rounded-full',
   disabled: 'pointer-events-none',
-  track:
-    'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
+  track: 'absolute top-0 left-0 h-full w-full rounded-full transition-colors',
   trackActive: 's-bg-primary group-hover:s-bg-primary-hover',
-  trackInactive:
-    'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
+  trackInactive: 'bg-[--w-color-switch-track-background] group-hover:bg-[--w-color-switch-track-background-hover]',
   trackDisabled: 's-bg-disabled-subtle',
-  handle:
-    'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
+  handle: 'absolute transform-gpu h-16 w-16 top-4 left-4 rounded-full transition-transform',
   handleSelected: 'translate-x-20',
   handleNotDisabled: 's-bg shadow-s',
   handleDisabled: 's-bg-disabled',
@@ -133,8 +119,7 @@ export const switchToggle = {
 };
 
 export const toaster = {
-  wrapper:
-    'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
+  wrapper: 'fixed transform translate-z-0 bottom-16 left-0 right-0 mx-8 sm:mx-16 z-50 pointer-events-none',
   base: 'grid auto-rows-auto justify-items-center justify-center mx-auto pointer-events-none',
   content: 'w-full',
 };
@@ -151,15 +136,13 @@ export const toast = {
   iconNegative: 's-icon-negative',
   iconLoading: 'animate-bounce',
   content: 'self-center mr-8 py-4 last-child:mb-0',
-  close:
-    'bg-transparent ml-auto p-[8px] s-icon hover:s-icon-hover active:s-icon-active',
+  close: 'bg-transparent ml-auto p-[8px] s-icon hover:s-icon-hover active:s-icon-active',
 };
 
 export const tabs = {
   wrapper: 'inline-block border-b s-border mb-32',
   base: 'inline-grid relative -mb-1',
-  selectionIndicator:
-    'absolute s-border-selected -bottom-0 border-b-4 transition-all',
+  selectionIndicator: 'absolute s-border-selected -bottom-0 border-b-4 transition-all',
 };
 
 export const tab = {
@@ -184,8 +167,7 @@ export const gridLayout = {
   cols9: 'grid-cols-9',
 };
 
-export const buttonReset =
-  'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
+export const buttonReset = 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 p-0 inline-block';
 
 export const expandable = {
   wrapper: 'will-change-height s-text',
@@ -193,8 +175,7 @@ export const expandable = {
   bleed: '-mx-16 rounded-l-0 rounded-r-0 sm:mx-0 sm:rounded-8',
   chevron: 'inline-block align-middle s-icon',
   chevronNonBox: 'ml-8',
-  chevronTransform:
-    'transform transition-transform transform-gpu ease-in-out',
+  chevronTransform: 'transform transition-transform transform-gpu ease-in-out',
   chevronExpand: '-rotate-180',
   chevronCollapse: 'rotate-180',
 
@@ -203,42 +184,31 @@ export const expandable = {
     'part-[w-icon-chevron-down-16-part]:transform part-[w-icon-chevron-down-16-part]:transition-transform part-[w-icon-chevron-down-16-part]:transform-gpu part-[w-icon-chevron-down-16-part]:ease-in-out',
   elementsChevronUpTransform:
     'part-[w-icon-chevron-up-16-part]:transform part-[w-icon-chevron-up-16-part]:transition-transform part-[w-icon-chevron-up-16-part]:transform-gpu part-[w-icon-chevron-up-16-part]:ease-in-out',
-  elementsChevronExpand:
-    'part-[w-icon-chevron-down-16-part]:-rotate-180',
-  elementsChevronCollapse:
-    'part-[w-icon-chevron-up-16-part]:rotate-180',
+  elementsChevronExpand: 'part-[w-icon-chevron-down-16-part]:-rotate-180',
+  elementsChevronCollapse: 'part-[w-icon-chevron-up-16-part]:rotate-180',
 
   expansion: 'overflow-hidden',
   expansionNotExpanded: 'h-0 invisible',
-  button:
-    'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 hover:underline focus-visible:underline',
-  buttonBox:
-    'w-full text-left relative inline-flex items-center justify-between group relative break-words last-child:mb-0 p-16 rounded-8',
+  button: 'focus:outline-none appearance-none cursor-pointer bg-transparent border-0 m-0 hover:underline focus-visible:underline',
+  buttonBox: 'w-full text-left relative inline-flex items-center justify-between group relative break-words last-child:mb-0 p-16 rounded-8',
   contentWithTitle: 'pt-0',
   title: 'flex w-full justify-between items-center',
   titleType: 't4',
 };
 
-const buttonDefaultStyling =
-  'font-bold focusable justify-center transition-colors ease-in-out';
+const buttonDefaultStyling = 'font-bold focusable justify-center transition-colors ease-in-out';
 
 const buttonColors = {
   primary:
     's-text-inverted bg-[--w-color-button-primary-background] hover:bg-[--w-color-button-primary-background-hover] active:bg-[--w-color-button-primary-background-active]',
-  secondary:
-    's-text-link s-border s-bg hover:s-bg-hover hover:s-border-hover active:s-bg-active',
-  utility:
-    's-text s-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
-  destructive:
-    's-bg-negative s-text-inverted hover:s-bg-negative-hover active:s-bg-negative-active',
+  secondary: 's-text-link s-border s-bg hover:s-bg-hover hover:s-border-hover active:s-bg-active',
+  utility: 's-text s-bg hover:s-bg-hover active:s-bg-active s-border hover:s-border-hover active:s-border-active',
+  destructive: 's-bg-negative s-text-inverted hover:s-bg-negative-hover active:s-bg-negative-active',
   pill: 's-icon hover:s-icon-hover active:s-icon-active bg-transparent hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
   disabled: 's-text-inverted s-bg-disabled',
-  quiet:
-    'bg-transparent s-text-link hover:s-bg-hover active:s-bg-active',
-  utilityQuiet:
-    's-text bg-transparent hover:s-bg-hover active:s-bg-active',
-  negativeQuiet:
-    'bg-transparent s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
+  quiet: 'bg-transparent s-text-link hover:s-bg-hover active:s-bg-active',
+  utilityQuiet: 's-text bg-transparent hover:s-bg-hover active:s-bg-active',
+  negativeQuiet: 'bg-transparent s-text-negative hover:s-bg-negative-subtle-hover active:s-bg-negative-subtle-active',
   loading: 's-text s-bg-subtle',
   link: 's-text-link',
 };
@@ -339,8 +309,7 @@ export const button = {
 
   link: `${buttonSizes.link} ${buttonTextSizes.medium} ${buttonTypes.link}`,
   linkSmall: `${buttonSizes.link} ${buttonTextSizes.xsmall} ${buttonTypes.link}`,
-  linkAsButton:
-    'inline-block active:no-underline hover:no-underline focus:no-underline text-center',
+  linkAsButton: 'inline-block active:no-underline hover:no-underline focus:no-underline text-center',
   a11y: 'sr-only',
   fullWidth: 'w-full max-w-full',
   contentWidth: 'max-w-max',
@@ -357,28 +326,22 @@ export const buttonGroup = {
 export const buttonGroupItem = {
   wrapper: 'relative s-text',
   outlined: 'border hover:z-30',
-  outlinedVertical:
-    '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
-  outlinedHorizontal:
-    '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
+  outlinedVertical: '-mb-1 last:mb-0 first:rounded-lt-4 first:rounded-rt-4 last:rounded-lb-4 last:rounded-rb-4',
+  outlinedHorizontal: '-mr-1 last:mr-0 first:rounded-lt-4 first:rounded-lb-4 last:rounded-rt-4 last:rounded-rb-4',
   outlinedVerticalResets: 'px-1 pt-1 last:pb-1 -mb-1 last:mb-0',
   outlinedHorizontalResets: 'py-1 pl-1 last:pr-1 -mr-1 last:mr-0',
-  outlinedUnselected:
-    'border-[--w-color-buttongroup-utility-border] active:border-[--w-color-buttongroup-utility-border-selected]',
-  outlinedSelected:
-    'active:border-[--w-color-buttongroup-utility-border-selected]',
+  outlinedUnselected: 'border-[--w-color-buttongroup-utility-border] active:border-[--w-color-buttongroup-utility-border-selected]',
+  outlinedSelected: 'active:border-[--w-color-buttongroup-utility-border-selected]',
   unselected:
     's-bg hover:bg-[--w-color-buttongroup-utility-background-hover] active:s-text active:bg-[--w-color-buttongroup-utility-background-selected]',
-  selected:
-    'z-30 bg-[--w-color-buttongroup-utility-background-selected]',
+  selected: 'z-30 bg-[--w-color-buttongroup-utility-background-selected]',
 };
 
 export const modal = {
   backdrop:
     'fixed inset-0 flex sm:place-content-center sm:place-items-center items-end z-30 [--w-modal-max-height:80%] [--w-modal-width:640px] bg-[--w-black/25]',
   base: 'pb-safe-[32] shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] relative transition-300 ease-in-out backface-hidden will-change-height rounded-8 mx-0 sm:mx-16 bg-[--w-s-color-surface-elevated-100] flex flex-col overflow-hidden outline-none space-y-16 pt-8 sm:pt-32 sm:pb-32 rounded-b-0 sm:rounded-b-8',
-  content:
-    'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
+  content: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   footer: 'flex justify-end shrink-0 px-16 sm:px-32',
   transitionTitle: 'transition-all duration-300',
   transitionTitleCenter: 'justify-self-center self-center',
@@ -399,11 +362,9 @@ export const modalElement = {
     'bg-transparent backface-hidden w-unset h-unset max-w-unset max-h-unset p-0 m-auto border-0 inset-0 open:flex open:fixed sm:place-content-center sm:place-items-center items-end [--w-modal-max-height:80%] [--w-modal-width:640px]',
   dialogInner:
     'transition-all relative pb-safe-[32] sm:pb-32 shadow-m max-h-[--w-modal-max-height] min-h-[--w-modal-min-height] w-[--w-modal-width] h-[--w-modal-height] ease-in-out backface-hidden will-change-height rounded-8 sm:mx-16 s-bg flex flex-col overflow-hidden lt-sm:rounded-b-0',
-  contentSlot:
-    'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
+  contentSlot: 'block overflow-y-auto overflow-x-hidden last-child:mb-0 grow shrink px-16 sm:px-32 relative',
   header: 'relative pb-8',
-  headerTitleBar:
-    'pt-16 sm:pt-24 px-16 sm:px-32 grid gap-12 grid-cols-[auto_1fr_auto] items-start shrink-0!',
+  headerTitleBar: 'pt-16 sm:pt-24 px-16 sm:px-32 grid gap-12 grid-cols-[auto_1fr_auto] items-start shrink-0!',
   headerButton:
     'sm:min-h-[32px] sm:min-w-[32px] min-h-[40px] min-w-[40px] text-m leading-[24] p-4 rounded-full border-0 inline-flex items-center justify-center hover:bg-clip-padding font-bold focusable transition-colors ease-in-out',
   headerButtonLeft:
@@ -424,14 +385,11 @@ export const alert = {
   textWrapper: 'last-child:mb-0 text-s',
   title: 'text-s',
   icon: 'w-16 mr-8 min-w-16',
-  negative:
-    's-border-negative-subtle s-border-l-negative s-bg-negative-subtle',
+  negative: 's-border-negative-subtle s-border-l-negative s-bg-negative-subtle',
   negativeIcon: 's-icon-negative',
-  positive:
-    's-border-positive-subtle s-border-l-positive s-bg-positive-subtle',
+  positive: 's-border-positive-subtle s-border-l-positive s-bg-positive-subtle',
   positiveIcon: 's-icon-positive',
-  warning:
-    's-border-warning-subtle s-border-l-warning s-bg-warning-subtle',
+  warning: 's-border-warning-subtle s-border-l-warning s-bg-warning-subtle',
   warningIcon: 's-icon-warning',
   info: 's-border-info-subtle s-border-l-info s-bg-info-subtle',
   infoIcon: 's-icon-info',
@@ -442,12 +400,9 @@ export const input = {
   wrapper: 'relative',
   // input classes
   base: 'block text-m leading-m mb-0 px-8 py-12 rounded-4 w-full focusable focus:[--w-outline-offset:-2px] caret-current', // true
-  default:
-    'border-1 s-text s-bg s-border-strong hover:s-border-strong-hover active:s-border-selected', // !isInvalid && !isDisabled && !isReadOnly
-  disabled:
-    'border-1 s-text-disabled s-bg-disabled-subtle s-border-disabled pointer-events-none', // !isInvalid && isDisabled && !isReadOnly
-  invalid:
-    'border-1 s-text-negative s-bg s-border-negative hover:s-border-negative-hover outline-[--w-s-color-border-negative]!', // isInvalid && !isDisabled && !isReadOnly
+  default: 'border-1 s-text s-bg s-border-strong hover:s-border-strong-hover active:s-border-selected', // !isInvalid && !isDisabled && !isReadOnly
+  disabled: 'border-1 s-text-disabled s-bg-disabled-subtle s-border-disabled pointer-events-none', // !isInvalid && isDisabled && !isReadOnly
+  invalid: 'border-1 s-text-negative s-bg s-border-negative hover:s-border-negative-hover outline-[--w-s-color-border-negative]!', // isInvalid && !isDisabled && !isReadOnly
   readOnly: 'pl-0 bg-transparent pointer-events-none', // !isInvalid && !isDisabled && isReadOnly
   placeholder: 'placeholder:s-text-placeholder',
   suffix: 'pr-40',
@@ -458,18 +413,15 @@ export const input = {
 
 export const select = {
   base: 'block text-m mb-0 py-12 pr-32 rounded-4 w-full focusable focus:[--w-outline-offset:-2px] appearance-none cursor-pointer caret-current',
-  default:
-    's-text s-bg pl-8 border-1 s-border-strong hover:s-border-strong-hover active:s-border-active',
+  default: 's-text s-bg pl-8 border-1 s-border-strong hover:s-border-strong-hover active:s-border-active',
   disabled:
     's-text-disabled s-bg-disabled-subtle pl-8 border-1 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none',
   invalid:
     's-text s-bg pl-8 border-1 s-border-negative hover:s-border-negative-hover active:s-border-active outline-[--w-s-color-border-negative]!',
-  readOnly:
-    's-text bg-transparent pl-0 border-0 pointer-events-none before:hidden',
+  readOnly: 's-text bg-transparent pl-0 border-0 pointer-events-none before:hidden',
   wrapper: 'relative',
   selectWrapper: `relative before:block before:absolute before:right-0 before:bottom-0 before:w-32 before:h-full before:pointer-events-none `,
-  chevron:
-    'block absolute top-[30%] right-0 bottom-0 w-32 h-full s-icon pointer-events-none cursor-pointer',
+  chevron: 'block absolute top-[30%] right-0 bottom-0 w-32 h-full s-icon pointer-events-none cursor-pointer',
   chevronDisabled: 'opacity-25',
 };
 
@@ -491,16 +443,14 @@ export const suffix = {
   wrapper: prefixSuffixWrapper + 'right-0',
   wrapperWithLabel: 'w-max pr-12',
   wrapperWithIcon: 'w-40',
-  label:
-    'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const prefix = {
   wrapper: prefixSuffixWrapper + 'left-0',
   wrapperWithLabel: 'w-max pl-12',
   wrapperWithIcon: 'w-40',
-  label:
-    'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
+  label: 'antialiased block relative cursor-default pb-0 font-bold text-xs s-text',
 };
 
 export const breadcrumbs = {
@@ -515,10 +465,8 @@ export const toggle = {
   // wrapper classes
   field: 'relative text-m', // true
   wrapper: 'relative py-1', // true
-  wrapperRadioButtons:
-    'inline-flex font-bold rounded-8 focus-within:focusable', // isRadioButton && !isEqualWidth
-  wrapperRadioButtonsJustified:
-    'flex font-bold rounded-8 focus-within:focusable', // isRadioButton && isEqualWidth,
+  wrapperRadioButtons: 'inline-flex font-bold rounded-8 focus-within:focusable', // isRadioButton && !isEqualWidth
+  wrapperRadioButtonsJustified: 'flex font-bold rounded-8 focus-within:focusable', // isRadioButton && isEqualWidth,
 
   // group classes
   radioButtonsGroup: 'group', // isRadioButton
@@ -566,10 +514,8 @@ export const deadToggle = {
 };
 
 export const clickable = {
-  toggle:
-    'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
-  label:
-    'antialiased block relative text-s font-bold s-text px-12 py-8 cursor-pointer focusable focusable-inset',
+  toggle: 'absolute inset-0 h-full w-full appearance-none cursor-pointer focusable focusable-inset',
+  label: 'antialiased block relative text-s font-bold s-text px-12 py-8 cursor-pointer focusable focusable-inset',
   buttonOrLink: 'bg-transparent focusable',
   buttonOrLinkStretch: 'inset-0 absolute',
 };
@@ -587,17 +533,13 @@ export const combobox = {
 
 export const attention = {
   base: 'border-2 relative flex items-start',
-  tooltip:
-    's-bg-inverted border-[--w-s-color-background-inverted] shadow-m s-text-inverted-static rounded-4 py-6 px-8',
-  callout:
-    'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
-  highlight:
-    'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m translate-z-0',
+  tooltip: 's-bg-inverted border-[--w-s-color-background-inverted] shadow-m s-text-inverted-static rounded-4 py-6 px-8',
+  callout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8',
+  highlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border] s-text py-8 px-16 rounded-8 drop-shadow-m translate-z-0',
   popover:
     'bg-[--w-s-color-surface-elevated-300] border-[--w-s-color-surface-elevated-300] s-text rounded-8 p-16 drop-shadow-m translate-z-0',
 
-  arrowBase:
-    'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
+  arrowBase: 'absolute h-[14px] w-[14px] border-2 border-b-0 border-r-0 rounded-tl-4 transform',
   arrowDirectionLeftStart: '-left-[8px]',
   arrowDirectionLeft: '-left-[8px]',
   arrowDirectionLeftEnd: '-left-[8px]',
@@ -610,14 +552,10 @@ export const attention = {
   arrowDirectionTopStart: '-top-[8px]',
   arrowDirectionTop: '-top-[8px]',
   arrowDirectionTopEnd: '-top-[8px]',
-  arrowTooltip:
-    's-bg-inverted border-[--w-s-color-background-inverted]',
-  arrowCallout:
-    'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
-  arrowPopover:
-    'bg-[--w-s-color-surface-elevated-300] border-[--w-s-color-surface-elevated-300]',
-  arrowHighlight:
-    'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
+  arrowTooltip: 's-bg-inverted border-[--w-s-color-background-inverted]',
+  arrowCallout: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
+  arrowPopover: 'bg-[--w-s-color-surface-elevated-300] border-[--w-s-color-surface-elevated-300]',
+  arrowHighlight: 'bg-[--w-color-callout-background] border-[--w-color-callout-border]',
 
   content: 'last-child:mb-0',
   notCallout: 'absolute z-50',
@@ -632,18 +570,15 @@ export const pagination = {
   a11y: 'sr-only',
   pages: 'hidden md:block s-text-link',
   active: 's-bg-primary s-text-inverted',
-  notActive:
-    'hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
+  notActive: 'hover:bg-[--w-color-button-pill-background-hover] active:bg-[--w-color-button-pill-background-active]',
 };
 
 // remove these in v3
 export const backwardsCompatibleClasses = {
   removedActiveTrack: 'top-[19px]',
   label: 's-border',
-  checkbox:
-    'before:s-border before:s-border-hover hover:before:s-border-primary',
-  radio:
-    'before:s-border before:s-border-hover hover:before:s-border-primary',
+  checkbox: 'before:s-border before:s-border-hover hover:before:s-border-primary',
+  radio: 'before:s-border before:s-border-hover hover:before:s-border-primary',
   input: 's-border hover:s-border-hover',
   select: 's-border hover:s-border-hover',
 };
