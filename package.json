@@ -12,8 +12,8 @@
     "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build",
     "build:tokens": "node index.js",
     "build:resets": "cd resets && node index.js",
-    "lint": "eslint . --fix --ignore-path .gitignore",
-    "lint:check": "eslint . --ignore-path .gitignore"
+    "lint": "eslint . --fix",
+    "lint:check": "eslint ."
   },
   "type": "module",
   "exports": {
@@ -53,6 +53,7 @@
     "@warp-ds/uno": "2.x",
     "cz-conventional-changelog": "3.3.0",
     "drnm": "0.9.0",
+    "eslint": "^9.36.0",
     "fs-extra": "11.2.0",
     "lightningcss": "1.25.1",
     "prettier": "3.3.2",
