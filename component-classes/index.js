@@ -400,7 +400,7 @@ export const input = {
   wrapper: 'relative',
   // input classes
   base: 'block text-m leading-m mb-0 px-8 py-12 rounded-4 w-full focusable focus:[--w-outline-offset:-2px] caret-current', // true
-  default: 'border-1 s-text s-bg s-border hover:s-border-hover active:s-border-selected', // !isInvalid && !isDisabled && !isReadOnly
+  default: 'border-1 s-text s-bg s-border-strong hover:s-border-strong-hover active:s-border-selected', // !isInvalid && !isDisabled && !isReadOnly
   disabled: 'border-1 s-text-disabled s-bg-disabled-subtle s-border-disabled pointer-events-none', // !isInvalid && isDisabled && !isReadOnly
   invalid: 'border-1 s-text-negative s-bg s-border-negative hover:s-border-negative-hover outline-[--w-s-color-border-negative]!', // isInvalid && !isDisabled && !isReadOnly
   readOnly: 'pl-0 bg-transparent pointer-events-none', // !isInvalid && !isDisabled && isReadOnly
@@ -413,7 +413,7 @@ export const input = {
 
 export const select = {
   base: 'block text-m mb-0 py-12 pr-32 rounded-4 w-full focusable focus:[--w-outline-offset:-2px] appearance-none cursor-pointer caret-current',
-  default: 's-text s-bg pl-8 border-1 s-border hover:s-border-hover active:s-border-active',
+  default: 's-text s-bg pl-8 border-1 s-border-strong hover:s-border-strong-hover active:s-border-active',
   disabled:
     's-text-disabled s-bg-disabled-subtle pl-8 border-1 s-border-disabled hover:s-border-disabled active:s-border-disabled pointer-events-none',
   invalid:
@@ -478,10 +478,10 @@ export const toggle = {
 
   // label classes
   label:
-    'peer-focus:focusable cursor-pointer text-m s-text s-border py-2 pl-28 select-none relative block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2', // !isRadioButton
+    'peer-focus:focusable cursor-pointer text-m s-text s-border-strong py-2 pl-28 select-none relative block before:border before:absolute before:transition-all before:left-0 before:w-20 before:h-20 before:top-2', // !isRadioButton
   labelBefore: 'before:content-[""] before:block', // !isRadioButton && !isIndeterminate
   checkbox:
-    'before:s-bg before:rounded-2 hover:before:s-border-primary hover:before:s-bg-hover peer-checked:before:bg-center peer-checked:before:bg-[url(var(--w-icon-toggle-checked))] peer-checked:before:s-border-primary peer-checked:before:s-bg-primary peer-checked:peer-hover:before:s-border-primary-hover peer-checked:peer-hover:before:s-bg-primary-hover', // isCheckbox && !isIndeterminate && !isInvalid && !isDisabled
+    'before:s-bg before:rounded-2 before:s-border-strong hover:before:s-border-strong-hover hover:before:s-bg-hover peer-checked:before:bg-center peer-checked:before:bg-[url(var(--w-icon-toggle-checked))] peer-checked:before:s-border-primary peer-checked:before:s-bg-primary peer-checked:peer-hover:before:s-border-primary-hover peer-checked:peer-hover:before:s-bg-primary-hover', // isCheckbox && !isIndeterminate && !isInvalid && !isDisabled
   checkboxInvalid:
     'before:s-bg before:s-border-negative before:rounded-2 hover:before:s-bg-negative-subtle-hover hover:before:s-border-negative-hover peer-checked:before:bg-center peer-checked:before:bg-[url(var(--w-icon-toggle-checked))] peer-checked:before:s-bg-negative peer-checked:before:s-border-negative peer-checked:peer-hover:before:s-bg-negative-hover peer-checked:peer-hover:before:s-border-negative-hover', // isCheckbox && !isIndeterminate && isInvalid && !isDisabled
   checkboxDisabled:
@@ -493,7 +493,7 @@ export const toggle = {
   indeterminateDisabled:
     'before:content-["–"] before:rounded-2 before:leading-xs before:text-center before:font-bold pointer-events-none before:s-icon-inverted peer-indeterminate:before:s-border-disabled peer-indeterminate:before:s-bg-disabled', // isCheckbox && isIndeterminate && !isInvalid && isDisabled
   radio:
-    'before:s-bg before:rounded-full peer-checked:before:border-[6] peer-checked:before:s-border-selected peer-checked:peer-hover:before:s-border-selected-hover peer-hover:before:s-border-primary peer-hover:before:s-bg-hover', // isRadio && !isDisabled && !isInvalid
+    'before:s-bg before:rounded-full before:s-border-strong peer-checked:before:border-[6] peer-checked:before:s-border-selected peer-checked:peer-hover:before:s-border-selected-hover peer-hover:before:s-border-strong-hover peer-hover:before:s-bg-hover', // isRadio && !isDisabled && !isInvalid
   radioInvalid:
     'before:s-bg before:s-border-negative before:rounded-full peer-checked:before:border-[6] peer-hover:before:s-bg-negative-subtle peer-hover:before:s-border-negative-hover peer-checked:before:s-border-negative peer-checked:peer-hover:before:s-border-negative-hover', // isRadio && isInvalid && !isDisabled
   radioDisabled:
@@ -576,4 +576,9 @@ export const pagination = {
 // remove these in v3
 export const backwardsCompatibleClasses = {
   removedActiveTrack: 'top-[19px]',
+  label: 's-border',
+  checkbox: 'before:s-border before:s-border-hover hover:before:s-border-primary',
+  radio: 'before:s-border before:s-border-hover hover:before:s-border-primary',
+  input: 's-border hover:s-border-hover',
+  select: 's-border hover:s-border-hover',
 };
