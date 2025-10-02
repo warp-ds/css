@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/warp-ds/css/compare/v2.2.3...v2.3.0) (2025-10-02)
+
+
+### Features
+
+* warp-1091 change s-border to s-border-strong for some components ([87b6037](https://github.com/warp-ds/css/commit/87b60374c6c29fdb95a26164356e3e004e3394d8))
+
 # [2.3.0-next.1](https://github.com/warp-ds/css/compare/v2.2.3...v2.3.0-next.1) (2025-10-02)
 
 
