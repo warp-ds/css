@@ -347,7 +347,7 @@ export const modal = {
   transitionTitleCenter: 'justify-self-center self-center',
   transitionTitleColSpan: 'col-span-2',
   title:
-    'py-8 sm:py-0 -mt-4 sm:-mt-8 min-h-40 sm:min-h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-start px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
+    'py-8 sm:py-0 -mt-4 sm:-mt-8 min-h-40 sm:min-h-48 grid gap-8 sm:gap-16 grid-cols-[auto_1fr_auto] items-center px-16 sm:px-32 border-b sm:border-b-0 shrink-0',
   titleText: 'mb-0 h4 sm:h3',
   titleButton: `${buttonTextSizes.medium} ${buttonTypes.pill} ${buttonColors.pill} sm:min-h-[44px] sm:min-w-[44px] min-h-[32px] min-w-[32px]`,
   titleButtonLeft: '-ml-8 sm:-ml-12 justify-self-start',
