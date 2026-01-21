@@ -29,3 +29,6 @@ line:
     xl: 3.4rem
     xxl: 4.1rem
     xxxl: 5.6rem
+button:
+  radius-default: 999px
+  radius-utility: 999px
