@@ -43,7 +43,7 @@
     "./component-classes/index.d.ts"
   ],
   "devDependencies": {
-    "@eik/cli": "2.0.38",
+    "@eik/cli": "3.1.31",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
