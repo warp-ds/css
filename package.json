@@ -63,7 +63,7 @@
     "unocss": "0.x",
     "unzipper": "0.12.1",
     "vite": "5.3.3",
-    "vite-plugin-dts": "3.9.1"
+    "vite-plugin-dts": "4.5.4"
   },
   "eslintConfig": {
     "extends": "@warp-ds"
