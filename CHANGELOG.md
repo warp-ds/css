@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/warp-ds/css/compare/v2.4.0...v2.4.1) (2026-03-03)
+
+
+### Bug Fixes
+
+* release border token updates ([a095700](https://github.com/warp-ds/css/commit/a095700e304ca4859960aa0f77bdbc3ca62be1d3))
+
 ## [2.4.1-next.1](https://github.com/warp-ds/css/compare/v2.4.0...v2.4.1-next.1) (2026-03-03)
 
 
