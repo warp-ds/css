@@ -13,4 +13,4 @@ jobs:
         runtime: node@lts
         cache: true
         install: true
-    - run: pnpm lint:check
+    - run: pnpm lint
