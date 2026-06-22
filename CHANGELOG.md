@@ -1,3 +1,11 @@
+## [2.4.2-next.1](https://github.com/warp-ds/css/compare/v2.4.1...v2.4.2-next.1) (2026-06-22)
+
+
+### Bug Fixes
+
+* **modal:** align title with close button ([#274](https://github.com/warp-ds/css/issues/274)) ([26eddb1](https://github.com/warp-ds/css/commit/26eddb173fd28a664145ed4bd7359f4ee0d55048))
+* **modal:** remove border-bottom on modal header i mobile view ([#264](https://github.com/warp-ds/css/issues/264)) ([e5bd21d](https://github.com/warp-ds/css/commit/e5bd21d081b97c80afefc61da20838b6d87b7f70))
+
 ## [2.4.1](https://github.com/warp-ds/css/compare/v2.4.0...v2.4.1) (2026-03-03)
 
 
