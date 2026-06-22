@@ -1,4 +1,3 @@
-/* eslint-env node */
 import { presetWarp } from '@warp-ds/uno';
 import uno from 'unocss/vite';
 import dts from 'vite-plugin-dts';
