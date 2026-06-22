@@ -16,13 +16,16 @@ jobs:
       id-token: write # to enable use of OIDC for trusted publishing and npm provenance
     steps:
       - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
       - uses: actions/setup-node@v6
         with:
           cache: "pnpm"
           node-version: lts/*
-      - uses: pnpm/action-setup@v6
-        with:
-          run_install: true
+      - run: pnpm i
+
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
+
       - run: pnpm build
       - name: Release
         env:
