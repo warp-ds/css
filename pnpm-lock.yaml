@@ -21,8 +21,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1(semantic-release@25.0.5(typescript@5.5.3))
       '@sindresorhus/slugify':
-        specifier: 2.2.1
-        version: 2.2.1
+        specifier: 3.0.0
+        version: 3.0.0
       '@warp-ds/eslint-config':
         specifier: 1.1.0
         version: 1.1.0(@eslint/js@9.16.0)(eslint-config-prettier@9.1.0(eslint@10.5.0(jiti@1.21.6)))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.61.1(eslint@10.5.0(jiti@1.21.6))(typescript@5.5.3))(eslint@10.5.0(jiti@1.21.6)))(eslint-plugin-prettier@5.2.1(eslint-config-prettier@9.1.0(eslint@10.5.0(jiti@1.21.6)))(eslint@10.5.0(jiti@1.21.6))(prettier@3.8.4))(eslint@10.5.0(jiti@1.21.6))(globals@15.13.0)
@@ -793,13 +793,13 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@sindresorhus/slugify@2.2.1':
-    resolution: {integrity: sha512-MkngSCRZ8JdSOCHRaYd+D01XhvU3Hjy6MGl06zhOk614hp9EOAp5gIkBeQg7wtmxpitU6eAL4kdiRMcJa2dlrw==}
-    engines: {node: '>=12'}
+  '@sindresorhus/slugify@3.0.0':
+    resolution: {integrity: sha512-SCrKh1zS96q+CuH5GumHcyQEVPsM4Ve8oE0E6tw7AAhGq50K8ojbTUOQnX/j9Mhcv/AXiIsbCfquovyGOo5fGw==}
+    engines: {node: '>=20'}
 
-  '@sindresorhus/transliterate@1.6.0':
-    resolution: {integrity: sha512-doH1gimEu3A46VX6aVxpHTeHrytJAG6HgdxntYnCFiIFHEM/ZGpG8KiZGBChchjQmG0XFIBL552kBTjVcMZXwQ==}
-    engines: {node: '>=12'}
+  '@sindresorhus/transliterate@2.3.1':
+    resolution: {integrity: sha512-gVaaGtKYMYAMmI8buULVH3A2TXVJ98QiwGwI7ddrWGuGidGC2uRt4FHs22+8iROJ0QTzju9CuMjlVsrvpqsdhA==}
+    engines: {node: '>=20'}
 
   '@types/argparse@1.0.38':
     resolution: {integrity: sha512-ebDJ9b0e702Yr7pWgB0jzm+CX4Srzz8RcXtLJDJB+BSccqMa36uyH/zUsSYao5+BD1ytv3k3rPYCq4mAE1hsXA==}
@@ -4521,14 +4521,12 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@sindresorhus/slugify@2.2.1':
+  '@sindresorhus/slugify@3.0.0':
     dependencies:
-      '@sindresorhus/transliterate': 1.6.0
+      '@sindresorhus/transliterate': 2.3.1
       escape-string-regexp: 5.0.0
 
-  '@sindresorhus/transliterate@1.6.0':
-    dependencies:
-      escape-string-regexp: 5.0.0
+  '@sindresorhus/transliterate@2.3.1': {}
 
   '@types/argparse@1.0.38': {}
 
