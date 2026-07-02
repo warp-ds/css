@@ -1,3 +1,10 @@
+# [2.5.0-next.1](https://github.com/warp-ds/css/compare/v2.4.2-next.1...v2.5.0-next.1) (2026-07-02)
+
+
+### Features
+
+* add static and inverted static variants for text and icon colors ([#290](https://github.com/warp-ds/css/issues/290)) ([8a7f5e3](https://github.com/warp-ds/css/commit/8a7f5e3c840b36b37c9307e8f74d9a00c66c1624))
+
 ## [2.4.2-next.1](https://github.com/warp-ds/css/compare/v2.4.1...v2.4.2-next.1) (2026-06-22)
 
 
