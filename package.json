@@ -7,7 +7,7 @@
     "@warp-ds/uno": "2.x"
   },
   "scripts": {
-    "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc",
+    "build": "pnpm build:tokens && pnpm build:resets && pnpm build:cc && pnpm lint:fix",
     "commit": "cz",
     "semantic-release": "semantic-release",
     "build:cc": "cd component-classes && rm -rf *.d.ts && tsc && vite build",
