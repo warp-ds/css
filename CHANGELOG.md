@@ -1,3 +1,10 @@
+# [2.5.0-next.2](https://github.com/warp-ds/css/compare/v2.5.0-next.1...v2.5.0-next.2) (2026-07-02)
+
+
+### Bug Fixes
+
+* **tokens:** add missing inverted variants (only had inverted + static) ([#292](https://github.com/warp-ds/css/issues/292)) ([65aae69](https://github.com/warp-ds/css/commit/65aae6938618cfdf19607c8f5444c69894fee609))
+
 # [2.5.0-next.1](https://github.com/warp-ds/css/compare/v2.4.2-next.1...v2.5.0-next.1) (2026-07-02)
 
 
