@@ -581,4 +581,5 @@ export const backwardsCompatibleClasses = {
   radio: 'before:s-border before:s-border-hover hover:before:s-border-primary',
   input: 's-border hover:s-border-hover',
   select: 's-border hover:s-border-hover',
+  modal: 'sm:border-b-0',
 };

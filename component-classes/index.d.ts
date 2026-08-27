@@ -529,4 +529,5 @@ export namespace backwardsCompatibleClasses {
   let input_2: string;
   export { input_2 as input };
   export let select: string;
+  export let modal: string;
 }
