@@ -14,7 +14,8 @@
     "build:tokens": "node index.js",
     "build:resets": "cd resets && node index.js",
     "lint:fix": "eslint . --fix",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node tests/no-dropped-components-classes.js"
   },
   "type": "module",
   "exports": {
