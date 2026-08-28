@@ -519,5 +519,15 @@ export namespace pagination {
   export let notActive: string;
 }
 export namespace backwardsCompatibleClasses {
-  let removedActiveTrack: string;
+  export let removedActiveTrack: string;
+  let label_5: string;
+  export { label_5 as label };
+  let checkbox_1: string;
+  export { checkbox_1 as checkbox };
+  let radio_1: string;
+  export { radio_1 as radio };
+  let input_2: string;
+  export { input_2 as input };
+  export let select: string;
+  export let modal: string;
 }

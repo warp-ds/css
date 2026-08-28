@@ -7,27 +7,34 @@ on:
       - next
       - beta
 jobs:
-  deploy:
+  release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for trusted publishing and npm provenance
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
+          cache: "pnpm"
           node-version: lts/*
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
-          run_install: true
-      - name: Build
-        run: pnpm build
+      - run: pnpm i
+
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
+
+      - run: pnpm build
+      - run: pnpm test
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Eik login and publish
+        if: success()
         run: pnpm eik login -k $EIK_TOKEN && pnpm eik publish || true
         env:
           EIK_TOKEN: ${{ secrets.EIK_TOKEN }}
