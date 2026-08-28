@@ -27,6 +27,8 @@ jobs:
         run: npm audit signatures
 
       - run: pnpm build
+      - run: pnpm test
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
