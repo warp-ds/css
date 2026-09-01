@@ -2,7 +2,7 @@
   "name": "@warp-ds/css",
   "repository": "git@github.com:warp-ds/css.git",
   "version": "2.5.0-next.2",
-  "packageManager": "pnpm@11.13.1",
+  "packageManager": "pnpm@11.25.0",
   "peerDependencies": {
     "@warp-ds/uno": "2.x"
   },
