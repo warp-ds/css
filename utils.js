@@ -56,7 +56,7 @@ export const processHexCss = (brandMode) => {
   const isDataVizToken = brandMode.includes('dataviz');
 
   let cssHex = fs.readFileSync(`./${outputDir}/${brandMode}/variables.css`, 'utf8');
-  cssHex = cssHex.replaceAll(':root ', ':root,:host ');
+  cssHex = cssHex.replaceAll(':root ', `:root,:host,:root[data-w-theme="${brandMode.includes('dark') ? 'dark' : 'light'}"] `);
   cssHex = cssHex.replaceAll('--color-', isDataVizToken ? '--w-dv-' : '--w-');
   cssHex = cssHex.replaceAll('--semantic-color-', isDataVizToken ? '--w-dv-s-color-' : '--w-s-color-');
   cssHex = cssHex.replaceAll('--components-', '--w-color-');
@@ -74,7 +74,7 @@ export const processRGBCss = (brandMode) => {
   const isDataVizToken = brandMode.includes('dataviz');
 
   let cssRgb = fs.readFileSync(`./${outputDir}/${brandMode}/variables-rgb.css`, 'utf8');
-  cssRgb = cssRgb.replaceAll(':root ', ':root,:host ');
+  cssRgb = cssRgb.replaceAll(':root ', `:root,:host,:root[data-w-theme="${brandMode.includes('dark') ? 'dark' : 'light'}"] `);
   cssRgb = cssRgb.replaceAll('--color-', isDataVizToken ? '--w-dv-rgb-' : '--w-rgb-');
   cssRgb = cssRgb.replaceAll('--semantic-color-', isDataVizToken ? '--w-dv-s-rgb-' : '--w-s-rgb-');
   cssRgb = cssRgb.replaceAll(componentsRGBRegex, '');
@@ -95,4 +95,19 @@ export const generateFinalCss = (css, brandMode) => {
 
   // Outputting to a temp directory for now
   fs.outputFileSync(`./dist/tokens/${BRAND_MAP[brandMode]?.cssFile}.css`, code.toString(), 'utf8');
+};
+
+export const appendDarkModeTokensBehindDataAttribute = (cssFile) => {
+  let darkModeContent = fs.readFileSync(`./dist/tokens/${cssFile}-dark.css`, 'utf8');
+  if (!darkModeContent.startsWith(':root,:host,:root[data-w-theme=dark]{')) {
+    throw new Error(
+      `Dark mode tokens CSS file did not start with the expected selector. Will not continue appending the contents of ${cssFile}-dark.css until the contents match what we expect.`,
+    );
+  }
+  // Remove the :root,:host, selector list so we're only left with :root[data-w-theme=dark]{
+  // when we append it to the light mode token file.
+  darkModeContent = darkModeContent.replace(':root,:host,', '');
+  let ligthModeContent = fs.readFileSync(`./dist/tokens/${cssFile}.css`, 'utf8');
+  ligthModeContent += `\n${darkModeContent}`;
+  fs.writeFileSync(`./dist/tokens/${cssFile}.css`, ligthModeContent, 'utf-8');
 };
