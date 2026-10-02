@@ -1,7 +1,16 @@
 import tokenize from '@warp-ds/tokenizer';
 import fs from 'fs-extra';
 
-import { init, BRAND_MAP, downloadReleaseFile, generateFinalCss, getBrandModes, processHexCss, processRGBCss } from './utils.js';
+import {
+  init,
+  BRAND_MAP,
+  downloadReleaseFile,
+  generateFinalCss,
+  getBrandModes,
+  processHexCss,
+  processRGBCss,
+  appendDarkModeTokensBehindDataAttribute,
+} from './utils.js';
 
 init();
 
@@ -29,3 +38,15 @@ brandModes.forEach((brandMode) => {
   console.log(`Outputting ${brandMode}...`);
   generateFinalCss(css, brandMode);
 });
+
+// Include dark mode tokens in the bare tokens CSS file, but only with the :root[data-w-theme=dark] selector (not :root,:host).
+// This is so we can do a controlled rollout of bugfixes ahead of time compared to relying on prefers-color-scheme alone.
+// Once the switch has been flipped we can revisit, though this approach does open up for user control over the theme independently of OS settings.
+// See DMW-65, FEP-184.
+for (const brandMode of brandModes) {
+  if (brandMode.includes('dark')) continue;
+  const cssFile = BRAND_MAP[brandMode].cssFile;
+  console.log(`Appending dark mode tokens behind [data-w-theme=dark] to ${cssFile}...`);
+  appendDarkModeTokensBehindDataAttribute(cssFile);
+  console.log(`Appended dark mode tokens to ${cssFile}`);
+}
