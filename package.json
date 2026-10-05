@@ -46,9 +46,9 @@
   ],
   "devDependencies": {
     "@eik/cli": "3.1.63",
-    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/changelog": "7.0.0",
     "@semantic-release/exec": "7.1.0",
-    "@semantic-release/git": "10.0.1",
+    "@semantic-release/git": "11.0.1",
     "@sindresorhus/slugify": "3.0.0",
     "@warp-ds/eslint-config": "1.1.0",
     "@warp-ds/tokenizer": "0.0.4",
