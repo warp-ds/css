@@ -1,3 +1,10 @@
+# [2.6.0-next.1](https://github.com/warp-ds/css/compare/v2.5.0...v2.6.0-next.1) (2026-10-05)
+
+
+### Features
+
+* support data-w-theme attribute on html element ([#303](https://github.com/warp-ds/css/issues/303)) ([77b9b0c](https://github.com/warp-ds/css/commit/77b9b0ca58061d2cf9fe3478d8694912625e5e4e))
+
 # [2.5.0](https://github.com/warp-ds/css/compare/v2.4.1...v2.5.0) (2026-09-25)
 
 
