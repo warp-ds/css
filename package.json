@@ -54,7 +54,6 @@
     "@warp-ds/tokenizer": "0.0.4",
     "@warp-ds/uno": "2.x",
     "cz-conventional-changelog": "3.3.0",
-    "drnm": "0.9.0",
     "eslint": "^10.5.0",
     "eslint-plugin-import": "2.32.0",
     "fs-extra": "11.3.6",
