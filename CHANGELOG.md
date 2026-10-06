@@ -1,3 +1,10 @@
+# [2.6.0-next.2](https://github.com/warp-ds/css/compare/v2.6.0-next.1...v2.6.0-next.2) (2026-10-06)
+
+
+### Bug Fixes
+
+* apply color-scheme so light-dark() function stays in sync ([196d64f](https://github.com/warp-ds/css/commit/196d64f9fe24a56041a5a44c681d3242afe8ae7b))
+
 # [2.6.0-next.1](https://github.com/warp-ds/css/compare/v2.5.0...v2.6.0-next.1) (2026-10-05)
 
 
