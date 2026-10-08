@@ -35,9 +35,6 @@ importers:
       cz-conventional-changelog:
         specifier: 3.3.0
         version: 3.3.0(@types/node@20.14.10)(typescript@5.9.3)
-      drnm:
-        specifier: 0.9.0
-        version: 0.9.0
       eslint:
         specifier: ^10.5.0
         version: 10.7.0(jiti@2.7.0)
@@ -1531,9 +1528,6 @@ packages:
   dot-prop@5.3.0:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
     engines: {node: '>=8'}
-
-  drnm@0.9.0:
-    resolution: {integrity: sha512-ZNkurkg7xoWPQNTf4TfUxS/lvm+zPve01xjLS/RUWCPr6OB3zBlM4Y2dIXkR6NsELojppfum8+wdWZ0vnjdwmg==}
 
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -5268,8 +5262,6 @@ snapshots:
   dot-prop@5.3.0:
     dependencies:
       is-obj: 2.0.0
-
-  drnm@0.9.0: {}
 
   dunder-proto@1.0.1:
     dependencies:

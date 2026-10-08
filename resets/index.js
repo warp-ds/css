@@ -1,12 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-import drnm from 'drnm';
 import * as lightning from 'lightningcss';
 
 import { resets } from './resets.js';
 
-const __dirname = drnm(import.meta.url);
+const dirname = (url) => path.dirname(fileURLToPath(url));
+
+const __dirname = dirname(import.meta.url);
 const outPath = path.join(__dirname, '../dist');
 fs.mkdirSync(outPath, { recursive: true });
 
