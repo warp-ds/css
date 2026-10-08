@@ -1,3 +1,10 @@
+## [2.6.2](https://github.com/warp-ds/css/compare/v2.6.1...v2.6.2) (2026-10-08)
+
+
+### Bug Fixes
+
+* don't include :root,:host in the dark mode block for shadows etc ([#308](https://github.com/warp-ds/css/issues/308)) ([cb170e7](https://github.com/warp-ds/css/commit/cb170e7126b2752c3b1a11aa844f4d99a4543d9c))
+
 ## [2.6.2-next.1](https://github.com/warp-ds/css/compare/v2.6.1...v2.6.2-next.1) (2026-10-08)
 
 
