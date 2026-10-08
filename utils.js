@@ -113,7 +113,10 @@ export const appendDarkModeTokensBehindDataAttribute = (cssFile) => {
       `Light mode tokens CSS file did not start with the expected selector. Will not continue appending the contents of ${cssFile}-dark.css until the contents match what we expect.`,
     );
   }
-  ligthModeContent = ligthModeContent.replace(':root,:host,:root[data-w-theme=light]{', ':root[data-w-theme=light]{color-scheme:light;');
+  ligthModeContent = ligthModeContent.replace(
+    ':root,:host,:root[data-w-theme=light]{',
+    ':root,:host,:root[data-w-theme=light]{color-scheme:light;',
+  );
   ligthModeContent += `\n${darkModeContent}`;
   fs.writeFileSync(`./dist/tokens/${cssFile}.css`, ligthModeContent, 'utf-8');
 };
