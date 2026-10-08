@@ -1,3 +1,10 @@
+## [2.6.1-next.1](https://github.com/warp-ds/css/compare/v2.6.0...v2.6.1-next.1) (2026-10-08)
+
+
+### Bug Fixes
+
+* don't remove :root,:host from light tokens ([#306](https://github.com/warp-ds/css/issues/306)) ([ae08d28](https://github.com/warp-ds/css/commit/ae08d287662565a34c4ef17e0de6f49a0189bf6f))
+
 # [2.6.0](https://github.com/warp-ds/css/compare/v2.5.0...v2.6.0) (2026-10-08)
 
 
