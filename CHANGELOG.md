@@ -1,3 +1,15 @@
+# [2.6.0](https://github.com/warp-ds/css/compare/v2.5.0...v2.6.0) (2026-10-08)
+
+
+### Bug Fixes
+
+* apply color-scheme so light-dark() function stays in sync ([196d64f](https://github.com/warp-ds/css/commit/196d64f9fe24a56041a5a44c681d3242afe8ae7b))
+
+
+### Features
+
+* support data-w-theme attribute on html element ([#303](https://github.com/warp-ds/css/issues/303)) ([77b9b0c](https://github.com/warp-ds/css/commit/77b9b0ca58061d2cf9fe3478d8694912625e5e4e))
+
 # [2.6.0-next.2](https://github.com/warp-ds/css/compare/v2.6.0-next.1...v2.6.0-next.2) (2026-10-06)
 
 
