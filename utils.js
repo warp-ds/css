@@ -106,14 +106,15 @@ export const appendDarkModeTokensBehindDataAttribute = (cssFile) => {
   }
   // Remove the :root,:host, selector list so we're only left with :root[data-w-theme=dark]{
   // when we append it to the light mode token file.
-  darkModeContent = darkModeContent.replace(':root,:host,:root[data-w-theme=dark]{', ':root[data-w-theme=dark]{color-scheme:dark;');
+  darkModeContent = darkModeContent.replaceAll(':root,:host{', ':root[data-w-theme=dark]{color-scheme:dark;'); // replace the block of variables for custom tokens like shadow etc
+  darkModeContent = darkModeContent.replaceAll(':root,:host,:root[data-w-theme=dark]{', ':root[data-w-theme=dark]{color-scheme:dark;');
   let ligthModeContent = fs.readFileSync(`./dist/tokens/${cssFile}.css`, 'utf8');
   if (!ligthModeContent.startsWith(':root,:host,:root[data-w-theme=light]{')) {
     throw new Error(
       `Light mode tokens CSS file did not start with the expected selector. Will not continue appending the contents of ${cssFile}-dark.css until the contents match what we expect.`,
     );
   }
-  ligthModeContent = ligthModeContent.replace(
+  ligthModeContent = ligthModeContent.replaceAll(
     ':root,:host,:root[data-w-theme=light]{',
     ':root,:host,:root[data-w-theme=light]{color-scheme:light;',
   );
