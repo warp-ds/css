@@ -1,5 +1,7 @@
 # WARP CSS
 
+ℹ️ Development of Warp has moved in-house. This repository is read-only.
+
 This is the CSS package for WARP.
 
 The package includes resets, component classes and tokens.
